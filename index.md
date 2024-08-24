@@ -3,7 +3,7 @@ layout: page
 title: ""
 ---
 
-![](/Kwesi_Quagraine2.jpeg)
+![](/Kwesi_Quagraine2.png)
 
 Hello and welcome! Kwesi is a seasoned climate research scientist with extensive experience in climate modeling, climate extremes analysis, and risk assessment. His expertise includes modeling the impact of solar geoengineering on climate extremes, focusing on developing innovative solutions to mitigate climate change and its associated risks. Kwesi has consulted for the World Meteorological Organization (WMO), the World Academy of Sciences, and ICLEI - Local Governments for Sustainability. Currently, he is on a research stay at the National Center for Atmospheric Research (NCAR) and has lectures at both the University of Cape Coast and the University of Cape Town.
  
