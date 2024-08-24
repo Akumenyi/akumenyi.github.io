@@ -1,6 +1,6 @@
-title: "Blog Title"
-author: "Blog Author"
-description: "Made with <b style=\"color: #f45;\">&lt;3</b>"
+title: "Kwesi A. Quagraine, Ph.D."
+author: "Kwesi A. Quagraine"
+description: "National Center for Atmospheric Science, Boulder, CO" 
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -9,20 +9,25 @@ date_format: "%B %d, %Y"
 # Layout
 
 show_excerpts: true        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
+show_frame: false           # adds a gray frame to the site
 show_sidebar: false        # show a sidebar instead of the usual header
+
+# Styling
+
+dark_header: true          # always keep the header dark
 minimal: false             # use a dark header
 
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
-  - {file: "README.md"}
+  - {file: "index.md", title: "Home"}
+  - {file: "publications.md", title: "Publications"}
+  - {url: "/Quagraine_KA_CV_Aug2024.pdf", title: "CV"}
+  
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
+  - {title: Github, icon: github, url: "https://github.com/akumenyi"}
+  - {title: Twiter, icon: twitter, url: "https://twitter.com/pkdilly"}
 
 comments:
 #  disqus_shortname: ""    # see https://disqus.com/
