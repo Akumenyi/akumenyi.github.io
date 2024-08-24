@@ -3,7 +3,7 @@ layout: page
 title: ""
 ---
 
-![](/Kwesi_Quagraine2.png)
+![](/Kwesi_Quagraine23.jpeg)
 
 Hello and welcome! 
 
