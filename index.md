@@ -15,6 +15,6 @@ He is currently and ASP Postdoctoral Fellow with the [NSF National Center for At
 
 Kwesi earned his Ph.D. at the University of Cape Town, working with [Prof. Bruce Hewitson](https://tinyurl.com/Bruce-Hewitson) by [developing a novel approach to understand the co-behavior of climate processes over Southern Africa](http://hdl.handle.net/11427/33916) leading to two(2) publications in the *Journal of Climate*.
 
-Prior to beginning my Ph.D., he earned his M.Phil. & B.Sc. degrees at the Department of Physics, University of Cape Coast, Ghana where he was advised by [Prof. Nana Ama Browne Klutse](https://tinyurl.com/Ama-Browne) with his [thesis](https://tinyurl.com/quagraine-thesis) seeking to understand the West African Monsoon (WAM) jump and its implication for rain-fed Agriculture.
+Prior to beginning my Ph.D., he earned his M.Phil. & B.Sc. degrees at the Department of Physics, University of Cape Coast, Ghana where he was advised by [Prof. Nana Ama Browne Klutse](https://tinyurl.com/Ama-Browne) with his thesis seeking [to understand the West African Monsoon (WAM) jump and its implication for rain-fed Agriculture](https://tinyurl.com/quagraine-thesis).
 
 Email: **[kwesiq at ucar dot edu](kwesiq@ucar.edu)**
