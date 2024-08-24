@@ -3,7 +3,7 @@ layout: page
 title: "Peer-reviewed publications"
 ---
 
-[14] Accepted. 2024. **Quagraine, K. A.**, Hewitson, B., Nkrumah, F., Quagraine, K. T., & Egbebiyi, T. S. (2024). *Atmospheric Science Letters* [https://doi.org/10.1002/asl.1266]
+[14] Accepted. 2024. **Quagraine, K. A.**, Hewitson, B., Nkrumah, F., Quagraine, K. T., & Egbebiyi, T. S. (2024). *Atmospheric Science Letters* [https://doi.org/10.1002/asl.1266](https://doi.org/10.1002/asl.1266)
 
 [13] Accepted. 2024. Odoulami, R. C., Hirasawa, H., Kouadio, K., Patel, T. D., **Quagraine, K. A.**, Pinto, I., Egbebiyi, T. S., Abiodun, B. J., Lennard, C., and New, M. G. Africa's Climate Response to Marine Cloud Brightening Strategies is Highly Sensitive to Deployment Region. *Journal of Geophysical Research - Atmospheres*.
 
