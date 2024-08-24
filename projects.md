@@ -4,7 +4,7 @@ title: "Projects & Grants"
 ---
 
 **Projects & Grants** <br />
-[4] 2024 - 2026. <span style="color:yellow">**The World Academy of Science (TWAS)/ DEGREES Initiative Solar Radiation Management Governance Socio-Political Research**</span>. *Assessment of knowledge and governance towards Solar Radiation Modification across Ghana: Implications for more efficient Ethical, Policy and Social Practices (Co-Investigator)*.
+[4] 2024 - 2026. **The World Academy of Science (TWAS)/ DEGREES Initiative Solar Radiation Management Governance Socio-Political Research**. *Assessment of knowledge and governance towards Solar Radiation Modification across Ghana: Implications for more efficient Ethical, Policy and Social Practices (Co-Investigator)*.
 
 [3] 2023 - 2024. **The World Academy of Science (TWAS) Solar Radiation Management Governance Initiative (SRMGI) DECIMALS**. *Solar Radiation Management With Stratospheric Aerosol interactions with Harmattan and associated impacts on some climate variables over Southern West Africa (Côte d'Ivoire, Ghana, Togo, Benin, Nigeria, Cameroon) (Co-Investigator)*.
 
