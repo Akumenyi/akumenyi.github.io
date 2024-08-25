@@ -7,7 +7,7 @@ title: "Peer-reviewed publications"
 
 [13] Accepted. 2024. Odoulami, R. C., Hirasawa, H., Kouadio, K., Patel, T. D., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Pinto, I., Egbebiyi, T. S., Abiodun, B. J., Lennard, C., and New, M. G. Africa's Climate Response to Marine Cloud Brightening Strategies is Highly Sensitive to Deployment Region. *Journal of Geophysical Research - Atmospheres*.
 
-[12] 2023. Nkrumah, F., Klein, C., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Berkoh-Oforiwaa, R., Klutse, N. A. B., et al. (2023). Classification of Large-Scale Environments that drive the formation of Mesoscale Convective Systems over Southern West Africa. *Weather and Climate Dynamics Discussions*, 1-8. [Link](https://doi.org/10.5194/wcd-4-773-2023)
+[12] 2023. Nkrumah, F., Klein, C., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Berkoh-Oforiwaa, R., Klutse, N. A. B., et al. (2023). Classification of Large-Scale Environments that drive the formation of Mesoscale Convective Systems over Southern West Africa. *Weather and Climate Dynamics*, 4, 773–788. [Link](https://doi.org/10.5194/wcd-4-773-2023)
 
 [11] 2022. Essien, P., Figueiredo, C. A. O. B., Takahashi, H., Klutse, N. A. B., Wrasse, C. M., Afonso, J. M. D. S., ... & [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), "Intertropical Convergence Zone as the Possible Source Mechanism for Southward Propagating Medium-Scale Traveling Ionospheric Disturbances over South American Low-Latitude and Equatorial Region", *Atmosphere*, 13(11) (2022) 1836 [Link](https://doi.org/10.3390/atmos13111836)
 
