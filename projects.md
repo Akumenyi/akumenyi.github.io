@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Projects & Grants"
+title: "Projects, Grants & Consultancies"
 ---
 
 **Projects & Grants** <br />
