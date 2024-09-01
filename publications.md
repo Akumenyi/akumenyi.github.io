@@ -27,7 +27,7 @@ title: "Peer-reviewed publications"
 
 [4]	2018. Klutse, N. A. B., Ajayi, V. O., Gbobaniyi, E. O., Egbebiyi, T. S., Kouadio, K., Nkrumah, F., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Olusegun, C., Diasso, U., Abiodun, B. J., Lawal, K., Nikulin, G., Lennard, C. & Dosio, A. (2018). Potential impact of 1.5 deg.C and 2 deg.C global warming on consecutive dry and wet days over West Africa. *Environmental Research Letters*, 13. 055013. [Link](https://doi.org/10.1088/1748-9326/aab37b)
 
-[3] 2017.[**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Klutse, N. A. B., Nkrumah, F., Adukpo, D. C. & Owusu. K. (2017). Changes in rainfall characteristics in Wenchi and Saltpond farming areas in Ghana. *International Journal of Geosciences*, 8. 305–317. [Link](https://doi.org/10.4236/ijg.2017.83015)
+[3] 2017. [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Klutse, N. A. B., Nkrumah, F., Adukpo, D. C. & Owusu. K. (2017). Changes in rainfall characteristics in Wenchi and Saltpond farming areas in Ghana. *International Journal of Geosciences*, 8. 305–317. [Link](https://doi.org/10.4236/ijg.2017.83015)
 
 [2] 2014. Nkrumah, F., Klutse, N. A. B., Adukpo, D. C., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Owusu, K. & Owusu, A. & Gutowski, W. (2014). Rainfall variability over Ghana: Model versus Rain gauge observation.  *International Journal of Geosciences*, 5. 673–683. [Link](https://doi.org/10.4236/ijg.2014.57060)
 
