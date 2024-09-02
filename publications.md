@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Peer-reviewed publications"
+title: "Peer-reviewed Publications"
 ---
 
 [15] Accepted. 2024. [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Hewitson, B., Nkrumah, F., Quagraine, K. T., & Egbebiyi, T. S. (2024). A Simple Subtropical High-Pressure System Index over the South Atlantic. *Atmospheric Science Letters*. [Link](https://doi.org/10.1002/asl.1266)
