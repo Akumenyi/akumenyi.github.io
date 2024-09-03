@@ -7,7 +7,7 @@ title: ""
 
 Hello and welcome! 
 
-[Kwesi](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en) is a seasoned climate research scientist with extensive experience in climate modeling, climate extremes analysis, tropical meteorology and large-scale processes. His expertise includes modeling the impact of solar geoengineering on climate extremes, focusing on developing innovative solutions to mitigate climate change and its associated risks. Kwesi has consulted for the World Meteorological Organization (WMO), the World Academy of Sciences, and ICLEI - Local Governments for Sustainability. 
+[Kwesi](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en) is a seasoned climate research scientist with extensive experience in climate modeling, climate extremes analysis, tropical meteorology and large-scale processes. His expertise includes modeling the impact of solar geoengineering on climate extremes, focusing on developing innovative solutions to mitigate climate change and its associated risks. Kwesi has consulted for the United Nations Environment Programme (UNEP) through the Ghana National Adaptation Project, World Meteorological Organization (WMO), The World Academy of Sciences, and ICLEI - Local Governments for Sustainability. 
  
 Dr. Quagraine’s research interests span climate geoengineering, climate extreme events, regional climate change modeling & impacts, tropical meteorology, monsoon dynamics, climate data analytics and machine learning approaches. He is committed to bridging advanced climate science and practical solutions for sustainable development in a changing climate.
 
