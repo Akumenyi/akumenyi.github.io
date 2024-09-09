@@ -7,7 +7,7 @@ title: "Peer-reviewed Publications"
 
 [14] 2024. Odoulami, R. C., Hirasawa, H., Kouadio, K., Patel, T. D., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Pinto, I., Egbebiyi, T. S., Abiodun, B. J., Lennard, C., and New, M. G. (2024). Africa's Climate Response to Marine Cloud Brightening Strategies is Highly Sensitive to Deployment Region. *Journal of Geophysical Research - Atmospheres*. [Link](https://doi.org/10.1029/2024JD041070)
 
-[13] 2024. Klutse, N. A. B., Abiodun, B. J., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Nkrumah, F., Abatan, A., Adekoke, J., Sylla, M. B., Berkoh-Oforiwaa, R., Essien, P. (2024). Projected changes in rainfall extremes over West African Cities under specific global warming levels using CORDEX and NEX-GDDP datasets. *Earth Systems and Environment* [Link](https://doi.org/10.1007/s41748-024-00425-w)
+[13] 2024. Klutse, N. A. B., Abiodun, B. J., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Nkrumah, F., Abatan, A., Adekoke, J., Sylla, M. B., Berkoh-Oforiwaa, R., Koffi, H. A., Essien, P. (2024). Projected changes in rainfall extremes over West African Cities under specific global warming levels using CORDEX and NEX-GDDP datasets. *Earth Systems and Environment* [Link](https://doi.org/10.1007/s41748-024-00425-w)
 
 [12] 2023. Nkrumah, F., Klein, C., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Berkoh-Oforiwaa, R., Klutse, N. A. B., et al. (2023). Classification of Large-Scale Environments that drive the formation of Mesoscale Convective Systems over Southern West Africa. *Weather and Climate Dynamics*, 4, 773–788. [Link](https://doi.org/10.5194/wcd-4-773-2023)
 
