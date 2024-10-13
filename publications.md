@@ -21,7 +21,7 @@ title: "Peer-reviewed Publications"
 
 [7] 2020. [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Hewitson, B., Jack, C., Wolski, P., Pinto, I. & Lennard, C. (2020). Using Co- Behavior Analysis to Interrogate the Performance of CMIP5 GCMs over Southern Africa. *Journal of Climate*, 33(7). 2891–2905. [Link](https://doi.org/10.1175/JCLI-D-19-0472.1)
 
-[6]	2019. [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Hewitson, B., Jack, C., Pinto, I. & Lennard, C. (2019). A Methodological Approach to Assess the Co-Behavior of Climate Processes over Southern Africa. *Journal of Climate*, 33(7). 2483–2495. [Link](https://doi.org/10.1175/JCLI-D-18-0689.1)
+[6]	2019. [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Hewitson, B., Jack, C., Pinto, I. & Lennard, C. (2019). A Methodological Approach to Assess the Co-Behavior of Climate Processes over Southern Africa. *Journal of Climate*, 32(9). 2483–2495. [Link](https://doi.org/10.1175/JCLI-D-18-0689.1)
 
 [5]	2019. Egbegiyi, T., Lennard, C., Crespo, O., Mukwenha, P., Lawal, S. & [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en) (2019). Assessing Future Spatio-Temporal Changes in Crop Suitability and Planting Season over West Africa: Using the Concept of Crop-Climate Departure. *Climate*, 7(9). 102. [Link](https://doi.org/10.3390/cli7090102)
 
