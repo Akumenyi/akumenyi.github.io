@@ -1,20 +1,24 @@
 ---
 layout: page
-title: ""
+title: <center>About Me</center>
 ---
 
-![](/Profile_greyscale2.jpeg)
+
+<p style="text-align:center;"><img src="Profile_greyscale2.jpeg" alt="JK" width="500" height="600" class="center"></p>
 
 Hello and welcome! 
 
 [Kwesi](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en) is a seasoned climate research scientist with extensive experience in climate modeling, climate extremes analysis, tropical meteorology and large-scale processes. His expertise includes modeling the impact of solar geoengineering on climate extremes, focusing on developing innovative solutions to mitigate climate change and its associated risks. Kwesi has consulted for the United Nations Environment Programme (UNEP) through the Ghana National Adaptation Project, World Meteorological Organization (WMO), The World Academy of Sciences, and ICLEI - Local Governments for Sustainability. 
  
-Dr. Quagraine’s research interests span climate geoengineering, climate extreme events, regional climate change modeling & impacts, tropical meteorology, monsoon dynamics, climate data analytics and machine learning approaches. He is committed to bridging advanced climate science and practical solutions for sustainable development in a changing climate.
+<h2>You can also find me on</h2>
 
-He is currently an ASP Postdoctoral Fellow with the [NSF National Center for Atmospheric Research (NSF-NCAR)](https://ncar.ucar.edu/) working to understand the impact of solar geoengineering on climate extremes and to dynamically downscale CESM model geoengineering outputs for impact studies. He has also worked as Postdoctoral Fellow at the University of Cape Town, South Africa (2020-2023) working on understanding regional climate variability and change which led to a publication on [developing a high-pressure system index over the South Atlantic](https://doi.org/10.1002/asl.1266) in *Atmospheric Science Letters*.
+<ul>
+    <li><a href="https://www.researchgate.net/profile/Julia-Kukulies-2">ResearchGate</a</li>
+    <li><a href="https://orcid.org/0000-0001-6084-0069">ORCID</a</li>
+    <li><a href="https://github.com/JuliaKukulies">GitHub</a</li>
+    <li> <a href="https://www.linkedin.com/in/julia-kukulies-phd-449b45265/">LinkedIn</a</li>
+</ul>
 
-Kwesi earned his Ph.D. at the University of Cape Town, working with [Prof. Bruce Hewitson](https://tinyurl.com/Bruce-Hewitson) by [developing a novel approach to understand the co-behavior of climate processes over Southern Africa](http://hdl.handle.net/11427/33916) leading to two(2) publications in the *Journal of Climate*.
-
-Prior to beginning his Ph.D., he earned his M.Phil. & B.Sc. degrees at the Department of Physics, University of Cape Coast, Ghana where he was advised by [Prof. Nana Ama Browne Klutse](https://tinyurl.com/Ama-Browne) with his thesis seeking [to understand the West African Monsoon (WAM) jump and its implication for rain-fed Agriculture](https://tinyurl.com/quagraine-thesis).
+<p style="text-align:center;"><img src="IMG-20241012-WA0015.jpg" alt="JK2" width="500" height="600" class="center"></p>
 
 Email: **[kwesiq at ucar dot edu](kwesiq@ucar.edu)**
