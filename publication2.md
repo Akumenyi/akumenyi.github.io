@@ -58,7 +58,7 @@ Klutse, N. A. B., [**Quagraine, K. A.**](https://scholar.google.com/citations?us
 
 [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Hewitson, B., Jack, C., Pinto, I. & Lennard, C. (2019). A Methodological Approach to Assess the Co-Behavior of Climate Processes over Southern Africa. *Journal of Climate*. [Access Paper here](https://doi.org/10.1175/JCLI-D-18-0689.1) | <span class="__dimensions_badge_embed__" data-doi="10.1175/JCLI-D-18-0689.1" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script
 
-[Egbegiyi, T., Lennard, C., Crespo, O., Mukwenha, P., Lawal, S. & [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en) (2019). Assessing Future Spatio-Temporal Changes in Crop Suitability and Planting Season over West Africa: Using the Concept of Crop-Climate Departure. *Climate*. [Access Paper here](https://doi.org/10.3390/cli7090102) | <span class="__dimensions_badge_embed__" data-doi="10.3390/cli7090102" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script
+Egbegiyi, T., Lennard, C., Crespo, O., Mukwenha, P., Lawal, S. & [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en) (2019). Assessing Future Spatio-Temporal Changes in Crop Suitability and Planting Season over West Africa: Using the Concept of Crop-Climate Departure. *Climate*. [Access Paper here](https://doi.org/10.3390/cli7090102) | <span class="__dimensions_badge_embed__" data-doi="10.3390/cli7090102" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script
 
 ### 2018
 
