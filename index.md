@@ -21,7 +21,7 @@ title: ""
 </ul>
 
 <p style="text-align:center;">
-  <img src="Climate_change.jpg" alt="JK2" width="1200" height="100" class="center">
+  <img src="climate_change_flat.jpg" alt="JK2" width="1000" height="150" class="center">
 </p>
 
 <p>Email: <a href="mailto:kwesiq@ucar.edu"><strong>kwesiq@ucar.edu</strong></a></p>
