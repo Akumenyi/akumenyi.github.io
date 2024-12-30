@@ -3,7 +3,7 @@ layout: page
 title: "Research interests"
 ---
 
-My research interests span climate geoengineering, climate extreme events, regional climate change modeling & impacts, tropical meteorology, monsoon dynamics, climate data analytics and machine learning approaches. I am committed to bridging advanced climate science and practical solutions for sustainable development in a changing climate.
+My research interests span climate geoengineering, climate extreme events, regional climate change modeling & impacts, tropical meteorology, monsoon dynamics, climate data analytics and machine learning approaches. I am committed to **bridging advanced climate science** and **practical solutions for sustainable development in a changing climate**. Specifically, I am focusing on:
 
 ## Understanding the impacts associated with Stratospheric Aerosol Injection (SAI)
 
