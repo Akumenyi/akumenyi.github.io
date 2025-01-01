@@ -13,13 +13,12 @@ title: ""
 
 <h4>You can also find me on:</h4>
 <ul>
-    <li><a href="https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en">Google Scholar</a></li>
-    <li><a href="https://www.researchgate.net/profile/Kwesi-Quagraine-3">ResearchGate</a></li>
-    <li><a href="https://orcid.org/0000-0002-7887-6040">ORCID</a></li>
-    <li><a href="https://github.com/Akumenyi">GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/kwesi-a-quagraine-12855153/">LinkedIn</a></li>
+    <li><a href="https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
+    <li><a href="https://www.researchgate.net/profile/Kwesi-Quagraine-3" target="_blank">ResearchGate</a></li>
+    <li><a href="https://orcid.org/0000-0002-7887-6040" target="_blank">ORCID</a></li>
+    <li><a href="https://github.com/Akumenyi" target="_blank">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/kwesi-a-quagraine-12855153/" target="_blank">LinkedIn</a></li>
 </ul>
-
 <p style="text-align:center;">
   <img src="climate_change_flat.jpg" alt="JK2" width="1000" height="150" class="center">
 </p>
