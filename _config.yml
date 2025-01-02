@@ -27,7 +27,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
  # - {file: "teaching.md", title: "Teaching"}
   - {file: "publications.md", title: "Publications"}
   - {file: "projects.md", title: "Projects & Grants"}
-  - {url: "/cv_kwesi_a_quagraine_winter2024.pdf", title: "CV"}
+  - {url: "/cv_kwesi_a_quagraine_spring2025.pdf", title: "CV"}
   
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
