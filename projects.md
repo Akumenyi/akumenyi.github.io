@@ -13,7 +13,7 @@ title: "Projects, Grants & Consultancies"
 [1] 2018 - to date. <span style="color:#4169E1;">**CORdinated Downscaling EXperiment, CORDEX**</span>. The CORDEX-Africa initiative has been developed to analyse downscaled regional climateata over the CORDEX-African domain, train young climate scientists in climate data analysis techniques and engage users of climate information in both sector specific and region/spacebased applications.
 
 **Consultancies** <br />
-[3] 2022 - 2023. <span style="color:#4169E1;">**UNEP-Green Climate Fund; Ghana National Adaptation Project** (2022 -2023)</span>. Enhancing multi-sector planning and capacity for effective adaptation in Ghana.
+[3] 2022 - 2023. <span style="color:#4169E1;">**UNEP-Green Climate Fund; Ghana National Adaptation Project**</span>. Enhancing multi-sector planning and capacity for effective adaptation in Ghana.
 
 [2] 2022. <span style="color:#4169E1;">**World Meteorological Organization (WMO) User Interface Project (WMO-UIP)**</span>. Developing of a UIP for worldwide use in Climate Services.
 
