@@ -22,6 +22,8 @@ Egbebiyi, T. S., Lennard, C., Pinto, I., Odoulami, R. C., Abiodun, B. J., Wolski
 
 Tang, W., Kumar, R., …, **Quagraine, K. A.**, et al., Unlocking the Potential of Collaborative Research on Africa’s Environmental Challenges: Perspectives on Air Quality and Health, Climate and Weather, Land and Water, and Society. Submitted to *Bulletin of American Meteorological Society*.
 
+Atanas, D., Nkrumah, F., **Quagraine, K. A.**, Klutse, N. A. B. & Quenum, G. M. L. D., Assessing the response of surface cloud radiative effects to Stratospheric Aerosol Injection over West and Central Africa. Submitted to *Earth's Future*.
+
 Egbebiyi, T. S., Lennard, C., **Quagraine, K. A.**, Odoulami, R. C., Abiodun, B. J., & Tilmes, S., Potential
 Impact of Stratospheric Aerosol Injection on Horticultural Crop Suitability in Africa. Submitted to *The Geographical Journal*.
    
