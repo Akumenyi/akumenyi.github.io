@@ -14,6 +14,8 @@ td, th {
 
 **Quagraine, K. A.**, Tye, M. R., Quagraine, K. T., Tilmes, S., Simpson, I. R., Nkrumah, F., Egbebiyi, T. S., Odoulami, R. C. & Klutse, N. A. B., Impact of  Stratospheric Aerosol Injection on Precipitation Extremes Across Africa. Submitted to *Geophysical Research Letters*.
 
+**Quagraine, K. A.**, Quagraine, K. T., Nkrumah, F., Tilmes, S., Hewitson, B., Tadross, M. & Klutse, N. A. B., An Index to Characterize the South Indian Ocean High-Pressure System and its Variability. Submitted to *Monthly Weather Review*.
+
 Nkrumah, F., **Quagraine, K. A.**, Quenum, G. M. L. D., Visioni, D., Koffi, H. A. & Klutse, N. A. B., Assessing Regional Climate Trends in West Africa Under Geoengineering: A Multi-model Comparison of UKESM1 and CESM2. [Authorea preprint here](https://essopenarchive.org/doi/full/10.22541essoar.173462728.87124716)
 
 Nkrumah, F., Quenum, G. M. L. D., **Quagraine, K. A.**, Tilmes, S., Klutse, N. A. B., Dommo, A., Koffi, H. A., Essien, P. & Bediako, R., Climate Response to Stratospheric Aerosol Injection During the Harmattan Season in West Africa. Submitted to *Environmental Research: Climate*.
