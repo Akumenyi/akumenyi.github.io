@@ -18,7 +18,7 @@ td, th {
 
 Nkrumah, F., **Quagraine, K. A.**, Quenum, G. M. L. D., Visioni, D., Koffi, H. A. & Klutse, N. A. B., Assessing Regional Climate Trends in West Africa Under Geoengineering: A Multi-model Comparison of UKESM1 and CESM2. [Authorea preprint here](https://essopenarchive.org/doi/full/10.22541essoar.173462728.87124716)
 
-Nkrumah, F., Quenum, G. M. L. D., **Quagraine, K. A.**, Tilmes, S., Klutse, N. A. B., Dommo, A., Koffi, H. A., Essien, P. & Bediako, R., Climate Response to Stratospheric Aerosol Injection During the Harmattan Season in West Africa. Submitted to *Environmental Research: Climate*.
+
 
 Egbebiyi, T. S., Lennard, C., Pinto, I., Odoulami, R. C., Abiodun, B. J., Wolski, P. & **Quagraine, K. A.**, Investigating the Impact of Stratospheric Aerosol Injection on Cereal Crop Suitability in Southern Africa. Submitted to *Environmental Research: Climate*.
 
@@ -31,6 +31,10 @@ Impact of Stratospheric Aerosol Injection on Horticultural Crop Suitability in A
    
 
 ## Peer-reviewed
+
+### 2025
+
+Nkrumah, F., Quenum, G. M. L. D.,[**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Tilmes, S., Klutse, N. A. B., Dommo, A., Koffi, H. A., Essien, P. & Bediako, R., Climate Response to Stratospheric Aerosol Injection During the Harmattan Season in West Africa. *Environmental Research: Climate*. [Access Paper here](https://doi.org/10.1088/2752-5295/adaa0c) | <span class="__dimensions_badge_embed__" data-doi="10.1088/2752-5295/adaa0c" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script
 
 ### 2024 
 
