@@ -13,7 +13,7 @@ td, th {
 
 ### 2025
 
-Nkrumah, F., Quenum, G. M. L. D.,[**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Tilmes, S., Klutse, N. A. B., Dommo, A., Koffi, H. A., Essien, P. & Bediako, R., Climate Response to Stratospheric Aerosol Injection During the Harmattan Season in West Africa. *Environmental Research: Climate*. <a href="https://doi.org/10.1088/2752-5295/adaa0c" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1088/2752-5295/adaa0c" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+Nkrumah, F., Quenum, G. M. L. D.,[**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Tilmes, S., Klutse, N. A. B., Dommo, A., Koffi, H. A., Essien, P. & Bediako, R. (2025). Climate Response to Stratospheric Aerosol Injection During the Harmattan Season in West Africa. *Environmental Research: Climate*. <a href="https://doi.org/10.1088/2752-5295/adaa0c" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1088/2752-5295/adaa0c" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 ### 2024 
 
