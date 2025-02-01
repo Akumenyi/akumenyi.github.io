@@ -10,26 +10,6 @@ td, th {
    </style>
 
    
-## Forthcoming (under review) 
-
-**Quagraine, K. A.**, Tye, M. R., Quagraine, K. T., Tilmes, S., Simpson, I. R., Nkrumah, F., Egbebiyi, T. S., Odoulami, R. C. & Klutse, N. A. B., Impact of  Stratospheric Aerosol Injection on Precipitation Extremes Across Africa. Submitted to *Geophysical Research Letters*.
-
-**Quagraine, K. A.**, Quagraine, K. T., Nkrumah, F., Tilmes, S., Hewitson, B., Tadross, M. & Klutse, N. A. B., An Index to Characterize the South Indian Ocean High-Pressure System and its Variability. Submitted to *Monthly Weather Review*.
-
-Nkrumah, F., **Quagraine, K. A.**, Quenum, G. M. L. D., Visioni, D., Koffi, H. A. & Klutse, N. A. B., Assessing Regional Climate Trends in West Africa Under Geoengineering: A Multi-model Comparison of UKESM1 and CESM2. [Authorea preprint here](https://essopenarchive.org/doi/full/10.22541essoar.173462728.87124716)
-
-
-
-Egbebiyi, T. S., Lennard, C., Pinto, I., Odoulami, R. C., Abiodun, B. J., Wolski, P. & **Quagraine, K. A.**, Investigating the Impact of Stratospheric Aerosol Injection on Cereal Crop Suitability in Southern Africa. Submitted to *Environmental Research: Climate*.
-
-Tang, W., Kumar, R., …, **Quagraine, K. A.**, et al., Unlocking the Potential of Collaborative Research on Africa’s Environmental Challenges: Perspectives on Air Quality and Health, Climate and Weather, Land and Water, and Society. Submitted to *Bulletin of American Meteorological Society*.
-
-Atanas, D., Nkrumah, F., **Quagraine, K. A.**, Klutse, N. A. B. & Quenum, G. M. L. D., Assessing the response of surface cloud radiative effects to Stratospheric Aerosol Injection over West and Central Africa. Submitted to *Earth's Future*.
-
-Egbebiyi, T. S., Lennard, C., **Quagraine, K. A.**, Odoulami, R. C., Abiodun, B. J., & Tilmes, S., Potential
-Impact of Stratospheric Aerosol Injection on Horticultural Crop Suitability in Africa. Submitted to *The Geographical Journal*.
-   
-
 ## Peer-reviewed
 
 ### 2025
@@ -86,3 +66,22 @@ Nkrumah, F., Klutse, N. A. B., Adukpo, D. C., [**Quagraine, K. A.**](https://sch
 ### 2013 
 
 Klutse, N. A. B., Owusu, K., Adukpo, D. C., Nkrumah, F., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Owusu, A. & Gutowski, W. (2013). Farmer’s observation on climate change impacts on maize (Zea mays) production in a selected agroecological zone in Ghana. *Research Journal of Agriculture and Environmental Management*. [Access Paper here](https://tinyurl.com/ywzeyesh) | <span class="__dimensions_badge_embed__" data-doi="https://tinyurl.com/ywzeyesh" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script
+
+
+## Forthcoming (under review) 
+
+**Quagraine, K. A.**, Tye, M. R., Quagraine, K. T., Tilmes, S., Simpson, I. R., Nkrumah, F., Egbebiyi, T. S., Odoulami, R. C. & Klutse, N. A. B., Impact of  Stratospheric Aerosol Injection on Precipitation Extremes Across Africa. Submitted to *Geophysical Research Letters*.
+
+**Quagraine, K. A.**, Quagraine, K. T., Nkrumah, F., Tilmes, S., Hewitson, B., Tadross, M. & Klutse, N. A. B., An Index to Characterize the South Indian Ocean High-Pressure System and its Variability. Submitted to *Monthly Weather Review*.
+
+Nkrumah, F., **Quagraine, K. A.**, Quenum, G. M. L. D., Visioni, D., Koffi, H. A. & Klutse, N. A. B., Assessing Regional Climate Trends in West Africa Under Geoengineering: A Multi-model Comparison of UKESM1 and CESM2. [Authorea preprint here](https://essopenarchive.org/doi/full/10.22541essoar.173462728.87124716)
+
+
+Egbebiyi, T. S., Lennard, C., Pinto, I., Odoulami, R. C., Abiodun, B. J., Wolski, P. & **Quagraine, K. A.**, Investigating the Impact of Stratospheric Aerosol Injection on Cereal Crop Suitability in Southern Africa. Submitted to *Environmental Research: Climate*.
+
+Tang, W., Kumar, R., …, **Quagraine, K. A.**, et al., Unlocking the Potential of Collaborative Research on Africa’s Environmental Challenges: Perspectives on Air Quality and Health, Climate and Weather, Land and Water, and Society. Submitted to *Bulletin of American Meteorological Society*.
+
+Atanas, D., Nkrumah, F., **Quagraine, K. A.**, Klutse, N. A. B. & Quenum, G. M. L. D., Assessing the response of surface cloud radiative effects to Stratospheric Aerosol Injection over West and Central Africa. Submitted to *Earth's Future*.
+
+Egbebiyi, T. S., Lennard, C., **Quagraine, K. A.**, Odoulami, R. C., Abiodun, B. J., & Tilmes, S., Potential
+Impact of Stratospheric Aerosol Injection on Horticultural Crop Suitability in Africa. Submitted to *The Geographical Journal*.
