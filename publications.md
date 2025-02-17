@@ -68,9 +68,9 @@ Klutse, N. A. B., Owusu, K., Adukpo, D. C., Nkrumah, F., [**Quagraine, K. A.**](
 
 ## Forthcoming (under review) 
 
-**Quagraine, K. A.**, Tye, M. R., Quagraine, K. T., Tilmes, S., Simpson, I. R., Nkrumah, F., Egbebiyi, T. S., Odoulami, R. C. & Klutse, N. A. B., Impact of  Stratospheric Aerosol Injection on Precipitation Extremes Across Africa. Submitted to *Geophysical Research Letters*.
+**Quagraine, K. A.**, Tye, M. R., Quagraine, K. T., Tilmes, S., Simpson, I. R., Nkrumah, F., Egbebiyi, T. S., Odoulami, R. C. & Klutse, N. A. B., Impact of  Stratospheric Aerosol Injection on Precipitation Extremes Across Africa. Submitted to *Environmental Research: Climate*.
 
-**Quagraine, K. A.**, Quagraine, K. T., Nkrumah, F., Tilmes, S., Hewitson, B., Tadross, M. & Klutse, N. A. B., An Index to Characterize the South Indian Ocean High-Pressure System and its Variability. Submitted to *Monthly Weather Review*.
+**Quagraine, K. A.**, Quagraine, K. T., Nkrumah, F., Tilmes, S., Hewitson, B., Tadross, M. & Klutse, N. A. B., An Index to Characterize the South Indian Ocean High-Pressure System and its Variability. Submitted to *Nature Scientific Reports*.
 
 Nkrumah, F., **Quagraine, K. A.**, Quenum, G. M. L. D., Visioni, D., Koffi, H. A. & Klutse, N. A. B., Assessing Regional Climate Trends in West Africa Under Geoengineering: A Multi-model Comparison of UKESM1 and CESM2. <a href="https://essopenarchive.org/doi/full/10.22541essoar.173462728.87124716" target="_blank">Authorea preprint here</a>
 
