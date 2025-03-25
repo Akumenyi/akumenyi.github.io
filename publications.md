@@ -17,7 +17,11 @@ td, th {
 
 Quagraine, K. T. & **Quagraine, K. A.**, Moisture ELevated Temperature (MELT) index: Identifying the Synoptic Scale Dynamic and Thermodynamic drivers. Submitted to *Nature Scientific Reports*.
 
+Quagraine, K. T., **Quagraine, K. A.**, O'Brien, T. A., Kravitz, B. & Tilmes, S., Assessing Long-term Changes in Atmospheric Rivers under Stratospheric Aerosol Injection. Submitted to *Environmental Research: Climate*
+
 Nkrumah, F., **Quagraine, K. A.**, Quenum, G. M. L. D., Visioni, D., Koffi, H. A. & Klutse, N. A. B., Assessing Regional Climate Trends in West Africa Under Geoengineering: A Multi-model Comparison of UKESM1 and CESM2. <a href="https://essopenarchive.org/doi/full/10.22541essoar.173462728.87124716" target="_blank">Authorea preprint here</a>
+
+Kumi, N., Mensah, C., **Quagraine, K. A.**, Patel, T. D., Otu-Larbi, F., Prempeh, N. A., Nguvava, M., Nkemelang, T., Abiodun, B. J., Lennard, C., New, M. G., & Odoulami, R. C., Africa’s climate response to stratospheric aerosol injection locations. Submitted to *Frontiers in Climate*.
 
 Egbebiyi, T. S., Lennard, C., Pinto, I., Odoulami, R. C., Abiodun, B. J., Wolski, P. & **Quagraine, K. A.**, Investigating the Impact of Stratospheric Aerosol Injection on Cereal Crop Suitability in Southern Africa. Submitted to *Environmental Research: Climate*.
 
