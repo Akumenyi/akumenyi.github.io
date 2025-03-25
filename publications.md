@@ -15,9 +15,9 @@ td, th {
 
 **Quagraine, K. A.**, Quagraine, K. T., Nkrumah, F., Tilmes, S., Hewitson, B., Tadross, M. & Klutse, N. A. B., An Index to Characterize the South Indian Ocean High-Pressure System and its Variability. Submitted to *Nature Scientific Reports*.
 
-Quagraine, K. T. & **Quagraine, K. A.**, Moisture ELevated Temperature (MELT) index: Identifying the Synoptic Scale Dynamic and Thermodynamic drivers. Submitted to *Nature Scientific Reports*.
-
 Quagraine, K. T., **Quagraine, K. A.**, O'Brien, T. A., Kravitz, B. & Tilmes, S., Assessing Long-term Changes in Atmospheric Rivers under Stratospheric Aerosol Injection. Submitted to *Environmental Research: Climate*
+
+Quagraine, K. T. & **Quagraine, K. A.**, Moisture ELevated Temperature (MELT) index: Identifying the Synoptic Scale Dynamic and Thermodynamic drivers. Submitted to *Nature Scientific Reports*.
 
 Nkrumah, F., **Quagraine, K. A.**, Quenum, G. M. L. D., Visioni, D., Koffi, H. A. & Klutse, N. A. B., Assessing Regional Climate Trends in West Africa Under Geoengineering: A Multi-model Comparison of UKESM1 and CESM2. <a href="https://essopenarchive.org/doi/full/10.22541essoar.173462728.87124716" target="_blank">Authorea preprint here</a>
 
