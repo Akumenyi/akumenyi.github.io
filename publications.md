@@ -13,7 +13,7 @@ td, th {
 
 **Quagraine, K. A.**, Tye, M. R., Quagraine, K. T., Tilmes, S., Simpson, I. R., Nkrumah, F., Egbebiyi, T. S., Odoulami, R. C. & Klutse, N. A. B., Impact of  Stratospheric Aerosol Injection on Precipitation Extremes Across Africa. Submitted to *Environmental Research: Climate*.
 
-**Quagraine, K. A.**, Quagraine, K. T., Nkrumah, F., Tilmes, S., Hewitson, B., Tadross, M. & Klutse, N. A. B., An Index to Characterize the South Indian Ocean High-Pressure System and its Variability. Submitted to *Nature Scientific Reports*.
+**Quagraine, K. A.**, Quagraine, K. T., Nkrumah, F., Tilmes, S., Hewitson, B., Tadross, M. & Klutse, N. A. B., An Index to Characterize the South Indian Ocean High-Pressure System and its Variability. Submitted to *Weather and Climate Dynamics*.
 
 Quagraine, K. T., **Quagraine, K. A.**, O'Brien, T. A., Kravitz, B. & Tilmes, S., Assessing Long-term Changes in Atmospheric Rivers under Stratospheric Aerosol Injection. Submitted to *Environmental Research: Climate*
 
