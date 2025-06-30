@@ -15,33 +15,34 @@ td, th {
 
 [2] **Quagraine, K. A.**, Quagraine, K. T., Nkrumah, F., Tilmes, S., Hewitson, B., Tadross, M. & Klutse, N. A. B., An Index to Characterize the South Indian Ocean High-Pressure System and its Variability. Submitted to *International Journal of Climatology*.
 
-[3] Quagraine, K. T., **Quagraine, K. A.**, O'Brien, T. A., Kravitz, B. & Tilmes, S., Assessing Long-term Changes in Atmospheric Rivers under Stratospheric Aerosol Injection. Submitted to *Environmental Research: Climate*.
+[3] Quagraine, K. T. & **Quagraine, K. A.**, Moisture ELevated Temperature (MELT) index: Identifying the Synoptic Scale Dynamic and Thermodynamic drivers. Submitted to *Weather and Climate Dynamicss*.
 
-[4] Quagraine, K. T. & **Quagraine, K. A.**, Moisture ELevated Temperature (MELT) index: Identifying the Synoptic Scale Dynamic and Thermodynamic drivers. Submitted to *Weather and Climate Dynamicss*.
+[4] Kumi, N., Mensah, C., **Quagraine, K. A.**, Patel, T. D., Otu-Larbi, F., Prempeh, N. A., Nguvava, M., Nkemelang, T., Abiodun, B. J., Lennard, C., New, M. G., & Odoulami, R. C., Africa’s climate response to stratospheric aerosol injection locations. Submitted to *Frontiers in Climate*.
 
-[5] Nkrumah, F., **Quagraine, K. A.**, Quenum, G. M. L. D., Visioni, D., Koffi, H. A. & Klutse, N. A. B., Assessing Regional Climate Trends in West Africa Under Geoengineering: A Multi-model Comparison of UKESM1 and CESM2. <a href="https://essopenarchive.org/doi/full/10.22541essoar.173462728.87124716" target="_blank">Authorea preprint here</a>
+[5] Egbebiyi, T. S., Lennard, C., Pinto, I., Odoulami, R. C., Abiodun, B. J., Wolski, P. & **Quagraine, K. A.**, Investigating the Impact of Stratospheric Aerosol Injection on Cereal Crop Suitability in Southern Africa. Submitted to *Environmental Research: Climate*.
 
-[6] Kumi, N., Mensah, C., **Quagraine, K. A.**, Patel, T. D., Otu-Larbi, F., Prempeh, N. A., Nguvava, M., Nkemelang, T., Abiodun, B. J., Lennard, C., New, M. G., & Odoulami, R. C., Africa’s climate response to stratospheric aerosol injection locations. Submitted to *Frontiers in Climate*.
+[6] Tang, W., Kumar, R., …, **Quagraine, K. A.**, et al., Unlocking the Potential of Collaborative Research on Africa's Environmental Challenges: Perspectives on Air Quality and Health, Climate and Weather, Land and Water, and Society. Submitted to *Bulletin of American Meteorological Society*.
 
-[7] Egbebiyi, T. S., Lennard, C., Pinto, I., Odoulami, R. C., Abiodun, B. J., Wolski, P. & **Quagraine, K. A.**, Investigating the Impact of Stratospheric Aerosol Injection on Cereal Crop Suitability in Southern Africa. Submitted to *Environmental Research: Climate*.
+[7] Atanas, D., Nkrumah, F., **Quagraine, K. A.**, Klutse, N. A. B. & Quenum, G. M. L. D., Assessing the response of surface cloud radiative effects to Stratospheric Aerosol Injection over West and Central Africa. Submitted to *Journal of Geophysical Research - Atmospheres*.
 
-[8] Tang, W., Kumar, R., …, **Quagraine, K. A.**, et al., Unlocking the Potential of Collaborative Research on Africa's Environmental Challenges: Perspectives on Air Quality and Health, Climate and Weather, Land and Water, and Society. Submitted to *Bulletin of American Meteorological Society*.
-
-[9] Atanas, D., Nkrumah, F., **Quagraine, K. A.**, Klutse, N. A. B. & Quenum, G. M. L. D., Assessing the response of surface cloud radiative effects to Stratospheric Aerosol Injection over West and Central Africa. Submitted to *Journal of Geophysical Research - Atmospheres*.
-
-[10] Richter, J. H., Joseph, E., Arcodia, M. C.…, **Quagraine, K. A.**, et al., Earth System Predictability Across Time Scales for a Resilient Society: A Research Community Perspective. Submitted to *Bulletin of American Meteorological Society*.
-
-[11] Egbebiyi, T. S., Lennard, C., **Quagraine, K. A.**, Odoulami, R. C., Abiodun, B. J., & Tilmes, S., Potential
-Impact of Stratospheric Aerosol Injection on Horticultural Crop Suitability in Africa. Submitted to *The Geographical Journal*.
+[8] Richter, J. H., Joseph, E., Arcodia, M. C.…, **Quagraine, K. A.**, et al., Earth System Predictability Across Time Scales for a Resilient Society: A Research Community Perspective. Submitted to *Bulletin of American Meteorological Society*.
 
 
 ## Peer-reviewed
 
 ### 2025
 
+Quagraine, K. T., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), O'Brien, T. A., Kravitz, B. & Tilmes, S., (2025). Assessing Long-term Changes in Atmospheric Rivers under Stratospheric Aerosol Injection. *Environmental Research: Climate*. <a href="https://doi.org/10.1088/2752-5295/ade61a" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1088/2752-5295/ade61a" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
 Nkrumah, F., Quenum, G. M. L. D.,[**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Tilmes, S., Klutse, N. A. B., Dommo, A., Koffi, H. A., Essien, P. & Bediako, R. (2025). Climate Response to Stratospheric Aerosol Injection During the Harmattan Season in West Africa. *Environmental Research: Climate*. <a href="https://doi.org/10.1088/2752-5295/adaa0c" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1088/2752-5295/adaa0c" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
+Nkrumah, F., [**Quagraine, K.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), K. A.**, Quenum, G. M. L. D., Visioni, D., Koffi, H. A. & Klutse, N. A. B., Assessing Regional Climate Trends in West Africa Under Geoengineering: A Multi-model Comparison of UKESM1 and CESM2. Accepted *Environmental Research: Climate* <a href="https://essopenarchive.org/doi/full/10.22541essoar.173462728.87124716" target="_blank">Authorea preprint here</a>
+
+Egbebiyi, T. S., Lennard, C., [**Quagraine, K.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Odoulami, R. C., Abiodun, B. J., & Tilmes, S., Potential
+Impact of Stratospheric Aerosol Injection on Horticultural Crop Suitability in Africa. Accepted *The Geographical Journal*.
+
 Opoku-Ansah, J., Boateng, R., · Amuah, C. L. Y., Adueming, P. O‑W., Pappoe, J. A., Ntow, J., [**Quagraine, K.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Yunus, S., Anderson, B., & Eghan, M. J. (2025). Identification of Spectral Fingerprints in Different Batches of Antimalarial Herbal Drugs Using Laser‑Induced Autofluorescence and Chemometric Techniques. *Journal of Fluorescence*. <a href="https://doi.org/10.1007/s10895-025-04192-3" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1007/s10895-025-04192-3" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
 
 ### 2024 
 
