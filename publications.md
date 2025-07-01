@@ -30,16 +30,21 @@ td, th {
 
 ## Peer-reviewed
 
+### Accepted manuscripts -- 2025 
+Quagraine, K. T., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Nkrumah, F. Egbebiyi, T. S. & Klutse, N. A. B. (2025). Assessing the impact of the South Indian Ocean High-Pressure system using a novel index. Accepted *International Journal of Climatology*.  
+
+Nkrumah, F., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Quenum, G. M. L. D., Visioni, D., Koffi, H. A. & Klutse, N. A. B., Assessing Regional Climate Trends in West Africa Under Geoengineering: A Multi-model Comparison of UKESM1 and CESM2. Accepted *Environmental Research: Climate*.
+
+Egbebiyi, T. S., Lennard, C., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Odoulami, R. C., Abiodun, B. J., & Tilmes, S., Potential Impact of Stratospheric Aerosol Injection on Horticultural Crop Suitability in Africa. Accepted *The Geographical Journal*.
+
+### Published 
 ### 2025
 
 Quagraine, K. T., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), O'Brien, T. A., Kravitz, B. & Tilmes, S., (2025). Assessing Long-term Changes in Atmospheric Rivers under Stratospheric Aerosol Injection. *Environmental Research: Climate*. <a href="https://doi.org/10.1088/2752-5295/ade61a" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1088/2752-5295/ade61a" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 Nkrumah, F., Quenum, G. M. L. D.,[**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Tilmes, S., Klutse, N. A. B., Dommo, A., Koffi, H. A., Essien, P. & Bediako, R. (2025). Climate Response to Stratospheric Aerosol Injection During the Harmattan Season in West Africa. *Environmental Research: Climate*. <a href="https://doi.org/10.1088/2752-5295/adaa0c" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1088/2752-5295/adaa0c" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
-Nkrumah, F., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Quenum, G. M. L. D., Visioni, D., Koffi, H. A. & Klutse, N. A. B., Assessing Regional Climate Trends in West Africa Under Geoengineering: A Multi-model Comparison of UKESM1 and CESM2. Accepted *Environmental Research: Climate* <a href="https://essopenarchive.org/doi/full/10.22541essoar.173462728.87124716" target="_blank">Authorea preprint here</a>
 
-Egbebiyi, T. S., Lennard, C., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Odoulami, R. C., Abiodun, B. J., & Tilmes, S., Potential
-Impact of Stratospheric Aerosol Injection on Horticultural Crop Suitability in Africa. Accepted *The Geographical Journal*.
 
 Opoku-Ansah, J., Boateng, R., · Amuah, C. L. Y., Adueming, P. O‑W., Pappoe, J. A., Ntow, J., [**Quagraine, K.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Yunus, S., Anderson, B., & Eghan, M. J. (2025). Identification of Spectral Fingerprints in Different Batches of Antimalarial Herbal Drugs Using Laser‑Induced Autofluorescence and Chemometric Techniques. *Journal of Fluorescence*. <a href="https://doi.org/10.1007/s10895-025-04192-3" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1007/s10895-025-04192-3" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
