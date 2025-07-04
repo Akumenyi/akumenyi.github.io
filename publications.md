@@ -40,7 +40,7 @@ Egbebiyi, T. S., Lennard, C., [**Quagraine, K. A.**](https://scholar.google.com/
 
 [6] Tang, W., Kumar, R., …, [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), et al., Unlocking the Potential of Collaborative Research on Africa's Environmental Challenges: Perspectives on Air Quality and Health, Climate and Weather, Land and Water, and Society. Submitted to *Bulletin of American Meteorological Society*.
 
-[7] Atanas, D., Nkrumah, F.,[**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Klutse, N. A. B. & Quenum, G. M. L. D., Assessing the response of surface cloud radiative effects to Stratospheric Aerosol Injection over West and Central Africa. Submitted to *Journal of Geophysical Research - Atmospheres*.
+[7] Atanas, D., Nkrumah, F., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Klutse, N. A. B. & Quenum, G. M. L. D., Assessing the response of surface cloud radiative effects to Stratospheric Aerosol Injection over West and Central Africa. Submitted to *Journal of Geophysical Research - Atmospheres*.
 
 [8] Richter, J. H., Joseph, E., Arcodia, M. C.…, [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), et al., Earth System Predictability Across Time Scales for a Resilient Society: A Research Community Perspective. Submitted to *Bulletin of American Meteorological Society*.
 
