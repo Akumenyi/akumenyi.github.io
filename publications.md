@@ -9,25 +9,6 @@ td, th {
 }
 </style>
 
-## Forthcoming (under review) 
-
-[1] **Quagraine, K. A.**, Tye, M. R., Quagraine, K. T., Tilmes, S., Simpson, I. R., Nkrumah, F., Egbebiyi, T. S., Odoulami, R. C. & Klutse, N. A. B., Impact of  Stratospheric Aerosol Injection on Precipitation Extremes Across Africa. Submitted to *Environmental Research: Climate*.
-
-[2] **Quagraine, K. A.**, Quagraine, K. T., Nkrumah, F., Tilmes, S., Hewitson, B., Tadross, M. & Klutse, N. A. B., An Index to Characterize the South Indian Ocean High-Pressure System and its Variability. Submitted to *International Journal of Climatology*.
-
-[3] Quagraine, K. T. & **Quagraine, K. A.**, Moisture ELevated Temperature (MELT) index: Identifying the Synoptic Scale Dynamic and Thermodynamic drivers. Submitted to *Weather and Climate Dynamicss*.
-
-[4] Kumi, N., Mensah, C., **Quagraine, K. A.**, Patel, T. D., Otu-Larbi, F., Prempeh, N. A., Nguvava, M., Nkemelang, T., Abiodun, B. J., Lennard, C., New, M. G., & Odoulami, R. C., Africa’s climate response to stratospheric aerosol injection locations. Submitted to *Frontiers in Climate*.
-
-[5] Egbebiyi, T. S., Lennard, C., Pinto, I., Odoulami, R. C., Abiodun, B. J., Wolski, P. & **Quagraine, K. A.**, Investigating the Impact of Stratospheric Aerosol Injection on Cereal Crop Suitability in Southern Africa. Submitted to *Environmental Research: Climate*.
-
-[6] Tang, W., Kumar, R., …, **Quagraine, K. A.**, et al., Unlocking the Potential of Collaborative Research on Africa's Environmental Challenges: Perspectives on Air Quality and Health, Climate and Weather, Land and Water, and Society. Submitted to *Bulletin of American Meteorological Society*.
-
-[7] Atanas, D., Nkrumah, F., **Quagraine, K. A.**, Klutse, N. A. B. & Quenum, G. M. L. D., Assessing the response of surface cloud radiative effects to Stratospheric Aerosol Injection over West and Central Africa. Submitted to *Journal of Geophysical Research - Atmospheres*.
-
-[8] Richter, J. H., Joseph, E., Arcodia, M. C.…, **Quagraine, K. A.**, et al., Earth System Predictability Across Time Scales for a Resilient Society: A Research Community Perspective. Submitted to *Bulletin of American Meteorological Society*.
-
-
 ## Peer-reviewed
 
 ### 2025
@@ -44,6 +25,24 @@ Opoku-Ansah, J., Boateng, R., · Amuah, C. L. Y., Adueming, P. O‑W., Pappoe, J
 Quagraine, K. T., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Nkrumah, F. Egbebiyi, T. S. & Klutse, N. A. B. (2025). Assessing the impact of the South Indian Ocean High-Pressure system using a novel index. Accepted *International Journal of Climatology*.  
 
 Egbebiyi, T. S., Lennard, C., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Odoulami, R. C., Abiodun, B. J., & Tilmes, S., Potential Impact of Stratospheric Aerosol Injection on Horticultural Crop Suitability in Africa. Accepted *The Geographical Journal*.
+
+### Forthcoming (under review) 
+
+[1] **Quagraine, K. A.**, Tye, M. R., Quagraine, K. T., Tilmes, S., Simpson, I. R., Nkrumah, F., Egbebiyi, T. S., Odoulami, R. C. & Klutse, N. A. B., Impact of  Stratospheric Aerosol Injection on Precipitation Extremes Across Africa. Submitted to *Environmental Research: Climate*.
+
+[2] **Quagraine, K. A.**, Quagraine, K. T., Nkrumah, F., Tilmes, S., Hewitson, B., Tadross, M. & Klutse, N. A. B., An Index to Characterize the South Indian Ocean High-Pressure System and its Variability. Submitted to *International Journal of Climatology*.
+
+[3] Quagraine, K. T. & **Quagraine, K. A.**, Moisture ELevated Temperature (MELT) index: Identifying the Synoptic Scale Dynamic and Thermodynamic drivers. Submitted to *Weather and Climate Dynamicss*.
+
+[4] Kumi, N., Mensah, C., **Quagraine, K. A.**, Patel, T. D., Otu-Larbi, F., Prempeh, N. A., Nguvava, M., Nkemelang, T., Abiodun, B. J., Lennard, C., New, M. G., & Odoulami, R. C., Africa’s climate response to stratospheric aerosol injection locations. Submitted to *Frontiers in Climate*.
+
+[5] Egbebiyi, T. S., Lennard, C., Pinto, I., Odoulami, R. C., Abiodun, B. J., Wolski, P. & **Quagraine, K. A.**, Investigating the Impact of Stratospheric Aerosol Injection on Cereal Crop Suitability in Southern Africa. Submitted to *Environmental Research: Climate*.
+
+[6] Tang, W., Kumar, R., …, **Quagraine, K. A.**, et al., Unlocking the Potential of Collaborative Research on Africa's Environmental Challenges: Perspectives on Air Quality and Health, Climate and Weather, Land and Water, and Society. Submitted to *Bulletin of American Meteorological Society*.
+
+[7] Atanas, D., Nkrumah, F., **Quagraine, K. A.**, Klutse, N. A. B. & Quenum, G. M. L. D., Assessing the response of surface cloud radiative effects to Stratospheric Aerosol Injection over West and Central Africa. Submitted to *Journal of Geophysical Research - Atmospheres*.
+
+[8] Richter, J. H., Joseph, E., Arcodia, M. C.…, **Quagraine, K. A.**, et al., Earth System Predictability Across Time Scales for a Resilient Society: A Research Community Perspective. Submitted to *Bulletin of American Meteorological Society*.
 
 
 ### 2024 
