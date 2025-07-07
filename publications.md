@@ -23,8 +23,6 @@ Nkrumah, F., Quenum, G. M. L. D.,[**Quagraine, K. A.**](https://scholar.google.c
 Opoku-Ansah, J., Boateng, R., · Amuah, C. L. Y., Adueming, P. O‑W., Pappoe, J. A., Ntow, J., [**Quagraine, K.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Yunus, S., Anderson, B., & Eghan, M. J. (2025). Identification of Spectral Fingerprints in Different Batches of Antimalarial Herbal Drugs Using Laser‑Induced Autofluorescence and Chemometric Techniques. *Journal of Fluorescence*. <a href="https://doi.org/10.1007/s10895-025-04192-3" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1007/s10895-025-04192-3" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 ### Accepted manuscripts -- 2025 
-Quagraine, K. T., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Nkrumah, F. Egbebiyi, T. S. & Klutse, N. A. B. (2025). Assessing the impact of the South Indian Ocean High-Pressure system using a novel index. Accepted *International Journal of Climatology*.  
-
 Egbebiyi, T. S., Lennard, C., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Odoulami, R. C., Abiodun, B. J., & Tilmes, S., Potential Impact of Stratospheric Aerosol Injection on Horticultural Crop Suitability in Africa. Accepted *The Geographical Journal*.
 
 #### Forthcoming (under review) 
