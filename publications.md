@@ -13,10 +13,10 @@ td, th {
 
 ### 2025
 
-Quagraine, K. T., O'Brien, T. A.,  [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Kravitz, B. & Tilmes, S., (2025). Assessing Long-term Changes in Atmospheric Rivers under Stratospheric Aerosol Injection. *Environmental Research: Climate*. <a href="https://doi.org/10.1088/2752-5295/ade61a" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1088/2752-5295/ade61a" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
 Quagraine, K. T., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Nkrumah, F. Egbebiyi, T. S. & Klutse, N. A. B. (2025). Assessing the impact of the South Indian Ocean High-Pressure system using a novel index. 
-*International Journal of Climatology*. <a href=" https://doi.org/10.1002/joc.70031" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1002/joc.70031" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script> 
+*International Journal of Climatology*. <a href="https://doi.org/10.1002/joc.70031" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1002/joc.70031" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script> 
+
+Quagraine, K. T., O'Brien, T. A.,  [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Kravitz, B. & Tilmes, S., (2025). Assessing Long-term Changes in Atmospheric Rivers under Stratospheric Aerosol Injection. *Environmental Research: Climate*. <a href="https://doi.org/10.1088/2752-5295/ade61a" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1088/2752-5295/ade61a" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 Nkrumah, F., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Quenum, G. M. L. D., Visioni, D., Koffi, H. A. & Klutse, N. A. B., Assessing Regional Climate Trends in West Africa Under Geoengineering: A Multi-model Comparison of UKESM1 and CESM2. Accepted *Journal of Geophysical Research - Atmospheres*. <a href="https://doi.org/10.1029/2024JD043117" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1029/2024JD043117" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
