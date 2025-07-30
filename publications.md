@@ -12,9 +12,9 @@ td, th {
 ## Peer-reviewed
 ### 2025
 
-Quagraine, K. T., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Nkrumah, F., Egbebiyi, T. S. & Klutse, N. A. B. (2025). Assessing the impact of the South Indian Ocean High-Pressure system using a novel index. *International Journal of Climatology*. <a href="https://doi.org/10.1002/joc.70031" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1002/joc.70031" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
 [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Tye, M. R., Quagraine, K. T., Tilmes, S., Simpson, I. R., Nkrumah, F., Egbebiyi, T. S., Odoulami, R. C. & Klutse, N. A. B. (2025). Impact of Stratospheric Aerosol Injection on Precipitation Extremes Across Africa using ARISE-SAI dataset. *Environmental Research: Climate*. <a href="https://doi.org/10.1088/2752-5295/adee3c" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1088/2752-5295/adee3c" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+Quagraine, K. T., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Nkrumah, F., Egbebiyi, T. S. & Klutse, N. A. B. (2025). Assessing the impact of the South Indian Ocean High-Pressure system using a novel index. *International Journal of Climatology*. <a href="https://doi.org/10.1002/joc.70031" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1002/joc.70031" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 Quagraine, K. T., O'Brien, T. A., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Kravitz, B. & Tilmes, S., (2025). Assessing Long-term Changes in Atmospheric Rivers under Stratospheric Aerosol Injection. *Environmental Research: Climate*. <a href="https://doi.org/10.1088/2752-5295/ade61a" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1088/2752-5295/ade61a" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
