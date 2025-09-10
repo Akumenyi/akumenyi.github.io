@@ -12,7 +12,7 @@ td, th {
 ## Peer-reviewed
 ### 2025
 
-[**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Abiodun, B. J. & Essien-Baidoo, S. (2025). Africa Must Lead the Governance of Solar Radiation Management. *Nature Climate Change*. <a href="https://doi.org/10.1038/s41558-025-02420-z" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1038/s41558-025-02420-z" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script> 
+[**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Abiodun, B. J. & Essien-Baidoo, S. (2025). Africa Must Lead the Governance of Solar Radiation Management. *Nature Climate Change*. <a href="https://rdcu.be/eE8MH" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1038/s41558-025-02420-z" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script> 
 
 [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Tye, M. R., Quagraine, K. T., Tilmes, S., Simpson, I. R., Nkrumah, F., Egbebiyi, T. S., Odoulami, R. C. & Klutse, N. A. B. (2025). Impact of Stratospheric Aerosol Injection on Precipitation Extremes Across Africa using ARISE-SAI dataset. *Environmental Research: Climate*. <a href="https://doi.org/10.1088/2752-5295/adee3c" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1088/2752-5295/adee3c" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
