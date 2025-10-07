@@ -14,6 +14,12 @@ td, th {
 
 [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Abiodun, B. J. & Essien-Baidoo, S. (2025). Africa Must Lead the Governance of Solar Radiation Management. *Nature Climate Change*. <a href="https://rdcu.be/eE8MH" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1038/s41558-025-02420-z" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script> 
 
+Kumi, N., Mensah, C., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Patel, T. D., Otu-Larbi, F., Prempeh, N. A., Nguvava, M., Nkemelang, T., Abiodun, B. J., Lennard, C., New, M. G., & Odoulami, R. C. (2025). Africa’s climate response to stratospheric aerosol injection locations. *Frontiers in Climate*. <a href="https://https://doi.org/10.3389/fclim.2025.1599405" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.3389/fclim.2025.1599405" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
+
+Tang, W., Kumar, R., …, [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), et al., Unlocking the Potential of Collaborative Research on Africa's Environmental Challenges: Perspectives on Air Quality and Health, Climate and Weather, Land and Water, and Society. Accepted in *Bulletin of American Meteorological Society*.
+
+Atanas, D., Nkrumah, F., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Klutse, N. A. B. & Quenum, G. M. L. D., Assessing the response of surface cloud radiative effects to Stratospheric Aerosol Injection over West and Central Africa. Accepted in *Journal of Geophysical Research - Atmospheres*.
+
 [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Tye, M. R., Quagraine, K. T., Tilmes, S., Simpson, I. R., Nkrumah, F., Egbebiyi, T. S., Odoulami, R. C. & Klutse, N. A. B. (2025). Impact of Stratospheric Aerosol Injection on Precipitation Extremes Across Africa using ARISE-SAI dataset. *Environmental Research: Climate*. <a href="https://doi.org/10.1088/2752-5295/adee3c" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1088/2752-5295/adee3c" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 Quagraine, K. T., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Nkrumah, F., Egbebiyi, T. S. & Klutse, N. A. B. (2025). Assessing the impact of the South Indian Ocean High-Pressure system using a novel index. *International Journal of Climatology*. <a href="https://doi.org/10.1002/joc.70031" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1002/joc.70031" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
@@ -35,15 +41,7 @@ Opoku-Ansah, J., Boateng, R., Amuah, C. L. Y., Adueming, P. O‑W., Pappoe, J. A
 
 2. Quagraine, K. T. & [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Moisture ELevated Temperature (MELT) index: Identifying the Synoptic Scale Dynamic and Thermodynamic drivers. Submitted to *Scientific Reports*.
 
-3. Kumi, N., Mensah, C., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Patel, T. D., Otu-Larbi, F., Prempeh, N. A., Nguvava, M., Nkemelang, T., Abiodun, B. J., Lennard, C., New, M. G., & Odoulami, R. C., Africa’s climate response to stratospheric aerosol injection locations. Submitted to *Frontiers in Climate*.
-
-4. Egbebiyi, T. S., Lennard, C., Pinto, I., Odoulami, R. C., Abiodun, B. J., Wolski, P. & [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Investigating the Impact of Stratospheric Aerosol Injection on Cereal Crop Suitability in Southern Africa. Submitted to *Environmental Research: Climate*.
-
-5. Tang, W., Kumar, R., …, [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), et al., Unlocking the Potential of Collaborative Research on Africa's Environmental Challenges: Perspectives on Air Quality and Health, Climate and Weather, Land and Water, and Society. Submitted to *Bulletin of American Meteorological Society*.
-
-6. Atanas, D., Nkrumah, F., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Klutse, N. A. B. & Quenum, G. M. L. D., Assessing the response of surface cloud radiative effects to Stratospheric Aerosol Injection over West and Central Africa. Submitted to *Journal of Geophysical Research - Atmospheres*.
-
-7. Richter, J. H., Joseph, E., Arcodia, M. C.…, [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), et al., Earth System Predictability Across Time Scales for a Resilient Society: A Research Community Perspective. Submitted to *Bulletin of American Meteorological Society*.
+3. Richter, J. H., Joseph, E., Arcodia, M. C.…, [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), et al., Earth System Predictability Across Time Scales for a Resilient Society: A Research Community Perspective. Submitted to *Bulletin of American Meteorological Society*.
 
 
 ### 2024 
