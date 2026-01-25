@@ -12,7 +12,7 @@ td, th {
 ## Peer-reviewed
 ### 2026
 
-[**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en),Lynas, M & Ellis, E. C. (2026). Why we must replace temperature limits with clean eneryg targets. *Nature*. <a href="https://www.nature.com/articles/d41586-026-00246-z" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1038/d41586-026-00246-z" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script> 
+[**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Lynas, M & Ellis, E. C. (2026). Why we must replace temperature limits with clean eneryg targets. *Nature*. <a href="https://www.nature.com/articles/d41586-026-00246-z" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1038/d41586-026-00246-z" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script> 
 
 Richter, J. H., Joseph, E., Arcodia, M. C.…, [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), et al., (2026). Earth System Predictability Across Time Scales for a Resilient Society: A Research Community Perspective. *Bulletin of American Meteorological Society*. <a href="https://doi.org/10.1175/BAMS-D-24-0155.1" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1175/BAMS-D-24-0155.1" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script> 
 
