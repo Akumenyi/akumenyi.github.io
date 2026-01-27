@@ -16,6 +16,8 @@ td, th {
 
 Richter, J. H., Joseph, E., Arcodia, M. C., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), et al., (2026). Earth System Predictability Across Time Scales for a Resilient Society: A Research Community Perspective. *Bulletin of American Meteorological Society*. <a href="https://doi.org/10.1175/BAMS-D-24-0155.1" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1175/BAMS-D-24-0155.1" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script> 
 
+Kovac, S. A., Caspi, A., Seaton, D. B.,..., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), et al., (2026). Citizen CATE 2024: Extending Totality During the 8 April 2024 Total Solar Eclipse with a Distributed Network of Community Participants. *Solar Physics*. <a href="https://doi.org/10.1007/s11207-025-02588-9" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1007/s11207-025-02588-9" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script> 
+
 
 ### 2025
 
