@@ -18,6 +18,13 @@ Richter, J. H., Joseph, E., Arcodia, M. C.,..., [**Quagraine, K. A.**](https://s
 
 Kovac, S. A., Caspi, A., Seaton, D. B.,..., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), et al., (2026). Citizen CATE 2024: Extending Totality During the 8 April 2024 Total Solar Eclipse with a Distributed Network of Community Participants. *Solar Physics*. <a href="https://doi.org/10.1007/s11207-025-02588-9" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1007/s11207-025-02588-9" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script> 
 
+#### Forthcoming (under review) 
+
+1. [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Quagraine, K. T., Nkrumah, F., Tilmes, S., Hewitson, B., Tadross, M. & Klutse, N. A. B., An Index to Characterize the South Indian Ocean High-Pressure System and its Variability. Submitted to *International Journal of Climatology*.
+   
+2. McDuffie, E., Murray, L., Eastham, S.,...,[**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en) & Fann, Neal. Meteorologically Driven Changes in Future Global Air Quality: Physical and Monetized Impacts. Submitted to *Environmental Science & Technology*.
+
+3. Quagraine, K. T. & [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Moisture ELevated Temperature (MELT) index: Identifying the Synoptic Scale Dynamic and Thermodynamic drivers. Submitted to *Scientific Reports*.
 
 ### 2025
 
@@ -42,14 +49,6 @@ Nkrumah, F., Quenum, G. M. L. D., [**Quagraine, K. A.**](https://scholar.google.
 Egbebiyi, T. S., Lennard, C., [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Odoulami, R. C., Abiodun, B. J., & Tilmes, S., Potential Impact of Stratospheric Aerosol Injection on Horticultural Crop Suitability in Africa. *The Geographical Journal*. <a href="https://doi.org/10.1111/geoj.70039" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1111/geoj.70039" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
 
 Opoku-Ansah, J., Boateng, R., Amuah, C. L. Y., Adueming, P. O‑W., Pappoe, J. A., Ntow, J., [**Quagraine, K.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Yunus, S., Anderson, B., & Eghan, M. J. (2025). Identification of Spectral Fingerprints in Different Batches of Antimalarial Herbal Drugs Using Laser‑Induced Autofluorescence and Chemometric Techniques. *Journal of Fluorescence*. <a href="https://doi.org/10.1007/s10895-025-04192-3" target="_blank">Access paper here</a> | <span class="__dimensions_badge_embed__" data-doi="10.1007/s10895-025-04192-3" data-style="small_circle"></span><script async src="https://badge.dimensions.ai/badge.js" charset="utf-8"></script>
-
-
-#### Forthcoming (under review) 
-
-1. [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Quagraine, K. T., Nkrumah, F., Tilmes, S., Hewitson, B., Tadross, M. & Klutse, N. A. B., An Index to Characterize the South Indian Ocean High-Pressure System and its Variability. Submitted to *International Journal of Climatology*.
-
-2. Quagraine, K. T. & [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Moisture ELevated Temperature (MELT) index: Identifying the Synoptic Scale Dynamic and Thermodynamic drivers. Submitted to *Scientific Reports*.
-
 
 
 ### 2024 
