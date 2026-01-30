@@ -20,11 +20,13 @@ Kovac, S. A., Caspi, A., Seaton, D. B.,..., [**Quagraine, K. A.**](https://schol
 
 #### Forthcoming (under review) 
 
-1. [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Quagraine, K. T., Nkrumah, F., Tilmes, S., Hewitson, B., Tadross, M. & Klutse, N. A. B., An Index to Characterize the South Indian Ocean High-Pressure System and its Variability. Submitted to *International Journal of Climatology*.
-   
-2. McDuffie, E., Murray, L., Eastham, S.,...,[**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en) & Fann, Neal. Meteorologically Driven Changes in Future Global Air Quality: Physical and Monetized Impacts. Submitted to *Environmental Science & Technology*.
+1. [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en) & Quagraine, K. T. Schedule-dependent heat exposure at large outdoor events: im;ications for the 2026 FIFA World Cup. Submitted to *Nature Communication*.
 
-3. Quagraine, K. T. & [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Moisture ELevated Temperature (MELT) index: Identifying the Synoptic Scale Dynamic and Thermodynamic drivers. Submitted to *Scientific Reports*.
+2. [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Quagraine, K. T., Nkrumah, F., Tilmes, S., Hewitson, B., Tadross, M. & Klutse, N. A. B., An Index to Characterize the South Indian Ocean High-Pressure System and its Variability. Submitted to *International Journal of Climatology*.
+   
+3. McDuffie, E., Murray, L., Eastham, S.,...,[**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en) & Fann, Neal. Meteorologically Driven Changes in Future Global Air Quality: Physical and Monetized Impacts. Submitted to *Environmental Science & Technology*.
+
+4. Quagraine, K. T. & [**Quagraine, K. A.**](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en), Moisture ELevated Temperature (MELT) index: Identifying the Synoptic Scale Dynamic and Thermodynamic drivers. Submitted to *Scientific Reports*.
 
 ### 2025
 
