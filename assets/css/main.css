@@ -653,19 +653,25 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
   display: grid; place-items: center;
 }
 
+/* Size the plate from the image rather than the other way round: a percentage
+   height inside a grid-centred box has no definite height to resolve against,
+   which let the mark spill past its plate. */
 .brand-mark.has-logo {
-  width: auto; min-width: 0; height: 2.5rem;
-  padding: .28rem .45rem;
+  width: auto; min-width: 0; height: auto;
+  padding: .32rem .5rem; overflow: hidden;
 }
 .brand-mark.has-logo img {
-  height: 100%; width: auto; max-width: 9.5rem;
+  height: 1.85rem; width: auto; max-width: 9.5rem;
   object-fit: contain; display: block;
 }
 
 .affil-mark.has-logo {
-  height: 3.1rem; min-width: 0; padding: .35rem .6rem;
+  height: auto; min-width: 0; padding: .4rem .65rem; overflow: hidden;
 }
-.affil-mark.has-logo img { max-width: 11rem; height: 100%; }
+.affil-mark.has-logo img {
+  height: 2.1rem; width: auto; max-width: 11rem;
+  object-fit: contain; display: block;
+}
 
 .affiliations { border-top: 1px solid var(--line-soft); background: var(--bg-alt); }
 .affil-row {
@@ -686,9 +692,8 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
   height: 2.9rem; min-width: 2.9rem; padding: 0 .2rem;
 }
 @media (max-width: 720px) {
-  .brand-mark.has-logo { height: 2.1rem; }
-  .brand-mark.has-logo img { max-width: 7rem; }
-  .affil-mark.has-logo { height: 2.6rem; }
+  .brand-mark.has-logo img { height: 1.55rem; max-width: 7rem; }
+  .affil-mark.has-logo img { height: 1.8rem; max-width: 8.5rem; }
 }
 .affil-mark img { height: 100%; width: auto; max-width: 9rem; object-fit: contain; }
 .affil-wordmark {
