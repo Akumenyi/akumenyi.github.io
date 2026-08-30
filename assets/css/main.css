@@ -501,8 +501,11 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
   .control-toggles { grid-column: 1 / -1; }
 }
 
-@media (max-width: 720px) {
-  body { font-size: 16px; }
+/* The brand slot now carries a logo lockup alongside seven nav items, which
+   needs more room than the old 720px collapse allowed -- the header overflowed
+   at 768px. Navigation therefore folds into the menu button earlier than the
+   rest of the mobile layout. */
+@media (max-width: 940px) {
   .nav-toggle { display: flex; }
   .site-nav {
     position: absolute; top: 100%; left: 0; right: 0;
@@ -515,6 +518,10 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
   .site-nav.is-open { display: flex; }
   .nav-link { padding: .75rem .4rem; border-radius: 8px; }
   .nav-link.is-current::after { left: .4rem; right: auto; width: 1.4rem; }
+}
+
+@media (max-width: 720px) {
+  body { font-size: 16px; }
   .brand-text small { display: none; }
   .pub { grid-template-columns: 1fr; gap: .35rem; }
   .pub-year { font-size: .82rem; letter-spacing: .1em; }

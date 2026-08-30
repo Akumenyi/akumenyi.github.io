@@ -146,17 +146,17 @@ Set `stripes: ghana` in a page's front matter. Unknown or not-yet-rendered slugs
 | Updates | Fiji |
 | Footer rule, 404 | Global land |
 
-### Adding the organisation logos
+### The organisation logos
 
-The header brand mark and the affiliation strip both show a text wordmark until a real logo
-file exists. To swap in the mark:
+Both slots are filled: `assets/img/cvf-v20-logo.png` in the header brand mark and the
+affiliation strip, `assets/img/nsf-ncar-logo.png` in the strip.
 
-1. Save the file as `assets/img/cvf-v20-logo.svg` — `.png`, `.jpg` and `.webp` also work, and
-   the site picks up whichever it finds, so no config change is needed. The NSF NCAR slot uses
-   `assets/img/nsf-ncar-logo.*` the same way.
-2. Commit it. On GitHub: **Add file → Upload files**, drag it into `assets/img/`, commit.
+To replace either one, drop a new file at the same base name — `.svg`, `.png`, `.jpg` and
+`.webp` all work and the site picks up whichever it finds, so no config change is needed.
+SVG is worth using if you can get it: the current files came from screenshots, so they are
+raster and will not sharpen further on high-density displays.
 
-That is the whole job — both slots fill in on the next build.
+Delete a logo file and its slot falls back to a text wordmark rather than breaking.
 
 The logo is never recoloured, cropped or redrawn. Because these marks carry dark text that
 would disappear against the dark theme, the site presents them on a white plate with padding
