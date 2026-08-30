@@ -1,0 +1,54 @@
+{%- assign pub = include.pub -%}
+{%- assign topic_string = pub.topics | join: " " -%}
+<article class="pub"
+         data-year="{{ pub.year }}"
+         data-status="{{ pub.status }}"
+         data-first="{{ pub.first_author }}"
+         data-citations="{{ pub.citations | default: 0 }}"
+         data-topics="{{ topic_string | downcase | escape }}"
+         data-search="{{ pub.title | append: ' ' | append: pub.venue | append: ' ' | append: topic_string | append: ' ' | append: pub.authors | join: ' ' | downcase | escape }}">
+  <div class="pub-year" aria-hidden="true">{{ pub.year }}</div>
+  <div class="pub-body">
+    <h3 class="pub-title">
+      {%- if pub.url -%}
+        <a href="{{ pub.url }}" target="_blank" rel="noopener">{{ pub.title }}</a>
+      {%- else -%}
+        {{ pub.title }}
+      {%- endif -%}
+    </h3>
+
+    <p class="pub-authors">
+      {%- for author in pub.authors -%}
+        {%- assign position = pub.author_positions[forloop.index0] -%}
+        {%- if position == "self" -%}
+          <b class="is-self">{{ author }}</b>
+        {%- else -%}
+          {{ author }}
+        {%- endif -%}
+        {%- unless forloop.last %}, {% endunless -%}
+      {%- endfor -%}
+    </p>
+
+    <p class="pub-meta">
+      {%- if pub.venue %}<span class="pub-venue">{{ pub.venue }}</span>{% endif -%}
+      {%- if pub.first_author %}<span class="tag tag-first">First author</span>{% endif -%}
+      {%- if pub.status == "under_review" %}<span class="tag tag-review">Under review</span>
+      {%- elsif pub.type == "comment" %}<span class="tag tag-type">Comment</span>
+      {%- elsif pub.type == "preprint" %}<span class="tag tag-type">Preprint</span>{% endif -%}
+    </p>
+
+    <p class="pub-links">
+      {%- if pub.doi -%}
+        <a class="chip" href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">{% include icon.html name="doi" %} {{ pub.doi }}</a>
+      {%- elsif pub.url -%}
+        <a class="chip" href="{{ pub.url }}" target="_blank" rel="noopener">{% include icon.html name="open" %} Read</a>
+      {%- endif -%}
+      {%- if pub.open_access_url -%}
+        <a class="chip chip-oa" href="{{ pub.open_access_url }}" target="_blank" rel="noopener">Open access PDF</a>
+      {%- endif -%}
+      {%- if pub.citations and pub.citations > 0 -%}
+        <span class="chip chip-cites">{% include icon.html name="quote" %} {{ pub.citations }} citation{% if pub.citations != 1 %}s{% endif %}</span>
+      {%- endif -%}
+    </p>
+  </div>
+</article>

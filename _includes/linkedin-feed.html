@@ -1,0 +1,41 @@
+{%- assign feed = site.data.linkedin -%}
+{%- assign limit = include.limit | default: 6 -%}
+{%- assign posts = feed.posts -%}
+
+{%- if posts and posts.size > 0 -%}
+<div class="li-grid">
+  {%- for post in posts limit: limit -%}
+  <article class="li-card{% if post.pinned %} is-pinned{% endif %}">
+    <header class="li-card-head">
+      <span class="li-badge">{% include icon.html name="linkedin" %} LinkedIn</span>
+      {%- if post.pinned %}<span class="tag tag-type">Pinned</span>{% endif -%}
+      {%- if post.published %}<time datetime="{{ post.published }}">{{ post.published | date: site.date_format }}</time>{% endif -%}
+    </header>
+    {%- if post.image -%}
+    <img class="li-image" src="{{ post.image }}" alt="" loading="lazy" decoding="async">
+    {%- endif -%}
+    <p class="li-text">{{ post.excerpt | default: post.text | strip_html }}</p>
+    <a class="li-link" href="{{ post.url }}" target="_blank" rel="noopener">View post {% include icon.html name="open" %}</a>
+    {%- if site.linkedin_embed and post.embed_url -%}
+    <iframe class="li-embed" src="{{ post.embed_url }}" height="420" width="100%" frameborder="0" allowfullscreen title="Embedded LinkedIn post" loading="lazy"></iframe>
+    {%- endif -%}
+  </article>
+  {%- endfor -%}
+</div>
+{%- else -%}
+<div class="li-empty">
+  <p class="li-empty-title">{% include icon.html name="linkedin" %} No posts synced yet</p>
+  <p>
+    {%- if feed.feed_configured -%}
+      The feed is connected but has not returned any posts yet. New posts appear here within a day of going live.
+    {%- else -%}
+      This section fills itself automatically once a LinkedIn activity feed is connected — see
+      <a href="https://github.com/Akumenyi/akumenyi.github.io/blob/master/SETUP.md" target="_blank" rel="noopener">SETUP.md</a>
+      for the two-minute setup. Until then, posts live on LinkedIn.
+    {%- endif -%}
+  </p>
+  <a class="btn btn-ghost" href="{{ feed.profile_url | default: 'https://www.linkedin.com/in/kwesi-a-quagraine-12855153/' }}" target="_blank" rel="noopener">
+    Follow on LinkedIn {% include icon.html name="arrow" %}
+  </a>
+</div>
+{%- endif -%}

@@ -1,0 +1,18 @@
+# ---------------------------------------------------------------------------
+# Pinned / hand-added LinkedIn posts.
+#
+# The site renders `_data/linkedin.json`, which `scripts/update_linkedin.py`
+# builds from (a) any posts listed here and (b) the feed URL in the
+# LINKEDIN_FEED_URL repository secret. Entries here are always kept and are
+# shown first when `pinned: true`.
+#
+# The only required field is `url` -- paste the "Copy link to post" URL from
+# LinkedIn and the script works out the activity URN so the real post embeds.
+#
+#   - url: "https://www.linkedin.com/posts/kwesi-a-quagraine-12855153_...-activity-7300000000000000000-abcd"
+#     pinned: true
+#     text: "Optional summary shown when the embed cannot load."
+#     published: 2026-05-01
+# ---------------------------------------------------------------------------
+
+[]

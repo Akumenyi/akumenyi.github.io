@@ -1,20 +1,78 @@
 ---
 layout: page
 title: "Projects, Grants & Consultancies"
+permalink: /projects/
+stripes: malawi
+eyebrow: "Funded work"
+lede: "Research programmes, grants and advisory work — from solar radiation modification governance across West Africa to city-scale climate projections in Ghana and Sierra Leone."
+description: "Funded projects, grants and consultancies of Kwesi A. Quagraine, including TWAS/DEGREES SRM governance research, DECIMALS, FRACTAL, CORDEX-Africa, UNEP, WMO and ICLEI."
 ---
 
-**Projects & Grants** <br />
-[4] 2024 - 2026. <span style="color:#4169E1;">**The World Academy of Science (TWAS)/ DEGREES Initiative Solar Radiation Management Governance Socio-Political Research**</span>. *Assessment of knowledge and governance towards Solar Radiation Modification across Ghana: Implications for more efficient Ethical, Policy and Social Practices (Co-Investigator)*.
+## Projects & grants
 
-[3] 2023 - 2025. <span style="color:#4169E1;">**The World Academy of Science (TWAS) Solar Radiation Management Governance Initiative (SRMGI) DECIMALS**</span>. *Solar Radiation Management With Stratospheric Aerosol interactions with Harmattan and associated impacts on some climate variables over Southern West Africa (Côte d'Ivoire, Ghana, Togo, Benin, Nigeria, Cameroon) (Co-Investigator)*.
+<ul class="entry-list">
+  <li class="entry">
+    <span class="entry-when">2024 – 2026</span>
+    <div>
+      <h3>TWAS / DEGREES Initiative — Solar Radiation Management Governance</h3>
+      <p>Assessment of knowledge and governance towards Solar Radiation Modification across Ghana:
+         implications for more efficient ethical, policy and social practices.</p>
+      <span class="role">Co-Investigator</span>
+    </div>
+  </li>
+  <li class="entry">
+    <span class="entry-when">2023 – 2025</span>
+    <div>
+      <h3>TWAS SRMGI — DECIMALS</h3>
+      <p>Solar radiation management with stratospheric aerosol interactions with the Harmattan, and the
+         associated impacts on climate variables across Southern West Africa — Côte d'Ivoire, Ghana,
+         Togo, Benin, Nigeria and Cameroon.</p>
+      <span class="role">Co-Investigator</span>
+    </div>
+  </li>
+  <li class="entry">
+    <span class="entry-when">2016 – 2021</span>
+    <div>
+      <h3>FRACTAL — Future Resilience for African Cities And Lands</h3>
+      <p>Advancing scientific knowledge of regional climate responses to human activity, and working with
+         decision-makers to fold that knowledge into climate-sensitive decisions at city and regional scale.</p>
+      <span class="role">Regional climate understanding package</span>
+    </div>
+  </li>
+  <li class="entry">
+    <span class="entry-when">2018 – present</span>
+    <div>
+      <h3>CORDEX — Coordinated Regional Downscaling Experiment</h3>
+      <p>CORDEX-Africa analyses downscaled regional climate data over the African domain, trains early-career
+         climate scientists in climate data analysis, and engages users of climate information in
+         sector-specific and place-based applications.</p>
+      <span class="role">Contributor</span>
+    </div>
+  </li>
+</ul>
 
-[2] 2016 - 2021. <span style="color:#4169E1;">**Future Resilience for African CiTies And Lands, FRACTAL**</span>. *Advance scientific knowledge about regional climate responses to human activities and work with decision-makers to integrate this knowledge into climate-sensitive decisions at a city & regional scale (Worked on the regional climate understanding package)*.
+## Consultancies
 
-[1] 2018 - to date. <span style="color:#4169E1;">**CORdinated Downscaling EXperiment, CORDEX**</span>. The CORDEX-Africa initiative has been developed to analyse downscaled regional climateata over the CORDEX-African domain, train young climate scientists in climate data analysis techniques and engage users of climate information in both sector specific and region/spacebased applications.
-
-**Consultancies** <br />
-[3] 2022 - 2023. <span style="color:#4169E1;">**UNEP-Green Climate Fund; Ghana National Adaptation Project**</span>. Enhancing multi-sector planning and capacity for effective adaptation in Ghana.
-
-[2] 2022. <span style="color:#4169E1;">**World Meteorological Organization (WMO) User Interface Project (WMO-UIP)**</span>. Developing of a UIP for worldwide use in Climate Services.
-
-[1] 2020 - 2023. <span style="color:#4169E1;">**ICLEI Local Government for Sustainability**</span>. Development of Climate Change Projections for Bo City, Sierra Leone and Cape Coast, Ghana.
+<ul class="entry-list">
+  <li class="entry">
+    <span class="entry-when">2022 – 2023</span>
+    <div>
+      <h3>UNEP / Green Climate Fund — Ghana National Adaptation Project</h3>
+      <p>Enhancing multi-sector planning and capacity for effective adaptation in Ghana.</p>
+    </div>
+  </li>
+  <li class="entry">
+    <span class="entry-when">2022</span>
+    <div>
+      <h3>World Meteorological Organization — User Interface Project</h3>
+      <p>Developing a User Interface Platform for worldwide use in climate services.</p>
+    </div>
+  </li>
+  <li class="entry">
+    <span class="entry-when">2020 – 2023</span>
+    <div>
+      <h3>ICLEI — Local Governments for Sustainability</h3>
+      <p>Development of climate change projections for Bo City, Sierra Leone and Cape Coast, Ghana.</p>
+    </div>
+  </li>
+</ul>

@@ -1,0 +1,77 @@
+---
+layout: default
+---
+{%- assign data = site.data.publications -%}
+{%- assign pubs = data.publications -%}
+{%- assign years = pubs | map: "year" | uniq | sort | reverse -%}
+{%- assign all_topics = pubs | map: "topics" -%}
+
+<div class="page-head">
+  {% include stripes-backdrop.html country=page.stripes %}
+  <div class="wrap">
+    <p class="eyebrow">{{ page.eyebrow | default: "Publications" }}</p>
+    <h1>{{ page.title }}</h1>
+    {%- if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif -%}
+  </div>
+</div>
+
+<div class="wrap">
+  {%- if page.content and page.content != "" -%}
+  <div class="prose prose-intro">{{ content }}</div>
+  {%- endif -%}
+
+  <form class="pub-controls" data-pub-controls role="search" aria-label="Filter publications">
+    <div class="control control-search">
+      <label class="sr-only" for="pub-search">Search publications</label>
+      <input id="pub-search" type="search" placeholder="Search title, journal, co-author, topic…" data-pub-search autocomplete="off">
+    </div>
+
+    <div class="control">
+      <label class="sr-only" for="pub-year">Year</label>
+      <select id="pub-year" data-pub-year>
+        <option value="">All years</option>
+        {%- for year in years -%}<option value="{{ year }}">{{ year }}</option>{%- endfor -%}
+      </select>
+    </div>
+
+    <div class="control">
+      <label class="sr-only" for="pub-sort">Sort by</label>
+      <select id="pub-sort" data-pub-sort>
+        <option value="year">Newest first</option>
+        <option value="citations">Most cited</option>
+      </select>
+    </div>
+
+    <div class="control control-toggles">
+      <label class="switch"><input type="checkbox" data-pub-filter="first"><span>First author only</span></label>
+      <label class="switch"><input type="checkbox" data-pub-filter="review" checked><span>Include under review</span><span class="switch-hint" data-hidden-hint></span></label>
+    </div>
+
+    <p class="pub-count" data-pub-count aria-live="polite"></p>
+  </form>
+
+  <div class="pub-list" data-pub-list>
+    {%- for pub in pubs -%}
+      {% include pub-item.html pub=pub %}
+    {%- endfor -%}
+  </div>
+
+  <p class="pub-empty" data-pub-empty hidden>Nothing matches that filter. <button type="button" data-pub-reset class="linkish">Clear filters</button></p>
+
+  <aside class="sync-panel">
+    <h2>How this page stays current</h2>
+    <p>
+      The list is generated from <code>_data/publications.json</code>, rebuilt every day by a GitHub Action.
+      New papers are picked up from records matched on
+      <a href="https://orcid.org/{{ site.profile.orcid }}" target="_blank" rel="noopener">ORCID&nbsp;{{ site.profile.orcid }}</a>,
+      and citation counts come from
+      {%- if data.metrics.citation_source %} {{ data.metrics.citation_source }}{% else %} Google Scholar{% endif -%}.
+    </p>
+    {%- if data.generated_at -%}
+    <p class="sync-stamp">Last synced <time datetime="{{ data.generated_at }}">{{ data.generated_at | date: site.date_format }}</time>.</p>
+    {%- endif -%}
+    {%- if data.warnings and data.warnings.size > 0 -%}
+    <p class="sync-warn">Last sync reported: {{ data.warnings | join: "; " }}</p>
+    {%- endif -%}
+  </aside>
+</div>

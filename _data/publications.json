@@ -1,0 +1,1187 @@
+{
+  "generated_at": "2026-08-30T10:31:02+00:00",
+  "orcid": "0000-0002-7887-6040",
+  "scholar_id": "hoI1ZjkAAAAJ",
+  "metrics": {
+    "publications": 29,
+    "under_review": 4,
+    "first_author": 8,
+    "citations": 0,
+    "h_index": 0,
+    "i10_index": 0,
+    "since_year": 2013,
+    "citation_source": "Derived from the site record"
+  },
+  "warnings": [],
+  "publications": [
+    {
+      "id": "south-indian-ocean-high-index",
+      "title": "An Index to Characterize the South Indian Ocean High-Pressure System and its Variability",
+      "authors": [
+        "Quagraine, K. A.",
+        "Quagraine, K. T.",
+        "Nkrumah, F.",
+        "Tilmes, S.",
+        "Hewitson, B.",
+        "Tadross, M.",
+        "Klutse, N. A. B."
+      ],
+      "year": 2026,
+      "venue": "International Journal of Climatology",
+      "type": "article",
+      "status": "under_review",
+      "topics": [
+        "Large-scale circulation",
+        "Southern Africa"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": true,
+      "author_positions": [
+        "self",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ]
+    },
+    {
+      "id": "future-global-air-quality",
+      "title": "Meteorologically Driven Changes in Future Global Air Quality: Physical and Monetized Impacts",
+      "authors": [
+        "McDuffie, E.",
+        "Murray, L.",
+        "Eastham, S.",
+        "…",
+        "Quagraine, K. A.",
+        "Fann, N."
+      ],
+      "year": 2026,
+      "venue": "Environmental Science & Technology",
+      "type": "article",
+      "status": "under_review",
+      "topics": [
+        "Air quality",
+        "Climate impacts"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "other",
+        "other",
+        "self",
+        "other"
+      ]
+    },
+    {
+      "id": "melt-index-drivers",
+      "title": "Moisture ELevated Temperature (MELT) index: Identifying the Synoptic Scale Dynamic and Thermodynamic Drivers",
+      "authors": [
+        "Quagraine, K. T.",
+        "Quagraine, K. A."
+      ],
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "type": "article",
+      "status": "under_review",
+      "topics": [
+        "Heat extremes",
+        "Synoptic dynamics"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "self"
+      ]
+    },
+    {
+      "id": "world-cup-heat-exposure",
+      "title": "Schedule-dependent heat exposure at large outdoor events: implications for the 2026 FIFA World Cup",
+      "authors": [
+        "Quagraine, K. A.",
+        "Quagraine, K. T."
+      ],
+      "year": 2026,
+      "venue": "Nature Communications",
+      "type": "article",
+      "status": "under_review",
+      "topics": [
+        "Heat extremes",
+        "Climate & society"
+      ],
+      "highlight": true,
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": true,
+      "author_positions": [
+        "self",
+        "other"
+      ]
+    },
+    {
+      "id": "citizen-cate-2024",
+      "title": "Citizen CATE 2024: Extending Totality During the 8 April 2024 Total Solar Eclipse with a Distributed Network of Community Participants",
+      "authors": [
+        "Kovac, S. A.",
+        "Caspi, A.",
+        "Seaton, D. B.",
+        "…",
+        "Quagraine, K. A.",
+        "et al."
+      ],
+      "year": 2026,
+      "venue": "Solar Physics",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1007/s11207-025-02588-9",
+      "topics": [
+        "Solar physics",
+        "Citizen science"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "other",
+        "other",
+        "self",
+        "other"
+      ],
+      "url": "https://doi.org/10.1007/s11207-025-02588-9"
+    },
+    {
+      "id": "earth-system-predictability",
+      "title": "Earth System Predictability Across Time Scales for a Resilient Society: A Research Community Perspective",
+      "authors": [
+        "Richter, J. H.",
+        "Joseph, E.",
+        "Arcodia, M. C.",
+        "…",
+        "Quagraine, K. A.",
+        "et al."
+      ],
+      "year": 2026,
+      "venue": "Bulletin of the American Meteorological Society",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1175/BAMS-D-24-0155.1",
+      "topics": [
+        "Predictability",
+        "Earth system modelling"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "other",
+        "other",
+        "self",
+        "other"
+      ],
+      "url": "https://doi.org/10.1175/BAMS-D-24-0155.1"
+    },
+    {
+      "id": "replace-temperature-limits",
+      "title": "Why we must replace temperature limits with clean energy targets",
+      "authors": [
+        "Quagraine, K. A.",
+        "Lynas, M.",
+        "Ellis, E. C."
+      ],
+      "year": 2026,
+      "venue": "Nature",
+      "type": "comment",
+      "status": "published",
+      "doi": "10.1038/d41586-026-00246-z",
+      "url": "https://www.nature.com/articles/d41586-026-00246-z",
+      "topics": [
+        "Climate policy",
+        "Mitigation"
+      ],
+      "highlight": true,
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": true,
+      "author_positions": [
+        "self",
+        "other",
+        "other"
+      ]
+    },
+    {
+      "id": "africa-must-lead-srm-governance",
+      "title": "Africa Must Lead the Governance of Solar Radiation Management",
+      "authors": [
+        "Quagraine, K. A.",
+        "Abiodun, B. J.",
+        "Essien-Baidoo, S."
+      ],
+      "year": 2025,
+      "venue": "Nature Climate Change",
+      "type": "comment",
+      "status": "published",
+      "doi": "10.1038/s41558-025-02420-z",
+      "url": "https://rdcu.be/eE8MH",
+      "topics": [
+        "Solar geoengineering",
+        "Governance",
+        "Africa"
+      ],
+      "highlight": true,
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": true,
+      "author_positions": [
+        "self",
+        "other",
+        "other"
+      ]
+    },
+    {
+      "id": "sai-deployment-locations-africa",
+      "title": "Africa's climate response to stratospheric aerosol injection locations",
+      "authors": [
+        "Kumi, N.",
+        "Mensah, C.",
+        "Quagraine, K. A.",
+        "Patel, T. D.",
+        "Otu-Larbi, F.",
+        "Prempeh, N. A.",
+        "Nguvava, M.",
+        "Nkemelang, T.",
+        "Abiodun, B. J.",
+        "Lennard, C.",
+        "New, M. G.",
+        "Odoulami, R. C."
+      ],
+      "year": 2025,
+      "venue": "Frontiers in Climate",
+      "type": "article",
+      "status": "published",
+      "doi": "10.3389/fclim.2025.1599405",
+      "topics": [
+        "Solar geoengineering",
+        "Africa"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "self",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.3389/fclim.2025.1599405"
+    },
+    {
+      "id": "atmospheric-rivers-sai",
+      "title": "Assessing Long-term Changes in Atmospheric Rivers under Stratospheric Aerosol Injection",
+      "authors": [
+        "Quagraine, K. T.",
+        "O'Brien, T. A.",
+        "Quagraine, K. A.",
+        "Kravitz, B.",
+        "Tilmes, S."
+      ],
+      "year": 2025,
+      "venue": "Environmental Research: Climate",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1088/2752-5295/ade61a",
+      "topics": [
+        "Solar geoengineering",
+        "Atmospheric rivers"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "self",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.1088/2752-5295/ade61a"
+    },
+    {
+      "id": "ukesm1-cesm2-geoengineering",
+      "title": "Assessing Regional Climate Trends in West Africa Under Geoengineering: A Multi-model Comparison of UKESM1 and CESM2",
+      "authors": [
+        "Nkrumah, F.",
+        "Quagraine, K. A.",
+        "Quenum, G. M. L. D.",
+        "Visioni, D.",
+        "Koffi, H. A.",
+        "Klutse, N. A. B."
+      ],
+      "year": 2025,
+      "venue": "Journal of Geophysical Research: Atmospheres",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1029/2024JD043117",
+      "topics": [
+        "Solar geoengineering",
+        "West Africa",
+        "Model evaluation"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "self",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.1029/2024JD043117"
+    },
+    {
+      "id": "south-indian-ocean-high-impact",
+      "title": "Assessing the impact of the South Indian Ocean High-Pressure system using a novel index",
+      "authors": [
+        "Quagraine, K. T.",
+        "Quagraine, K. A.",
+        "Nkrumah, F.",
+        "Egbebiyi, T. S.",
+        "Klutse, N. A. B."
+      ],
+      "year": 2025,
+      "venue": "International Journal of Climatology",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1002/joc.70031",
+      "topics": [
+        "Large-scale circulation",
+        "Southern Africa"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "self",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.1002/joc.70031"
+    },
+    {
+      "id": "cloud-radiative-effects-sai",
+      "title": "Assessing the response of surface cloud radiative effects to Stratospheric Aerosol Injection over West and Central Africa",
+      "authors": [
+        "Atanas, D.",
+        "Nkrumah, F.",
+        "Quagraine, K. A.",
+        "Klutse, N. A. B.",
+        "Quenum, G. M. L. D."
+      ],
+      "year": 2025,
+      "venue": "Journal of Geophysical Research: Atmospheres",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1029/2025JD043576",
+      "topics": [
+        "Solar geoengineering",
+        "Clouds & radiation",
+        "West Africa"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "self",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.1029/2025JD043576"
+    },
+    {
+      "id": "harmattan-sai-response",
+      "title": "Climate Response to Stratospheric Aerosol Injection During the Harmattan Season in West Africa",
+      "authors": [
+        "Nkrumah, F.",
+        "Quenum, G. M. L. D.",
+        "Quagraine, K. A.",
+        "Tilmes, S.",
+        "Klutse, N. A. B.",
+        "Dommo, A.",
+        "Koffi, H. A.",
+        "Essien, P.",
+        "Bediako, R."
+      ],
+      "year": 2025,
+      "venue": "Environmental Research: Climate",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1088/2752-5295/adaa0c",
+      "topics": [
+        "Solar geoengineering",
+        "West Africa",
+        "Harmattan"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "self",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.1088/2752-5295/adaa0c"
+    },
+    {
+      "id": "antimalarial-herbal-fingerprints",
+      "title": "Identification of Spectral Fingerprints in Different Batches of Antimalarial Herbal Drugs Using Laser-Induced Autofluorescence and Chemometric Techniques",
+      "authors": [
+        "Opoku-Ansah, J.",
+        "Boateng, R.",
+        "Amuah, C. L. Y.",
+        "Adueming, P. O-W.",
+        "Pappoe, J. A.",
+        "Ntow, J.",
+        "Quagraine, K. A.",
+        "Yunus, S.",
+        "Anderson, B.",
+        "Eghan, M. J."
+      ],
+      "year": 2025,
+      "venue": "Journal of Fluorescence",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1007/s10895-025-04192-3",
+      "topics": [
+        "Spectroscopy",
+        "Data analytics"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "self",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.1007/s10895-025-04192-3"
+    },
+    {
+      "id": "arise-sai-precipitation-extremes",
+      "title": "Impact of Stratospheric Aerosol Injection on Precipitation Extremes Across Africa using the ARISE-SAI dataset",
+      "authors": [
+        "Quagraine, K. A.",
+        "Tye, M. R.",
+        "Quagraine, K. T.",
+        "Tilmes, S.",
+        "Simpson, I. R.",
+        "Nkrumah, F.",
+        "Egbebiyi, T. S.",
+        "Odoulami, R. C.",
+        "Klutse, N. A. B."
+      ],
+      "year": 2025,
+      "venue": "Environmental Research: Climate",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1088/2752-5295/adee3c",
+      "topics": [
+        "Solar geoengineering",
+        "Precipitation extremes",
+        "Africa"
+      ],
+      "highlight": true,
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": true,
+      "author_positions": [
+        "self",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.1088/2752-5295/adee3c"
+    },
+    {
+      "id": "horticultural-crop-suitability-sai",
+      "title": "Potential Impact of Stratospheric Aerosol Injection on Horticultural Crop Suitability in Africa",
+      "authors": [
+        "Egbebiyi, T. S.",
+        "Lennard, C.",
+        "Quagraine, K. A.",
+        "Odoulami, R. C.",
+        "Abiodun, B. J.",
+        "Tilmes, S."
+      ],
+      "year": 2025,
+      "venue": "The Geographical Journal",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1111/geoj.70039",
+      "topics": [
+        "Solar geoengineering",
+        "Agriculture",
+        "Africa"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "self",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.1111/geoj.70039"
+    },
+    {
+      "id": "collaborative-research-africa",
+      "title": "Unlocking the Potential of Collaborative Research on Africa's Environmental Challenges: Perspectives on Air Quality and Health, Climate and Weather, Land and Water, and Society",
+      "authors": [
+        "Tang, W.",
+        "Kumar, R.",
+        "…",
+        "Quagraine, K. A.",
+        "et al."
+      ],
+      "year": 2025,
+      "venue": "Bulletin of the American Meteorological Society",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1175/bams-d-24-0118.1",
+      "topics": [
+        "Africa",
+        "Air quality"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "other",
+        "self",
+        "other"
+      ],
+      "url": "https://doi.org/10.1175/bams-d-24-0118.1"
+    },
+    {
+      "id": "south-atlantic-high-index",
+      "title": "A Simple Subtropical High-Pressure System Index over the South Atlantic",
+      "authors": [
+        "Quagraine, K. A.",
+        "Hewitson, B.",
+        "Nkrumah, F.",
+        "Quagraine, K. T.",
+        "Egbebiyi, T. S."
+      ],
+      "year": 2024,
+      "venue": "Atmospheric Science Letters",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1002/asl.1266",
+      "topics": [
+        "Large-scale circulation",
+        "Southern Africa"
+      ],
+      "highlight": true,
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": true,
+      "author_positions": [
+        "self",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.1002/asl.1266"
+    },
+    {
+      "id": "marine-cloud-brightening-africa",
+      "title": "Africa's Climate Response to Marine Cloud Brightening Strategies is Highly Sensitive to Deployment Region",
+      "authors": [
+        "Odoulami, R. C.",
+        "Hirasawa, H.",
+        "Kouadio, K.",
+        "Patel, T. D.",
+        "Quagraine, K. A.",
+        "Pinto, I.",
+        "Egbebiyi, T. S.",
+        "Abiodun, B. J.",
+        "Lennard, C.",
+        "New, M. G."
+      ],
+      "year": 2024,
+      "venue": "Journal of Geophysical Research: Atmospheres",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1029/2024JD041070",
+      "topics": [
+        "Marine cloud brightening",
+        "Africa"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "other",
+        "other",
+        "self",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.1029/2024JD041070"
+    },
+    {
+      "id": "west-african-cities-rainfall-extremes",
+      "title": "Projected changes in rainfall extremes over West African Cities under specific global warming levels using CORDEX and NEX-GDDP datasets",
+      "authors": [
+        "Klutse, N. A. B.",
+        "Abiodun, B. J.",
+        "Quagraine, K. A.",
+        "Nkrumah, F.",
+        "Abatan, A.",
+        "Adekoke, J.",
+        "Sylla, M. B.",
+        "Berkoh-Oforiwaa, R.",
+        "Koffi, H. A.",
+        "Essien, P."
+      ],
+      "year": 2024,
+      "venue": "Earth Systems and Environment",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1007/s41748-024-00425-w",
+      "topics": [
+        "Precipitation extremes",
+        "West Africa",
+        "Cities"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "self",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.1007/s41748-024-00425-w"
+    },
+    {
+      "id": "mcs-large-scale-environments",
+      "title": "Classification of Large-Scale Environments that drive the formation of Mesoscale Convective Systems over Southern West Africa",
+      "authors": [
+        "Nkrumah, F.",
+        "Klein, C.",
+        "Quagraine, K. A.",
+        "Berkoh-Oforiwaa, R.",
+        "Klutse, N. A. B.",
+        "et al."
+      ],
+      "year": 2023,
+      "venue": "Weather and Climate Dynamics",
+      "type": "article",
+      "status": "published",
+      "doi": "10.5194/wcd-4-773-2023",
+      "topics": [
+        "Convection",
+        "West Africa"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "self",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.5194/wcd-4-773-2023"
+    },
+    {
+      "id": "itcz-msdids",
+      "title": "Intertropical Convergence Zone as the Possible Source Mechanism for Southward Propagating Medium-Scale Traveling Ionospheric Disturbances over South American Low-Latitude and Equatorial Region",
+      "authors": [
+        "Essien, P.",
+        "Figueiredo, C. A. O. B.",
+        "Takahashi, H.",
+        "Klutse, N. A. B.",
+        "Wrasse, C. M.",
+        "Afonso, J. M. D. S.",
+        "et al.",
+        "Quagraine, K. A."
+      ],
+      "year": 2022,
+      "venue": "Atmosphere",
+      "type": "article",
+      "status": "published",
+      "doi": "10.3390/atmos13111836",
+      "topics": [
+        "Upper atmosphere",
+        "Tropical meteorology"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "self"
+      ],
+      "url": "https://doi.org/10.3390/atmos13111836"
+    },
+    {
+      "id": "highresmip-onset-cessation",
+      "title": "Performance of CMIP6 HighResMIP on the Representation of Onset and Cessation of Seasonal Rainfall in Southern West Africa",
+      "authors": [
+        "Nkrumah, F.",
+        "Quagraine, K. A.",
+        "Quagraine, K. T.",
+        "Wainwright, C.",
+        "Quenum, G. M. L. D.",
+        "Amankwah, A.",
+        "Klutse, N. A. B."
+      ],
+      "year": 2022,
+      "venue": "Atmosphere",
+      "type": "article",
+      "status": "published",
+      "doi": "10.3390/atmos13070999",
+      "topics": [
+        "Monsoon",
+        "West Africa",
+        "Model evaluation"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "self",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.3390/atmos13070999"
+    },
+    {
+      "id": "cmip6-monsoon-extremes",
+      "title": "The climatic analysis of summer monsoon extreme precipitation events over West Africa in CMIP6 simulations",
+      "authors": [
+        "Klutse, N. A. B.",
+        "Quagraine, K. A.",
+        "Nkrumah, F.",
+        "Quagraine, K. T.",
+        "Berkoh-Oforiwaa, R.",
+        "Dzrobi, J. F.",
+        "Sylla, M. B."
+      ],
+      "year": 2021,
+      "venue": "Earth Systems and Environment",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1007/s41748-021-00203-y",
+      "topics": [
+        "Precipitation extremes",
+        "Monsoon",
+        "West Africa"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "self",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.1007/s41748-021-00203-y"
+    },
+    {
+      "id": "co-behavior-cmip5-performance",
+      "title": "Using Co-Behavior Analysis to Interrogate the Performance of CMIP5 GCMs over Southern Africa",
+      "authors": [
+        "Quagraine, K. A.",
+        "Hewitson, B.",
+        "Jack, C.",
+        "Wolski, P.",
+        "Pinto, I.",
+        "Lennard, C."
+      ],
+      "year": 2020,
+      "venue": "Journal of Climate",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1175/JCLI-D-19-0472.1",
+      "topics": [
+        "Model evaluation",
+        "Southern Africa",
+        "Co-behaviour"
+      ],
+      "highlight": true,
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": true,
+      "author_positions": [
+        "self",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.1175/JCLI-D-19-0472.1"
+    },
+    {
+      "id": "wasm-reanalysis-variability",
+      "title": "West African Summer Monsoon Precipitation Variability as Represented by Reanalysis Datasets",
+      "authors": [
+        "Quagraine, K. A.",
+        "Nkrumah, F.",
+        "Klein, C.",
+        "Klutse, N. A. B.",
+        "Quagraine, K. T."
+      ],
+      "year": 2020,
+      "venue": "Climate",
+      "type": "article",
+      "status": "published",
+      "doi": "10.3390/cli8100111",
+      "topics": [
+        "Monsoon",
+        "West Africa",
+        "Reanalysis"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": true,
+      "author_positions": [
+        "self",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.3390/cli8100111"
+    },
+    {
+      "id": "co-behavior-methodology",
+      "title": "A Methodological Approach to Assess the Co-Behavior of Climate Processes over Southern Africa",
+      "authors": [
+        "Quagraine, K. A.",
+        "Hewitson, B.",
+        "Jack, C.",
+        "Pinto, I.",
+        "Lennard, C."
+      ],
+      "year": 2019,
+      "venue": "Journal of Climate",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1175/JCLI-D-18-0689.1",
+      "topics": [
+        "Methods",
+        "Southern Africa",
+        "Co-behaviour"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": true,
+      "author_positions": [
+        "self",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.1175/JCLI-D-18-0689.1"
+    },
+    {
+      "id": "crop-climate-departure",
+      "title": "Assessing Future Spatio-Temporal Changes in Crop Suitability and Planting Season over West Africa: Using the Concept of Crop-Climate Departure",
+      "authors": [
+        "Egbebiyi, T. S.",
+        "Lennard, C.",
+        "Crespo, O.",
+        "Mukwenha, P.",
+        "Lawal, S.",
+        "Quagraine, K. A."
+      ],
+      "year": 2019,
+      "venue": "Climate",
+      "type": "article",
+      "status": "published",
+      "doi": "10.3390/cli7090102",
+      "topics": [
+        "Agriculture",
+        "West Africa"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "self"
+      ],
+      "url": "https://doi.org/10.3390/cli7090102"
+    },
+    {
+      "id": "consecutive-dry-wet-days",
+      "title": "Potential impact of 1.5 °C and 2 °C global warming on consecutive dry and wet days over West Africa",
+      "authors": [
+        "Klutse, N. A. B.",
+        "Ajayi, V. O.",
+        "Gbobaniyi, E. O.",
+        "Egbebiyi, T. S.",
+        "Kouadio, K.",
+        "Nkrumah, F.",
+        "Quagraine, K. A.",
+        "Olusegun, C.",
+        "Diasso, U.",
+        "Abiodun, B. J.",
+        "Lawal, K.",
+        "Nikulin, G.",
+        "Lennard, C.",
+        "Dosio, A."
+      ],
+      "year": 2018,
+      "venue": "Environmental Research Letters",
+      "type": "article",
+      "status": "published",
+      "doi": "10.1088/1748-9326/aab37b",
+      "topics": [
+        "Precipitation extremes",
+        "West Africa",
+        "Warming levels"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "self",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.1088/1748-9326/aab37b"
+    },
+    {
+      "id": "wenchi-saltpond-rainfall",
+      "title": "Changes in rainfall characteristics in Wenchi and Saltpond farming areas in Ghana",
+      "authors": [
+        "Quagraine, K. A.",
+        "Klutse, N. A. B.",
+        "Nkrumah, F.",
+        "Adukpo, D. C.",
+        "Owusu, K."
+      ],
+      "year": 2017,
+      "venue": "International Journal of Geosciences",
+      "type": "article",
+      "status": "published",
+      "doi": "10.4236/ijg.2017.83015",
+      "topics": [
+        "Agriculture",
+        "Ghana",
+        "Rainfall"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": true,
+      "author_positions": [
+        "self",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.4236/ijg.2017.83015"
+    },
+    {
+      "id": "rainfall-variability-ghana",
+      "title": "Rainfall variability over Ghana: Model versus Rain gauge observation",
+      "authors": [
+        "Nkrumah, F.",
+        "Klutse, N. A. B.",
+        "Adukpo, D. C.",
+        "Quagraine, K. A.",
+        "Owusu, K.",
+        "Owusu, A.",
+        "Gutowski, W."
+      ],
+      "year": 2014,
+      "venue": "International Journal of Geosciences",
+      "type": "article",
+      "status": "published",
+      "doi": "10.4236/ijg.2014.57060",
+      "topics": [
+        "Ghana",
+        "Rainfall",
+        "Model evaluation"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "other",
+        "self",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.4236/ijg.2014.57060"
+    },
+    {
+      "id": "farmers-observation-maize",
+      "title": "Farmers' observation on climate change impacts on maize (Zea mays) production in a selected agroecological zone in Ghana",
+      "authors": [
+        "Klutse, N. A. B.",
+        "Owusu, K.",
+        "Adukpo, D. C.",
+        "Nkrumah, F.",
+        "Quagraine, K. A.",
+        "Owusu, A.",
+        "Gutowski, W."
+      ],
+      "year": 2013,
+      "venue": "Research Journal of Agriculture and Environmental Management",
+      "type": "article",
+      "status": "published",
+      "url": "https://tinyurl.com/ywzeyesh",
+      "topics": [
+        "Agriculture",
+        "Ghana",
+        "Climate impacts"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "other",
+        "other",
+        "self",
+        "other",
+        "other"
+      ]
+    }
+  ]
+}

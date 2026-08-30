@@ -1,26 +1,29 @@
 ---
-layout: page
+layout: home
+stripes: ghana
 title: ""
+description: "Kwesi A. Quagraine, PhD — Chief Scientist of the Climate Vulnerable Forum and V20 (CVF-V20) and Visiting Scientist at NSF NCAR, working on climate extremes, stratospheric aerosol injection and regional climate modelling across Africa."
 ---
 
-<p style="text-align:center;">
-  <img src="Profile_greyscale2.jpeg" alt="JK" width="500" height="600" class="center">
-</p>
+I am a climate research scientist working on the questions that sit between a global model and a
+national decision: how climate extremes are changing, what deliberate climate intervention would do
+to them, and whether our models resolve any of it at a scale that matters to the people affected.
 
-<h2>Hello and welcome!</h2> 
+I am **Chief Scientist of the Climate Vulnerable Forum and the V20 Group of Ministers of Finance
+(CVF-V20)**, where my job is to turn climate science into evidence that member governments can
+actually act on — and a **Visiting Scientist** at the
+[NSF National Center for Atmospheric Research](https://ncar.ucar.edu/){:target="_blank"} in Boulder,
+Colorado, where I continue to work on the impact of stratospheric aerosol injection on climate
+extremes and on regionally refined CESM simulations that bring intervention experiments down to a
+usable resolution.
 
-[Kwesi](https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en){:target="_blank"} is a climate research scientist with extensive experience in climate modeling, climate extremes analysis, tropical meteorology, and large-scale processes. His expertise includes modeling the impact of solar geoengineering on climate extremes, focusing on developing innovative solutions to mitigate climate change and its associated risks. Kwesi has consulted for the United Nations Environment Programme (UNEP) through the Ghana National Adaptation Project, World Meteorological Organization (WMO), The World Academy of Sciences, and ICLEI - Local Governments for Sustainability. Kindly learn more about my specific research interests <a href="https://akumenyi.github.io/research" target="_blank">here</a>.
+I came to both through the modelling. I completed a PhD at the University of Cape Town with
+[Prof. Bruce Hewitson](https://tinyurl.com/Bruce-Hewitson){:target="_blank"}, developing a method to
+describe how large-scale climate processes *co-behave* over Southern Africa, then held a
+postdoctoral position there working on regional climate variability and change, and afterwards an
+ASP Postdoctoral Fellowship at NSF NCAR.
 
-<h4>You can also find me on:</h4>
-<ul>
-    <li><a href="https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en" target="_blank">Google Scholar</a></li>
-    <li><a href="https://www.researchgate.net/profile/Kwesi-Quagraine-3" target="_blank">ResearchGate</a></li>
-    <li><a href="https://orcid.org/0000-0002-7887-6040" target="_blank">ORCID</a></li>
-    <li><a href="https://github.com/Akumenyi" target="_blank">GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/kwesi-a-quagraine-12855153/" target="_blank">LinkedIn</a></li>
-</ul>
-<p style="text-align:center;">
-  <img src="climate_change_flat.jpg" alt="JK2" width="1000" height="150" class="center">
-</p>
-
-<p>Email: <a href="mailto:kwesiq@ucar.edu"><strong>kwesiq@ucar.edu</strong></a></p>
+Alongside the modelling, I have advised the United Nations Environment Programme through the Ghana
+National Adaptation Project, the World Meteorological Organization, The World Academy of Sciences,
+and ICLEI – Local Governments for Sustainability. That side of the work is what led to the current
+one, and it keeps the science honest: a projection nobody can act on is not yet a result.

@@ -1,0 +1,50 @@
+{%- assign pubdata = site.data.publications -%}
+{%- assign footer_country = site.data.warming_stripes.countries | where: "slug", site.stripes_default | first -%}
+<footer class="site-footer">
+  {%- if footer_country %}<div class="footer-stripe" aria-hidden="true" style="background-image: url('{{ footer_country.svg | relative_url }}')"></div>{% endif -%}
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <p class="footer-name">Kwesi <em>A.</em> Quagraine, {{ site.profile.honorific_suffix }}</p>
+      <p class="footer-role">{{ site.profile.role }}, {{ site.profile.affiliation }}{% if site.profile.secondary_role %}<br>{{ site.profile.secondary_role }}, {{ site.profile.secondary_affiliation }}{% endif %}<br>{{ site.profile.location }}</p>
+      <p><a class="footer-mail" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+    </div>
+
+    <div class="footer-col">
+      <h3>Pages</h3>
+      <ul>
+        {%- for item in site.navigation -%}
+        <li><a href="{{ item.url | relative_url }}"{% if item.external %} target="_blank" rel="noopener"{% endif %}>{{ item.title }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Elsewhere</h3>
+      <ul>
+        {%- for link in site.profiles -%}
+        <li><a href="{{ link.url }}" target="_blank" rel="noopener me">{{ link.title }}</a></li>
+        {%- endfor -%}
+      </ul>
+    </div>
+
+    <div class="footer-col footer-id">
+      <h3>Identity</h3>
+      <p class="orcid-line">
+        <a href="https://orcid.org/{{ site.profile.orcid }}" target="_blank" rel="noopener">
+          {% include icon.html name="orcid" %} {{ site.profile.orcid }}
+        </a>
+      </p>
+    </div>
+  </div>
+
+  <div class="wrap footer-base">
+    <p>&copy; {{ site.time | date: "%Y" }} Kwesi A. Quagraine. Built with Jekyll, hosted on GitHub Pages.</p>
+    {%- if pubdata.generated_at -%}
+    <p class="footer-stamp">
+      Publication record synced
+      <time datetime="{{ pubdata.generated_at }}">{{ pubdata.generated_at | date: site.date_format }}</time>
+      {%- if pubdata.metrics.citation_source %} · citations via {{ pubdata.metrics.citation_source }}{% endif -%}
+    </p>
+    {%- endif -%}
+  </div>
+</footer>

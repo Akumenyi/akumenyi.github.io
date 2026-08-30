@@ -1,0 +1,48 @@
+{%- assign p = site.profile -%}
+{%- assign page_title = page.title | default: site.title -%}
+{%- if page.url == "/" -%}
+  {%- assign full_title = site.title | append: ", " | append: p.honorific_suffix | append: " — " | append: site.subtitle -%}
+{%- else -%}
+  {%- assign full_title = page_title | append: " · " | append: site.title -%}
+{%- endif -%}
+{%- assign page_description = page.description | default: site.description -%}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{ full_title | escape }}</title>
+<meta name="description" content="{{ page_description | strip_html | strip_newlines | truncate: 300 | escape }}">
+<meta name="author" content="{{ site.author | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+<meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:title" content="{{ full_title | escape }}">
+<meta property="og:description" content="{{ page_description | strip_html | strip_newlines | truncate: 300 | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ '/assets/img/social-card.png' | absolute_url }}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ full_title | escape }}">
+<meta name="twitter:description" content="{{ page_description | strip_html | strip_newlines | truncate: 200 | escape }}">
+<meta name="twitter:image" content="{{ '/assets/img/social-card.png' | absolute_url }}">
+
+<link rel="icon" href="{{ '/assets/img/favicon.svg' | relative_url }}" type="image/svg+xml">
+<link rel="apple-touch-icon" href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}">
+<link rel="alternate" href="{{ '/feed.xml' | relative_url }}" type="application/atom+xml" title="{{ site.title | escape }}">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+<!-- Set the colour scheme before first paint so the page never flashes. -->
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem("kaq-theme");
+      if (saved === "light" || saved === "dark") {
+        document.documentElement.setAttribute("data-theme", saved);
+      }
+    } catch (e) {}
+  })();
+</script>
+
+{% include jsonld.html %}

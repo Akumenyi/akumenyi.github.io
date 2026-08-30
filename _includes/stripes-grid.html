@@ -1,0 +1,24 @@
+{%- assign data = site.data.warming_stripes -%}
+{%- assign featured = data.countries | where: "feature", true -%}
+{%- if featured.size > 0 -%}
+<div class="stripes-grid">
+  {%- for country in featured -%}
+  <figure class="stripe-card">
+    <img src="{{ country.svg | relative_url }}"
+         alt="Warming stripes for {{ country.name }}, {{ country.first_year }} to {{ country.last_year }}"
+         loading="lazy" decoding="async" width="600" height="220">
+    <figcaption>
+      <b>{{ country.name }}</b>
+      <span>{{ country.region }}</span>
+      <span class="stripe-span">{{ country.first_year }}–{{ country.last_year }}{% if country.warming %} · +{{ country.warming }} °C{% endif %}</span>
+    </figcaption>
+  </figure>
+  {%- endfor -%}
+</div>
+<p class="stripes-note">
+  Each bar is one year's mean temperature, blue for cooler than the 1971–2000 average and red for warmer.
+  Data: <a href="{{ data.source_url }}" target="_blank" rel="noopener">{{ data.source }}</a>.
+  The warming figure compares the most recent decade with the first thirty years of each record.
+  After <a href="https://showyourstripes.info/" target="_blank" rel="noopener">#ShowYourStripes</a> by Ed Hawkins.
+</p>
+{%- endif -%}
