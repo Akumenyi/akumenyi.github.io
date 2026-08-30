@@ -378,14 +378,6 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 }
 .sync-note .icon { margin-top: .28rem; color: var(--teal); }
 
-.sync-panel {
-  margin: 3rem 0 4rem; padding: 1.6rem 1.5rem;
-  border: 1px dashed var(--line); border-radius: var(--radius); background: var(--panel-2);
-}
-.sync-panel h2 { font-size: 1.05rem; margin-bottom: .6rem; }
-.sync-panel p { font-size: .9rem; color: var(--text-dim); margin-bottom: .5rem; }
-.sync-stamp, .sync-warn { font-size: .82rem; color: var(--text-mute); margin: 0; }
-.sync-warn { color: var(--amber); }
 
 /* ------------------------------------------------------------ linkedin --- */
 

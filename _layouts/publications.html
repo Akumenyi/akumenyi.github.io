@@ -58,20 +58,4 @@ layout: default
 
   <p class="pub-empty" data-pub-empty hidden>Nothing matches that filter. <button type="button" data-pub-reset class="linkish">Clear filters</button></p>
 
-  <aside class="sync-panel">
-    <h2>How this page stays current</h2>
-    <p>
-      The list is generated from <code>_data/publications.json</code>, rebuilt every day by a GitHub Action.
-      New papers are picked up from records matched on
-      <a href="https://orcid.org/{{ site.profile.orcid }}" target="_blank" rel="noopener">ORCID&nbsp;{{ site.profile.orcid }}</a>,
-      and citation counts come from
-      {%- if data.metrics.citation_source %} {{ data.metrics.citation_source }}{% else %} Google Scholar{% endif -%}.
-    </p>
-    {%- if data.generated_at -%}
-    <p class="sync-stamp">Last synced <time datetime="{{ data.generated_at }}">{{ data.generated_at | date: site.date_format }}</time>.</p>
-    {%- endif -%}
-    {%- if data.warnings and data.warnings.size > 0 -%}
-    <p class="sync-warn">Last sync reported: {{ data.warnings | join: "; " }}</p>
-    {%- endif -%}
-  </aside>
 </div>
