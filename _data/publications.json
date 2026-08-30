@@ -84,30 +84,6 @@
       ]
     },
     {
-      "id": "melt-index-drivers",
-      "title": "Moisture ELevated Temperature (MELT) index: Identifying the Synoptic Scale Dynamic and Thermodynamic Drivers",
-      "authors": [
-        "Quagraine, K. T.",
-        "Quagraine, K. A."
-      ],
-      "year": 2026,
-      "venue": "Scientific Reports",
-      "type": "article",
-      "status": "under_review",
-      "topics": [
-        "Heat extremes",
-        "Synoptic dynamics"
-      ],
-      "source": "manual",
-      "manual": true,
-      "citations": 0,
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "self"
-      ]
-    },
-    {
       "id": "world-cup-heat-exposure",
       "title": "Schedule-dependent heat exposure at large outdoor events: implications for the 2026 FIFA World Cup",
       "authors": [
