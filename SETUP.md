@@ -96,7 +96,63 @@ why they are off by default.
 
 ---
 
-## 4. Running the site locally
+## 4. Warming stripes
+
+Every page header carries a faint warming-stripes backdrop and a saturated stripe rule
+along its bottom edge, and the home page shows a grid of member-state stripes. All of it
+is real data — annual temperature anomalies from **Berkeley Earth**, the same source behind
+Ed Hawkins' [#ShowYourStripes](https://showyourstripes.info/).
+
+### Changing which countries appear
+
+Edit `_data/cvf_members.yml`. Each entry needs a `slug` (Berkeley Earth's own country
+slug, lowercase and hyphenated) and a `name`; `feature: true` puts it in the home-page grid.
+The next workflow run fetches it and writes `assets/img/stripes/<slug>.svg`.
+
+**Please check the membership list.** It was seeded from widely reported CVF membership and
+has not been verified against the Forum's roster.
+
+Not every country has a Berkeley record — the Maldives does not, for instance, because there
+is too little land area to average. A country that cannot be fetched is simply left out; it
+is never drawn from invented numbers.
+
+### Changing which country a page uses
+
+Set `stripes: ghana` in a page's front matter. Unknown or not-yet-rendered slugs fall back to
+`stripes_default` in `_config.yml`. Current assignments:
+
+| Page | Country |
+|---|---|
+| Home | Ghana |
+| Research | Bangladesh |
+| Publications | Philippines |
+| Blog | Kenya |
+| Projects | Malawi |
+| Updates | Fiji |
+| Footer rule, 404 | Global land |
+
+### Using a photograph instead
+
+Set `hero_image: /assets/img/your-photo.jpg` in a page's front matter and it replaces the
+stripes wash in that page's header, dimmed and faded so the headline still leads. The stripe
+rule along the bottom edge stays.
+
+### Method
+
+Annual value = the mean of that year's twelve monthly anomalies, so a partial current year is
+dropped rather than biased. Anomalies are re-centred on 1971–2000, and the colour scale spans
+±2.6 standard deviations of the 1901–2000 values, mapped onto ColorBrewer RdBu reversed —
+the #ShowYourStripes convention. Records start in 1850 or when the country's record begins.
+
+The script reads the region name out of each Berkeley file and refuses to render a country
+whose file reports a different region, so a renamed slug cannot silently mislabel a chart.
+
+```bash
+python scripts/warming_stripes.py              # all countries
+python scripts/warming_stripes.py --only ghana # one
+```
+
+## 5. Running the site locally
 
 ```bash
 bundle install
@@ -119,7 +175,7 @@ generate empty commits.
 
 ---
 
-## 5. Where things live
+## 6. Where things live
 
 | Path | What it is |
 |---|---|
@@ -128,12 +184,15 @@ generate empty commits.
 | `_data/publications.json` | Generated. Do not edit; the workflow overwrites it |
 | `_data/linkedin_manual.yml` | Pinned LinkedIn posts |
 | `_data/linkedin.json` | Generated |
+| `_data/cvf_members.yml` | **Countries whose warming stripes are drawn** |
+| `_data/warming_stripes.json` | Generated |
+| `assets/img/stripes/` | Generated SVGs, one per country |
 | `_posts/` | Blog posts |
 | `_drafts/TEMPLATE.md` | Starting point for a new post |
 | `_layouts/`, `_includes/` | Page templates |
 | `assets/css/main.css` | All styling. Colours are CSS variables at the top |
 | `assets/js/site.js` | Theme toggle, nav, hero animation, filters |
-| `scripts/` | The data fetchers |
+| `scripts/` | The data fetchers and the social-card generator |
 | `.github/workflows/` | The daily refresh |
 | `_archive/` | Superseded publication pages, kept for reference. Not published |
 

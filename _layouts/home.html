@@ -5,6 +5,7 @@ layout: default
 {%- assign pubs = site.data.publications.publications -%}
 
 <section class="hero">
+  {% include stripes-backdrop.html country=page.stripes variant="hero" caption=false %}
   <canvas class="hero-field" data-isobars aria-hidden="true"></canvas>
   <div class="hero-glow" aria-hidden="true"></div>
 
@@ -115,6 +116,22 @@ layout: default
         <a class="card-link" href="{{ '/projects/' | relative_url }}">Projects &amp; grants {% include icon.html name="arrow" %}</a>
       </article>
     </div>
+  </div>
+</section>
+
+<section class="section" id="stripes">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Why this work matters</p>
+      <h2>One bar per year, across the Forum</h2>
+      <p class="section-lede">
+        Every country I work with has a version of this chart, and none of them argue with it.
+        These are annual mean temperatures for member states of the Climate Vulnerable Forum —
+        the same countries that did least to cause the problem and are furthest along in living
+        with it.
+      </p>
+    </header>
+    {% include stripes-grid.html %}
   </div>
 </section>
 

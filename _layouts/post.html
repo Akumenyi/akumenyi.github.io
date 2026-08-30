@@ -5,6 +5,7 @@ layout: default
 {%- assign minutes = words | divided_by: 220 | plus: 1 -%}
 
 <div class="page-head post-head">
+  {% include stripes-backdrop.html country=page.stripes %}
   <div class="wrap wrap-prose">
     <p class="eyebrow">
       <a href="{{ '/blog/' | relative_url }}">Blog</a>

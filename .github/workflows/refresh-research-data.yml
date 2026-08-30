@@ -20,6 +20,7 @@ on:
     paths:
       # A curated edit should show up straight away rather than waiting for cron.
       - "_data/publications_manual.yml"
+      - "_data/cvf_members.yml"
       - "_data/linkedin_manual.yml"
       - "scripts/**"
       - ".github/workflows/refresh-research-data.yml"
@@ -61,14 +62,19 @@ jobs:
           LINKEDIN_FEED_URL: ${{ secrets.LINKEDIN_FEED_URL }}
         run: python scripts/update_linkedin.py
 
+      - name: Refresh warming stripes
+        # Berkeley Earth updates country records infrequently, but this keeps
+        # them current and re-renders if the member list changes.
+        run: python scripts/warming_stripes.py
+
       - name: Commit refreshed data
         run: |
-          if [ -z "$(git status --porcelain _data)" ]; then
+          if [ -z "$(git status --porcelain _data assets/img/stripes)" ]; then
             echo "No changes to publish."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add _data
+          git add _data assets/img/stripes
           git commit -m "chore(data): refresh publications, metrics and LinkedIn activity"
           git push

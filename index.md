@@ -1,5 +1,6 @@
 ---
 layout: home
+stripes: ghana
 title: ""
 description: "Kwesi A. Quagraine, PhD — Chief Scientist of the Climate Vulnerable Forum and V20 (CVF-V20) and Visiting Scientist at NSF NCAR, working on climate extremes, stratospheric aerosol injection and regional climate modelling across Africa."
 ---

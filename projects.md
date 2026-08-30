@@ -2,6 +2,7 @@
 layout: page
 title: "Projects, Grants & Consultancies"
 permalink: /projects/
+stripes: malawi
 eyebrow: "Funded work"
 lede: "Research programmes, grants and advisory work — from solar radiation modification governance across West Africa to city-scale climate projections in Ghana and Sierra Leone."
 description: "Funded projects, grants and consultancies of Kwesi A. Quagraine, including TWAS/DEGREES SRM governance research, DECIMALS, FRACTAL, CORDEX-Africa, UNEP, WMO and ICLEI."

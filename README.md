@@ -15,6 +15,9 @@ A static Jekyll site with three things that keep themselves up to date:
 - **LinkedIn activity** — mirrored from a feed URL into `/updates/` and the home page.
 - **Blog** — plain Markdown in `_posts/`, with tag filtering and an RSS feed.
 
+- **Warming stripes** — real Berkeley Earth temperature records for Ghana and other CVF
+  member states, rendered as page backdrops and a home-page grid, refreshed on the same schedule.
+
 Everything else — research, projects, CV — is hand-written content in Markdown.
 
 ## Stack

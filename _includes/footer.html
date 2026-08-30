@@ -1,5 +1,7 @@
 {%- assign pubdata = site.data.publications -%}
+{%- assign footer_country = site.data.warming_stripes.countries | where: "slug", site.stripes_default | first -%}
 <footer class="site-footer">
+  {%- if footer_country %}<div class="footer-stripe" aria-hidden="true" style="background-image: url('{{ footer_country.svg | relative_url }}')"></div>{% endif -%}
   <div class="wrap footer-grid">
     <div class="footer-brand">
       <p class="footer-name">Kwesi <em>A.</em> Quagraine, {{ site.profile.honorific_suffix }}</p>

@@ -2,6 +2,7 @@
 layout: page
 title: "Updates"
 permalink: /updates/
+stripes: fiji
 wide: true
 eyebrow: "Field notes"
 lede: "Talks, papers, fieldwork and the occasional argument about governance — posted on LinkedIn and mirrored here automatically."

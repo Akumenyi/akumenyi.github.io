@@ -2,6 +2,7 @@
 layout: page
 title: "Research"
 permalink: /research/
+stripes: bangladesh
 eyebrow: "What I work on"
 lede: "Climate geoengineering, climate extremes, regional modelling and impacts, tropical meteorology, monsoon dynamics, and the data-analytic machinery that holds it together."
 description: "Research interests of Kwesi A. Quagraine: stratospheric aerosol injection and climate extremes, regionally refined CESM downscaling, co-behaviour of climate processes, and West African monsoon dynamics."

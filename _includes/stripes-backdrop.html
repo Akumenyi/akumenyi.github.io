@@ -1,0 +1,37 @@
+{%- comment -%}
+Warming-stripes backdrop for a page header or the hero.
+
+`include.country` names a slug from _data/cvf_members.yml. If that country has
+not been rendered yet the site default is used, and if nothing at all has been
+generated the whole thing is skipped — so a page never shows invented data and
+never breaks waiting for it.
+
+A page can override all of this with `hero_image` in its front matter to use a
+photograph instead.
+{%- endcomment -%}
+{%- assign data = site.data.warming_stripes -%}
+{%- assign wanted = include.country | default: site.stripes_default -%}
+{%- assign country = data.countries | where: "slug", wanted | first -%}
+{%- unless country -%}
+  {%- assign country = data.countries | where: "slug", site.stripes_default | first -%}
+{%- endunless -%}
+
+{%- if country or page.hero_image -%}
+<div class="stripes-backdrop{% if include.variant %} is-{{ include.variant }}{% endif %}{% if page.hero_image %} has-photo{% endif %}" aria-hidden="true">
+  {%- if page.hero_image -%}
+    <span class="stripes-photo" style="background-image: url('{{ page.hero_image | relative_url }}')"></span>
+  {%- elsif country -%}
+    <span class="stripes-wash" style="background-image: url('{{ country.svg | relative_url }}')"></span>
+  {%- endif -%}
+  {%- if country %}<span class="stripes-rule" style="background-image: url('{{ country.svg | relative_url }}')"></span>{% endif -%}
+</div>
+{%- unless include.caption == false or page.hero_image -%}
+<p class="stripes-caption">
+  <a href="{{ data.source_url }}" target="_blank" rel="noopener"
+     title="Annual mean temperature anomalies, {{ data.method }}">
+    <span class="stripes-swatch" style="background-image: url('{{ country.svg | relative_url }}')"></span>
+    {{ country.name }} · {{ country.first_year }}–{{ country.last_year }} · {{ data.source }}
+  </a>
+</p>
+{%- endunless -%}
+{%- endif -%}

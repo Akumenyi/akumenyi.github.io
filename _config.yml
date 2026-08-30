@@ -68,6 +68,10 @@ date_format: "%B %-d, %Y"
 
 # Render LinkedIn posts as LinkedIn's own embed iframes instead of text cards.
 # Heavier, and only works for public posts, so it is off by default. See SETUP.md.
+# Warming-stripes backdrop shown when a page names no country of its own, or
+# names one that has not been rendered yet. Slugs come from _data/cvf_members.yml.
+stripes_default: "global"
+
 linkedin_embed: false
 
 markdown: kramdown

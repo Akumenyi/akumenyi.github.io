@@ -5,6 +5,7 @@ layout: default
 {%- assign tags = site.tags | sort -%}
 
 <div class="page-head">
+  {% include stripes-backdrop.html country=page.stripes %}
   <div class="wrap">
     {%- if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif -%}
     <h1>{{ page.title }}</h1>

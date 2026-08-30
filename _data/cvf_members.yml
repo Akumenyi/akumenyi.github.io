@@ -1,0 +1,112 @@
+# ---------------------------------------------------------------------------
+# Countries whose warming stripes are rendered on the site.
+#
+# `scripts/warming_stripes.py` turns each entry into an SVG under
+# assets/img/stripes/ using real annual temperature anomalies from Berkeley
+# Earth -- the same source #ShowYourStripes uses. Nothing is drawn from
+# invented data: if a country cannot be fetched, it simply does not appear.
+#
+#   slug      file name and the id pages refer to in front matter
+#   name      label shown on the site
+#   region    grouping label on the home page
+#   berkeley  Berkeley Earth's country slug, if it differs from `slug`
+#   url       full override, for a country whose file lives somewhere else
+#   feature   include in the home-page grid
+#
+# PLEASE CHECK THE MEMBERSHIP LIST. It was seeded from widely reported CVF
+# membership and has not been verified against the Forum's own roster. Adding
+# or removing a country here is all that is needed -- the site follows.
+# ---------------------------------------------------------------------------
+
+- slug: global
+  name: "Global land"
+  region: "Global"
+  url: "https://berkeley-earth-temperature.s3.us-west-1.amazonaws.com/Global/Complete_TAVG_complete.txt"
+  feature: true
+
+- slug: ghana
+  name: "Ghana"
+  region: "West Africa"
+  feature: true
+
+- slug: bangladesh
+  name: "Bangladesh"
+  region: "South Asia"
+  feature: true
+
+- slug: philippines
+  name: "Philippines"
+  region: "Southeast Asia"
+  feature: true
+
+- slug: kenya
+  name: "Kenya"
+  region: "East Africa"
+  feature: true
+
+- slug: ethiopia
+  name: "Ethiopia"
+  region: "East Africa"
+  feature: true
+
+- slug: malawi
+  name: "Malawi"
+  region: "Southern Africa"
+  feature: true
+
+- slug: mozambique
+  name: "Mozambique"
+  region: "Southern Africa"
+  feature: true
+
+# Berkeley Earth has no separate Maldives land record — too little land area
+# and too few stations — so Fiji stands in for the small island states here.
+- slug: fiji
+  name: "Fiji"
+  region: "Small island states"
+  feature: true
+
+- slug: vanuatu
+  name: "Vanuatu"
+  region: "Pacific"
+  feature: true
+
+- slug: nepal
+  name: "Nepal"
+  region: "South Asia"
+  feature: true
+
+- slug: costa-rica
+  name: "Costa Rica"
+  region: "Latin America"
+  feature: true
+
+- slug: senegal
+  name: "Senegal"
+  region: "West Africa"
+  feature: true
+
+- slug: vietnam
+  name: "Vietnam"
+  region: "Southeast Asia"
+  feature: true
+
+- slug: madagascar
+  name: "Madagascar"
+  region: "Southern Africa"
+  feature: true
+
+- slug: rwanda
+  name: "Rwanda"
+  region: "East Africa"
+  feature: true
+
+- slug: honduras
+  name: "Honduras"
+  region: "Latin America"
+  feature: true
+
+- slug: sri-lanka
+  name: "Sri Lanka"
+  region: "South Asia"
+  feature: true
