@@ -49,9 +49,12 @@
   title: "An Index to Characterize the South Indian Ocean High-Pressure System and its Variability"
   authors: ["Quagraine, K. A.", "Quagraine, K. T.", "Nkrumah, F.", "Tilmes, S.", "Hewitson, B.", "Tadross, M.", "Klutse, N. A. B."]
   year: 2026
-  venue: "International Journal of Climatology"
+  # Submitted to the International Journal of Climatology; the DOI is a Wiley
+  # `asl2` identifier, which is Atmospheric Science Letters (`joc` is IJoC).
+  venue: "Atmospheric Science Letters"
   type: article
-  status: under_review
+  status: published
+  doi: "10.1002/asl2.70056"
   topics: ["Large-scale circulation", "Southern Africa"]
 
 - id: future-global-air-quality
@@ -60,7 +63,8 @@
   year: 2026
   venue: "Environmental Science & Technology"
   type: article
-  status: under_review
+  status: published
+  # No DOI recorded yet -- add one here and it becomes a link on the page.
   topics: ["Air quality", "Climate impacts"]
 
 - id: africa-must-lead-srm-governance

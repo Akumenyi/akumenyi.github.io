@@ -332,7 +332,6 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
 .control-toggles { display: flex; flex-wrap: wrap; gap: .9rem; }
 .switch { display: inline-flex; align-items: center; gap: .45rem; font-size: .87rem; color: var(--text-dim); cursor: pointer; }
 .switch input { accent-color: var(--teal); width: 1rem; height: 1rem; cursor: pointer; }
-.switch-hint { color: var(--text-mute); font-size: .8rem; }
 .pub-count { grid-column: 1 / -1; margin: .2rem 0 0; font-size: .85rem; color: var(--text-mute); }
 
 .pub-list { display: flex; flex-direction: column; }

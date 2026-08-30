@@ -3,14 +3,14 @@
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
-    "publications": 46,
-    "under_review": 2,
-    "first_author": 15,
-    "citations": 538,
+    "publications": 48,
+    "under_review": 0,
+    "first_author": 16,
+    "citations": 547,
     "h_index": 9,
     "i10_index": 9,
     "since_year": 2013,
-    "citation_source": "OpenAlex"
+    "citation_source": "Derived from the site record"
   },
   "warnings": [],
   "publications": [
@@ -27,9 +27,9 @@
         "Klutse, N. A. B."
       ],
       "year": 2026,
-      "venue": "International Journal of Climatology",
+      "venue": "Atmospheric Science Letters",
       "type": "article",
-      "status": "under_review",
+      "status": "published",
       "topics": [
         "Large-scale circulation",
         "Southern Africa"
@@ -48,38 +48,6 @@
         "other",
         "other",
         "other",
-        "other"
-      ]
-    },
-    {
-      "id": "future-global-air-quality",
-      "title": "Meteorologically Driven Changes in Future Global Air Quality: Physical and Monetized Impacts",
-      "authors": [
-        "McDuffie, E.",
-        "Murray, L.",
-        "Eastham, S.",
-        "…",
-        "Quagraine, K. A.",
-        "Fann, N."
-      ],
-      "year": 2026,
-      "venue": "Environmental Science & Technology",
-      "type": "article",
-      "status": "under_review",
-      "topics": [
-        "Air quality",
-        "Climate impacts"
-      ],
-      "source": "manual",
-      "manual": true,
-      "citations": 0,
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "other",
-        "other",
-        "other",
-        "self",
         "other"
       ]
     },
@@ -217,6 +185,38 @@
         "self",
         "other",
         "other",
+        "other"
+      ]
+    },
+    {
+      "id": "future-global-air-quality",
+      "title": "Meteorologically Driven Changes in Future Global Air Quality: Physical and Monetized Impacts",
+      "authors": [
+        "McDuffie, E.",
+        "Murray, L.",
+        "Eastham, S.",
+        "…",
+        "Quagraine, K. A.",
+        "Fann, N."
+      ],
+      "year": 2026,
+      "venue": "Environmental Science & Technology",
+      "type": "article",
+      "status": "published",
+      "topics": [
+        "Air quality",
+        "Climate impacts"
+      ],
+      "source": "manual",
+      "manual": true,
+      "citations": 0,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "other",
+        "other",
+        "self",
         "other"
       ]
     },
