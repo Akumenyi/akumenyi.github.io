@@ -71,6 +71,31 @@ VENUE_FIXES = {
     "bulletin of the american meteorological society": "Bulletin of the American Meteorological Society",
 }
 
+# Earliest plausible year for this researcher's output. OpenAlex ORCID records
+# occasionally carry works mis-linked from an author-name collision; the first
+# production run pulled in two 1960 soil-science papers this way.
+MIN_YEAR = int(os.environ.get("PUBLICATIONS_MIN_YEAR", "2005"))
+
+# OpenAlex work types that are not publications in their own right.
+EXCLUDED_TYPES = {
+    "peer-review", "erratum", "paratext", "supplementary-materials",
+    "grant", "libguides", "other", "dataset", "reference-entry",
+}
+
+# Titles that mark an artefact of the publishing process rather than a paper.
+EXCLUDED_TITLE_PREFIXES = (
+    "comment on", "publisher correction", "author correction", "correction to",
+    "corrigendum", "erratum", "reply to", "response to",
+)
+
+# Repository deposits duplicate the version of record. They are kept only when
+# nothing else carries the same title, and always rank below the journal copy.
+REPOSITORY_SOURCES = (
+    "zenodo", "research square", "researchsquare", "biorxiv", "medrxiv",
+    "arxiv", "eartharxiv", "essoar", "ssrn", "preprints.org", "authorea",
+    "figshare", "osf", "hal", "egusphere", "copernicus gmbh",
+)
+
 TYPE_MAP = {
     "article": "article",
     "journal-article": "article",
@@ -190,6 +215,19 @@ def openalex_to_entry(work: dict) -> dict | None:
     if not title:
         return None
 
+    lowered = title.lower().lstrip()
+    if lowered.startswith(EXCLUDED_TITLE_PREFIXES):
+        return None
+
+    raw_type = (work.get("type") or "").lower()
+    if raw_type in EXCLUDED_TYPES:
+        return None
+
+    year = work.get("publication_year")
+    if year and year < MIN_YEAR:
+        log(f"  dropped (published {year}, before {MIN_YEAR}): {title[:60]}")
+        return None
+
     authorships = work.get("authorships") or []
     authors, orcid_matched = [], False
     for authorship in authorships:
@@ -223,6 +261,7 @@ def openalex_to_entry(work: dict) -> dict | None:
         "status": "published",
         "citations": work.get("cited_by_count") or 0,
         "openalex_id": (work.get("id") or "").rsplit("/", 1)[-1],
+        "is_repository": any(r in venue.lower() for r in REPOSITORY_SOURCES) if venue else False,
         "topics": [t["display_name"] for t in (work.get("topics") or [])[:3] if t.get("display_name")],
         "source": "openalex",
         "manual": False,
@@ -308,8 +347,17 @@ def merge(manual: list[dict], fetched: list[dict], previous: list[dict]) -> list
     order: list[str] = []
 
     def key_for(entry: dict) -> str:
+        """Key on the title, not the DOI.
+
+        A repository deposit carries its own DOI, so keying on DOI first listed
+        the Zenodo copy of a paper as a second publication. Titles collapse the
+        version of record and its deposits onto one entry.
+        """
+        title = normalise_title(entry.get("title", ""))
+        if title:
+            return f"title:{title}"
         doi = normalise_doi(entry.get("doi"))
-        return f"doi:{doi}" if doi else f"title:{normalise_title(entry.get('title', ''))}"
+        return f"doi:{doi}" if doi else f"id:{entry.get('id', '')}"
 
     def absorb(entry: dict, authoritative: bool) -> None:
         key = key_for(entry)
@@ -327,7 +375,11 @@ def merge(manual: list[dict], fetched: list[dict], previous: list[dict]) -> list
             for field, value in entry.items():
                 if value in (None, "", []):
                     continue
-                if field in {"citations", "openalex_id", "open_access_url"}:
+                if field == "citations":
+                    # Duplicate records of one work report different counts --
+                    # a repository deposit usually reports none. Keep the best.
+                    current[field] = max(int(value or 0), int(current.get(field) or 0))
+                elif field in {"openalex_id", "open_access_url"}:
                     current[field] = value
                 elif not current.get(field):
                     current[field] = value
@@ -335,7 +387,9 @@ def merge(manual: list[dict], fetched: list[dict], previous: list[dict]) -> list
 
     for entry in manual:
         absorb(entry, authoritative=True)
-    for entry in fetched:
+    # Journal copies first, so a repository deposit can only ever fill gaps in
+    # the version of record rather than overwrite its venue.
+    for entry in sorted(fetched, key=lambda e: (bool(e.get("is_repository")), not e.get("venue"))):
         absorb(entry, authoritative=False)
     # Retain citation counts from the last successful run for anything the
     # current run could not reach.
@@ -346,6 +400,7 @@ def merge(manual: list[dict], fetched: list[dict], previous: list[dict]) -> list
 
     results = [merged[k] for k in order]
     for entry in results:
+        entry.pop("is_repository", None)
         entry.setdefault("citations", 0)
         entry["authors"] = [format_author(a) for a in entry.get("authors", [])]
         entry["first_author"] = bool(entry["authors"]) and author_is_kaq(entry["authors"][0])
