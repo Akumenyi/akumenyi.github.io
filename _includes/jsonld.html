@@ -1,0 +1,72 @@
+{%- assign p = site.profile -%}
+{%- assign pubs = site.data.publications.publications -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "{{ site.url }}/#person",
+  "name": "Kwesi A. Quagraine",
+  "givenName": "{{ p.given_name }}",
+  "familyName": "{{ p.family_name }}",
+  "additionalName": "A.",
+  "alternateName": ["Kwesi Amoah Quagraine", "K. A. Quagraine", "Quagraine, K. A."],
+  "honorificSuffix": "{{ p.honorific_suffix }}",
+  "jobTitle": "{{ p.role }}",
+  "description": {{ site.description | strip_html | jsonify }},
+  "url": "{{ site.url }}/",
+  "image": "{{ p.photo | absolute_url }}",
+  "email": "mailto:{{ site.email }}",
+  "identifier": {
+    "@type": "PropertyValue",
+    "propertyID": "ORCID",
+    "value": "https://orcid.org/{{ p.orcid }}"
+  },
+  "affiliation": {
+    "@type": "ResearchOrganization",
+    "name": "{{ p.affiliation }}",
+    "url": "{{ p.affiliation_url }}"
+  },
+  "workLocation": {"@type": "Place", "name": "{{ p.location }}"},
+  "knowsAbout": [
+    "Climate modelling",
+    "Climate extremes",
+    "Stratospheric aerosol injection",
+    "Solar radiation modification",
+    "Tropical meteorology",
+    "West African monsoon",
+    "Regional climate downscaling"
+  ],
+  "sameAs": [{% for link in site.profiles %}"{{ link.url }}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
+}
+</script>
+{%- if pubs -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Publications by Kwesi A. Quagraine",
+  "itemListElement": [
+    {%- assign listed = 0 -%}
+    {%- for pub in pubs -%}
+      {%- if pub.status != "under_review" -%}
+        {%- if listed > 0 -%},{%- endif -%}
+        {
+          "@type": "ListItem",
+          "position": {{ listed | plus: 1 }},
+          "item": {
+            "@type": "ScholarlyArticle",
+            "name": {{ pub.title | jsonify }},
+            "datePublished": "{{ pub.year }}",
+            "isPartOf": {{ pub.venue | jsonify }}{% if pub.doi %},
+            "sameAs": "https://doi.org/{{ pub.doi }}"{% endif %},
+            {%- assign named = pub.authors | join: "|" | replace: "…|", "" | replace: "|…", "" | replace: "et al.|", "" | replace: "|et al.", "" | split: "|" -%}
+            "author": [{% for a in named %}{"@type": "Person", "name": {{ a | jsonify }}}{% unless forloop.last %}, {% endunless %}{% endfor %}]
+          }
+        }
+        {%- assign listed = listed | plus: 1 -%}
+      {%- endif -%}
+    {%- endfor -%}
+  ]
+}
+</script>
+{%- endif -%}

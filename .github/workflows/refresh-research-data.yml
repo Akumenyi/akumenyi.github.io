@@ -1,0 +1,74 @@
+name: Refresh research data
+
+# Keeps the site's publication list, citation metrics and LinkedIn activity in
+# sync without any manual editing. The job only ever rewrites files under
+# `_data/`; GitHub Pages rebuilds the site from the resulting commit.
+
+on:
+  schedule:
+    # 05:20 UTC daily. Off the hour so we are not competing with every other
+    # cron job on GitHub's scheduler.
+    - cron: "20 5 * * *"
+  workflow_dispatch:
+    inputs:
+      reason:
+        description: "Why are you running this by hand?"
+        required: false
+        default: "manual refresh"
+  push:
+    branches: [master, main]
+    paths:
+      # A curated edit should show up straight away rather than waiting for cron.
+      - "_data/publications_manual.yml"
+      - "_data/linkedin_manual.yml"
+      - "scripts/**"
+      - ".github/workflows/refresh-research-data.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-research-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Refresh publications and citation metrics
+        env:
+          # Optional. Without it the site falls back to OpenAlex citation
+          # counts, which track Google Scholar closely.
+          SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
+          OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO || 'kwesiq@ucar.edu' }}
+        run: python scripts/update_publications.py
+
+      - name: Refresh LinkedIn activity
+        env:
+          # Optional. Set this to an RSS/Atom/JSON-Feed URL of your LinkedIn
+          # activity to have posts appear automatically -- see SETUP.md.
+          LINKEDIN_FEED_URL: ${{ secrets.LINKEDIN_FEED_URL }}
+        run: python scripts/update_linkedin.py
+
+      - name: Commit refreshed data
+        run: |
+          if [ -z "$(git status --porcelain _data)" ]; then
+            echo "No changes to publish."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add _data
+          git commit -m "chore(data): refresh publications, metrics and LinkedIn activity"
+          git push

@@ -1,7 +1,15 @@
 ---
 layout: default
 ---
-<article>
-  <header><h1><a href="{{ page.url | relative_url }}">{{ page.title }}</a></h1></header>
-  {{ content }}
-</article>
+<div class="page-head">
+  <div class="wrap">
+    {%- if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif -%}
+    <h1>{{ page.title }}</h1>
+    {%- if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif -%}
+  </div>
+</div>
+<div class="wrap {% unless page.wide %}wrap-prose{% endunless %}">
+  <div class="prose">
+    {{ content }}
+  </div>
+</div>

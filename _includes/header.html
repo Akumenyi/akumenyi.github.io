@@ -1,0 +1,39 @@
+<header class="site-header" data-header>
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6">
+          <path d="M3 22c5-9 9-13 13-13s8 4 13 13"/>
+          <path d="M5 27c4.5-7.5 7.7-11 11-11s6.5 3.5 11 11" opacity=".6"/>
+          <path d="M9 15.5C11.5 11 13.8 9 16 9" opacity=".35"/>
+          <circle cx="16" cy="9" r="1.9" fill="currentColor" stroke="none"/>
+        </svg>
+      </span>
+      <span class="brand-text">
+        Kwesi <em>A.</em> Quagraine
+        <small>{{ site.subtitle }}</small>
+      </span>
+    </a>
+
+    <nav class="site-nav" aria-label="Primary">
+      {%- for item in site.navigation -%}
+        {%- assign current = false -%}
+        {%- if item.url == page.url -%}{%- assign current = true -%}{%- endif -%}
+        <a href="{{ item.url | relative_url }}"
+           class="nav-link{% if current %} is-current{% endif %}"
+           {% if current %}aria-current="page"{% endif %}
+           {% if item.external %}target="_blank" rel="noopener"{% endif %}>{{ item.title }}</a>
+      {%- endfor -%}
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Switch colour scheme">
+        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2v2.6M12 19.4V22M2 12h2.6M19.4 12H22M4.9 4.9l1.9 1.9M17.2 17.2l1.9 1.9M19.1 4.9l-1.9 1.9M6.8 17.2l-1.9 1.9"/></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.2A8.4 8.4 0 0 1 9.8 4 8.4 8.4 0 1 0 20 14.2Z"/></svg>
+      </button>
+      <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>

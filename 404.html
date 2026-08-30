@@ -1,11 +1,21 @@
 ---
-permalink: /404.html
-title: "404: Page not found"
 layout: default
+title: "Page not found"
+permalink: /404.html
 sitemap: false
 ---
-
-<article>
-  <header><h1>404</h1></header>
-  <p>Page not found</p>
-</article>
+<section class="hero notfound">
+  <canvas class="hero-field" data-isobars aria-hidden="true"></canvas>
+  <div class="wrap notfound-inner">
+    <p class="eyebrow">Error 404</p>
+    <h1 class="hero-name">Off the<br><em>grid</em></h1>
+    <p class="hero-tagline">
+      That page does not exist — or it moved when the site was rebuilt. The pages below all resolve.
+    </p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="{{ '/' | relative_url }}">Home {% include icon.html name="arrow" %}</a>
+      <a class="btn btn-ghost" href="{{ '/publications/' | relative_url }}">Publications</a>
+      <a class="btn btn-ghost" href="{{ '/research/' | relative_url }}">Research</a>
+    </div>
+  </div>
+</section>

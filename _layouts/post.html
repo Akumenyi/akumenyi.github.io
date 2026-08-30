@@ -1,14 +1,44 @@
 ---
 layout: default
 ---
+{%- assign words = content | strip_html | number_of_words -%}
+{%- assign minutes = words | divided_by: 220 | plus: 1 -%}
 
-<article>
-  {% include meta.html post=page %}
-  {{ content }}
-  {% if page.comments != false and site.comments.isso or site.comments.disqus %}
-    <hr>
-    {% if site.comments.isso_domain %}<div id="isso-thread"></div>{% endif %}
-    {% if site.comments.disqus_shortname %}<div id="disqus_thread"></div>{% endif %}
-    <noscript>Please enable JavaScript to view comments.</noscript>
-  {% endif %}
-</article>
+<div class="page-head post-head">
+  <div class="wrap wrap-prose">
+    <p class="eyebrow">
+      <a href="{{ '/blog/' | relative_url }}">Blog</a>
+      <span aria-hidden="true">·</span>
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: site.date_format }}</time>
+      <span aria-hidden="true">·</span>
+      <span>{{ minutes }} min read</span>
+    </p>
+    <h1>{{ page.title }}</h1>
+    {%- if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif -%}
+    {%- if page.tags.size > 0 -%}
+    <p class="post-tags">{% for tag in page.tags %}<span class="tag tag-type">{{ tag }}</span>{% endfor %}</p>
+    {%- endif -%}
+  </div>
+</div>
+
+<div class="wrap wrap-prose">
+  {%- if page.image -%}
+  <img class="post-hero-image" src="{{ page.image | relative_url }}" alt="{{ page.image_alt | default: '' }}" width="1600" height="900">
+  {%- endif -%}
+
+  <article class="prose">
+    {{ content }}
+  </article>
+
+  <footer class="post-foot">
+    <p class="post-byline">
+      Written by <b>Kwesi A. Quagraine</b> — {{ site.profile.role }}, {{ site.profile.affiliation }}.
+      <a href="https://orcid.org/{{ site.profile.orcid }}" target="_blank" rel="noopener">ORCID {{ site.profile.orcid }}</a>
+    </p>
+    <nav class="post-nav">
+      {%- if page.previous %}<a class="post-nav-link" href="{{ page.previous.url | relative_url }}"><span>Previous</span>{{ page.previous.title }}</a>{% endif -%}
+      {%- if page.next %}<a class="post-nav-link is-next" href="{{ page.next.url | relative_url }}"><span>Next</span>{{ page.next.title }}</a>{% endif -%}
+    </nav>
+    <p><a class="btn btn-ghost" href="{{ '/blog/' | relative_url }}">All posts</a></p>
+  </footer>
+</div>

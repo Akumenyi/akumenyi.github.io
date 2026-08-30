@@ -1,0 +1,52 @@
+---
+layout: default
+---
+{%- assign posts = site.posts -%}
+{%- assign tags = site.tags | sort -%}
+
+<div class="page-head">
+  <div class="wrap">
+    {%- if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif -%}
+    <h1>{{ page.title }}</h1>
+    {%- if page.lede %}<p class="lede">{{ page.lede }}</p>{% endif -%}
+  </div>
+</div>
+
+<div class="wrap">
+  {%- if posts.size > 0 -%}
+
+  {%- if tags.size > 0 -%}
+  <div class="tag-bar" data-tag-bar>
+    <button type="button" class="tag-pill is-active" data-tag="">All posts <span>{{ posts.size }}</span></button>
+    {%- for tag in tags -%}
+    <button type="button" class="tag-pill" data-tag="{{ tag[0] | slugify }}">{{ tag[0] }} <span>{{ tag[1].size }}</span></button>
+    {%- endfor -%}
+  </div>
+  {%- endif -%}
+
+  <div class="post-grid" data-post-grid>
+    {%- for post in posts -%}
+      {% include post-card.html post=post featured=forloop.first %}
+    {%- endfor -%}
+  </div>
+
+  <p class="pub-empty" data-post-empty hidden>No posts with that tag yet.</p>
+
+  {%- else -%}
+
+  <div class="li-empty blog-empty">
+    <p class="li-empty-title">Nothing published here yet</p>
+    <p>
+      Posts live in <code>_posts/</code>. Drop in a file named
+      <code>YYYY-MM-DD-your-title.md</code>, give it a title and a few tags, and it appears here —
+      and in the site's <a href="{{ '/feed.xml' | relative_url }}">RSS feed</a> — on the next build.
+      There is a ready-made starting point at <code>_drafts/TEMPLATE.md</code>.
+    </p>
+  </div>
+
+  {%- endif -%}
+
+  {%- if page.content and page.content != "" -%}
+  <div class="prose">{{ content }}</div>
+  {%- endif -%}
+</div>

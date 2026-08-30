@@ -1,45 +1,97 @@
-title: "Kwesi A. Quagraine, Ph.D."
-style:
-  font-weight: bold
-author: "Kwesi Quagraine"
-description: "NSF National Center for Atmospheric Research (NSF-NCAR), Boulder, CO" 
-permalink: /:title/
+# ---------------------------------------------------------------------------
+# Site identity
+# ---------------------------------------------------------------------------
+title: "Kwesi A. Quagraine"
+subtitle: "Climate Research Scientist"
+tagline: "Climate extremes, solar geoengineering and the regional detail that decisions actually need."
+description: "Kwesi A. Quagraine, PhD - ASP Postdoctoral Fellow at the NSF National Center for Atmospheric Research (NSF-NCAR), Boulder, Colorado. Climate modelling, climate extremes, stratospheric aerosol injection and tropical meteorology."
+author: "Kwesi A. Quagraine"
+email: "kwesiq@ucar.edu"
+url: "https://akumenyi.github.io"
 lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
 
-# Layout
+# The person behind the site. Used for the header, the footer and the
+# schema.org Person block that tells search engines and scholarly indexes who
+# this is - which matters here, see `disambiguation` below.
+profile:
+  given_name: "Kwesi"
+  middle_initial: "A."
+  family_name: "Quagraine"
+  honorific_suffix: "PhD"
+  role: "ASP Postdoctoral Fellow"
+  affiliation: "NSF National Center for Atmospheric Research (NSF-NCAR)"
+  affiliation_url: "https://ncar.ucar.edu/"
+  location: "Boulder, Colorado, USA"
+  orcid: "0000-0002-7887-6040"
+  scholar_id: "hoI1ZjkAAAAJ"
+  photo: "/assets/img/kwesi-quagraine.jpg"
+  cv: "/cv_kwesi_a_quagraine_spring2025.pdf"
 
-show_excerpts: false        # show article excerpts on the home page
-show_frame: false           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
+# There are two climate scientists named Kwesi Quagraine and they publish
+# together, so the site states the distinction explicitly rather than leaving
+# readers, search engines and bibliometric tools to guess.
+disambiguation:
+  sibling_name: "Kwesi T. Quagraine"
+  short_note: "Kwesi <strong>A.</strong> Quagraine — not to be confused with <strong>Kwesi T. Quagraine</strong>, his brother and co-author on several of the papers listed here."
+  note: "This site belongs to Kwesi <strong>A.</strong> Quagraine. His brother and frequent co-author, Kwesi <strong>T.</strong> Quagraine, is a different researcher. Where the two appear on the same paper, only K. A. is highlighted here. ORCID is the unambiguous identifier."
 
-# Styling
+# ---------------------------------------------------------------------------
+# Navigation and links
+# ---------------------------------------------------------------------------
+navigation:
+  - {url: "/", title: "Home"}
+  - {url: "/research/", title: "Research"}
+  - {url: "/publications/", title: "Publications"}
+  - {url: "/blog/", title: "Blog"}
+  - {url: "/projects/", title: "Projects & Grants"}
+  - {url: "/updates/", title: "Updates"}
+  - {url: "/cv_kwesi_a_quagraine_spring2025.pdf", title: "CV", external: true}
 
-dark_header: true          # always keep the header dark
-minimal: false             # use a dark header
+profiles:
+  - {title: "Google Scholar", short: "Scholar", icon: "scholar", url: "https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en", handle: "hoI1ZjkAAAAJ"}
+  - {title: "ORCID", short: "ORCID", icon: "orcid", url: "https://orcid.org/0000-0002-7887-6040", handle: "0000-0002-7887-6040"}
+  - {title: "LinkedIn", short: "LinkedIn", icon: "linkedin", url: "https://www.linkedin.com/in/kwesi-a-quagraine-12855153/", handle: "kwesi-a-quagraine"}
+  - {title: "ResearchGate", short: "ResearchGate", icon: "researchgate", url: "https://www.researchgate.net/profile/Kwesi-Quagraine-3", handle: "Kwesi-Quagraine-3"}
+  - {title: "GitHub", short: "GitHub", icon: "github", url: "https://github.com/Akumenyi", handle: "Akumenyi"}
+  - {title: "X", short: "X", icon: "x", url: "https://twitter.com/pkdilly", handle: "pkdilly"}
 
-# Menu
+# ---------------------------------------------------------------------------
+# Build
+# ---------------------------------------------------------------------------
+permalink: /blog/:title/
+date_format: "%B %-d, %Y"
 
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.md", title: "About Me"}
-  - {file: "research.md", title: "Research Interests"}
- # - {file: "teaching.md", title: "Teaching"}
-  - {file: "publications.md", title: "Publications"}
-  - {file: "projects.md", title: "Projects & Grants"}
-  - {url: "/cv_kwesi_a_quagraine_spring2025.pdf", title: "CV"}
-  
+# Render LinkedIn posts as LinkedIn's own embed iframes instead of text cards.
+# Heavier, and only works for public posts, so it is off by default. See SETUP.md.
+linkedin_embed: false
 
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Github, icon: github, url: "https://github.com/Akumenyi/"}
-  - {title: Twiter, icon: twitter, url: "https://twitter.com/pkdilly"}
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
 
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
-
-remote_theme: niklasbuschmann/contrast@v2.11
+sass:
+  style: compressed
 
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
+  - jekyll-sitemap
+
+feed:
+  path: /feed.xml
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - SETUP.md
+  - UNLICENSE.txt
+  - scripts
+  - vendor
+  - .github
+
+defaults:
+  - scope: {path: ""}
+    values: {layout: "page"}
+  - scope: {path: "", type: "posts"}
+    values: {layout: "post"}

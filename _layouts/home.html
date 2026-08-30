@@ -1,0 +1,198 @@
+---
+layout: default
+---
+{%- assign p = site.profile -%}
+{%- assign pubs = site.data.publications.publications -%}
+
+<section class="hero">
+  <canvas class="hero-field" data-isobars aria-hidden="true"></canvas>
+  <div class="hero-glow" aria-hidden="true"></div>
+
+  <div class="wrap hero-inner">
+    <div class="hero-copy">
+      <p class="eyebrow">
+        <span class="pulse" aria-hidden="true"></span>
+        <span>{{ p.role }} · <a href="{{ p.affiliation_url }}" target="_blank" rel="noopener">NSF NCAR</a>, {{ p.location }}</span>
+      </p>
+
+      <h1 class="hero-name">
+        Kwesi <em>A.</em><br>Quagraine<span class="hero-suffix">, {{ p.honorific_suffix }}</span>
+      </h1>
+
+      <p class="hero-tagline">{{ site.tagline }}</p>
+
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">The research {% include icon.html name="arrow" %}</a>
+        <a class="btn btn-ghost" href="{{ '/publications/' | relative_url }}">Publications</a>
+        <a class="btn btn-ghost" href="{{ p.cv | relative_url }}" target="_blank" rel="noopener">{% include icon.html name="download" %} CV</a>
+      </div>
+
+      <ul class="hero-links">
+        {%- for link in site.profiles -%}
+        <li><a href="{{ link.url }}" target="_blank" rel="noopener me" title="{{ link.title }}">{% include icon.html name=link.icon %}<span>{{ link.short }}</span></a></li>
+        {%- endfor -%}
+      </ul>
+    </div>
+
+    <figure class="hero-portrait">
+      <img src="{{ p.photo | relative_url }}" alt="Portrait of Kwesi A. Quagraine" width="720" height="860" fetchpriority="high">
+      <figcaption>
+        <span class="orcid-chip">{% include icon.html name="orcid" %} {{ p.orcid }}</span>
+      </figcaption>
+    </figure>
+  </div>
+
+  <div class="wrap">{% include metrics.html %}</div>
+</section>
+
+{%- if content and content != "" -%}
+<section class="section section-about" id="about">
+  <div class="wrap about-inner">
+    <div class="prose prose-about">{{ content }}</div>
+    <aside class="about-side">
+      <h3>At a glance</h3>
+      <dl>
+        <dt>Now</dt><dd>{{ p.role }}, {{ p.affiliation }}</dd>
+        <dt>Based in</dt><dd>{{ p.location }}</dd>
+        <dt>PhD</dt><dd>Climate Systems Analysis Group, University of Cape Town</dd>
+        <dt>Advised by</dt><dd>Prof. Bruce Hewitson (PhD) · Prof. Nana Ama Browne Klutse (MPhil)</dd>
+        <dt>Consulting for</dt><dd>UNEP · WMO · TWAS · ICLEI</dd>
+        <dt>ORCID</dt><dd><a href="https://orcid.org/{{ p.orcid }}" target="_blank" rel="noopener">{{ p.orcid }}</a></dd>
+      </dl>
+    </aside>
+  </div>
+</section>
+{%- endif -%}
+
+<section class="section section-alt" id="focus">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">What I work on</p>
+      <h2>Four questions driving the work</h2>
+      <p class="section-lede">
+        Climate intervention is moving from thought experiment to policy conversation faster than the
+        regional evidence base can keep up. My work tries to close that gap — at the resolution where
+        people actually live.
+      </p>
+    </header>
+
+    <div class="card-grid">
+      <article class="card">
+        <span class="card-index">01</span>
+        <h3>What does stratospheric aerosol injection do to extremes?</h3>
+        <p>Global-mean cooling says almost nothing about the tails. Using ARISE-SAI and CESM2, I ask how
+           the distribution of heavy rainfall, dry spells and heat shifts under deployment — and how that
+           differs from the baseline climate people are already adapting to.</p>
+        <a class="card-link" href="{{ '/research/' | relative_url }}#sai-extremes">Read more {% include icon.html name="arrow" %}</a>
+      </article>
+
+      <article class="card">
+        <span class="card-index">02</span>
+        <h3>Can we see intervention at regional scale?</h3>
+        <p>A 100&nbsp;km grid cell is the wrong instrument for a question about a district. I use CESM
+           regional refinement to downscale SAI experiments, so the answers arrive at a scale a national
+           planner can act on.</p>
+        <a class="card-link" href="{{ '/research/' | relative_url }}#regional-refinement">Read more {% include icon.html name="arrow" %}</a>
+      </article>
+
+      <article class="card">
+        <span class="card-index">03</span>
+        <h3>How do large-scale processes co-behave?</h3>
+        <p>Subtropical highs, monsoon onset and moisture transport do not act one at a time. My thesis work
+           built indices and a co-behaviour method that treat them as a system — and used it to interrogate
+           how well GCMs reproduce it.</p>
+        <a class="card-link" href="{{ '/research/' | relative_url }}#co-behaviour">Read more {% include icon.html name="arrow" %}</a>
+      </article>
+
+      <article class="card">
+        <span class="card-index">04</span>
+        <h3>Who gets to decide?</h3>
+        <p>Africa carries the sharpest end of climate risk and the thinnest seat at the governance table.
+           Alongside the modelling, I work on the case for African-led governance of solar radiation
+           modification, with UNEP, WMO, TWAS and ICLEI.</p>
+        <a class="card-link" href="{{ '/projects/' | relative_url }}">Projects &amp; grants {% include icon.html name="arrow" %}</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="recent">
+  <div class="wrap">
+    <header class="section-head section-head-row">
+      <div>
+        <p class="eyebrow">Latest publications</p>
+        <h2>Fresh off the press</h2>
+      </div>
+      <a class="btn btn-ghost" href="{{ '/publications/' | relative_url }}">All papers {% include icon.html name="arrow" %}</a>
+    </header>
+
+    <div class="pub-list pub-list-featured">
+      {%- assign shown = 0 -%}
+      {%- for pub in pubs -%}
+        {%- if shown < 5 and pub.status != "under_review" -%}
+          {% include pub-item.html pub=pub %}
+          {%- assign shown = shown | plus: 1 -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+
+    <p class="sync-note">
+      {% include icon.html name="scholar" %}
+      This list refreshes itself daily from ORCID-matched records and Google&nbsp;Scholar — nothing here is typed by hand after publication.
+    </p>
+  </div>
+</section>
+
+{%- if site.posts.size > 0 -%}
+<section class="section section-alt" id="writing">
+  <div class="wrap">
+    <header class="section-head section-head-row">
+      <div>
+        <p class="eyebrow">Writing</p>
+        <h2>From the blog</h2>
+      </div>
+      <a class="btn btn-ghost" href="{{ '/blog/' | relative_url }}">All posts {% include icon.html name="arrow" %}</a>
+    </header>
+    <div class="post-grid">
+      {%- for post in site.posts limit: 3 -%}
+        {% include post-card.html post=post %}
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+{%- endif -%}
+
+<section class="section" id="linkedin">
+  <div class="wrap">
+    <header class="section-head section-head-row">
+      <div>
+        <p class="eyebrow">Field notes</p>
+        <h2>Latest from LinkedIn</h2>
+      </div>
+      <a class="btn btn-ghost" href="{{ '/updates/' | relative_url }}">All updates {% include icon.html name="arrow" %}</a>
+    </header>
+    {% include linkedin-feed.html limit=3 %}
+  </div>
+</section>
+
+<section class="section section-contact" id="contact">
+  <div class="wrap contact-inner">
+    <div>
+      <p class="eyebrow">Get in touch</p>
+      <h2>Collaborations, reviews, student supervision, speaking.</h2>
+      <p class="section-lede">
+        I am always glad to hear from people working on climate intervention, regional modelling
+        or climate services — particularly across Africa.
+      </p>
+      <a class="btn btn-primary" href="mailto:{{ site.email }}">{% include icon.html name="mail" %} {{ site.email }}</a>
+    </div>
+    <aside class="name-note">
+      <h3>One name, two scientists</h3>
+      <p>{{ site.disambiguation.note }}</p>
+      <p class="name-note-ids">
+        <span><b>This is me:</b> Kwesi <em>A.</em> Quagraine · ORCID {{ p.orcid }}</span>
+        <span><b>Not me:</b> {{ site.disambiguation.sibling_name }} — my brother, and a co-author on several of the papers listed here.</span>
+      </p>
+    </aside>
+  </div>
+</section>
