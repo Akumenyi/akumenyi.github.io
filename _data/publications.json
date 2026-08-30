@@ -1,18 +1,20 @@
 {
-  "generated_at": "2026-08-30T10:31:02+00:00",
+  "generated_at": "2026-08-30T11:08:30+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 29,
     "under_review": 4,
     "first_author": 8,
-    "citations": 0,
-    "h_index": 0,
-    "i10_index": 0,
+    "citations": 117,
+    "h_index": 1,
+    "i10_index": 1,
     "since_year": 2013,
     "citation_source": "Derived from the site record"
   },
-  "warnings": [],
+  "warnings": [
+    "OpenAlex unavailable: 'NoneType' object has no attribute 'endswith'"
+  ],
   "publications": [
     {
       "id": "south-indian-ocean-high-index",
@@ -1057,7 +1059,10 @@
       ],
       "source": "manual",
       "manual": true,
-      "citations": 0,
+      "url": "https://doi.org/10.1088/1748-9326/aab37b",
+      "open_access_url": "https://iopscience.iop.org/article/10.1088/1748-9326/aab37b/pdf",
+      "citations": 117,
+      "openalex_id": "W2791529021",
       "first_author": false,
       "author_positions": [
         "other",
@@ -1074,8 +1079,7 @@
         "other",
         "other",
         "other"
-      ],
-      "url": "https://doi.org/10.1088/1748-9326/aab37b"
+      ]
     },
     {
       "id": "wenchi-saltpond-rainfall",
