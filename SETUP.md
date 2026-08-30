@@ -46,6 +46,21 @@ that check — loosening it to a surname match will silently pull in other peopl
 **The single most useful thing you can do is claim your ORCID record on every new paper.**
 That is what makes the automation work.
 
+### What the harvest filters out
+
+OpenAlex indexes more than journal papers, so the sync drops:
+
+- **works published before 2005** — ORCID records occasionally carry work mis-linked from an
+  author-name collision, and the first run pulled in two 1960 soil-science papers this way.
+  Change the floor with the `PUBLICATIONS_MIN_YEAR` environment variable;
+- **peer-review comments, errata, corrections and supplementary material** — artefacts of the
+  publishing process rather than publications;
+- **duplicate repository deposits** — a Zenodo or Research Square copy carries its own DOI, so
+  entries are keyed on title and the journal version of record always wins on venue, while the
+  highest citation count of the set is kept.
+
+Anything dropped for the year rule is named in the workflow log.
+
 ### Adding something the automation cannot see
 
 Under-review manuscripts, book chapters, anything without a DOI: add a block to
