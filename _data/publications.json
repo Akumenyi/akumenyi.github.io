@@ -4,13 +4,13 @@
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 46,
-    "under_review": 3,
+    "under_review": 2,
     "first_author": 15,
-    "citations": 538,
+    "citations": 547,
     "h_index": 9,
     "i10_index": 9,
     "since_year": 2013,
-    "citation_source": "OpenAlex"
+    "citation_source": "Derived from the site record"
   },
   "warnings": [],
   "publications": [
@@ -79,31 +79,6 @@
         "other",
         "other",
         "other",
-        "self",
-        "other"
-      ]
-    },
-    {
-      "id": "world-cup-heat-exposure",
-      "title": "Schedule-dependent heat exposure at large outdoor events: implications for the 2026 FIFA World Cup",
-      "authors": [
-        "Quagraine, K. A.",
-        "Quagraine, K. T."
-      ],
-      "year": 2026,
-      "venue": "Nature Communications",
-      "type": "article",
-      "status": "under_review",
-      "topics": [
-        "Heat extremes",
-        "Climate & society"
-      ],
-      "highlight": true,
-      "source": "manual",
-      "manual": true,
-      "citations": 0,
-      "first_author": true,
-      "author_positions": [
         "self",
         "other"
       ]
