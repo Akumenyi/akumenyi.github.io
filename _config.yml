@@ -4,36 +4,41 @@
 title: "Kwesi A. Quagraine"
 subtitle: "Climate Research Scientist"
 tagline: "Climate extremes, solar geoengineering and the regional detail that decisions actually need."
-description: "Kwesi A. Quagraine, PhD - ASP Postdoctoral Fellow at the NSF National Center for Atmospheric Research (NSF-NCAR), Boulder, Colorado. Climate modelling, climate extremes, stratospheric aerosol injection and tropical meteorology."
+description: "Kwesi A. Quagraine, PhD - Chief Scientist of the Climate Vulnerable Forum and V20 (CVF-V20), and Visiting Scientist at the NSF National Center for Atmospheric Research (NSF-NCAR), Boulder, Colorado. Climate modelling, climate extremes, stratospheric aerosol injection and tropical meteorology."
 author: "Kwesi A. Quagraine"
-email: "kwesiq@ucar.edu"
+email: "kq@cvfv20.org"
 url: "https://akumenyi.github.io"
 lang: "en"
 
 # The person behind the site. Used for the header, the footer and the
 # schema.org Person block that tells search engines and scholarly indexes who
-# this is - which matters here, see `disambiguation` below.
+# this is, and which ORCID record the work belongs to.
 profile:
   given_name: "Kwesi"
   middle_initial: "A."
   family_name: "Quagraine"
   honorific_suffix: "PhD"
-  role: "ASP Postdoctoral Fellow"
-  affiliation: "NSF National Center for Atmospheric Research (NSF-NCAR)"
-  affiliation_url: "https://ncar.ucar.edu/"
+  # Primary appointment.
+  role: "Chief Scientist"
+  affiliation: "Climate Vulnerable Forum & V20 (CVF-V20)"
+  affiliation_short: "CVF-V20"
+  affiliation_url: "https://cvfv20.org/"
+  # Drop the real logo at this path and it replaces the text wordmark
+  # automatically. SVG preferred; PNG with a transparent background works too.
+  affiliation_logo: "/assets/img/cvf-v20-logo.svg"
+  affiliation_wordmark: "CVF·V20"
+  # Concurrent appointment. Leave `secondary_role` blank to drop it site-wide.
+  secondary_role: "Visiting Scientist"
+  secondary_affiliation: "NSF National Center for Atmospheric Research (NSF-NCAR)"
+  secondary_affiliation_short: "NSF NCAR"
+  secondary_affiliation_url: "https://ncar.ucar.edu/"
+  secondary_affiliation_logo: "/assets/img/nsf-ncar-logo.svg"
+  secondary_affiliation_wordmark: "NSF NCAR"
   location: "Boulder, Colorado, USA"
   orcid: "0000-0002-7887-6040"
   scholar_id: "hoI1ZjkAAAAJ"
   photo: "/assets/img/kwesi-quagraine.jpg"
   cv: "/cv_kwesi_a_quagraine_spring2025.pdf"
-
-# There are two climate scientists named Kwesi Quagraine and they publish
-# together, so the site states the distinction explicitly rather than leaving
-# readers, search engines and bibliometric tools to guess.
-disambiguation:
-  sibling_name: "Kwesi T. Quagraine"
-  short_note: "Kwesi <strong>A.</strong> Quagraine — not to be confused with <strong>Kwesi T. Quagraine</strong>, his brother and co-author on several of the papers listed here."
-  note: "This site belongs to Kwesi <strong>A.</strong> Quagraine. His brother and frequent co-author, Kwesi <strong>T.</strong> Quagraine, is a different researcher. Where the two appear on the same paper, only K. A. is highlighted here. ORCID is the unambiguous identifier."
 
 # ---------------------------------------------------------------------------
 # Navigation and links

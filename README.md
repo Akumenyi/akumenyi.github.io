@@ -1,14 +1,10 @@
 # akumenyi.github.io
 
-Personal academic site of **Kwesi A. Quagraine, PhD** — ASP Postdoctoral Fellow at the
-NSF National Center for Atmospheric Research (NSF-NCAR), Boulder, Colorado.
+Personal academic site of **Kwesi A. Quagraine, PhD** — Chief Scientist of the Climate Vulnerable
+Forum and V20 (CVF-V20), and Visiting Scientist at the NSF National Center for Atmospheric Research
+(NSF-NCAR), Boulder, Colorado.
 
 Live at **[akumenyi.github.io](https://akumenyi.github.io)**.
-
-> Kwesi **A.** Quagraine ([ORCID 0000-0002-7887-6040](https://orcid.org/0000-0002-7887-6040))
-> is not Kwesi **T.** Quagraine, his brother and a co-author on several of the papers listed
-> here. The publication pipeline matches on ORCID rather than surname so the two records
-> never merge.
 
 ## What is here
 

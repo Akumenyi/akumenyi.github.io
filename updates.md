@@ -5,7 +5,7 @@ permalink: /updates/
 wide: true
 eyebrow: "Field notes"
 lede: "Talks, papers, fieldwork and the occasional argument about governance — posted on LinkedIn and mirrored here automatically."
-description: "Latest LinkedIn posts and research updates from Kwesi A. Quagraine, climate research scientist at NSF NCAR."
+description: "Latest LinkedIn posts and research updates from Kwesi A. Quagraine, Chief Scientist of the CVF-V20 and Visiting Scientist at NSF NCAR."
 ---
 
 <div class="updates-feed">

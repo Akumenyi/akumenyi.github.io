@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T10:02:55+00:00",
+  "generated_at": "2026-08-30T10:31:02+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
@@ -40,7 +40,7 @@
       "first_author": true,
       "author_positions": [
         "self",
-        "sibling",
+        "other",
         "other",
         "other",
         "other",
@@ -100,7 +100,7 @@
       "citations": 0,
       "first_author": false,
       "author_positions": [
-        "sibling",
+        "other",
         "self"
       ]
     },
@@ -126,7 +126,7 @@
       "first_author": true,
       "author_positions": [
         "self",
-        "sibling"
+        "other"
       ]
     },
     {
@@ -326,7 +326,7 @@
       "citations": 0,
       "first_author": false,
       "author_positions": [
-        "sibling",
+        "other",
         "other",
         "self",
         "other",
@@ -393,7 +393,7 @@
       "citations": 0,
       "first_author": false,
       "author_positions": [
-        "sibling",
+        "other",
         "self",
         "other",
         "other",
@@ -549,7 +549,7 @@
       "author_positions": [
         "self",
         "other",
-        "sibling",
+        "other",
         "other",
         "other",
         "other",
@@ -654,7 +654,7 @@
         "self",
         "other",
         "other",
-        "sibling",
+        "other",
         "other"
       ],
       "url": "https://doi.org/10.1002/asl.1266"
@@ -845,7 +845,7 @@
       "author_positions": [
         "other",
         "self",
-        "sibling",
+        "other",
         "other",
         "other",
         "other",
@@ -883,7 +883,7 @@
         "other",
         "self",
         "other",
-        "sibling",
+        "other",
         "other",
         "other",
         "other"
@@ -955,7 +955,7 @@
         "other",
         "other",
         "other",
-        "sibling"
+        "other"
       ],
       "url": "https://doi.org/10.3390/cli8100111"
     },

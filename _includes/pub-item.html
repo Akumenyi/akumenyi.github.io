@@ -22,8 +22,6 @@
         {%- assign position = pub.author_positions[forloop.index0] -%}
         {%- if position == "self" -%}
           <b class="is-self">{{ author }}</b>
-        {%- elsif position == "sibling" -%}
-          <span class="is-sibling" title="Kwesi T. Quagraine — a different researcher, and this site's owner's brother">{{ author }}</span>
         {%- else -%}
           {{ author }}
         {%- endif -%}

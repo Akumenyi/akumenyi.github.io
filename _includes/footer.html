@@ -3,7 +3,7 @@
   <div class="wrap footer-grid">
     <div class="footer-brand">
       <p class="footer-name">Kwesi <em>A.</em> Quagraine, {{ site.profile.honorific_suffix }}</p>
-      <p class="footer-role">{{ site.profile.role }}<br>{{ site.profile.affiliation }}<br>{{ site.profile.location }}</p>
+      <p class="footer-role">{{ site.profile.role }}, {{ site.profile.affiliation }}{% if site.profile.secondary_role %}<br>{{ site.profile.secondary_role }}, {{ site.profile.secondary_affiliation }}{% endif %}<br>{{ site.profile.location }}</p>
       <p><a class="footer-mail" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
     </div>
 
@@ -32,7 +32,6 @@
           {% include icon.html name="orcid" %} {{ site.profile.orcid }}
         </a>
       </p>
-      <p class="footer-note">{{ site.disambiguation.short_note }}</p>
     </div>
   </div>
 

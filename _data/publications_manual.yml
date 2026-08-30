@@ -8,9 +8,9 @@
 # Anything you type here always wins over the automated record, so under-review
 # manuscripts and corrections stay put. To add a paper by hand, copy a block.
 #
-# NOTE ON AUTHOR NAMES: "Quagraine, K. A." is Kwesi A. Quagraine (this site).
-# "Quagraine, K. T." is Kwesi T. Quagraine, his brother and frequent co-author.
-# They are different researchers; the renderer highlights only K. A.
+# NOTE ON AUTHOR NAMES: write co-authors as "Family, F. M.". Only
+# "Quagraine, K. A." is highlighted as the site owner -- other initials belong
+# to other researchers and must be left exactly as published.
 # ---------------------------------------------------------------------------
 
 - id: replace-temperature-limits

@@ -37,11 +37,11 @@ Preview drafts locally with `bundle exec jekyll serve --drafts`.
 
 ### Why ORCID and not your name
 
-You and Kwesi T. Quagraine publish together, so surname matching would silently merge your
-two records. Every candidate that does not arrive with your ORCID attached must pass an
-explicit check in `scripts/update_publications.py`; a paper whose only Quagraine is "K. T."
-is dropped. Where you both appear on a paper, the renderer bolds only **Quagraine, K. A.**
-and marks K. T. with a tooltip.
+Surname matching is not precise enough here: several researchers publish under
+"Quagraine", including co-authors on your own papers. Every candidate that does not
+arrive with your ORCID attached must pass an explicit initials check in
+`scripts/update_publications.py`, so only your work enters the record. Do not relax
+that check — loosening it to a surname match will silently pull in other people's papers.
 
 **The single most useful thing you can do is claim your ORCID record on every new paper.**
 That is what makes the automation work.

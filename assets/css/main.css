@@ -367,9 +367,6 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
 .pub-title a:hover { color: var(--azure); text-decoration: none; }
 .pub-authors { font-size: .91rem; color: var(--text-mute); margin: 0 0 .45rem; }
 .pub-authors .is-self { color: var(--text); font-weight: 700; }
-.pub-authors .is-sibling {
-  color: var(--text-dim); border-bottom: 1px dotted var(--text-mute); cursor: help;
-}
 .pub-meta { display: flex; flex-wrap: wrap; align-items: center; gap: .5rem; margin: 0 0 .6rem; }
 .pub-venue { font-style: italic; color: var(--text-dim); font-size: .93rem; }
 .pub-links { display: flex; flex-wrap: wrap; gap: .45rem; margin: 0; }
@@ -658,3 +655,54 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 .post-nav-link:hover { border-color: var(--accent); text-decoration: none; }
 .post-nav-link span { display: block; font-size: .72rem; font-weight: 500; letter-spacing: .12em; text-transform: uppercase; color: var(--text-mute); margin-bottom: .3rem; }
 .post-nav-link.is-next { text-align: right; }
+
+/* -------------------------------------------------------- affiliations --- */
+
+/* Header brand slot when a real organisation logo is present: no frame, no
+   tint — a logo should sit on the page as its owner drew it. */
+.brand-mark.has-logo {
+  border: 0; background: none; border-radius: 0;
+  width: auto; height: 2.3rem; min-width: 2.3rem;
+}
+.brand-mark.has-logo img { height: 100%; width: auto; max-width: 8rem; object-fit: contain; }
+
+.affiliations { border-top: 1px solid var(--line-soft); background: var(--bg-alt); }
+.affil-row {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 2.4rem;
+  padding: 1.4rem 0;
+}
+.affil-label {
+  margin: 0; font-family: var(--font-display);
+  font-size: .72rem; font-weight: 600; letter-spacing: .17em; text-transform: uppercase;
+  color: var(--text-mute);
+}
+.affil { display: flex; align-items: center; gap: .85rem; color: var(--text); }
+.affil:hover { text-decoration: none; }
+.affil:hover .affil-text b { color: var(--teal); }
+
+.affil-mark {
+  display: grid; place-items: center; flex: none;
+  height: 2.9rem; min-width: 2.9rem; padding: 0 .2rem;
+}
+.affil-mark img { height: 100%; width: auto; max-width: 9rem; object-fit: contain; }
+.affil-wordmark {
+  font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; letter-spacing: -.01em;
+  padding: .4rem .75rem; border-radius: 10px;
+  border: 1px solid var(--line); color: var(--text-dim);
+  background: color-mix(in srgb, var(--panel) 70%, transparent);
+  white-space: nowrap;
+}
+.affil-text { display: grid; line-height: 1.35; }
+.affil-text b { font-size: .92rem; font-weight: 600; transition: color .2s; }
+.affil-text span { font-size: .82rem; color: var(--text-mute); }
+
+@media (max-width: 720px) {
+  .affil-row { gap: 1rem 1.5rem; }
+  .affil-text span { display: none; }
+}
+
+/* The hero eyebrow now carries two appointments plus a location, so it has to
+   wrap as text rather than as flex items — otherwise the status dot is
+   orphaned onto its own line. */
+.eyebrow-hero { display: block; }
+.eyebrow-hero .pulse { display: inline-block; vertical-align: middle; margin-right: .55rem; }

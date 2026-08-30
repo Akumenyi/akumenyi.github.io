@@ -1,6 +1,16 @@
 <header class="site-header" data-header>
   <div class="wrap header-inner">
     <a class="brand" href="{{ '/' | relative_url }}">
+      {%- comment -%}
+        The CVF-V20 logo sits here once `assets/img/cvf-v20-logo.svg` exists.
+        Until then the isobar glyph below stands in, so the header never breaks.
+      {%- endcomment -%}
+      {%- assign brand_logo = site.static_files | where: "path", site.profile.affiliation_logo | first -%}
+      {%- if brand_logo -%}
+      <span class="brand-mark has-logo">
+        <img src="{{ site.profile.affiliation_logo | relative_url }}" alt="{{ site.profile.affiliation }}" width="40" height="40">
+      </span>
+      {%- else -%}
       <span class="brand-mark" aria-hidden="true">
         <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6">
           <path d="M3 22c5-9 9-13 13-13s8 4 13 13"/>
@@ -9,6 +19,7 @@
           <circle cx="16" cy="9" r="1.9" fill="currentColor" stroke="none"/>
         </svg>
       </span>
+      {%- endif -%}
       <span class="brand-text">
         Kwesi <em>A.</em> Quagraine
         <small>{{ site.subtitle }}</small>

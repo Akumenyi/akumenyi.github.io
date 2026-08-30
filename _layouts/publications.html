@@ -66,8 +66,6 @@ layout: default
       <a href="https://orcid.org/{{ site.profile.orcid }}" target="_blank" rel="noopener">ORCID&nbsp;{{ site.profile.orcid }}</a>,
       and citation counts come from
       {%- if data.metrics.citation_source %} {{ data.metrics.citation_source }}{% else %} Google Scholar{% endif -%}.
-      Matching on ORCID rather than surname is deliberate: it keeps
-      {{ site.disambiguation.sibling_name }}'s independent work out of this record.
     </p>
     {%- if data.generated_at -%}
     <p class="sync-stamp">Last synced <time datetime="{{ data.generated_at }}">{{ data.generated_at | date: site.date_format }}</time>.</p>

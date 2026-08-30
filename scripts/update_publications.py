@@ -12,11 +12,11 @@ Sources, in order of trust:
 
 Output: `_data/publications.json`, which the Jekyll site renders directly.
 
-DISAMBIGUATION. Kwesi A. Quagraine co-authors frequently with his brother
-Kwesi T. Quagraine. Automated harvesting on surname alone would silently merge
-the two records, so every candidate that did not arrive with a matching ORCID
-must pass `author_is_kaq()` -- a paper whose only Quagraine is "K. T." is
-dropped.
+DISAMBIGUATION. More than one researcher publishes under the surname
+"Quagraine", including co-authors on these papers. Harvesting on surname alone
+would silently merge their records with this one, so every candidate that did
+not arrive with a matching ORCID must pass `author_is_kaq()` -- a paper whose
+only Quagraine is "K. T." is dropped. Do not relax this to a surname match.
 
 Usage:
     python scripts/update_publications.py            # fetch and merge
@@ -48,19 +48,20 @@ from common import (  # noqa: E402
 )
 
 ORCID = "0000-0002-7887-6040"
-OPENALEX_MAILTO = os.environ.get("OPENALEX_MAILTO", "kwesiq@ucar.edu")
+OPENALEX_MAILTO = os.environ.get("OPENALEX_MAILTO", "kq@cvfv20.org")
 SCHOLAR_ID = "hoI1ZjkAAAAJ"
 TIMEOUT = 45
 
 MANUAL_PATH = REPO_ROOT / "_data" / "publications_manual.yml"
 OUTPUT_PATH = REPO_ROOT / "_data" / "publications.json"
 
-# Surname spellings that belong to *this* researcher, and the ones that do not.
+# Initial patterns that identify this researcher, and the ones that identify a
+# different Quagraine and must therefore be excluded.
 SELF_PATTERNS = [
     re.compile(r"\bquagraine\b[\s,]*(kwesi\s+a|k\.?\s*a)\b", re.I),
     re.compile(r"\b(kwesi\s+a\.?|k\.?\s*a\.?)\s*[\s,]*quagraine\b", re.I),
 ]
-SIBLING_PATTERNS = [
+OTHER_QUAGRAINE_PATTERNS = [
     re.compile(r"\bquagraine\b[\s,]*(kwesi\s+t|k\.?\s*t)\b", re.I),
     re.compile(r"\b(kwesi\s+t\.?|k\.?\s*t\.?)\s*[\s,]*quagraine\b", re.I),
 ]
@@ -93,15 +94,11 @@ def author_is_kaq(name: str) -> bool:
     if any(p.search(flat) for p in SELF_PATTERNS):
         return True
     # A bare "Quagraine, K." with no second initial is ambiguous on its own but
-    # is only ever produced by sources we already ORCID-matched, so treat the
-    # sibling's explicit "K. T." as the sole disqualifier.
-    if any(p.search(flat) for p in SIBLING_PATTERNS):
+    # is only ever produced by sources we already ORCID-matched, so an explicit
+    # "K. T." is the sole disqualifier.
+    if any(p.search(flat) for p in OTHER_QUAGRAINE_PATTERNS):
         return False
     return bool(re.search(r"\bkwesi\b.*\bquagraine\b|\bquagraine\b[\s,]*kwesi\b", flat, re.I))
-
-
-def author_is_sibling(name: str) -> bool:
-    return any(p.search(strip_accents(name or "")) for p in SIBLING_PATTERNS)
 
 
 def record_belongs_to_kaq(authors: list[str], orcid_matched: bool) -> bool:
@@ -352,10 +349,7 @@ def merge(manual: list[dict], fetched: list[dict], previous: list[dict]) -> list
         entry.setdefault("citations", 0)
         entry["authors"] = [format_author(a) for a in entry.get("authors", [])]
         entry["first_author"] = bool(entry["authors"]) and author_is_kaq(entry["authors"][0])
-        entry["author_positions"] = [
-            "self" if author_is_kaq(a) else ("sibling" if author_is_sibling(a) else "other")
-            for a in entry["authors"]
-        ]
+        entry["author_positions"] = ["self" if author_is_kaq(a) else "other" for a in entry["authors"]]
         if entry.get("doi") and not entry.get("url"):
             entry["url"] = f"https://doi.org/{entry['doi']}"
     results.sort(key=lambda e: (-(e.get("year") or 0), 0 if e.get("status") == "under_review" else 1, e.get("title", "")))

@@ -32,7 +32,7 @@ layout: default
 
   <footer class="post-foot">
     <p class="post-byline">
-      Written by <b>Kwesi A. Quagraine</b> — {{ site.profile.role }}, {{ site.profile.affiliation }}.
+      Written by <b>Kwesi A. Quagraine</b> — {{ site.profile.role }}, {{ site.profile.affiliation }}{% if site.profile.secondary_role %}, and {{ site.profile.secondary_role | downcase }} at the {{ site.profile.secondary_affiliation }}{% endif %}.
       <a href="https://orcid.org/{{ site.profile.orcid }}" target="_blank" rel="noopener">ORCID {{ site.profile.orcid }}</a>
     </p>
     <nav class="post-nav">

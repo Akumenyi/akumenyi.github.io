@@ -10,9 +10,9 @@ layout: default
 
   <div class="wrap hero-inner">
     <div class="hero-copy">
-      <p class="eyebrow">
+      <p class="eyebrow eyebrow-hero">
         <span class="pulse" aria-hidden="true"></span>
-        <span>{{ p.role }} · <a href="{{ p.affiliation_url }}" target="_blank" rel="noopener">NSF NCAR</a>, {{ p.location }}</span>
+        <span>{{ p.role }}, <a href="{{ p.affiliation_url }}" target="_blank" rel="noopener">{{ p.affiliation_short }}</a>{% if p.secondary_role %} · {{ p.secondary_role }}, <a href="{{ p.secondary_affiliation_url }}" target="_blank" rel="noopener">{{ p.secondary_affiliation_short }}</a>{% endif %} · {{ p.location }}</span>
       </p>
 
       <h1 class="hero-name">
@@ -45,6 +45,8 @@ layout: default
   <div class="wrap">{% include metrics.html %}</div>
 </section>
 
+{% include affiliations.html %}
+
 {%- if content and content != "" -%}
 <section class="section section-about" id="about">
   <div class="wrap about-inner">
@@ -53,6 +55,7 @@ layout: default
       <h3>At a glance</h3>
       <dl>
         <dt>Now</dt><dd>{{ p.role }}, {{ p.affiliation }}</dd>
+        {%- if p.secondary_role %}<dt>Concurrently</dt><dd>{{ p.secondary_role }}, {{ p.secondary_affiliation }}</dd>{% endif -%}
         <dt>Based in</dt><dd>{{ p.location }}</dd>
         <dt>PhD</dt><dd>Climate Systems Analysis Group, University of Cape Town</dd>
         <dt>Advised by</dt><dd>Prof. Bruce Hewitson (PhD) · Prof. Nana Ama Browne Klutse (MPhil)</dd>
@@ -187,11 +190,14 @@ layout: default
       <a class="btn btn-primary" href="mailto:{{ site.email }}">{% include icon.html name="mail" %} {{ site.email }}</a>
     </div>
     <aside class="name-note">
-      <h3>One name, two scientists</h3>
-      <p>{{ site.disambiguation.note }}</p>
+      <h3>Citing and indexing my work</h3>
+      <p>
+        ORCID is the identifier that resolves to me across publishers, funders and
+        bibliometric databases. Please use it when citing, indexing or listing my work.
+      </p>
       <p class="name-note-ids">
-        <span><b>This is me:</b> Kwesi <em>A.</em> Quagraine · ORCID {{ p.orcid }}</span>
-        <span><b>Not me:</b> {{ site.disambiguation.sibling_name }} — my brother, and a co-author on several of the papers listed here.</span>
+        <span><b>ORCID</b> <a href="https://orcid.org/{{ p.orcid }}" target="_blank" rel="noopener">{{ p.orcid }}</a></span>
+        <span><b>Google Scholar</b> <a href="https://scholar.google.com/citations?user={{ p.scholar_id }}&amp;hl=en" target="_blank" rel="noopener">{{ p.scholar_id }}</a></span>
       </p>
     </aside>
   </div>

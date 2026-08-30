@@ -11,7 +11,7 @@
   "additionalName": "A.",
   "alternateName": ["Kwesi Amoah Quagraine", "K. A. Quagraine", "Quagraine, K. A."],
   "honorificSuffix": "{{ p.honorific_suffix }}",
-  "jobTitle": "{{ p.role }}",
+  "jobTitle": [{{ p.role | jsonify }}{% if p.secondary_role %}, {{ p.secondary_role | jsonify }}{% endif %}],
   "description": {{ site.description | strip_html | jsonify }},
   "url": "{{ site.url }}/",
   "image": "{{ p.photo | absolute_url }}",
@@ -21,11 +21,18 @@
     "propertyID": "ORCID",
     "value": "https://orcid.org/{{ p.orcid }}"
   },
-  "affiliation": {
-    "@type": "ResearchOrganization",
-    "name": "{{ p.affiliation }}",
-    "url": "{{ p.affiliation_url }}"
-  },
+  "affiliation": [
+    {
+      "@type": "Organization",
+      "name": {{ p.affiliation | jsonify }},
+      "url": "{{ p.affiliation_url }}"
+    }{% if p.secondary_affiliation %},
+    {
+      "@type": "ResearchOrganization",
+      "name": {{ p.secondary_affiliation | jsonify }},
+      "url": "{{ p.secondary_affiliation_url }}"
+    }{% endif %}
+  ],
   "workLocation": {"@type": "Place", "name": "{{ p.location }}"},
   "knowsAbout": [
     "Climate modelling",
@@ -34,7 +41,9 @@
     "Solar radiation modification",
     "Tropical meteorology",
     "West African monsoon",
-    "Regional climate downscaling"
+    "Regional climate downscaling",
+    "Climate governance",
+    "Climate vulnerability and adaptation"
   ],
   "sameAs": [{% for link in site.profiles %}"{{ link.url }}"{% unless forloop.last %}, {% endunless %}{% endfor %}]
 }

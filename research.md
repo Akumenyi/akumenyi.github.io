@@ -13,9 +13,11 @@ development in a changing climate**. In practice that means four threads, each o
 ## Stratospheric aerosol injection and climate extremes
 {: #sai-extremes}
 
-In my ASP Postdoctoral Fellowship at the [NSF National Center for Atmospheric Research](https://ncar.ucar.edu/){:target="_blank"},
+As a Visiting Scientist at the [NSF National Center for Atmospheric Research](https://ncar.ucar.edu/){:target="_blank"},
 I work on what solar geoengineering does to climate extremes — not to the global mean, which is the easy
-part, but to the tails that actually cause harm.
+part, but to the tails that actually cause harm. It is also the question I am most often asked about in
+my role as Chief Scientist of the CVF-V20, by governments that would be living with the consequences of
+a deployment decision taken elsewhere.
 
 The question I keep returning to is a comparative one: how does the *baseline* climate differ from a
 geoengineering scenario, and how does that difference propagate into extremes? A deployment that

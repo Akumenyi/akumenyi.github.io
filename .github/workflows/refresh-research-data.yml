@@ -51,7 +51,7 @@ jobs:
           # Optional. Without it the site falls back to OpenAlex citation
           # counts, which track Google Scholar closely.
           SERPAPI_API_KEY: ${{ secrets.SERPAPI_API_KEY }}
-          OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO || 'kwesiq@ucar.edu' }}
+          OPENALEX_MAILTO: ${{ secrets.OPENALEX_MAILTO || 'kq@cvfv20.org' }}
         run: python scripts/update_publications.py
 
       - name: Refresh LinkedIn activity
