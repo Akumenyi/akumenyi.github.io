@@ -1,16 +1,16 @@
 {
-  "generated_at": "2026-08-30T21:32:36+00:00",
+  "generated_at": "2026-08-30T21:48:19+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 48,
     "under_review": 0,
     "first_author": 16,
-    "citations": 547,
+    "citations": 538,
     "h_index": 9,
     "i10_index": 9,
     "since_year": 2013,
-    "citation_source": "Derived from the site record"
+    "citation_source": "OpenAlex"
   },
   "warnings": [],
   "publications": [
@@ -30,13 +30,13 @@
       "venue": "Atmospheric Science Letters",
       "type": "article",
       "status": "published",
+      "doi": "10.1002/asl2.70056",
       "topics": [
         "Large-scale circulation",
         "Southern Africa"
       ],
       "source": "manual",
       "manual": true,
-      "doi": "10.1002/asl2.70056",
       "url": "https://doi.org/10.1002/asl2.70056",
       "citations": 0,
       "openalex_id": "W7172423790",
