@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-30T11:13:23+00:00",
+  "generated_at": "2026-08-30T11:17:18+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
-    "publications": 56,
+    "publications": 46,
     "under_review": 4,
-    "first_author": 14,
+    "first_author": 15,
     "citations": 538,
     "h_index": 9,
     "i10_index": 9,
-    "since_year": 1960,
+    "since_year": 2013,
     "citation_source": "OpenAlex"
   },
   "warnings": [],
@@ -36,7 +36,10 @@
       ],
       "source": "manual",
       "manual": true,
+      "doi": "10.1002/asl2.70056",
+      "url": "https://doi.org/10.1002/asl2.70056",
       "citations": 0,
+      "openalex_id": "W7172423790",
       "first_author": true,
       "author_positions": [
         "self",
@@ -126,42 +129,6 @@
       "first_author": true,
       "author_positions": [
         "self",
-        "other"
-      ]
-    },
-    {
-      "id": "an-index-to-characterize-the-south-indian-ocean-high-pressur",
-      "title": "An Index to Characterize the South Indian Ocean High‐Pressure System and Its Variability",
-      "authors": [
-        "Quagraine, K. A.",
-        "Quagraine, K. T.",
-        "Nkrumah, F.",
-        "Hewitson, B.",
-        "Tadross, M.",
-        "Klutse, N. A. B."
-      ],
-      "year": 2026,
-      "venue": "Atmospheric Science Letters",
-      "doi": "10.1002/asl2.70056",
-      "url": "https://doi.org/10.1002/asl2.70056",
-      "type": "article",
-      "status": "published",
-      "citations": 0,
-      "openalex_id": "W7172423790",
-      "topics": [
-        "Oceanographic and Atmospheric Processes",
-        "Climate variability and models",
-        "Tropical and Extratropical Cyclones Research"
-      ],
-      "source": "openalex",
-      "manual": false,
-      "first_author": true,
-      "author_positions": [
-        "self",
-        "other",
-        "other",
-        "other",
-        "other",
         "other"
       ]
     },
@@ -268,52 +235,6 @@
       ]
     },
     {
-      "id": "extreme-events-as-an-inadequately-explored-measure-of-solar",
-      "title": "Extreme events as an inadequately explored measure of solar geoengineering performance - Data and Systematic Review",
-      "authors": [
-        "Quagraine, K.",
-        "Quagraine, K. A."
-      ],
-      "year": 2026,
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "doi": "10.5281/zenodo.18363726",
-      "url": "https://doi.org/10.5281/zenodo.18363726",
-      "type": "article",
-      "status": "published",
-      "citations": 0,
-      "openalex_id": "W7125579306",
-      "source": "openalex",
-      "manual": false,
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "self"
-      ]
-    },
-    {
-      "id": "extreme-events-as-an-inadequately-explored-measure-of-solar",
-      "title": "Extreme events as an inadequately explored measure of solar geoengineering performance - Data and Systematic Review",
-      "authors": [
-        "Quagraine, K.",
-        "Quagraine, K. A."
-      ],
-      "year": 2026,
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "doi": "10.5281/zenodo.18363727",
-      "url": "https://doi.org/10.5281/zenodo.18363727",
-      "type": "article",
-      "status": "published",
-      "citations": 0,
-      "openalex_id": "W7125585709",
-      "source": "openalex",
-      "manual": false,
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "self"
-      ]
-    },
-    {
       "id": "high-latitude-low-altitude-stratospheric-aerosol-injection-r",
       "title": "High-latitude, low-altitude stratospheric aerosol injection reshapes West African monsoon rainfall and associated dynamics",
       "authors": [
@@ -352,62 +273,6 @@
       "id": "schedule-dependent-heat-exposure-at-united-states-host-citie",
       "title": "Schedule-dependent heat exposure at United States host cities of the 2026 FIFA World Cup",
       "authors": [
-        "Quagraine, K. T.",
-        "Quagraine, K. A."
-      ],
-      "year": 2026,
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "doi": "10.5281/zenodo.21250589",
-      "url": "https://doi.org/10.5281/zenodo.21250589",
-      "type": "article",
-      "status": "published",
-      "citations": 0,
-      "openalex_id": "W7167572279",
-      "topics": [
-        "Thermoregulation and physiological responses",
-        "Exercise and Physiological Responses",
-        "Infrared Thermography in Medicine"
-      ],
-      "source": "openalex",
-      "manual": false,
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "self"
-      ]
-    },
-    {
-      "id": "schedule-dependent-heat-exposure-at-united-states-host-citie",
-      "title": "Schedule-dependent heat exposure at United States host cities of the 2026 FIFA World Cup",
-      "authors": [
-        "Quagraine, K. T.",
-        "Quagraine, K. A."
-      ],
-      "year": 2026,
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "doi": "10.5281/zenodo.21250590",
-      "url": "https://doi.org/10.5281/zenodo.21250590",
-      "type": "article",
-      "status": "published",
-      "citations": 0,
-      "openalex_id": "W7167585043",
-      "topics": [
-        "Thermoregulation and physiological responses",
-        "Exercise and Physiological Responses",
-        "Infrared Thermography in Medicine"
-      ],
-      "source": "openalex",
-      "manual": false,
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "self"
-      ]
-    },
-    {
-      "id": "schedule-dependent-heat-exposure-at-united-states-host-citie",
-      "title": "Schedule-dependent heat exposure at United States host cities of the 2026 FIFA World Cup",
-      "authors": [
         "Quagraine, K. A.",
         "Quagraine, K. T.",
         "Lennard, C."
@@ -420,7 +285,7 @@
       "type": "article",
       "status": "published",
       "citations": 0,
-      "openalex_id": "W7171417520",
+      "openalex_id": "W7167585043",
       "topics": [
         "Thermoregulation and physiological responses",
         "Urban Heat Island Mitigation",
@@ -523,9 +388,56 @@
       ],
       "source": "manual",
       "manual": true,
+      "citations": 2,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "self",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "url": "https://doi.org/10.3389/fclim.2025.1599405"
+    },
+    {
+      "id": "africa-s-regional-and-local-climate-response-to-stratospheri",
+      "title": "Africa’s regional and local climate response to stratospheric aerosol injection characteristics",
+      "authors": [
+        "Kumi, N.",
+        "Mensah, C.",
+        "Quagraine, K. A.",
+        "Patel, T. D.",
+        "Otu‐Larbi, F.",
+        "Prempeh, N. A.",
+        "Nguvava, M.",
+        "Nkemelang, T.",
+        "Abiodun, B. J.",
+        "Lennard, C.",
+        "New, M.",
+        "Odoulami, R. C."
+      ],
+      "year": 2025,
+      "venue": "Frontiers in Climate",
+      "doi": "10.3389/fclim.2025.1599405",
       "url": "https://doi.org/10.3389/fclim.2025.1599405",
+      "type": "article",
+      "status": "published",
       "citations": 2,
       "openalex_id": "W4415411721",
+      "topics": [
+        "Climate Change and Geoengineering",
+        "Atmospheric Ozone and Climate",
+        "Space exploration and regulation"
+      ],
+      "source": "openalex",
+      "manual": false,
       "first_author": false,
       "author_positions": [
         "other",
@@ -563,9 +475,7 @@
       ],
       "source": "manual",
       "manual": true,
-      "url": "https://doi.org/10.1088/2752-5295/ade61a",
       "citations": 1,
-      "openalex_id": "W4411443302",
       "first_author": false,
       "author_positions": [
         "other",
@@ -573,7 +483,8 @@
         "self",
         "other",
         "other"
-      ]
+      ],
+      "url": "https://doi.org/10.1088/2752-5295/ade61a"
     },
     {
       "id": "ukesm1-cesm2-geoengineering",
@@ -600,11 +511,125 @@
       "manual": true,
       "url": "https://doi.org/10.1029/2024jd043117",
       "citations": 1,
-      "openalex_id": "W4411924483",
+      "openalex_id": "W4405614780",
+      "open_access_url": "https://essopenarchive.org/doi/pdf/10.22541/essoar.173462728.87124716",
       "first_author": false,
       "author_positions": [
         "other",
         "self",
+        "other",
+        "other",
+        "other",
+        "other"
+      ]
+    },
+    {
+      "id": "assessing-changes-in-atmospheric-rivers-under-stratospheric",
+      "title": "Assessing changes in atmospheric rivers under stratospheric aerosol injection using ARISE-SAI-1.5",
+      "authors": [
+        "Quagraine, K. T.",
+        "O’Brien, T.",
+        "Quagraine, K. A.",
+        "Kravitz, B.",
+        "Tilmes, S."
+      ],
+      "year": 2025,
+      "venue": "Environmental Research Climate",
+      "doi": "10.1088/2752-5295/ade61a",
+      "url": "https://doi.org/10.1088/2752-5295/ade61a",
+      "type": "article",
+      "status": "published",
+      "citations": 1,
+      "openalex_id": "W4411443302",
+      "topics": [
+        "Climate variability and models",
+        "Atmospheric and Environmental Gas Dynamics",
+        "Cryospheric studies and observations"
+      ],
+      "source": "openalex",
+      "manual": false,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "self",
+        "other",
+        "other"
+      ]
+    },
+    {
+      "id": "assessing-the-response-of-surface-cloud-radiative-effects-to",
+      "title": "Assessing the Response of Surface Cloud Radiative Effects to Stratospheric Aerosol Injections Over West and Central Africa",
+      "authors": [
+        "Dommo, A.",
+        "Nkrumah, F.",
+        "Quagraine, K. A.",
+        "Klutse, N. A. B.",
+        "Quenum, G. M. L. D.",
+        "Koffi, H. A."
+      ],
+      "year": 2025,
+      "venue": "Journal of Geophysical Research Atmospheres",
+      "doi": "10.1029/2025jd043576",
+      "url": "https://doi.org/10.1029/2025jd043576",
+      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2025JD043576",
+      "type": "article",
+      "status": "published",
+      "citations": 0,
+      "openalex_id": "W4415289473",
+      "topics": [
+        "Atmospheric aerosols and clouds",
+        "Atmospheric Ozone and Climate",
+        "Climate Change and Geoengineering"
+      ],
+      "source": "openalex",
+      "manual": false,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "self",
+        "other",
+        "other",
+        "other"
+      ]
+    },
+    {
+      "id": "assessing-the-impact-of-stratospheric-aerosol-injection-on-p",
+      "title": "Assessing the impact of stratospheric aerosol injection on precipitation extremes in Africa using the ARISE-SAI-1.5 dataset",
+      "authors": [
+        "Quagraine, K. A.",
+        "Tye, M. R.",
+        "Quagraine, K. T.",
+        "Tilmes, S.",
+        "Simpson, I. R.",
+        "Nkrumah, F.",
+        "Egbebiyi, T. S.",
+        "Odoulami, R. C.",
+        "Klutse, N. A. B."
+      ],
+      "year": 2025,
+      "venue": "Environmental Research Climate",
+      "doi": "10.1088/2752-5295/adee3c",
+      "url": "https://doi.org/10.1088/2752-5295/adee3c",
+      "type": "article",
+      "status": "published",
+      "citations": 2,
+      "openalex_id": "W4412183724",
+      "topics": [
+        "Climate variability and models",
+        "Meteorological Phenomena and Simulations",
+        "Solar Radiation and Photovoltaics"
+      ],
+      "source": "openalex",
+      "manual": false,
+      "first_author": true,
+      "author_positions": [
+        "self",
+        "other",
+        "other",
+        "other",
+        "other",
         "other",
         "other",
         "other",
@@ -667,44 +692,10 @@
       ],
       "source": "manual",
       "manual": true,
-      "url": "https://doi.org/10.1029/2025jd043576",
-      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2025JD043576",
-      "citations": 0,
-      "openalex_id": "W4415289473",
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "other",
-        "self",
-        "other",
-        "other"
-      ]
-    },
-    {
-      "id": "assessing-the-response-of-surface-cloud-radiative-effects-to",
-      "title": "Assessing the response of surface cloud radiative effects to Stratospheric Aerosol Injection over West and Central Africa",
-      "authors": [
-        "Dommo, A.",
-        "Nkrumah, F.",
-        "Quagraine, K. A.",
-        "Klutse, N. A. B.",
-        "Quenum, G. M. L. D."
-      ],
-      "year": 2025,
-      "doi": "10.22541/essoar.173724206.69872710/v1",
       "url": "https://doi.org/10.22541/essoar.173724206.69872710/v1",
       "open_access_url": "https://essopenarchive.org/doi/pdf/10.22541/essoar.173724206.69872710/v1",
-      "type": "preprint",
-      "status": "published",
       "citations": 0,
       "openalex_id": "W4406570102",
-      "topics": [
-        "Atmospheric aerosols and clouds",
-        "Climate Change and Geoengineering",
-        "Space exploration and regulation"
-      ],
-      "source": "openalex",
-      "manual": false,
       "first_author": false,
       "author_positions": [
         "other",
@@ -754,58 +745,6 @@
         "other",
         "other",
         "other"
-      ]
-    },
-    {
-      "id": "comment-on-egusphere-2025-1574",
-      "title": "Comment on egusphere-2025-1574",
-      "authors": [
-        "Quagraine, K. T.",
-        "Quagraine, K. A."
-      ],
-      "year": 2025,
-      "doi": "10.5194/egusphere-2025-1574-rc1",
-      "url": "https://doi.org/10.5194/egusphere-2025-1574-rc1",
-      "type": "article",
-      "status": "published",
-      "citations": 0,
-      "openalex_id": "W4410982225",
-      "topics": [
-        "Geophysics and Gravity Measurements",
-        "Methane Hydrates and Related Phenomena"
-      ],
-      "source": "openalex",
-      "manual": false,
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "self"
-      ]
-    },
-    {
-      "id": "comment-on-egusphere-2025-1574",
-      "title": "Comment on egusphere-2025-1574",
-      "authors": [
-        "Quagraine, K. T.",
-        "Quagraine, K. A."
-      ],
-      "year": 2025,
-      "doi": "10.5194/egusphere-2025-1574-rc2",
-      "url": "https://doi.org/10.5194/egusphere-2025-1574-rc2",
-      "type": "article",
-      "status": "published",
-      "citations": 0,
-      "openalex_id": "W4411057835",
-      "topics": [
-        "Geophysics and Gravity Measurements",
-        "Methane Hydrates and Related Phenomena"
-      ],
-      "source": "openalex",
-      "manual": false,
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "self"
       ]
     },
     {
@@ -878,9 +817,7 @@
       "highlight": true,
       "source": "manual",
       "manual": true,
-      "url": "https://doi.org/10.1088/2752-5295/adee3c",
       "citations": 2,
-      "openalex_id": "W4412183724",
       "first_author": true,
       "author_positions": [
         "self",
@@ -892,7 +829,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "url": "https://doi.org/10.1088/2752-5295/adee3c"
     },
     {
       "id": "moisture-elevated-temperature-melt-index-a-novel-index-to-ca",
@@ -992,84 +930,71 @@
       ]
     },
     {
-      "id": "publisher-correction-to-quantifying-intra-urban-socio-econom",
-      "title": "Publisher Correction to: Quantifying intra-urban socio-economic and environmental vulnerability to extreme heat events in Johannesburg, South Africa",
+      "id": "the-ucar-africa-initiative-recent-insights-challenges-and-op",
+      "title": "The UCAR Africa Initiative: Recent Insights, Challenges, and Opportunities to Foster Collaborative Research for Environmental Sustainability",
       "authors": [
-        "Parker, C.",
-        "Mahlasi, C.",
-        "Govindasamy, T.",
-        "Radebe, L.",
-        "Brink, N.",
-        "Jack, C.",
-        "Doumbia, M.",
-        "Kouakou, Y. E.",
-        "Chersich, M.",
-        "Cissé, G.",
-        "Makhanya, S.",
-        "Bobola, A.",
-        "Tall, A.",
-        "Ndikum, A.",
-        "Aishatu, A.",
-        "Vanga, A. F.",
-        "Chikandiwa, A.",
-        "Waljee, A. K.",
-        "Beukes, A.",
-        "Steynor, A.",
-        "Joubert, B. R.",
-        "Koné, B.",
-        "Hewitson, B.",
-        "Mwangi, C.",
-        "Dumbura, C.",
-        "Gao, C.",
-        "Lakhoo, D. P.",
-        "Thaldar, D.",
-        "Mitchell, D.",
-        "Donnelly, D.",
-        "Frederick, E.",
-        "Vos, E.",
-        "Baloyi, G.",
-        "Marmelstein, G.",
-        "Dely, I. D.",
-        "Solarin, I.",
-        "Maliha, I.",
-        "Maguma, J.",
-        "Tsvaki, J.",
-        "Zhu, J.",
-        "Sall, K.",
-        "Kl, M.",
+        "Tang, W.",
+        "Kumar, R.",
+        "Méndez, A.",
+        "Ahafianyo, F.",
+        "Akinsanola, A. A.",
+        "Ameko, A.",
+        "Dekker, M.",
+        "Fu, R.",
+        "Gaubert, B.",
+        "Hagos, S.",
+        "He, C.",
+        "Lacey, F.",
+        "Ocasio, K. M. N.",
+        "Simpson, I. R.",
+        "Ture, K.",
+        "Wirz, C. D.",
+        "Abolafia‐Rosenzweig, R.",
+        "Audu, E. O.",
+        "Bahramvash-Shams, S.",
+        "Bililign, S.",
+        "Bruintjes, R.",
+        "Castro, C. V.",
+        "Demoz, B.",
+        "Diallo, I.",
+        "Dixon, R. D.",
+        "Dudhia, J.",
+        "Fakoya, A. A.",
+        "Garland, R. M.",
+        "Gotway, C. H.",
+        "Huang, Y.",
+        "Hussain, A.",
+        "Idowu, D.",
+        "Jiang, Y.",
+        "Kazimierczuk, A.",
+        "Lawrence, P.",
+        "Leung, D. M.",
+        "Minallah, S.",
+        "Mizukami, N.",
+        "Orimoloye, I. R.",
+        "Kucera, P. A.",
         "Quagraine, K. A.",
-        "Mbano, L.",
-        "Harden, L. L.",
-        "Abdulrauf, L. A.",
-        "Brennan, M. M.",
-        "McAllister, K. A.",
-        "Langa, N.",
-        "Emerence, O.",
-        "Adegun, O. B.",
-        "Ogendi, P.",
-        "Marsh, P.",
-        "Munyi, P.",
-        "Kloppers, P.",
-        "Wolski, P.",
-        "Satekge, R.",
-        "Duffett, R.",
-        "Sibanda, R.",
-        "Forget, R.",
-        "Omar, S. A.",
-        "Lüchters, S.",
-        "Makanga, T."
+        "Semie, A. G.",
+        "Tilmes, S.",
+        "Westervelt, D. M.",
+        "Zhang, D.",
+        "Zhang, Z.",
+        "Worden, H. M.",
+        "Levelt, P. F."
       ],
       "year": 2025,
-      "venue": "International Journal of Biometeorology",
-      "doi": "10.1007/s00484-025-02988-3",
-      "url": "https://doi.org/10.1007/s00484-025-02988-3",
-      "open_access_url": "https://link.springer.com/content/pdf/10.1007/s00484-025-02988-3.pdf",
+      "venue": "Bulletin of the American Meteorological Society",
+      "doi": "10.1175/bams-d-24-0118.1",
+      "url": "https://doi.org/10.1175/bams-d-24-0118.1",
+      "open_access_url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A4291444/view",
       "type": "article",
       "status": "published",
       "citations": 1,
-      "openalex_id": "W4413795950",
+      "openalex_id": "W4414724503",
       "topics": [
-        "Climate Change and Health Impacts"
+        "Environmental and Social Impact Assessments",
+        "Sustainability and Climate Change Governance",
+        "Sustainable Development and Environmental Policy"
       ],
       "source": "openalex",
       "manual": false,
@@ -1115,22 +1040,7 @@
         "other",
         "other",
         "other",
-        "other",
-        "other",
         "self",
-        "other",
-        "other",
-        "other",
-        "other",
-        "other",
-        "other",
-        "other",
-        "other",
-        "other",
-        "other",
-        "other",
-        "other",
-        "other",
         "other",
         "other",
         "other",
@@ -1161,10 +1071,7 @@
       ],
       "source": "manual",
       "manual": true,
-      "url": "https://doi.org/10.1175/bams-d-24-0118.1",
-      "open_access_url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A4291444/view",
       "citations": 1,
-      "openalex_id": "W4414724503",
       "first_author": false,
       "author_positions": [
         "other",
@@ -1172,7 +1079,8 @@
         "other",
         "self",
         "other"
-      ]
+      ],
+      "url": "https://doi.org/10.1175/bams-d-24-0118.1"
     },
     {
       "id": "south-atlantic-high-index",
@@ -1297,41 +1205,6 @@
       ]
     },
     {
-      "id": "assessing-regional-climate-trends-in-west-africa-under-geoen",
-      "title": "Assessing Regional Climate Trends in West Africa Under Geoengineering: A Multi-model Comparison of UKESM1 and CESM2",
-      "authors": [
-        "Nkrumah, F.",
-        "Quagraine, K. A.",
-        "Quenum, G. M. L. D.",
-        "Visioni, D.",
-        "Koffi, H. A.",
-        "Klutse, N. A. B."
-      ],
-      "year": 2024,
-      "doi": "10.22541/essoar.173462728.87124716/v1",
-      "url": "https://doi.org/10.22541/essoar.173462728.87124716/v1",
-      "open_access_url": "https://essopenarchive.org/doi/pdf/10.22541/essoar.173462728.87124716",
-      "type": "preprint",
-      "status": "published",
-      "citations": 0,
-      "openalex_id": "W4405614780",
-      "topics": [
-        "Climate Change and Geoengineering",
-        "Atmospheric and Environmental Gas Dynamics"
-      ],
-      "source": "openalex",
-      "manual": false,
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "self",
-        "other",
-        "other",
-        "other",
-        "other"
-      ]
-    },
-    {
       "id": "potential-impact-of-stratospheric-aerosol-injection-on-horti",
       "title": "Potential Impact of Stratospheric Aerosol Injection on Horticulture Suitability in Africa?",
       "authors": [
@@ -1415,86 +1288,6 @@
       ]
     },
     {
-      "id": "classification-of-large-scale-environments-that-drive-the-fo",
-      "title": "Classification Of Large-Scale Environments That Drive The Formation Of Mesoscale Convective Systems Over Southern West Africa",
-      "authors": [
-        "Nkrumah, F.",
-        "Klein, C.",
-        "Quagraine, K. A.",
-        "Oforiwaa, R. B.",
-        "Klutse, N. A. B.",
-        "Essien, P.",
-        "Quenum, G. M. L. D.",
-        "Koffi, H. A."
-      ],
-      "year": 2023,
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "doi": "10.5281/zenodo.8192394",
-      "url": "https://doi.org/10.5281/zenodo.8192394",
-      "type": "article",
-      "status": "published",
-      "citations": 0,
-      "openalex_id": "W4393880919",
-      "topics": [
-        "Climate variability and models",
-        "Geomagnetism and Paleomagnetism Studies",
-        "Geophysics and Gravity Measurements"
-      ],
-      "source": "openalex",
-      "manual": false,
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "other",
-        "self",
-        "other",
-        "other",
-        "other",
-        "other",
-        "other"
-      ]
-    },
-    {
-      "id": "classification-of-large-scale-environments-that-drive-the-fo",
-      "title": "Classification Of Large-Scale Environments That Drive The Formation Of Mesoscale Convective Systems Over Southern West Africa",
-      "authors": [
-        "Nkrumah, F.",
-        "Klein, C.",
-        "Quagraine, K. A.",
-        "Oforiwaa, R. B.",
-        "Klutse, N. A. B.",
-        "Essien, P.",
-        "Quenum, G. M. L. D.",
-        "Koffi, H. A."
-      ],
-      "year": 2023,
-      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
-      "doi": "10.5281/zenodo.8192395",
-      "url": "https://doi.org/10.5281/zenodo.8192395",
-      "type": "article",
-      "status": "published",
-      "citations": 0,
-      "openalex_id": "W4393883215",
-      "topics": [
-        "Climate variability and models",
-        "Geomagnetism and Paleomagnetism Studies",
-        "Geophysics and Gravity Measurements"
-      ],
-      "source": "openalex",
-      "manual": false,
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "other",
-        "self",
-        "other",
-        "other",
-        "other",
-        "other",
-        "other"
-      ]
-    },
-    {
       "id": "mcs-large-scale-environments",
       "title": "Classification of Large-Scale Environments that drive the formation of Mesoscale Convective Systems over Southern West Africa",
       "authors": [
@@ -1518,7 +1311,7 @@
       "manual": true,
       "url": "https://doi.org/10.5194/wcd-4-773-2023",
       "citations": 10,
-      "openalex_id": "W4386492400",
+      "openalex_id": "W4310379596",
       "first_author": false,
       "author_positions": [
         "other",
@@ -1563,84 +1356,6 @@
         "other",
         "other",
         "self",
-        "other"
-      ]
-    },
-    {
-      "id": "classification-of-large-scale-environments-that-drive-the-fo",
-      "title": "Classification of Large-Scale Environments that drive the formation of Mesoscale Convective Systems over Southern West Africa",
-      "authors": [
-        "Nkrumah, F.",
-        "Klein, C.",
-        "Quagraine, K. A.",
-        "Berkoh-Oforiwaa, R.",
-        "Klutse, N. A. B.",
-        "Essien, P.",
-        "Quenum, G. M. L. D.",
-        "Koffi, H. A."
-      ],
-      "year": 2022,
-      "doi": "10.5194/wcd-2022-61",
-      "url": "https://doi.org/10.5194/wcd-2022-61",
-      "type": "preprint",
-      "status": "published",
-      "citations": 2,
-      "openalex_id": "W4310379596",
-      "topics": [
-        "Climate variability and models",
-        "Meteorological Phenomena and Simulations",
-        "Tropical and Extratropical Cyclones Research"
-      ],
-      "source": "openalex",
-      "manual": false,
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "other",
-        "self",
-        "other",
-        "other",
-        "other",
-        "other",
-        "other"
-      ]
-    },
-    {
-      "id": "comment-on-wcd-2022-61",
-      "title": "Comment on wcd-2022-61",
-      "authors": [
-        "Nkrumah, F.",
-        "Klein, C.",
-        "Quagraine, K. A.",
-        "Berkoh-Oforiwaa, R.",
-        "Klutse, N. A. B.",
-        "Essien, P.",
-        "Quenum, G. ̈. M. L. D.",
-        "Koffi, H. A."
-      ],
-      "year": 2022,
-      "doi": "10.5194/wcd-2022-61-rc1",
-      "url": "https://doi.org/10.5194/wcd-2022-61-rc1",
-      "type": "article",
-      "status": "published",
-      "citations": 0,
-      "openalex_id": "W4312116488",
-      "topics": [
-        "Climate variability and models",
-        "Meteorological Phenomena and Simulations",
-        "Tropical and Extratropical Cyclones Research"
-      ],
-      "source": "openalex",
-      "manual": false,
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "other",
-        "self",
-        "other",
-        "other",
-        "other",
-        "other",
         "other"
       ]
     },
@@ -2027,6 +1742,41 @@
       ]
     },
     {
+      "id": "changes-in-rainfall-characteristics-in-wenchi-and-saltpond-f",
+      "title": "Changes in Rainfall Characteristics in Wenchi and Saltpond Farming Areas of Ghana",
+      "authors": [
+        "Quagraine, K. A.",
+        "Klutse, N. A. B.",
+        "Nkrumah, F.",
+        "Adukpo, D. C.",
+        "Owusu, K."
+      ],
+      "year": 2017,
+      "venue": "International Journal of Geosciences",
+      "doi": "10.4236/ijg.2017.83015",
+      "url": "https://doi.org/10.4236/ijg.2017.83015",
+      "open_access_url": "https://content.scirp.org/pdf/ijg_2017032816262883.pdf",
+      "type": "article",
+      "status": "published",
+      "citations": 8,
+      "openalex_id": "W2603450169",
+      "topics": [
+        "Climate variability and models",
+        "Hydrology and Drought Analysis",
+        "Climate change impacts on agriculture"
+      ],
+      "source": "openalex",
+      "manual": false,
+      "first_author": true,
+      "author_positions": [
+        "self",
+        "other",
+        "other",
+        "other",
+        "other"
+      ]
+    },
+    {
       "id": "wenchi-saltpond-rainfall",
       "title": "Changes in rainfall characteristics in Wenchi and Saltpond farming areas in Ghana",
       "authors": [
@@ -2048,10 +1798,7 @@
       ],
       "source": "manual",
       "manual": true,
-      "url": "https://doi.org/10.4236/ijg.2017.83015",
-      "open_access_url": "https://content.scirp.org/pdf/ijg_2017032816262883.pdf",
       "citations": 8,
-      "openalex_id": "W2603450169",
       "first_author": true,
       "author_positions": [
         "self",
@@ -2059,7 +1806,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "url": "https://doi.org/10.4236/ijg.2017.83015"
     },
     {
       "id": "rainfall-variability-ghana",
@@ -2157,56 +1905,6 @@
         "self",
         "other",
         "other"
-      ]
-    },
-    {
-      "id": "a-comprehensive-study-of-cation-exchange-in-tropical-soils",
-      "title": "A comprehensive study of cation exchange in tropical soils.",
-      "authors": [
-        "Endredy, A. S. d.",
-        "Quagraine, K. A."
-      ],
-      "year": 1960,
-      "venue": "Transactions 7th int. Congr. Soil Sci.",
-      "url": "https://www.cabdirect.org/cabdirect/abstract/19621900010",
-      "type": "article",
-      "status": "published",
-      "citations": 0,
-      "openalex_id": "W941232102",
-      "topics": [
-        "Agricultural Science and Fertilization"
-      ],
-      "source": "openalex",
-      "manual": false,
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "self"
-      ]
-    },
-    {
-      "id": "characteristics-of-some-latosols-and-associated-soils-from-t",
-      "title": "Characteristics of some latosols and associated soils from the northwestern savannah zone of Ghana, West Africa.",
-      "authors": [
-        "Obeng, H. B.",
-        "Quagraine, K. A."
-      ],
-      "year": 1960,
-      "venue": "Transactions 7th int. Congr. Soil Sci.",
-      "url": "https://www.cabdirect.org/abstracts/19621900876.html",
-      "type": "article",
-      "status": "published",
-      "citations": 1,
-      "openalex_id": "W2244560549",
-      "topics": [
-        "Geotechnical and construction materials studies"
-      ],
-      "source": "openalex",
-      "manual": false,
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "self"
       ]
     }
   ]
