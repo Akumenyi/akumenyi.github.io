@@ -45,16 +45,6 @@
   doi: "10.1007/s11207-025-02588-9"
   topics: ["Solar physics", "Citizen science"]
 
-- id: world-cup-heat-exposure
-  title: "Schedule-dependent heat exposure at large outdoor events: implications for the 2026 FIFA World Cup"
-  authors: ["Quagraine, K. A.", "Quagraine, K. T."]
-  year: 2026
-  venue: "Nature Communications"
-  type: article
-  status: under_review
-  topics: ["Heat extremes", "Climate & society"]
-  highlight: true
-
 - id: south-indian-ocean-high-index
   title: "An Index to Characterize the South Indian Ocean High-Pressure System and its Variability"
   authors: ["Quagraine, K. A.", "Quagraine, K. T.", "Nkrumah, F.", "Tilmes, S.", "Hewitson, B.", "Tadross, M.", "Klutse, N. A. B."]
