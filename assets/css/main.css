@@ -287,25 +287,6 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
 }
 .orcid-chip .icon { color: #a6ce39; }
 
-/* ------------------------------------------------------------- metrics --- */
-
-.metrics {
-  list-style: none; padding: 0; margin: clamp(2.6rem, 6vw, 4rem) 0 0;
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px;
-  background: var(--line-soft); border: 1px solid var(--line-soft);
-  border-radius: var(--radius); overflow: hidden;
-}
-.metrics li { background: var(--panel); padding: 1.3rem 1.2rem; }
-.metric-value {
-  display: block; font-family: var(--font-display); font-weight: 700;
-  font-size: clamp(1.9rem, 3.6vw, 2.5rem); line-height: 1; letter-spacing: -.03em;
-  background: var(--grad); -webkit-background-clip: text; background-clip: text; color: transparent;
-}
-.metric-label { display: block; margin-top: .45rem; font-size: .8rem; letter-spacing: .05em; color: var(--text-mute); }
-.metrics-compact { margin-top: 2rem; }
-.metrics-compact li { padding: 1rem 1.1rem; }
-.metrics-compact .metric-value { font-size: 1.65rem; }
-
 /* ------------------------------------------------------------ sections --- */
 
 .section { padding: clamp(3.5rem, 8vw, 6rem) 0; }

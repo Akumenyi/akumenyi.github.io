@@ -51,34 +51,6 @@
     onScroll();
   }
 
-  /* --------------------------------------------------- metric counters --- */
-
-  var counters = document.querySelectorAll("[data-count-to]");
-  if (counters.length && !reduceMotion && "IntersectionObserver" in window) {
-    var observer = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (!entry.isIntersecting) return;
-        observer.unobserve(entry.target);
-        var el = entry.target;
-        var target = parseInt(el.getAttribute("data-count-to"), 10) || 0;
-        if (target < 2) return;
-        var started = null;
-        var duration = 900;
-        var step = function (timestamp) {
-          if (started === null) started = timestamp;
-          var progress = Math.min((timestamp - started) / duration, 1);
-          // ease-out cubic
-          var eased = 1 - Math.pow(1 - progress, 3);
-          el.textContent = String(Math.round(target * eased));
-          if (progress < 1) requestAnimationFrame(step);
-        };
-        el.textContent = "0";
-        requestAnimationFrame(step);
-      });
-    }, { threshold: 0.4 });
-    counters.forEach(function (el) { observer.observe(el); });
-  }
-
   /* --------------------------------------------- hero isobar animation --- */
 
   var canvas = document.querySelector("[data-isobars]");
