@@ -171,7 +171,7 @@
         if (query && item.dataset.search.indexOf(query) === -1) ok = false;
         if (ok && year && item.dataset.year !== year) ok = false;
         if (ok && firstOnly.checked && item.dataset.first !== "true") ok = false;
-        if (ok && !showReview.checked && item.dataset.status === "under_review") ok = false;
+        if (ok && showReview && !showReview.checked && item.dataset.status === "under_review") ok = false;
         item.hidden = !ok;
         if (ok) visible++;
       });
@@ -197,6 +197,7 @@
     };
 
     [search, yearSelect, firstOnly, showReview].forEach(function (el) {
+      if (!el) return;                       // the review toggle is absent when nothing is under review
       el.addEventListener("input", apply);
       el.addEventListener("change", apply);
     });
@@ -207,7 +208,7 @@
         search.value = "";
         yearSelect.value = "";
         firstOnly.checked = false;
-        showReview.checked = true;
+        if (showReview) showReview.checked = true;
         sortSelect.value = "year";
         sort();
         apply();

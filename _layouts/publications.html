@@ -44,7 +44,10 @@ layout: default
 
     <div class="control control-toggles">
       <label class="switch"><input type="checkbox" data-pub-filter="first"><span>First author only</span></label>
-      <label class="switch"><input type="checkbox" data-pub-filter="review" checked><span>Include under review</span><span class="switch-hint" data-hidden-hint></span></label>
+      {%- assign review_count = pubs | where: "status", "under_review" | size -%}
+      {%- if review_count > 0 -%}
+      <label class="switch"><input type="checkbox" data-pub-filter="review" checked><span>Include under review</span></label>
+      {%- endif -%}
     </div>
 
     <p class="pub-count" data-pub-count aria-live="polite"></p>
