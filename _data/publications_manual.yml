@@ -73,15 +73,6 @@
   status: under_review
   topics: ["Air quality", "Climate impacts"]
 
-- id: melt-index-drivers
-  title: "Moisture ELevated Temperature (MELT) index: Identifying the Synoptic Scale Dynamic and Thermodynamic Drivers"
-  authors: ["Quagraine, K. T.", "Quagraine, K. A."]
-  year: 2026
-  venue: "Scientific Reports"
-  type: article
-  status: under_review
-  topics: ["Heat extremes", "Synoptic dynamics"]
-
 - id: africa-must-lead-srm-governance
   title: "Africa Must Lead the Governance of Solar Radiation Management"
   authors: ["Quagraine, K. A.", "Abiodun, B. J.", "Essien-Baidoo, S."]
