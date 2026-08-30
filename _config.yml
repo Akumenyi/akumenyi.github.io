@@ -23,16 +23,18 @@ profile:
   affiliation: "Climate Vulnerable Forum & V20 (CVF-V20)"
   affiliation_short: "CVF-V20"
   affiliation_url: "https://cvfv20.org/"
-  # Drop the real logo at this path and it replaces the text wordmark
-  # automatically. SVG preferred; PNG with a transparent background works too.
-  affiliation_logo: "/assets/img/cvf-v20-logo.svg"
+  # Drop the real logo in as assets/img/cvf-v20-logo.{svg,png,jpg,webp} and it
+  # replaces the text wordmark automatically -- no config change needed.
+  # SVG is sharpest; a transparent PNG is fine. The mark is presented on a white
+  # plate so dark logo text stays legible against the dark theme.
+  affiliation_logo: "/assets/img/cvf-v20-logo"
   affiliation_wordmark: "CVF·V20"
   # Concurrent appointment. Leave `secondary_role` blank to drop it site-wide.
   secondary_role: "Visiting Scientist"
   secondary_affiliation: "NSF National Center for Atmospheric Research (NSF-NCAR)"
   secondary_affiliation_short: "NSF NCAR"
   secondary_affiliation_url: "https://ncar.ucar.edu/"
-  secondary_affiliation_logo: "/assets/img/nsf-ncar-logo.svg"
+  secondary_affiliation_logo: "/assets/img/nsf-ncar-logo"
   secondary_affiliation_wordmark: "NSF NCAR"
   location: "Boulder, Colorado, USA"
   orcid: "0000-0002-7887-6040"

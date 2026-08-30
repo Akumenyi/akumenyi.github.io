@@ -1,0 +1,19 @@
+{%- comment -%}
+Resolve an affiliation logo without caring which format it arrived in.
+
+`include.base` is a path with no extension, e.g. /assets/img/cvf-v20-logo.
+Sets `logo_src` to the first matching file actually present in the repo, or to
+an empty string when none is — which is what makes the text wordmark fall back
+cleanly. Jekyll has no file-exists filter, so this checks site.static_files.
+{%- endcomment -%}
+{%- assign logo_src = "" -%}
+{%- if include.base and include.base != "" -%}
+  {%- assign candidates = "svg,png,jpg,jpeg,webp" | split: "," -%}
+  {%- for ext in candidates -%}
+    {%- if logo_src == "" -%}
+      {%- assign candidate = include.base | append: "." | append: ext -%}
+      {%- assign hit = site.static_files | where: "path", candidate | first -%}
+      {%- if hit -%}{%- assign logo_src = candidate -%}{%- endif -%}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endif -%}
