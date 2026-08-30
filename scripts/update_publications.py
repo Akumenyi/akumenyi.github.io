@@ -195,7 +195,7 @@ def openalex_to_entry(work: dict) -> dict | None:
     for authorship in authorships:
         author = authorship.get("author") or {}
         name = author.get("display_name") or ""
-        if author.get("orcid", "").endswith(ORCID):
+        if (author.get("orcid") or "").endswith(ORCID):
             orcid_matched = True
         authors.append(format_author(name))
 
@@ -222,7 +222,7 @@ def openalex_to_entry(work: dict) -> dict | None:
         "type": TYPE_MAP.get(crossref_type, "article"),
         "status": "published",
         "citations": work.get("cited_by_count") or 0,
-        "openalex_id": work.get("id", "").rsplit("/", 1)[-1],
+        "openalex_id": (work.get("id") or "").rsplit("/", 1)[-1],
         "topics": [t["display_name"] for t in (work.get("topics") or [])[:3] if t.get("display_name")],
         "source": "openalex",
         "manual": False,
@@ -289,7 +289,7 @@ def fetch_scholar(session) -> tuple[dict, dict]:
         for article in articles:
             key = normalise_title(article.get("title", ""))
             if key:
-                citations[key] = int(article.get("cited_by", {}).get("value") or 0)
+                citations[key] = int((article.get("cited_by") or {}).get("value") or 0)
         if len(articles) < 100:
             break
         start += 100
@@ -431,14 +431,31 @@ def main() -> int:
         session.headers["User-Agent"] = f"akumenyi.github.io publication sync (mailto:{OPENALEX_MAILTO})"
 
         try:
-            for work in fetch_openalex_works(session):
-                entry = openalex_to_entry(work)
-                if entry:
-                    fetched.append(entry)
-            openalex_metrics = fetch_openalex_metrics(session)
+            works = fetch_openalex_works(session)
         except Exception as exc:  # noqa: BLE001 - never fail the site build
+            works = []
             warnings.append(f"OpenAlex unavailable: {exc}")
             log(f"OpenAlex failed, keeping existing record ({exc})")
+
+        skipped = 0
+        for work in works:
+            try:
+                entry = openalex_to_entry(work)
+            except Exception as exc:  # noqa: BLE001
+                skipped += 1
+                log(f"  skipped a malformed OpenAlex record ({exc})")
+                continue
+            if entry:
+                fetched.append(entry)
+        if skipped:
+            warnings.append(f"{skipped} OpenAlex records could not be read")
+
+        # Fetched separately: a failure here must not discard the works above.
+        try:
+            openalex_metrics = fetch_openalex_metrics(session)
+        except Exception as exc:  # noqa: BLE001
+            warnings.append(f"OpenAlex author metrics unavailable: {exc}")
+            log(f"OpenAlex author metrics failed ({exc})")
 
         try:
             scholar_metrics, scholar_citations = fetch_scholar(session)

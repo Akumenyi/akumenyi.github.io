@@ -67,6 +67,24 @@ jobs:
         # them current and re-renders if the member list changes.
         run: python scripts/warming_stripes.py
 
+      - name: Surface sync warnings
+        # The fetchers deliberately never fail the build -- a bad network day
+        # must not wipe the site. That makes a partial failure easy to miss, so
+        # anything they reported is raised as a job annotation here.
+        run: |
+          python - <<'EOF'
+          import json, pathlib
+          for name in ("publications", "linkedin", "warming_stripes"):
+              path = pathlib.Path("_data") / f"{name}.json"
+              if not path.exists():
+                  continue
+              data = json.loads(path.read_text())
+              for warning in data.get("warnings", []) or []:
+                  print(f"::warning title={name}::{warning}")
+              for failure in data.get("failures", []) or []:
+                  print(f"::warning title={name}::could not fetch {failure}")
+          EOF
+
       - name: Commit refreshed data
         run: |
           if [ -z "$(git status --porcelain _data assets/img/stripes)" ]; then
@@ -76,5 +94,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add _data assets/img/stripes
-          git commit -m "chore(data): refresh publications, metrics and LinkedIn activity"
+          git commit -m "chore(data): refresh publications, LinkedIn activity and warming stripes"
           git push
