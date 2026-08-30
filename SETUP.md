@@ -146,6 +146,22 @@ Set `stripes: ghana` in a page's front matter. Unknown or not-yet-rendered slugs
 | Updates | Fiji |
 | Footer rule, 404 | Global land |
 
+### Adding the organisation logos
+
+The header brand mark and the affiliation strip both show a text wordmark until a real logo
+file exists. To swap in the mark:
+
+1. Save the file as `assets/img/cvf-v20-logo.svg` — `.png`, `.jpg` and `.webp` also work, and
+   the site picks up whichever it finds, so no config change is needed. The NSF NCAR slot uses
+   `assets/img/nsf-ncar-logo.*` the same way.
+2. Commit it. On GitHub: **Add file → Upload files**, drag it into `assets/img/`, commit.
+
+That is the whole job — both slots fill in on the next build.
+
+The logo is never recoloured, cropped or redrawn. Because these marks carry dark text that
+would disappear against the dark theme, the site presents them on a white plate with padding
+and a hairline border, which is why a transparent background is fine and preferred.
+
 ### Using a photograph instead
 
 Set `hero_image: /assets/img/your-photo.jpg` in a page's front matter and it replaces the

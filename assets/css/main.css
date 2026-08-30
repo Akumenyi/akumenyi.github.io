@@ -639,13 +639,33 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 
 /* -------------------------------------------------------- affiliations --- */
 
-/* Header brand slot when a real organisation logo is present: no frame, no
-   tint — a logo should sit on the page as its owner drew it. */
-.brand-mark.has-logo {
-  border: 0; background: none; border-radius: 0;
-  width: auto; height: 2.3rem; min-width: 2.3rem;
+/* A real organisation logo is never recoloured or redrawn — it is given the
+   background it was designed for. These marks carry dark text that would
+   vanish on the dark theme, so they sit on a white plate with breathing room,
+   which reads as a deliberate badge rather than a stray white rectangle. */
+.logo-plate,
+.brand-mark.has-logo,
+.affil-mark.has-logo {
+  background: #fff;
+  border: 1px solid rgba(15, 23, 40, .10);
+  border-radius: 8px;
+  padding: .3rem .5rem;
+  display: grid; place-items: center;
 }
-.brand-mark.has-logo img { height: 100%; width: auto; max-width: 8rem; object-fit: contain; }
+
+.brand-mark.has-logo {
+  width: auto; min-width: 0; height: 2.5rem;
+  padding: .28rem .45rem;
+}
+.brand-mark.has-logo img {
+  height: 100%; width: auto; max-width: 9.5rem;
+  object-fit: contain; display: block;
+}
+
+.affil-mark.has-logo {
+  height: 3.1rem; min-width: 0; padding: .35rem .6rem;
+}
+.affil-mark.has-logo img { max-width: 11rem; height: 100%; }
 
 .affiliations { border-top: 1px solid var(--line-soft); background: var(--bg-alt); }
 .affil-row {
@@ -664,6 +684,11 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 .affil-mark {
   display: grid; place-items: center; flex: none;
   height: 2.9rem; min-width: 2.9rem; padding: 0 .2rem;
+}
+@media (max-width: 720px) {
+  .brand-mark.has-logo { height: 2.1rem; }
+  .brand-mark.has-logo img { max-width: 7rem; }
+  .affil-mark.has-logo { height: 2.6rem; }
 }
 .affil-mark img { height: 100%; width: auto; max-width: 9rem; object-fit: contain; }
 .affil-wordmark {

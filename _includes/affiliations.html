@@ -7,17 +7,19 @@ then — so dropping `assets/img/cvf-v20-logo.svg` into place is the only step
 needed to swap the text for the mark. No logo is ever invented here.
 {%- endcomment -%}
 {%- assign p = site.profile -%}
-{%- assign primary_logo = site.static_files | where: "path", p.affiliation_logo | first -%}
-{%- assign secondary_logo = site.static_files | where: "path", p.secondary_affiliation_logo | first -%}
+{%- include logo-lookup.html base=p.affiliation_logo -%}
+{%- assign primary_logo = logo_src -%}
+{%- include logo-lookup.html base=p.secondary_affiliation_logo -%}
+{%- assign secondary_logo = logo_src -%}
 
 <section class="affiliations" aria-label="Affiliations">
   <div class="wrap affil-row">
     <p class="affil-label">Affiliations</p>
 
     <a class="affil" href="{{ p.affiliation_url }}" target="_blank" rel="noopener">
-      <span class="affil-mark">
-        {%- if primary_logo -%}
-          <img src="{{ p.affiliation_logo | relative_url }}" alt="{{ p.affiliation }}" loading="lazy" decoding="async">
+      <span class="affil-mark{% if primary_logo != "" %} has-logo{% endif %}">
+        {%- if primary_logo != "" -%}
+          <img src="{{ primary_logo | relative_url }}" alt="{{ p.affiliation }}" loading="lazy" decoding="async">
         {%- else -%}
           <span class="affil-wordmark">{{ p.affiliation_wordmark | default: p.affiliation_short }}</span>
         {%- endif -%}
@@ -30,9 +32,9 @@ needed to swap the text for the mark. No logo is ever invented here.
 
     {%- if p.secondary_role -%}
     <a class="affil" href="{{ p.secondary_affiliation_url }}" target="_blank" rel="noopener">
-      <span class="affil-mark">
-        {%- if secondary_logo -%}
-          <img src="{{ p.secondary_affiliation_logo | relative_url }}" alt="{{ p.secondary_affiliation }}" loading="lazy" decoding="async">
+      <span class="affil-mark{% if secondary_logo != "" %} has-logo{% endif %}">
+        {%- if secondary_logo != "" -%}
+          <img src="{{ secondary_logo | relative_url }}" alt="{{ p.secondary_affiliation }}" loading="lazy" decoding="async">
         {%- else -%}
           <span class="affil-wordmark">{{ p.secondary_affiliation_wordmark | default: p.secondary_affiliation_short }}</span>
         {%- endif -%}

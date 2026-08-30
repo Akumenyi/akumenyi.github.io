@@ -5,10 +5,10 @@
         The CVF-V20 logo sits here once `assets/img/cvf-v20-logo.svg` exists.
         Until then the isobar glyph below stands in, so the header never breaks.
       {%- endcomment -%}
-      {%- assign brand_logo = site.static_files | where: "path", site.profile.affiliation_logo | first -%}
-      {%- if brand_logo -%}
+      {%- include logo-lookup.html base=site.profile.affiliation_logo -%}
+      {%- if logo_src != "" -%}
       <span class="brand-mark has-logo">
-        <img src="{{ site.profile.affiliation_logo | relative_url }}" alt="{{ site.profile.affiliation }}" width="40" height="40">
+        <img src="{{ logo_src | relative_url }}" alt="{{ site.profile.affiliation }}">
       </span>
       {%- else -%}
       <span class="brand-mark" aria-hidden="true">
