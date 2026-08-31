@@ -54,7 +54,7 @@ navigation:
   - {url: "/blog/", title: "Blog"}
   - {url: "/projects/", title: "Projects & Grants"}
   - {url: "/updates/", title: "Updates"}
-  - {url: "/cv_kwesi_a_quagraine_spring2025.pdf", title: "CV", external: true}
+  - {url: "/Kwesi_Quagraine_CV_2paged_CVF.pdf", title: "CV", external: true}
 
 profiles:
   - {title: "Google Scholar", short: "Scholar", icon: "scholar", url: "https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en", handle: "hoI1ZjkAAAAJ"}
