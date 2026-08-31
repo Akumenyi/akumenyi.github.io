@@ -4,7 +4,7 @@ layout: default
 {%- assign posts = site.posts -%}
 {%- assign tags = site.tags | sort -%}
 
-<div class="page-head">
+<div class="page-head page-head-tight">
   {% include stripes-backdrop.html country=page.stripes %}
   <div class="wrap">
     {%- if page.eyebrow %}<p class="eyebrow">{{ page.eyebrow }}</p>{% endif -%}
