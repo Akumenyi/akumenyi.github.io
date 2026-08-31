@@ -76,6 +76,14 @@ VENUE_FIXES = {
 # production run pulled in two 1960 soil-science papers this way.
 MIN_YEAR = int(os.environ.get("PUBLICATIONS_MIN_YEAR", "2005"))
 
+# Every paper in this record is open access apart from a handful behind a
+# publisher paywall, so open access is the default and exceptions are declared
+# in _data/publications_manual.yml with `open_access: false`. OpenAlex's own
+# is_oa flag is deliberately not used to override this: the author knows the
+# licensing of their own work, and an OpenAlex lag would silently drop the
+# marker from papers that really are open.
+DEFAULT_OPEN_ACCESS = True
+
 # OpenAlex work types that are not publications in their own right.
 EXCLUDED_TYPES = {
     "peer-review", "erratum", "paratext", "supplementary-materials",
@@ -427,7 +435,9 @@ def merge(manual: list[dict], fetched: list[dict], previous: list[dict]) -> list
                     current[field] = max(int(value or 0), int(current.get(field) or 0))
                 elif field in {"openalex_id", "open_access_url"}:
                     current[field] = value
-                elif not current.get(field):
+                elif current.get(field) in (None, "", [], {}):
+                    # `in` rather than falsiness: a stored False is a decision,
+                    # not a gap, and must not be filled over.
                     current[field] = value
 
             # A curated title written at submission loses to the published one.
@@ -460,6 +470,8 @@ def merge(manual: list[dict], fetched: list[dict], previous: list[dict]) -> list
         entry["authors"] = [format_author(a) for a in entry.get("authors", [])]
         entry["first_author"] = bool(entry["authors"]) and author_is_kaq(entry["authors"][0])
         entry["author_positions"] = ["self" if author_is_kaq(a) else "other" for a in entry["authors"]]
+        if entry.get("open_access") is None:
+            entry["open_access"] = DEFAULT_OPEN_ACCESS
         if entry.get("doi") and not entry.get("url"):
             entry["url"] = f"https://doi.org/{entry['doi']}"
     results.sort(key=lambda e: (-(e.get("year") or 0), 0 if e.get("status") == "under_review" else 1, e.get("title", "")))
@@ -473,7 +485,7 @@ def prune_empty(entry: dict) -> dict:
     `open_access_url` would render an empty chip on the page. Omitting the key
     entirely makes the template's `{% if %}` behave as intended.
     """
-    return {k: v for k, v in entry.items() if v not in (None, "", [], {})}
+    return {k: v for k, v in entry.items() if v is False or v not in (None, "", [], {})}
 
 
 def build_metrics(publications: list[dict], scholar: dict, openalex: dict, previous: dict) -> dict:

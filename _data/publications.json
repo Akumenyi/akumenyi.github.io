@@ -49,7 +49,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "citizen-cate-2024",
@@ -83,7 +84,8 @@
         "self",
         "other"
       ],
-      "url": "https://doi.org/10.1007/s11207-025-02588-9"
+      "url": "https://doi.org/10.1007/s11207-025-02588-9",
+      "open_access": true
     },
     {
       "id": "earth-system-predictability",
@@ -118,7 +120,8 @@
         "other",
         "self",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "extreme-events-as-an-inadequately-explored-measure-of-solar",
@@ -151,7 +154,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "high-latitude-low-altitude-stratospheric-aerosol-injection-r",
@@ -186,7 +190,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "future-global-air-quality",
@@ -218,7 +223,8 @@
         "other",
         "self",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "schedule-dependent-heat-exposure-at-united-states-host-citie",
@@ -249,7 +255,8 @@
         "self",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "replace-temperature-limits",
@@ -278,7 +285,8 @@
         "self",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "africa-must-lead-srm-governance",
@@ -309,7 +317,8 @@
         "self",
         "other",
         "other"
-      ]
+      ],
+      "open_access": false
     },
     {
       "id": "sai-deployment-locations-africa",
@@ -356,7 +365,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "ukesm1-cesm2-geoengineering",
@@ -393,7 +403,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "atmospheric-rivers-sai",
@@ -426,7 +437,8 @@
         "self",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "cloud-radiative-effects-sai",
@@ -461,7 +473,8 @@
         "self",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "arise-sai-precipitation-extremes",
@@ -504,7 +517,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "south-indian-ocean-high-impact",
@@ -538,7 +552,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "harmattan-sai-response",
@@ -580,7 +595,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "antimalarial-herbal-fingerprints",
@@ -623,7 +639,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "moisture-elevated-temperature-melt-index-a-novel-index-to-ca",
@@ -648,7 +665,8 @@
       "author_positions": [
         "other",
         "self"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "horticultural-crop-suitability-sai",
@@ -685,7 +703,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "projected-impact-of-stratospheric-aerosol-injection-on-rainf",
@@ -720,7 +739,8 @@
         "self",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "collaborative-research-africa",
@@ -754,7 +774,8 @@
         "other",
         "self",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "south-atlantic-high-index",
@@ -789,7 +810,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "africa-s-climate-response-to-marine-cloud-brightening",
@@ -832,7 +854,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "marine-cloud-brightening-africa",
@@ -876,7 +899,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "potential-impact-of-stratospheric-aerosol-injection-on-horti",
@@ -915,7 +939,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "west-african-cities-rainfall-extremes",
@@ -959,7 +984,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "mcs-large-scale-environments",
@@ -994,7 +1020,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "potential-impact-of-climate-change-on-cropland-suitability-i",
@@ -1031,7 +1058,8 @@
         "other",
         "self",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "itcz-msdids",
@@ -1071,7 +1099,8 @@
         "other",
         "other",
         "self"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "highresmip-onset-cessation",
@@ -1110,7 +1139,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "cmip6-monsoon-extremes",
@@ -1149,7 +1179,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "evaluation-of-the-co-behavior-of-regional-climate-drivers-in",
@@ -1182,7 +1213,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "co-behavior-cmip5-performance",
@@ -1220,7 +1252,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "wasm-reanalysis-variability",
@@ -1255,7 +1288,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "co-behavior-methodology",
@@ -1289,7 +1323,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "crop-climate-departure",
@@ -1325,7 +1360,8 @@
         "other",
         "other",
         "self"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "consecutive-dry-wet-days",
@@ -1378,7 +1414,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "the-dynamics-of-co-behaviour-of-climate-processes",
@@ -1413,7 +1450,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "wenchi-saltpond-rainfall",
@@ -1448,7 +1486,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "rainfall-variability-ghana",
@@ -1487,7 +1526,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "west-african-monsoon-wam-jump-and-its-implication-for-rain-f",
@@ -1509,7 +1549,8 @@
       "first_author": true,
       "author_positions": [
         "self"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "farmers-observation-maize",
@@ -1546,7 +1587,8 @@
         "self",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     }
   ]
 }

@@ -73,6 +73,21 @@ is enough:
 Records are grouped over both keys and merged into one entry. The journal version always wins
 on venue over a repository deposit, and the highest citation count in the group is kept.
 
+### Open access
+
+Every paper carries an **Open access** chip — linking to the PDF where one is known, plain text
+otherwise. Open access is the default for this record, so nothing needs marking to get the chip.
+
+Mark an exception in `_data/publications_manual.yml`:
+
+```yaml
+  open_access: false
+```
+
+OpenAlex's own `is_oa` flag is deliberately **not** used to override this. You know the licensing
+of your own work, and a lag in OpenAlex's record would otherwise silently strip the marker from
+papers that really are open.
+
 ### A note on titles
 
 Where a curated entry and a publisher record share a DOI but disagree on the title, **the
