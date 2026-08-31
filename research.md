@@ -52,7 +52,7 @@ started from a frustration: we routinely evaluate processes one at a time, when 
 them together.
 
 Working with [Prof. Bruce Hewitson](https://tinyurl.com/Bruce-Hewitson){:target="_blank"},
-Dr Chris Jack and Dr Chris Lennard, my
+[Dr Chris Jack](https://www.csag.uct.ac.za/author/cjack/){:target="_blank"} and [Dr Chris Lennard](https://www.csag.uct.ac.za/author/clennard/){:target="_blank"}, my
 [thesis](http://hdl.handle.net/11427/33916){:target="_blank"} developed a novel approach to describe the
 co-behaviour of climate processes over Southern Africa. It produced two papers in the *Journal of
 Climate* — [a methodology to assess co-behaviour](https://doi.org/10.1175/JCLI-D-18-0689.1){:target="_blank"}
