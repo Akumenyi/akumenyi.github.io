@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T21:48:19+00:00",
+  "generated_at": "2026-08-31T02:16:39+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
@@ -339,7 +339,9 @@
       ],
       "source": "manual",
       "manual": true,
+      "url": "https://doi.org/10.3389/fclim.2025.1599405",
       "citations": 2,
+      "openalex_id": "W4415411721",
       "first_author": false,
       "author_positions": [
         "other",
@@ -354,9 +356,7 @@
         "other",
         "other",
         "other"
-      ],
-      "url": "https://doi.org/10.3389/fclim.2025.1599405",
-      "openalex_id": "W4415411721"
+      ]
     },
     {
       "id": "ukesm1-cesm2-geoengineering",
@@ -416,7 +416,9 @@
       ],
       "source": "manual",
       "manual": true,
+      "url": "https://doi.org/10.1088/2752-5295/ade61a",
       "citations": 1,
+      "openalex_id": "W4411443302",
       "first_author": false,
       "author_positions": [
         "other",
@@ -424,9 +426,7 @@
         "self",
         "other",
         "other"
-      ],
-      "url": "https://doi.org/10.1088/2752-5295/ade61a",
-      "openalex_id": "W4411443302"
+      ]
     },
     {
       "id": "cloud-radiative-effects-sai",
@@ -450,10 +450,10 @@
       ],
       "source": "manual",
       "manual": true,
-      "url": "https://doi.org/10.22541/essoar.173724206.69872710/v1",
-      "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2025JD043576",
+      "url": "https://doi.org/10.1029/2025jd043576",
+      "open_access_url": "https://essopenarchive.org/doi/pdf/10.22541/essoar.173724206.69872710/v1",
       "citations": 0,
-      "openalex_id": "W4415289473",
+      "openalex_id": "W4406570102",
       "first_author": false,
       "author_positions": [
         "other",
@@ -490,7 +490,9 @@
       "highlight": true,
       "source": "manual",
       "manual": true,
+      "url": "https://doi.org/10.1088/2752-5295/adee3c",
       "citations": 2,
+      "openalex_id": "W4412183724",
       "first_author": true,
       "author_positions": [
         "self",
@@ -502,9 +504,7 @@
         "other",
         "other",
         "other"
-      ],
-      "url": "https://doi.org/10.1088/2752-5295/adee3c",
-      "openalex_id": "W4412183724"
+      ]
     },
     {
       "id": "south-indian-ocean-high-impact",
@@ -743,7 +743,10 @@
       ],
       "source": "manual",
       "manual": true,
+      "url": "https://doi.org/10.1175/bams-d-24-0118.1",
+      "open_access_url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A4291444/view",
       "citations": 1,
+      "openalex_id": "W4414724503",
       "first_author": false,
       "author_positions": [
         "other",
@@ -751,10 +754,7 @@
         "other",
         "self",
         "other"
-      ],
-      "url": "https://doi.org/10.1175/bams-d-24-0118.1",
-      "open_access_url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A4291444/view",
-      "openalex_id": "W4414724503"
+      ]
     },
     {
       "id": "south-atlantic-high-index",
@@ -1437,7 +1437,10 @@
       ],
       "source": "manual",
       "manual": true,
+      "url": "https://doi.org/10.4236/ijg.2017.83015",
+      "open_access_url": "https://content.scirp.org/pdf/ijg_2017032816262883.pdf",
       "citations": 8,
+      "openalex_id": "W2603450169",
       "first_author": true,
       "author_positions": [
         "self",
@@ -1445,10 +1448,7 @@
         "other",
         "other",
         "other"
-      ],
-      "url": "https://doi.org/10.4236/ijg.2017.83015",
-      "open_access_url": "https://content.scirp.org/pdf/ijg_2017032816262883.pdf",
-      "openalex_id": "W2603450169"
+      ]
     },
     {
       "id": "rainfall-variability-ghana",
