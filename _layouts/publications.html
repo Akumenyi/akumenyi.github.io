@@ -6,7 +6,7 @@ layout: default
 {%- assign years = pubs | map: "year" | uniq | sort | reverse -%}
 {%- assign all_topics = pubs | map: "topics" -%}
 
-<div class="page-head">
+<div class="page-head page-head-tight">
   {% include stripes-backdrop.html country=page.stripes %}
   <div class="wrap">
     <p class="eyebrow">{{ page.eyebrow | default: "Publications" }}</p>
