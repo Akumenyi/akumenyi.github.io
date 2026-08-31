@@ -1,0 +1,66 @@
+{%- comment -%}
+  Figure 1 of "The View From the Front Line". Rebuilt as SVG rather than a flat
+  image so it carries the site's type, adapts to dark mode and stays sharp at
+  any zoom. Every number is published and cited in the caption: panel A is the
+  17-31% range from Diffenbaugh & Burke (2019, PNAS); panel B is the central
+  estimate of ~400,000 fewer deaths per year with the 90% interval from Harding
+  et al. (2024, PNAS), whose published CI on the reduction is -1.2M to +2.7M and
+  is plotted here as a change of -2.7M to +1.2M.
+{%- endcomment -%}
+<div class="figblock">
+  <p class="fig-title">Two entries in the ledger, and the same countries hold both</p>
+
+  <div class="fig-panels">
+
+    <div class="fig-panel">
+      <p class="fig-sub"><b>A. Damage already on the books</b><br>
+        GDP per capita change attributable to warming, poorest four country deciles, 1961-2010</p>
+      <svg viewBox="0 0 400 150" role="img" aria-label="Bar spanning a 17 to 31 percent loss in GDP per capita.">
+        <title>Poorest four deciles: estimated GDP per capita loss of 17% to 31%</title>
+      <line class="fg-grid" x1="91.4" y1="20" x2="91.4" y2="104"/>
+      <line class="fg-grid" x1="182.2" y1="20" x2="182.2" y2="104"/>
+      <line class="fg-grid" x1="273.0" y1="20" x2="273.0" y2="104"/>
+      <line class="fg-grid" x1="363.8" y1="20" x2="363.8" y2="104"/>
+        <line class="fg-axis" x1="46.0" y1="104" x2="382.0" y2="104"/>
+        <line class="fg-zero" x1="363.8" y1="20" x2="363.8" y2="104"/>
+        <rect class="fg-bar" x="82.3" y="58" width="127.1" height="34" rx="4"/>
+        <text class="fg-value" x="82.3" y="46">estimated loss: 17% to 31%</text>
+      <text class="fg-tick" x="91.4" y="124" text-anchor="middle">-30%</text>
+      <text class="fg-tick" x="182.2" y="124" text-anchor="middle">-20%</text>
+      <text class="fg-tick" x="273.0" y="124" text-anchor="middle">-10%</text>
+      <text class="fg-tick" x="363.8" y="124" text-anchor="middle">0</text>
+      </svg>
+    </div>
+
+    <div class="fig-panel">
+      <p class="fig-sub"><b>B. Projected under SAI cooling of 1&#176;C in a 2.5&#176;C world</b><br>
+        Change in global temperature-attributable deaths per year by 2080, concentrated in hot, poor regions</p>
+      <svg viewBox="0 0 400 150" role="img" aria-label="Central estimate of 400,000 fewer deaths per year, with a 90 percent interval from 2.7 million fewer to 1.2 million more.">
+        <title>Central estimate -400,000 deaths/yr; 90% interval -2.7M to +1.2M</title>
+      <line class="fg-grid" x1="60.3" y1="20" x2="60.3" y2="104"/>
+      <line class="fg-grid" x1="131.8" y1="20" x2="131.8" y2="104"/>
+      <line class="fg-grid" x1="203.3" y1="20" x2="203.3" y2="104"/>
+      <line class="fg-grid" x1="274.8" y1="20" x2="274.8" y2="104"/>
+      <line class="fg-grid" x1="346.3" y1="20" x2="346.3" y2="104"/>
+        <line class="fg-axis" x1="46.0" y1="104" x2="382.0" y2="104"/>
+        <line class="fg-zero" x1="274.8" y1="20" x2="274.8" y2="104"/>
+        <line class="fg-int" x1="81.7" y1="75" x2="360.6" y2="75"/>
+        <line class="fg-cap" x1="81.7" y1="66" x2="81.7" y2="84"/>
+        <line class="fg-cap" x1="360.6" y1="66" x2="360.6" y2="84"/>
+        <circle class="fg-dot" cx="246.2" cy="75" r="5.5"/>
+        <text class="fg-value" x="81.7" y="46">central estimate: ~400,000 fewer deaths/yr</text>
+        <text class="fg-note" x="81.7" y="98" text-anchor="start">-2.7M</text>
+        <text class="fg-note" x="360.6" y="98" text-anchor="end">+1.2M</text>
+      <text class="fg-tick" x="60.3" y="124" text-anchor="middle">-3M</text>
+      <text class="fg-tick" x="131.8" y="124" text-anchor="middle">-2M</text>
+      <text class="fg-tick" x="203.3" y="124" text-anchor="middle">-1M</text>
+      <text class="fg-tick" x="274.8" y="124" text-anchor="middle">0</text>
+      <text class="fg-tick" x="346.3" y="124" text-anchor="middle">+1M</text>
+      </svg>
+    </div>
+
+  </div>
+
+  <p class="fig-source">Data: Diffenbaugh &amp; Burke (2019, PNAS), panel A; Harding et al. (2024, PNAS), panel B.
+    Intervals reflect published uncertainty ranges.</p>
+</div>

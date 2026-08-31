@@ -552,6 +552,73 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
   .pub { break-inside: avoid; }
 }
 
+/* ------------------------------------------------------ article figures --- */
+
+/* Figure colours are a two-slot categorical pair, one per mode, checked with
+   the palette validator against each mode's surface: light #1f6fe0/#c0392b
+   (CVD dE 27.7 protan, 33.0 normal), dark #4a90e2/#e8615a (20.8 / 29.4). Both
+   sit inside their mode's OKLCH lightness band and clear 3:1 on contrast.
+   Benefit and harm are labelled as well as coloured, so nothing rests on hue. */
+:root { --fig-good: #4a90e2; --fig-bad: #e8615a; }
+:root[data-theme="light"] { --fig-good: #1f6fe0; --fig-bad: #c0392b; }
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) { --fig-good: #1f6fe0; --fig-bad: #c0392b; }
+}
+
+.figblock {
+  margin: 2.4rem 0 .6rem; padding: 1.5rem 1.4rem 1.2rem;
+  background: var(--panel-2); border: 1px solid var(--line-soft);
+  border-radius: var(--radius);
+}
+.fig-title { margin: 0 0 .3rem; font-family: var(--font-display); font-weight: 700;
+  font-size: 1.02rem; color: var(--text); line-height: 1.3; }
+.fig-sub { margin: 0 0 1.1rem; font-size: .84rem; line-height: 1.45; color: var(--text-dim); }
+.fig-source { margin: 1.1rem 0 0; font-size: .74rem; line-height: 1.45; color: var(--text-mute); }
+
+.fig-panels { display: grid; grid-template-columns: 1fr 1fr; gap: 1.6rem; }
+.fig-panel .fig-sub { margin-bottom: .2rem; min-height: 3.4em; }
+.fig-panel svg { width: 100%; height: auto; display: block; overflow: visible; }
+
+/* Recessive grid and axes; the marks carry the weight. */
+.fg-grid { stroke: var(--line-soft); stroke-width: 1; }
+.fg-axis { stroke: var(--line); stroke-width: 1; }
+.fg-zero { stroke: var(--line); stroke-width: 1.5; }
+.fg-bar  { fill: var(--fig-good); }
+.fg-int  { stroke: var(--text-dim); stroke-width: 2; }
+.fg-cap  { stroke: var(--text-dim); stroke-width: 2; }
+.fg-dot  { fill: var(--fig-good); stroke: var(--panel-2); stroke-width: 2; }
+/* Values and labels wear text tokens, never the series colour. */
+.fg-value { fill: var(--text); font-size: 12px; font-weight: 700; font-family: var(--font-body); }
+.fg-tick  { fill: var(--text-mute); font-size: 11px; font-family: var(--font-body); }
+.fg-note  { fill: var(--text-mute); font-size: 10.5px; font-family: var(--font-body); }
+
+.ledger { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+.ledger-col + .ledger-col { padding-left: 1.5rem; border-left: 1px solid var(--line-soft); }
+.ledger-head { margin: 0 0 1rem; font-size: .72rem; letter-spacing: .13em;
+  text-transform: uppercase; font-weight: 700; }
+.ledger-good .ledger-head { color: var(--fig-good); }
+.ledger-bad  .ledger-head { color: var(--fig-bad); }
+.ledger-item { padding-left: .85rem; border-left: 3px solid; margin-bottom: 1.15rem; }
+.ledger-item:last-child { margin-bottom: 0; }
+.ledger-good .ledger-item { border-left-color: var(--fig-good); }
+.ledger-bad  .ledger-item { border-left-color: var(--fig-bad); }
+.ledger-claim  { margin: 0 0 .3rem; font-weight: 700; font-size: .9rem; line-height: 1.35; color: var(--text); }
+.ledger-detail { margin: 0 0 .3rem; font-size: .84rem; line-height: 1.45; color: var(--text-dim); }
+.ledger-cite   { margin: 0; font-size: .76rem; font-style: italic; color: var(--text-mute); }
+
+.prose figure { margin: 2.4rem 0; }
+.prose figure .figblock { margin-top: 0; }
+.prose figure figcaption { margin-top: .7rem; font-size: .82rem; line-height: 1.5;
+  color: var(--text-mute); }
+.prose figure figcaption b { color: var(--text-dim); }
+
+@media (max-width: 760px) {
+  .fig-panels, .ledger { grid-template-columns: 1fr; }
+  .ledger-col + .ledger-col { padding-left: 0; padding-top: 1.4rem;
+    border-left: 0; border-top: 1px solid var(--line-soft); }
+  .fig-panel .fig-sub { min-height: 0; }
+}
+
 /* ----------------------------------------------------------- home about --- */
 
 .section-about { padding-top: clamp(3rem, 7vw, 5rem); }
