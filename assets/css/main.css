@@ -731,24 +731,45 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 .affil-text b { font-size: .92rem; font-weight: 600; transition: color .2s; }
 .affil-text span { font-size: .82rem; color: var(--text-mute); }
 
-/* Below roughly a landscape tablet there is no longer room for the label and
-   both affiliations on one line, so stack them. Each affiliation then gets the
-   full width, which is what lets the organisation names stay visible. */
+/* The two affiliations stay side by side at every width. Below a landscape
+   tablet the label moves above them to buy back its horizontal space, and the
+   pair share the row equally. */
 @media (max-width: 1000px) {
-  .affil-row { flex-direction: column; align-items: flex-start; gap: .85rem; }
-  .affil-list { flex-direction: column; align-items: flex-start; gap: 1rem; width: 100%; }
-  .affil { width: 100%; }
-  /* Once stacked, the two plates sit in a column, and their differing logo
-     aspect ratios left the role text starting at different x positions. A
-     shared minimum width squares them up; each logo stays centred. */
-  .affil-mark, .affil-mark.has-logo { min-width: 7rem; }
+  .affil-row { flex-direction: column; align-items: flex-start; gap: .8rem; }
+  .affil-list {
+    /* stretch, not flex-start: the two columns then share the taller height and
+       each centres its own logo at the same y, so the plates line up even when
+       one organisation name wraps to an extra line. */
+    width: 100%; flex-wrap: nowrap; align-items: stretch;
+    gap: 1.6rem;
+  }
+  /* Equal halves that may shrink below their content: without min-width 0 a
+     flex item refuses to go under its intrinsic size and forces overflow.
+     Top-aligned so both the plates and the role lines sit level even when one
+     organisation name wraps to an extra line. */
+  .affil { flex: 1 1 0; min-width: 0; align-items: flex-start; }
+  .affil-mark, .affil-mark.has-logo { min-width: 0; }
+  .affil-text { min-width: 0; }
 }
 
-@media (max-width: 420px) {
-  .affil-mark, .affil-mark.has-logo { min-width: 5.75rem; }
-  .affil-mark.has-logo img { height: 1.6rem; max-width: 6.5rem; }
-  .affil-text b { font-size: .88rem; }
-  .affil-text span { font-size: .78rem; }
+/* Narrower than a large phone there is not enough width for a logo beside its
+   text twice over, so each affiliation becomes a column -- logo above text --
+   and the two columns sit side by side. */
+@media (max-width: 620px) {
+  .affil-list { gap: 1.1rem; }
+  .affil { flex-direction: column; align-items: flex-start; gap: .55rem; }
+  .affil-mark, .affil-mark.has-logo { height: auto; padding: .3rem .45rem; }
+  .affil-mark.has-logo img { height: 1.5rem; max-width: 100%; }
+  .affil-text b { font-size: .84rem; line-height: 1.25; }
+  .affil-text span { font-size: .74rem; line-height: 1.3; }
+}
+
+@media (max-width: 380px) {
+  .affil-list { gap: .8rem; }
+  .affil-mark.has-logo img { height: 1.3rem; }
+  .affil-text b { font-size: .8rem; }
+  .affil-text span { font-size: .7rem; }
+}
 }
 
 /* The hero eyebrow now carries two appointments plus a location, so it has to
