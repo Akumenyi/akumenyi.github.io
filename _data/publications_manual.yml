@@ -76,6 +76,8 @@
   status: published
   doi: "10.1038/s41558-025-02420-z"
   url: "https://rdcu.be/eE8MH"
+  # The only paper in this record that is not open access.
+  open_access: false
   topics: ["Solar geoengineering", "Governance", "Africa"]
   highlight: true
 

@@ -43,8 +43,12 @@
       {%- elsif pub.url -%}
         <a class="chip" href="{{ pub.url }}" target="_blank" rel="noopener">{% include icon.html name="open" %} Read</a>
       {%- endif -%}
-      {%- if pub.open_access_url -%}
-        <a class="chip chip-oa" href="{{ pub.open_access_url }}" target="_blank" rel="noopener">Open access PDF</a>
+      {%- if pub.open_access -%}
+        {%- if pub.open_access_url -%}
+          <a class="chip chip-oa" href="{{ pub.open_access_url }}" target="_blank" rel="noopener">{% include icon.html name="unlock" %} Open access PDF</a>
+        {%- else -%}
+          <span class="chip chip-oa">{% include icon.html name="unlock" %} Open access</span>
+        {%- endif -%}
       {%- endif -%}
       {%- if pub.citations and pub.citations > 0 -%}
         <span class="chip chip-cites">{% include icon.html name="quote" %} {{ pub.citations }} citation{% if pub.citations != 1 %}s{% endif %}</span>
