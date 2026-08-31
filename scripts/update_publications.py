@@ -342,36 +342,82 @@ def fetch_scholar(session) -> tuple[dict, dict]:
 # --------------------------------------------------------------------------
 
 def merge(manual: list[dict], fetched: list[dict], previous: list[dict]) -> list[dict]:
-    """Manual metadata wins; live sources contribute new papers and citations."""
-    merged: dict[str, dict] = {}
-    order: list[str] = []
+    """Collapse every record of one paper into a single entry.
 
-    def key_for(entry: dict) -> str:
-        """Key on the title, not the DOI.
+    Two records describe the same paper if they share a DOI *or* a normalised
+    title, and neither test alone is sufficient:
 
-        A repository deposit carries its own DOI, so keying on DOI first listed
-        the Zenodo copy of a paper as a second publication. Titles collapse the
-        version of record and its deposits onto one entry.
-        """
+      * same title, different DOI -- a Zenodo or Research Square deposit of a
+        paper carries its own DOI alongside the version of record;
+      * same DOI, different title -- a manuscript is routinely retitled between
+        submission and publication, so a curated entry written at submission
+        and the publisher's record disagree on the title.
+
+    Matching on either key alone therefore leaves duplicates, so entries are
+    grouped by union-find over both keys and each group merged into one.
+
+    Curated metadata wins within a group, with one exception: where a curated
+    entry and a fetched record share a DOI but disagree on the title, the
+    publisher's title is taken, since a title recorded at submission is simply
+    out of date once the paper is out.
+    """
+    entries: list[dict] = list(manual) + sorted(
+        fetched, key=lambda e: (bool(e.get("is_repository")), not e.get("venue"))
+    )
+    is_manual = [True] * len(manual) + [False] * len(fetched)
+
+    # --- group records of the same paper -----------------------------------
+    parent = list(range(len(entries)))
+
+    def find(i: int) -> int:
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    def union(a: int, b: int) -> None:
+        ra, rb = find(a), find(b)
+        if ra != rb:
+            parent[max(ra, rb)] = min(ra, rb)      # keep the earliest as root
+
+    def keys_of(entry: dict) -> list[str]:
+        keys = []
+        doi = normalise_doi(entry.get("doi"))
+        if doi:
+            keys.append(f"doi:{doi}")
         title = normalise_title(entry.get("title", ""))
         if title:
-            return f"title:{title}"
-        doi = normalise_doi(entry.get("doi"))
-        return f"doi:{doi}" if doi else f"id:{entry.get('id', '')}"
+            keys.append(f"title:{title}")
+        return keys or [f"id:{entry.get('id', '')}"]
 
-    def absorb(entry: dict, authoritative: bool) -> None:
-        key = key_for(entry)
-        if key not in merged:
-            merged[key] = dict(entry)
-            order.append(key)
-            return
-        current = merged[key]
-        if authoritative:
-            for field, value in entry.items():
-                if value not in (None, "", []):
-                    current[field] = value
-        else:
-            # Only fill gaps, plus always refresh the live-moving numbers.
+    seen: dict[str, int] = {}
+    for index, entry in enumerate(entries):
+        for key in keys_of(entry):
+            if key in seen:
+                union(index, seen[key])
+            else:
+                seen[key] = index
+
+    groups: dict[int, list[int]] = {}
+    for index in range(len(entries)):
+        groups.setdefault(find(index), []).append(index)
+
+    # --- merge each group ---------------------------------------------------
+    results: list[dict] = []
+    for root in sorted(groups):
+        members = groups[root]
+        current = dict(entries[members[0]])
+        current_is_manual = is_manual[members[0]]
+
+        for index in members[1:]:
+            entry, authoritative = entries[index], is_manual[index]
+            if authoritative:
+                for field, value in entry.items():
+                    if value not in (None, "", []):
+                        current[field] = value
+                current_is_manual = True
+                continue
+
             for field, value in entry.items():
                 if value in (None, "", []):
                     continue
@@ -383,22 +429,31 @@ def merge(manual: list[dict], fetched: list[dict], previous: list[dict]) -> list
                     current[field] = value
                 elif not current.get(field):
                     current[field] = value
+
+            # A curated title written at submission loses to the published one.
+            same_doi = normalise_doi(entry.get("doi")) and normalise_doi(entry.get("doi")) == normalise_doi(current.get("doi"))
+            if current_is_manual and same_doi and entry.get("title"):
+                if normalise_title(entry["title"]) != normalise_title(current.get("title", "")):
+                    log(f"  retitled from the publisher record: {current['title'][:58]}")
+                    current["title"] = entry["title"]
+
             current.setdefault("source", "openalex")
 
-    for entry in manual:
-        absorb(entry, authoritative=True)
-    # Journal copies first, so a repository deposit can only ever fill gaps in
-    # the version of record rather than overwrite its venue.
-    for entry in sorted(fetched, key=lambda e: (bool(e.get("is_repository")), not e.get("venue"))):
-        absorb(entry, authoritative=False)
+        results.append(current)
+
     # Retain citation counts from the last successful run for anything the
     # current run could not reach.
+    previous_by_key: dict[str, dict] = {}
     for entry in previous:
-        key = key_for(entry)
-        if key in merged and not merged[key].get("citations"):
-            merged[key]["citations"] = entry.get("citations", 0)
+        for key in keys_of(entry):
+            previous_by_key.setdefault(key, entry)
+    for entry in results:
+        if not entry.get("citations"):
+            for key in keys_of(entry):
+                if key in previous_by_key:
+                    entry["citations"] = previous_by_key[key].get("citations", 0)
+                    break
 
-    results = [merged[k] for k in order]
     for entry in results:
         entry.pop("is_repository", None)
         entry.setdefault("citations", 0)

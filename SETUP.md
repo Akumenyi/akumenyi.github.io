@@ -30,7 +30,8 @@ Preview drafts locally with `bundle exec jekyll serve --drafts`.
 `.github/workflows/refresh-research-data.yml` runs every day at 05:20 UTC and regenerates
 `_data/publications.json`, which the publications page renders. It merges, in order of trust:
 
-1. `_data/publications_manual.yml` — your curated record. **Always wins.**
+1. `_data/publications_manual.yml` — your curated record. **Wins on everything except the
+   title of a paper the publisher has a record of** — see the note on titles below.
 2. **OpenAlex**, filtered on ORCID `0000-0002-7887-6040` — picks up new papers and citation counts.
 3. **Google Scholar** via SerpAPI — optional, see below.
 4. The previous `publications.json` — so a failed fetch never deletes anything.
@@ -55,11 +56,30 @@ OpenAlex indexes more than journal papers, so the sync drops:
   Change the floor with the `PUBLICATIONS_MIN_YEAR` environment variable;
 - **peer-review comments, errata, corrections and supplementary material** — artefacts of the
   publishing process rather than publications;
-- **duplicate repository deposits** — a Zenodo or Research Square copy carries its own DOI, so
-  entries are keyed on title and the journal version of record always wins on venue, while the
-  highest citation count of the set is kept.
+- **duplicate records of one paper** — see below.
 
 Anything dropped for the year rule is named in the workflow log.
+
+### How duplicates are collapsed
+
+Two records describe the same paper if they share **a DOI or a title**, and neither test alone
+is enough:
+
+- *same title, different DOI* — a Zenodo or Research Square deposit carries its own DOI
+  alongside the version of record;
+- *same DOI, different title* — a manuscript is routinely retitled between submission and
+  publication, so an entry curated at submission and the publisher's record disagree.
+
+Records are grouped over both keys and merged into one entry. The journal version always wins
+on venue over a repository deposit, and the highest citation count in the group is kept.
+
+### A note on titles
+
+Where a curated entry and a publisher record share a DOI but disagree on the title, **the
+publisher's title is used** — a title recorded at submission is simply out of date once the
+paper is out. Everything else still comes from your curated entry: venue, author list, topics,
+status. Each replacement is named in the workflow log, so you can see what changed and correct
+the curated file if the publisher's version is somehow wrong.
 
 ### Adding something the automation cannot see
 
