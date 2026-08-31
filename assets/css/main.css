@@ -440,6 +440,11 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 
 .page-head { padding: clamp(2.8rem, 6vw, 4.5rem) 0 1.5rem; border-bottom: 1px solid var(--line-soft); background: var(--bg-alt); }
 .page-head h1 { margin-bottom: .6rem; }
+/* With no lede under it, the publications banner is an eyebrow and a
+   heading, and the shared padding leaves it mostly empty. Tightened here
+   rather than on .page-head, which the other pages still fill. */
+.page-head-tight { padding: clamp(1.9rem, 3.6vw, 2.7rem) 0 1.2rem; }
+.page-head-tight h1 { margin-bottom: 0; }
 
 .prose { padding: clamp(2rem, 5vw, 3.2rem) 0 4rem; }
 .prose > :first-child { margin-top: 0; }
