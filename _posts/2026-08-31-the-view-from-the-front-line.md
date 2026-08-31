@@ -54,6 +54,14 @@ real but bounded. When the same posture is adopted on behalf of Bangladesh, Ghan
 Tuvalu, the accepted risk is of a different order. Whatever one concludes about SRM, the
 conclusion should be reached by weighing, not by refusing to weigh.
 
+<figure>
+{% include fig-ledger-panels.html %}
+<figcaption><b>Figure 1.</b> Two entries in the ledger. Panel A: GDP per capita change
+attributable to warming, poorest four country deciles, 1961-2010 (Diffenbaugh &amp; Burke
+2019, PNAS). Panel B: change in temperature-attributable deaths per year under 1&#176;C of
+SAI cooling in a 2.5&#176;C world by 2080, with 90% interval (Harding et al. 2024, PNAS).</figcaption>
+</figure>
+
 ## The evidence cuts both ways, and it cuts through us
 
 Here is the uncomfortable part for both camps in this debate. The peer-reviewed evidence
@@ -94,6 +102,13 @@ both sides of the ledger sit in the same set of countries, then aggregate global
 is the wrong instrument and abstention is the wrong response. The only defensible path is
 comparative assessment resolved at the scale where vulnerable people actually live, done
 with the participation of the countries concerned.
+
+<figure>
+{% include fig-sai-ledger.html %}
+<figcaption><b>Figure 2.</b> Schematic summary of published central findings on SAI for
+climate vulnerable countries. Entries are not on a common scale and each carries
+substantial uncertainty.</figcaption>
+</figure>
 
 ## Three conditions for a risk-risk analysis we can trust
 
