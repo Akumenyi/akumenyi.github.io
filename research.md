@@ -5,11 +5,11 @@ permalink: /research/
 stripes: bangladesh
 eyebrow: "What I work on"
 lede: "Climate geoengineering, climate extremes, regional modelling and impacts, tropical meteorology, monsoon dynamics, and the data-analytic machinery that holds it together."
-description: "Research interests of Kwesi A. Quagraine: stratospheric aerosol injection and climate extremes, regionally refined CESM downscaling, co-behaviour of climate processes, and West African monsoon dynamics."
+description: "Research interests of Kwesi A. Quagraine: stratospheric aerosol injection and climate extremes, regionally refined CESM downscaling, subtropical high-pressure indices, co-behaviour of climate processes, and West African monsoon dynamics."
 ---
 
 My work is committed to **bridging advanced climate science** and **practical solutions for sustainable
-development in a changing climate**. In practice that means four threads, each of which feeds the others.
+development in a changing climate**. In practice that means five threads, each of which feeds the others.
 
 ## Stratospheric aerosol injection and climate extremes
 {: #sai-extremes}
@@ -44,6 +44,29 @@ than a continent — which is the only form in which the answer is any use to th
 decisions about it. Getting this right is what turns climate intervention research from a global
 thought experiment into something a national planner can interrogate.
 
+## Subtropical high-pressure systems, and how to measure them
+{: #high-pressure-index}
+
+The subtropical highs sitting over the South Atlantic and the South Indian Ocean are among the
+features that set where moisture goes over southern Africa. They are also awkward to talk about
+precisely: descriptions of them are often qualitative, which makes it hard to say whether two
+seasons, two decades or two models differ, and by how much.
+
+So I have spent several years building indices that put a number on them. The first,
+[a simple subtropical high-pressure system index over the South Atlantic](https://doi.org/10.1002/asl.1266){:target="_blank"}
+(*Atmospheric Science Letters*, 2024), was deliberately simple: something reproducible from standard
+fields rather than a bespoke diagnostic only its authors can compute. A companion study then applied
+the same thinking on the other side of the continent,
+[assessing the impact of the South Indian Ocean high-pressure system using a novel index](https://doi.org/10.1002/joc.70031){:target="_blank"}
+(*International Journal of Climatology*, 2025), led by Kwesi T. Quagraine. Most recently,
+[an index to characterize the South Indian Ocean high-pressure system and its variability](https://doi.org/10.1002/asl2.70056){:target="_blank"}
+(*Atmospheric Science Letters*, 2026) turns the same instrument on how that system varies.
+
+The point of an index is that it makes a system arguable. Once a high can be reduced to a defensible
+number, you can track it through a reanalysis, test whether a model reproduces it, and ask what a
+climate intervention would do to it — which is where this thread meets the geoengineering work
+above.
+
 ## The co-behaviour of climate processes
 {: #co-behaviour}
 
@@ -57,9 +80,7 @@ Working with [Prof. Bruce Hewitson](https://tinyurl.com/Bruce-Hewitson){:target=
 co-behaviour of climate processes over Southern Africa. It produced two papers in the *Journal of
 Climate* — [a methodology to assess co-behaviour](https://doi.org/10.1175/JCLI-D-18-0689.1){:target="_blank"}
 and an [interrogation of how well CMIP5 GCMs reproduce it](https://doi.org/10.1175/JCLI-D-19-0472.1){:target="_blank"} —
-and a line of work on pressure-system indices that is still running, including
-[a simple subtropical high-pressure index over the South Atlantic](https://doi.org/10.1002/asl.1266){:target="_blank"}
-in *Atmospheric Science Letters* and a companion index for the South Indian Ocean high.
+and, in time, the pressure-system indices above.
 
 ## The West African monsoon and rain-fed agriculture
 {: #monsoon}
