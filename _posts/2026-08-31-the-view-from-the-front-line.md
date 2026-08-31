@@ -155,9 +155,3 @@ conditions above, is designed to deliver.
 The Climate Vulnerable Forum's member states did not choose to live on the steep part of
 the damage function. They can still choose to hold the pen when the risks are weighed. The
 alternative is that the weighing happens anyway, elsewhere, about us and without us.
-
-*Kwesi A. Quagraine is Chief Scientist of the Climate Vulnerable Forum and V20 Secretariat
-in Accra, Senior Lecturer at the University of Cape Coast and Visiting Scientist at the NSF
-National Center for Atmospheric Research. His research covers African hydroclimate,
-precipitation extremes and stratospheric aerosol injection. He writes here in his personal
-capacity.*
