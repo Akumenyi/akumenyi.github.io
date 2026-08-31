@@ -3,7 +3,10 @@
 # ---------------------------------------------------------------------------
 title: "Kwesi A. Quagraine"
 subtitle: "Climate Research Scientist"
-tagline: "Climate extremes, solar geoengineering and the regional detail that decisions actually need."
+# Rendered as the hero statement, one paragraph per item.
+tagline:
+  - "I am Chief Scientist of the Climate Vulnerable Forum and V20 Finance Ministers, a coalition of 74 countries and about 1.73 billion people on the front line of climate change."
+  - "My job is to make sure the evidence those countries bring to the table is as strong as the evidence used against them. In practice that means setting the CVF-V20 research agenda, leading scientific assessments and policy briefs, building research partnerships and giving ministers and negotiators answers they can defend in the room."
 description: "Kwesi A. Quagraine, PhD - Chief Scientist of the Climate Vulnerable Forum and V20 (CVF-V20), and Visiting Scientist at the NSF National Center for Atmospheric Research (NSF-NCAR), Boulder, Colorado. Climate modelling, climate extremes, stratospheric aerosol injection and tropical meteorology."
 author: "Kwesi A. Quagraine"
 email: "kq@cvfv20.org"
