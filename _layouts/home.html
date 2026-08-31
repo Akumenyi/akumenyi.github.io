@@ -20,7 +20,9 @@ layout: default
         Kwesi <em>A.</em><br>Quagraine<span class="hero-suffix">, {{ p.honorific_suffix }}</span>
       </h1>
 
-      <p class="hero-tagline">{{ site.tagline }}</p>
+      {%- for para in site.tagline -%}
+      <p class="hero-tagline">{{ para }}</p>
+      {%- endfor -%}
 
       <div class="hero-actions">
         <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">The research {% include icon.html name="arrow" %}</a>
