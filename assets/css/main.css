@@ -550,8 +550,11 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 .section-about { padding-top: clamp(3rem, 7vw, 5rem); }
 .about-inner { display: grid; gap: clamp(2rem, 5vw, 3.5rem); grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); align-items: start; }
 .prose-about { padding: 0; }
+/* Every paragraph reads at one size and weight. The first used to be set
+   larger and at full strength as a lead-in, which made sense while it opened
+   the page; the hero statement now does that, so the jump only broke the
+   bio in two. */
 .prose-about p { font-size: 1.05rem; }
-.prose-about p:first-of-type { font-size: 1.2rem; color: var(--text); }
 
 .about-side {
   padding: 1.5rem; border-radius: var(--radius);
