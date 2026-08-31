@@ -16,6 +16,7 @@ needed to swap the text for the mark. No logo is ever invented here.
   <div class="wrap affil-row">
     <p class="affil-label">Affiliations</p>
 
+    <div class="affil-list">
     <a class="affil" href="{{ p.affiliation_url }}" target="_blank" rel="noopener">
       <span class="affil-mark{% if primary_logo != "" %} has-logo{% endif %}">
         {%- if primary_logo != "" -%}
@@ -45,5 +46,6 @@ needed to swap the text for the mark. No logo is ever invented here.
       </span>
     </a>
     {%- endif -%}
+    </div>
   </div>
 </section>

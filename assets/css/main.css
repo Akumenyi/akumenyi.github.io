@@ -689,9 +689,18 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 }
 
 .affiliations { border-top: 1px solid var(--line-soft); background: var(--bg-alt); }
+/* The label and the affiliations were siblings in one wrapping flex row, so a
+   second affiliation that wrapped started at the label's edge instead of
+   aligning with the first. The affiliations are now one flex item of their
+   own, and wrap within it. */
 .affil-row {
-  display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 2.4rem;
-  padding: 1.4rem 0;
+  display: flex; align-items: center; flex-wrap: wrap;
+  gap: .9rem 2.2rem; padding: 1.4rem 0;
+}
+.affil-label { flex: none; }
+.affil-list {
+  display: flex; flex-wrap: wrap; align-items: center;
+  gap: 1rem 2.4rem; min-width: 0;
 }
 .affil-label {
   margin: 0; font-family: var(--font-display);
@@ -722,9 +731,24 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 .affil-text b { font-size: .92rem; font-weight: 600; transition: color .2s; }
 .affil-text span { font-size: .82rem; color: var(--text-mute); }
 
-@media (max-width: 720px) {
-  .affil-row { gap: 1rem 1.5rem; }
-  .affil-text span { display: none; }
+/* Below roughly a landscape tablet there is no longer room for the label and
+   both affiliations on one line, so stack them. Each affiliation then gets the
+   full width, which is what lets the organisation names stay visible. */
+@media (max-width: 1000px) {
+  .affil-row { flex-direction: column; align-items: flex-start; gap: .85rem; }
+  .affil-list { flex-direction: column; align-items: flex-start; gap: 1rem; width: 100%; }
+  .affil { width: 100%; }
+  /* Once stacked, the two plates sit in a column, and their differing logo
+     aspect ratios left the role text starting at different x positions. A
+     shared minimum width squares them up; each logo stays centred. */
+  .affil-mark, .affil-mark.has-logo { min-width: 7rem; }
+}
+
+@media (max-width: 420px) {
+  .affil-mark, .affil-mark.has-logo { min-width: 5.75rem; }
+  .affil-mark.has-logo img { height: 1.6rem; max-width: 6.5rem; }
+  .affil-text b { font-size: .88rem; }
+  .affil-text span { font-size: .78rem; }
 }
 
 /* The hero eyebrow now carries two appointments plus a location, so it has to
