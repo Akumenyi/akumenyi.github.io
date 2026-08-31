@@ -42,7 +42,7 @@ profile:
   orcid: "0000-0002-7887-6040"
   scholar_id: "hoI1ZjkAAAAJ"
   photo: "/assets/img/ISIE_fellow_profile_picture.jpeg"
-  cv: "/Kwesi_Quagraine_CV_2paged_CVF.pdf"
+  cv: "/Quagraine_CV_090126.pdf"
 
 # ---------------------------------------------------------------------------
 # Navigation and links
@@ -54,7 +54,7 @@ navigation:
   - {url: "/blog/", title: "Blog"}
   - {url: "/projects/", title: "Projects & Grants"}
   - {url: "/updates/", title: "Updates"}
-  - {url: "/Kwesi_Quagraine_CV_2paged_CVF.pdf", title: "CV", external: true}
+  - {url: "/Quagraine_CV_090126.pdf", title: "CV", external: true}
 
 profiles:
   - {title: "Google Scholar", short: "Scholar", icon: "scholar", url: "https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en", handle: "hoI1ZjkAAAAJ"}
