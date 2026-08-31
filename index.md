@@ -5,6 +5,11 @@ title: ""
 description: "Kwesi A. Quagraine, PhD — Chief Scientist of the Climate Vulnerable Forum and V20 (CVF-V20) and Visiting Scientist at NSF NCAR, working on climate extremes, stratospheric aerosol injection and regional climate modelling across Africa."
 ---
 
+My job is to make sure the evidence those countries bring to the table is as strong as the
+evidence used against them. In practice that means setting the CVF-V20 research agenda, leading
+scientific assessments and policy briefs, building research partnerships and giving ministers and
+negotiators answers they can defend in the room.
+
 I am also a **Visiting Scientist** at the [NSF National Center for Atmospheric Research](https://ncar.ucar.edu/){:target="_blank"}
 in Boulder, Colorado, where the research itself continues. It sits between a global model and a
 national decision: how climate extremes are changing, what deliberate climate intervention would do
