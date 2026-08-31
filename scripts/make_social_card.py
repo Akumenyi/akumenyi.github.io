@@ -80,9 +80,14 @@ def isobar_layer(size: tuple[int, int], lines: int = 26, alpha_scale: float = 0.
 
 def main() -> int:
     profile = (yaml.safe_load((ROOT / "_config.yml").read_text(encoding="utf-8")) or {}).get("profile", {})
-    portrait_path = OUT / "kwesi-quagraine.jpg"
+    # Follow whatever `profile.photo` points at, rather than a fixed filename.
+    # The path was hardcoded, so changing the portrait in _config.yml left the
+    # card advertising the previous photo.
+    photo = (profile.get("photo") or "/assets/img/kwesi-quagraine.jpg").lstrip("/")
+    portrait_path = ROOT / photo
     if not portrait_path.exists():
-        raise SystemExit(f"missing {portrait_path}")
+        raise SystemExit(f"missing {portrait_path} (profile.photo in _config.yml)")
+    print(f"portrait: {portrait_path.relative_to(ROOT)}")
 
     W, H = 1200, 630
     card = Image.new("RGB", (W, H), INK)
@@ -97,7 +102,14 @@ def main() -> int:
     card.paste(lines, (0, 0), lines)
 
     inset_w, inset_h = 300, 360
-    face = Image.open(portrait_path).convert("RGB").resize((inset_w, inset_h), Image.LANCZOS)
+    # Cover-fit rather than stretch: the two portraits used so far have had
+    # different aspect ratios, and resize() alone would distort the face.
+    src = Image.open(portrait_path).convert("RGB")
+    scale = max(inset_w / src.width, inset_h / src.height)
+    scaled = src.resize((max(1, round(src.width * scale)), max(1, round(src.height * scale))), Image.LANCZOS)
+    left = (scaled.width - inset_w) // 2
+    top = int((scaled.height - inset_h) * 0.12)          # bias upward, towards the face
+    face = scaled.crop((left, top, left + inset_w, top + inset_h))
     mask = Image.new("L", (inset_w, inset_h), 0)
     ImageDraw.Draw(mask).rounded_rectangle([0, 0, inset_w - 1, inset_h - 1], radius=28, fill=255)
     card.paste(face, (W - inset_w - 70, (H - inset_h) // 2), mask)

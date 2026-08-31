@@ -32,6 +32,11 @@
 
   --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
   --font-display: "Space Grotesk", "Inter", var(--font-body);
+  /* The name itself is set in Calibri. Calibri is a proprietary Microsoft face
+     that cannot be self-hosted, so it is used where it is installed --
+     Windows, and Macs with Office -- and Carlito, its metric-compatible
+     OFL-licensed twin, is served to everyone else. */
+  --font-name: Calibri, Carlito, "Segoe UI", system-ui, -apple-system, sans-serif;
   --wrap: 1160px;
 
   color-scheme: dark;
@@ -183,7 +188,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
   color: var(--teal);
 }
 .brand-mark svg { width: 1.5rem; height: 1.5rem; }
-.brand-text { font-family: var(--font-display); font-weight: 600; font-size: 1.02rem; line-height: 1.2; letter-spacing: -.01em; }
+.brand-text { font-family: var(--font-name); font-weight: 700; font-size: 1.08rem; line-height: 1.2; letter-spacing: 0; }
 .brand-text em { font-style: normal; color: var(--teal); }
 .brand-text small { display: block; font-family: var(--font-body); font-weight: 500; font-size: .72rem; letter-spacing: .1em; text-transform: uppercase; color: var(--text-mute); }
 
@@ -249,8 +254,11 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
 }
 
 .hero-name {
+  font-family: var(--font-name);
   font-size: clamp(3.1rem, 9.5vw, 6.1rem);
-  line-height: .93; letter-spacing: -.045em; font-weight: 700;
+  /* Calibri is softer and narrower than the display face it replaces, so it
+     needs less negative tracking and a little more leading to sit right. */
+  line-height: 1; letter-spacing: -.025em; font-weight: 700;
   margin: 0 0 1.1rem;
 }
 .hero-name em {
@@ -462,7 +470,7 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 
 .site-footer { border-top: 1px solid var(--line-soft); background: var(--bg-alt); padding: 3.5rem 0 2rem; margin-top: 0; }
 .footer-grid { display: grid; gap: 2rem; grid-template-columns: 1.5fr 1fr 1fr 1.6fr; }
-.footer-name { font-family: var(--font-display); font-weight: 600; font-size: 1.1rem; margin-bottom: .5rem; }
+.footer-name { font-family: var(--font-name); font-weight: 700; font-size: 1.15rem; margin-bottom: .5rem; }
 .footer-name em { font-style: normal; color: var(--teal); }
 .footer-role { font-size: .88rem; color: var(--text-mute); line-height: 1.7; }
 .footer-mail { font-size: .9rem; font-weight: 500; }
