@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T05:38:43+00:00",
+  "generated_at": "2026-08-31T06:09:57+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
@@ -198,7 +198,10 @@
       "title": "Land surface precipitation extremes [in \"State of the Climate in 2025\"]",
       "authors": [
         "Quagraine, K. A.",
-        "et al."
+        "Ziese, M.",
+        "Simmons, A.",
+        "Qiaohong, S.",
+        "Zhang, W."
       ],
       "year": 2026,
       "venue": "Bulletin of the American Meteorological Society, 107 (8)",
@@ -216,6 +219,9 @@
       "first_author": true,
       "author_positions": [
         "self",
+        "other",
+        "other",
+        "other",
         "other"
       ],
       "open_access": true,
