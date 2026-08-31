@@ -270,8 +270,8 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
 /* The hero now carries a short statement rather than a single line, so the
    type steps down and the measure widens to stay readable across it. */
 .hero-tagline {
-  font-size: clamp(1rem, 1.3vw, 1.1rem); line-height: 1.62;
-  color: var(--text-dim); max-width: 58ch; margin: 0 0 .8rem;
+  font-size: clamp(1.05rem, 1.6vw, 1.22rem); line-height: 1.58;
+  color: var(--text-dim); max-width: 50ch; margin: 0 0 .8rem;
 }
 .hero-tagline:last-of-type { margin-bottom: 1.9rem; }
 
