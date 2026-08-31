@@ -51,7 +51,8 @@ My PhD thesis asked how large-scale climate processes influence regional climate
 started from a frustration: we routinely evaluate processes one at a time, when the climate presents
 them together.
 
-Working with [Prof. Bruce Hewitson](https://tinyurl.com/Bruce-Hewitson){:target="_blank"}, my
+Working with [Prof. Bruce Hewitson](https://tinyurl.com/Bruce-Hewitson){:target="_blank"},
+Dr Chris Jack and Dr Chris Lennard, my
 [thesis](http://hdl.handle.net/11427/33916){:target="_blank"} developed a novel approach to describe the
 co-behaviour of climate processes over Southern Africa. It produced two papers in the *Journal of
 Climate* — [a methodology to assess co-behaviour](https://doi.org/10.1175/JCLI-D-18-0689.1){:target="_blank"}
@@ -63,9 +64,9 @@ in *Atmospheric Science Letters* and a companion index for the South Indian Ocea
 ## The West African monsoon and rain-fed agriculture
 {: #monsoon}
 
-Before the PhD, I worked with [Prof. Nana Ama Browne Klutse](https://tinyurl.com/Ama-Browne){:target="_blank"}
-on an MPhil thesis seeking [to understand the West African Monsoon jump and its implications for rain-fed
-agriculture](https://tinyurl.com/quagraine-thesis){:target="_blank"}. The monsoon jump is a sharp
+Before the PhD, [Prof. Nana Ama Browne Klutse](https://tinyurl.com/Ama-Browne){:target="_blank"}
+supervised my MPhil, which sought [to understand the West African Monsoon jump and its implications
+for rain-fed agriculture](https://tinyurl.com/quagraine-thesis){:target="_blank"}. The monsoon jump is a sharp
 northward shift in the rainband, and its timing sets the planting season for a very large number of
 farmers. That work is the reason I still care about onset, cessation and the reanalysis products we
 use to characterise them — and why several of my papers land in journals that agronomists read.

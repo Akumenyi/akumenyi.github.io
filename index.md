@@ -18,7 +18,8 @@ extremes and on regionally refined CESM simulations that bring intervention expe
 usable resolution.
 
 I came to both through the modelling. I completed a PhD at the University of Cape Town with
-[Prof. Bruce Hewitson](https://tinyurl.com/Bruce-Hewitson){:target="_blank"}, developing a method to
+[Prof. Bruce Hewitson](https://tinyurl.com/Bruce-Hewitson){:target="_blank"}, Dr Chris Jack and
+Dr Chris Lennard, developing a method to
 describe how large-scale climate processes *co-behave* over Southern Africa, then held a
 postdoctoral position there working on regional climate variability and change, and afterwards an
 ASP Postdoctoral Fellowship at NSF NCAR.
