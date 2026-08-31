@@ -2,7 +2,7 @@
 {%- assign words = post.content | strip_html | number_of_words -%}
 {%- assign minutes = words | divided_by: 220 | plus: 1 -%}
 {%- capture tag_slugs %}{% for tag in post.tags %}{{ tag | slugify }} {% endfor %}{% endcapture -%}
-<article class="post-card{% if include.featured %} is-featured{% endif %}" data-tags="{{ tag_slugs | strip }}">
+<article class="post-card" data-tags="{{ tag_slugs | strip }}">
   {%- if post.image -%}
   <a class="post-thumb" href="{{ post.url | relative_url }}" tabindex="-1" aria-hidden="true">
     <img src="{{ post.image | relative_url }}" alt="" loading="lazy" decoding="async">
