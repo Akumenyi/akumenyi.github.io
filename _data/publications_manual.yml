@@ -8,6 +8,10 @@
 # Anything you type here always wins over the automated record, so under-review
 # manuscripts and corrections stay put. To add a paper by hand, copy a block.
 #
+# NOTE ON COMPENDIUM SECTIONS: a chapter or section of a multi-author report
+# carries the whole report's DOI, so set `keep_title: true` to stop the merge
+# replacing the section title with the report title.
+#
 # NOTE ON AUTHOR NAMES: write co-authors as "Family, F. M.". Only
 # "Quagraine, K. A." is highlighted as the site owner -- other initials belong
 # to other researchers and must be left exactly as published.
@@ -34,6 +38,17 @@
   status: published
   doi: "10.1175/BAMS-D-24-0155.1"
   topics: ["Predictability", "Earth system modelling"]
+
+- id: sotc-2025-land-precip-extremes
+  title: 'Land surface precipitation extremes [in "State of the Climate in 2025"]'
+  authors: ["Quagraine, K. A.", "et al."]
+  year: 2026
+  venue: "Bulletin of the American Meteorological Society, 107 (8)"
+  type: report
+  status: published
+  doi: "10.1175/2026BAMSStateoftheClimate.1"
+  keep_title: true
+  topics: ["Climate extremes", "Precipitation", "Climate monitoring"]
 
 - id: citizen-cate-2024
   title: "Citizen CATE 2024: Extending Totality During the 8 April 2024 Total Solar Eclipse with a Distributed Network of Community Participants"

@@ -349,6 +349,10 @@ def fetch_scholar(session) -> tuple[dict, dict]:
 # merge
 # --------------------------------------------------------------------------
 
+# Recomputed by `merge()` from the author list, so never carried between runs.
+DERIVED_FIELDS = {"first_author", "author_positions"}
+
+
 def merge(manual: list[dict], fetched: list[dict], previous: list[dict]) -> list[dict]:
     """Collapse every record of one paper into a single entry.
 
@@ -367,7 +371,10 @@ def merge(manual: list[dict], fetched: list[dict], previous: list[dict]) -> list
     Curated metadata wins within a group, with one exception: where a curated
     entry and a fetched record share a DOI but disagree on the title, the
     publisher's title is taken, since a title recorded at submission is simply
-    out of date once the paper is out.
+    out of date once the paper is out. A curated entry may set `keep_title` to
+    opt out of that -- a chapter or section of a multi-author compendium is
+    cited by its own title while sharing the compendium's DOI, so the
+    publisher's title there is the wrong one, not the newer one.
     """
     entries: list[dict] = list(manual) + sorted(
         fetched, key=lambda e: (bool(e.get("is_repository")), not e.get("venue"))
@@ -442,7 +449,7 @@ def merge(manual: list[dict], fetched: list[dict], previous: list[dict]) -> list
 
             # A curated title written at submission loses to the published one.
             same_doi = normalise_doi(entry.get("doi")) and normalise_doi(entry.get("doi")) == normalise_doi(current.get("doi"))
-            if current_is_manual and same_doi and entry.get("title"):
+            if current_is_manual and same_doi and entry.get("title") and not current.get("keep_title"):
                 if normalise_title(entry["title"]) != normalise_title(current.get("title", "")):
                     log(f"  retitled from the publisher record: {current['title'][:58]}")
                     current["title"] = entry["title"]
@@ -466,6 +473,7 @@ def merge(manual: list[dict], fetched: list[dict], previous: list[dict]) -> list
 
     for entry in results:
         entry.pop("is_repository", None)
+        entry.pop("keep_title", None)
         entry.setdefault("citations", 0)
         entry["authors"] = [format_author(a) for a in entry.get("authors", [])]
         entry["first_author"] = bool(entry["authors"]) and author_is_kaq(entry["authors"][0])
@@ -585,7 +593,20 @@ def main() -> int:
             warnings.append(f"Google Scholar unavailable: {exc}")
             log(f"Google Scholar failed ({exc})")
     else:
-        log("offline mode: rebuilding from manual record + previous output")
+        # A rebuild must not throw away what the last harvest found. Nothing
+        # here can reach OpenAlex, so replay the records it returned last time:
+        # an entry in the previous output carrying an `openalex_id` came from a
+        # harvest, whether or not a curated entry was merged into it, and
+        # replaying it restores both the fetched-only works and the published
+        # titles that overrode the curated ones. Entries without an
+        # `openalex_id` are curated-only and `load_manual()` already supplies
+        # them -- replaying those too would resurrect any since deleted.
+        fetched = [
+            {k: v for k, v in entry.items() if k not in DERIVED_FIELDS}
+            for entry in previous_pubs
+            if entry.get("openalex_id")
+        ]
+        log(f"offline mode: manual record + {len(fetched)} harvested records replayed from the previous output")
 
     publications = merge(manual, fetched, previous_pubs)
 

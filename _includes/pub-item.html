@@ -34,7 +34,8 @@
       {%- if pub.first_author %}<span class="tag tag-first">First author</span>{% endif -%}
       {%- if pub.status == "under_review" %}<span class="tag tag-review">Under review</span>
       {%- elsif pub.type == "comment" %}<span class="tag tag-type">Comment</span>
-      {%- elsif pub.type == "preprint" %}<span class="tag tag-type">Preprint</span>{% endif -%}
+      {%- elsif pub.type == "preprint" %}<span class="tag tag-type">Preprint</span>
+      {%- elsif pub.type == "report" %}<span class="tag tag-type">Report</span>{% endif -%}
     </p>
 
     <p class="pub-links">
