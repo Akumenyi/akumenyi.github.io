@@ -27,7 +27,7 @@ layout: default
 
   <div class="post-grid" data-post-grid>
     {%- for post in posts -%}
-      {% include post-card.html post=post featured=forloop.first %}
+      {% include post-card.html post=post %}
     {%- endfor -%}
   </div>
 

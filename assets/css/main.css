@@ -687,7 +687,11 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 :root[data-theme="light"] .tag-pill.is-active { color: #fff; }
 .tag-pill.is-active span { color: inherit; opacity: .75; }
 
-.post-grid { display: grid; gap: 1.2rem; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); margin-bottom: 3rem; }
+/* Three to a row, fixed rather than auto-fill, so every tile is the same size
+   whatever the post count. Two up on tablets, one on phones. */
+.post-grid { display: grid; gap: 1.2rem; grid-template-columns: repeat(3, minmax(0, 1fr)); margin-bottom: 3rem; }
+@media (max-width: 1000px) { .post-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 680px)  { .post-grid { grid-template-columns: minmax(0, 1fr); } }
 .post-card {
   display: flex; flex-direction: column; overflow: hidden;
   background: var(--panel); border: 1px solid var(--line-soft); border-radius: var(--radius);
@@ -695,14 +699,6 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 }
 .post-card:hover { transform: translateY(-4px); border-color: var(--line); box-shadow: var(--shadow); }
 .post-card[hidden] { display: none; }
-.post-card.is-featured { grid-column: 1 / -1; }
-.post-card.is-featured .post-card-title { font-size: clamp(1.4rem, 2.6vw, 1.95rem); }
-.post-card.is-featured .post-excerpt { font-size: 1.03rem; max-width: 62ch; }
-@media (min-width: 860px) {
-  .post-card.is-featured { flex-direction: row; align-items: stretch; }
-  .post-card.is-featured .post-thumb { flex: 0 0 42%; }
-  .post-card.is-featured .post-thumb img { height: 100%; }
-}
 
 .post-thumb { display: block; overflow: hidden; background: var(--panel-2); }
 .post-thumb img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; transition: transform .4s ease; }
