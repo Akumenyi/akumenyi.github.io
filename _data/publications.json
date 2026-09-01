@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-31T06:14:52+00:00",
+  "generated_at": "2026-09-01T10:13:13+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
@@ -40,7 +40,6 @@
       "url": "https://doi.org/10.1002/asl2.70056",
       "citations": 0,
       "openalex_id": "W7172423790",
-      "open_access": true,
       "first_author": true,
       "author_positions": [
         "self",
@@ -50,7 +49,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "citizen-cate-2024",
@@ -112,7 +112,6 @@
       "url": "https://doi.org/10.1175/bams-d-24-0155.1",
       "citations": 2,
       "openalex_id": "W7123903725",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -121,7 +120,8 @@
         "other",
         "self",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "extreme-events-as-an-inadequately-explored-measure-of-solar",
@@ -148,14 +148,14 @@
       ],
       "source": "openalex",
       "manual": false,
-      "open_access": true,
       "first_author": true,
       "author_positions": [
         "self",
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "high-latitude-low-altitude-stratospheric-aerosol-injection-r",
@@ -183,7 +183,6 @@
       ],
       "source": "openalex",
       "manual": false,
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -191,7 +190,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "sotc-2025-land-precip-extremes",
@@ -284,13 +284,13 @@
       ],
       "source": "openalex",
       "manual": false,
-      "open_access": true,
       "first_author": true,
       "author_positions": [
         "self",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "replace-temperature-limits",
@@ -385,7 +385,6 @@
       "url": "https://doi.org/10.3389/fclim.2025.1599405",
       "citations": 2,
       "openalex_id": "W4415411721",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -400,7 +399,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "ukesm1-cesm2-geoengineering",
@@ -429,7 +429,6 @@
       "citations": 1,
       "openalex_id": "W4405614780",
       "open_access_url": "https://essopenarchive.org/doi/pdf/10.22541/essoar.173462728.87124716",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -438,7 +437,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "atmospheric-rivers-sai",
@@ -464,7 +464,6 @@
       "url": "https://doi.org/10.1088/2752-5295/ade61a",
       "citations": 1,
       "openalex_id": "W4411443302",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -472,7 +471,8 @@
         "self",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "cloud-radiative-effects-sai",
@@ -500,7 +500,6 @@
       "open_access_url": "https://essopenarchive.org/doi/pdf/10.22541/essoar.173724206.69872710/v1",
       "citations": 0,
       "openalex_id": "W4406570102",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -508,7 +507,8 @@
         "self",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "arise-sai-precipitation-extremes",
@@ -540,7 +540,6 @@
       "url": "https://doi.org/10.1088/2752-5295/adee3c",
       "citations": 2,
       "openalex_id": "W4412183724",
-      "open_access": true,
       "first_author": true,
       "author_positions": [
         "self",
@@ -552,7 +551,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "south-indian-ocean-high-impact",
@@ -577,9 +577,8 @@
       "manual": true,
       "url": "https://doi.org/10.1002/joc.70031",
       "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/joc.70031",
-      "citations": 1,
+      "citations": 2,
       "openalex_id": "W4412099087",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -587,7 +586,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "harmattan-sai-response",
@@ -618,7 +618,6 @@
       "url": "https://doi.org/10.1088/2752-5295/adaa0c",
       "citations": 0,
       "openalex_id": "W4406364246",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -630,7 +629,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "antimalarial-herbal-fingerprints",
@@ -661,7 +661,6 @@
       "url": "https://doi.org/10.1007/s10895-025-04192-3",
       "citations": 0,
       "openalex_id": "W4408003357",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -674,7 +673,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "moisture-elevated-temperature-melt-index-a-novel-index-to-ca",
@@ -695,12 +695,12 @@
       ],
       "source": "openalex",
       "manual": false,
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
         "self"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "horticultural-crop-suitability-sai",
@@ -729,7 +729,6 @@
       "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/geoj.70039",
       "citations": 1,
       "openalex_id": "W4412687475",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -738,7 +737,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "projected-impact-of-stratospheric-aerosol-injection-on-rainf",
@@ -765,7 +765,6 @@
       ],
       "source": "openalex",
       "manual": false,
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -774,7 +773,8 @@
         "self",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "collaborative-research-africa",
@@ -801,7 +801,6 @@
       "open_access_url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A4291444/view",
       "citations": 1,
       "openalex_id": "W4414724503",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -809,7 +808,8 @@
         "other",
         "self",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "south-atlantic-high-index",
@@ -837,7 +837,6 @@
       "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/asl.1266",
       "citations": 3,
       "openalex_id": "W4402007677",
-      "open_access": true,
       "first_author": true,
       "author_positions": [
         "self",
@@ -845,7 +844,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "africa-s-climate-response-to-marine-cloud-brightening",
@@ -876,7 +876,6 @@
       ],
       "source": "openalex",
       "manual": false,
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -889,7 +888,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "marine-cloud-brightening-africa",
@@ -921,7 +921,6 @@
       "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024JD041070",
       "citations": 6,
       "openalex_id": "W4402031885",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -934,7 +933,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "potential-impact-of-stratospheric-aerosol-injection-on-horti",
@@ -963,7 +963,6 @@
       ],
       "source": "openalex",
       "manual": false,
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -974,7 +973,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "west-african-cities-rainfall-extremes",
@@ -1006,7 +1006,6 @@
       "url": "https://doi.org/10.1007/s41748-024-00425-w",
       "citations": 5,
       "openalex_id": "W4402355132",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -1019,7 +1018,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "mcs-large-scale-environments",
@@ -1046,7 +1046,6 @@
       "url": "https://doi.org/10.5194/wcd-4-773-2023",
       "citations": 10,
       "openalex_id": "W4310379596",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -1055,7 +1054,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "potential-impact-of-climate-change-on-cropland-suitability-i",
@@ -1082,7 +1082,6 @@
       ],
       "source": "openalex",
       "manual": false,
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -1093,7 +1092,8 @@
         "other",
         "self",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "itcz-msdids",
@@ -1123,7 +1123,6 @@
       "open_access_url": "https://www.mdpi.com/2073-4433/13/11/1836/pdf?version=1667570980",
       "citations": 8,
       "openalex_id": "W4308454717",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -1134,7 +1133,8 @@
         "other",
         "other",
         "self"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "highresmip-onset-cessation",
@@ -1164,7 +1164,6 @@
       "open_access_url": "https://www.mdpi.com/2073-4433/13/7/999/pdf?version=1655804294",
       "citations": 18,
       "openalex_id": "W4283273646",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -1174,7 +1173,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "cmip6-monsoon-extremes",
@@ -1204,7 +1204,6 @@
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s41748-021-00203-y.pdf",
       "citations": 113,
       "openalex_id": "W3128498258",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -1214,7 +1213,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "evaluation-of-the-co-behavior-of-regional-climate-drivers-in",
@@ -1239,7 +1239,6 @@
       ],
       "source": "openalex",
       "manual": false,
-      "open_access": true,
       "first_author": true,
       "author_positions": [
         "self",
@@ -1248,7 +1247,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "co-behavior-cmip5-performance",
@@ -1278,7 +1278,6 @@
       "open_access_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/33/7/jcli-d-19-0472.1.pdf",
       "citations": 3,
       "openalex_id": "W3003577330",
-      "open_access": true,
       "first_author": true,
       "author_positions": [
         "self",
@@ -1287,7 +1286,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "wasm-reanalysis-variability",
@@ -1315,7 +1315,6 @@
       "open_access_url": "https://www.mdpi.com/2225-1154/8/10/111/pdf?version=1601979457",
       "citations": 64,
       "openalex_id": "W3092018319",
-      "open_access": true,
       "first_author": true,
       "author_positions": [
         "self",
@@ -1323,7 +1322,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "co-behavior-methodology",
@@ -1350,7 +1350,6 @@
       "url": "https://doi.org/10.1175/jcli-d-18-0689.1",
       "citations": 11,
       "openalex_id": "W2916541938",
-      "open_access": true,
       "first_author": true,
       "author_positions": [
         "self",
@@ -1358,7 +1357,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "crop-climate-departure",
@@ -1386,7 +1386,6 @@
       "open_access_url": "https://www.mdpi.com/2225-1154/7/9/102/pdf?version=1566643345",
       "citations": 34,
       "openalex_id": "W2969350699",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -1395,7 +1394,8 @@
         "other",
         "other",
         "self"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "consecutive-dry-wet-days",
@@ -1432,7 +1432,6 @@
       "open_access_url": "https://iopscience.iop.org/article/10.1088/1748-9326/aab37b/pdf",
       "citations": 117,
       "openalex_id": "W2791529021",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -1449,7 +1448,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "the-dynamics-of-co-behaviour-of-climate-processes",
@@ -1476,7 +1476,6 @@
       ],
       "source": "openalex",
       "manual": false,
-      "open_access": true,
       "first_author": true,
       "author_positions": [
         "self",
@@ -1485,7 +1484,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "wenchi-saltpond-rainfall",
@@ -1513,7 +1513,6 @@
       "open_access_url": "https://content.scirp.org/pdf/ijg_2017032816262883.pdf",
       "citations": 8,
       "openalex_id": "W2603450169",
-      "open_access": true,
       "first_author": true,
       "author_positions": [
         "self",
@@ -1521,7 +1520,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "rainfall-variability-ghana",
@@ -1551,7 +1551,6 @@
       "open_access_url": "https://content.scirp.org/pdf/ijg_2014061113545679.pdf",
       "citations": 104,
       "openalex_id": "W1991937137",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -1561,7 +1560,8 @@
         "other",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "west-african-monsoon-wam-jump-and-its-implication-for-rain-f",
@@ -1580,11 +1580,11 @@
       ],
       "source": "openalex",
       "manual": false,
-      "open_access": true,
       "first_author": true,
       "author_positions": [
         "self"
-      ]
+      ],
+      "open_access": true
     },
     {
       "id": "farmers-observation-maize",
@@ -1612,7 +1612,6 @@
       "manual": true,
       "citations": 14,
       "openalex_id": "W2270661560",
-      "open_access": true,
       "first_author": false,
       "author_positions": [
         "other",
@@ -1622,7 +1621,8 @@
         "self",
         "other",
         "other"
-      ]
+      ],
+      "open_access": true
     }
   ]
 }
