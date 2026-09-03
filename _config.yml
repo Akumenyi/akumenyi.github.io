@@ -53,7 +53,10 @@ navigation:
   - {url: "/publications/", title: "Publications"}
   - {url: "/blog/", title: "Blog"}
   - {url: "/projects/", title: "Projects & Grants"}
-  - {url: "/updates/", title: "Updates"}
+  # Updates is collapsed while the LinkedIn feed is unconnected. To bring it
+  # back: restore this line, set updates_enabled to true below, and remove
+  # `published: false` from updates.md.
+  # - {url: "/updates/", title: "Updates"}
   - {url: "/Quagraine_CV_090126.pdf", title: "CV", external: true}
 
 profiles:
@@ -77,6 +80,11 @@ date_format: "%B %-d, %Y"
 stripes_default: "global"
 
 linkedin_embed: false
+
+# Shows the Updates page, its nav entry and the "Latest from LinkedIn"
+# section on the home page. Off until LINKEDIN_FEED_URL is set, so the
+# site never advertises a feed that has nothing in it.
+updates_enabled: false
 
 markdown: kramdown
 kramdown:

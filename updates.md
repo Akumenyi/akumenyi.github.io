@@ -2,6 +2,9 @@
 layout: page
 title: "Updates"
 permalink: /updates/
+# Collapsed while the LinkedIn feed is unconnected. Set this to true and see
+# updates_enabled in _config.yml to bring the page back.
+published: false
 stripes: fiji
 wide: true
 eyebrow: "Field notes"

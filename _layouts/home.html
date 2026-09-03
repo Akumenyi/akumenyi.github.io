@@ -184,6 +184,7 @@ layout: default
 </section>
 {%- endif -%}
 
+{%- if site.updates_enabled -%}
 <section class="section" id="linkedin">
   <div class="wrap">
     <header class="section-head section-head-row">
@@ -196,6 +197,7 @@ layout: default
     {% include linkedin-feed.html limit=3 %}
   </div>
 </section>
+{%- endif -%}
 
 <section class="section section-contact" id="contact">
   <div class="wrap contact-inner">
