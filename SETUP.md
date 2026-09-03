@@ -213,6 +213,19 @@ the #ShowYourStripes convention. Records start in 1850 or when the country's rec
 The script reads the region name out of each Berkeley file and refuses to render a country
 whose file reports a different region, so a renamed slug cannot silently mislabel a chart.
 
+### Why countries stop at 2020, and how to move them on
+
+Berkeley Earth froze its public per-country text files at December 2020. The global card
+reaches 2024 because it is pulled from a different, still-maintained file. Current country
+data lives on Berkeley Earth's Synthesis platform, which needs a free login, so the daily
+workflow cannot fetch it unattended.
+
+To bring a country up to date, export its monthly series from Berkeley Earth and save it in
+`_berkeley/` as `<slug>.txt` or `<slug>.csv`. A local file always wins over the remote
+archive, the run logs `using the local export`, and that country is marked `"local": true` in
+`_data/warming_stripes.json`. Delete the file to fall back to the archive again. The accepted
+CSV shapes are `year,month,anomaly` and `year,anomaly`; `_berkeley/README.md` has the detail.
+
 ```bash
 python scripts/warming_stripes.py              # all countries
 python scripts/warming_stripes.py --only ghana # one

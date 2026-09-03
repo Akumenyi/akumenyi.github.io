@@ -41,6 +41,13 @@ MEMBERS_PATH = REPO_ROOT / "_data" / "cvf_members.yml"
 OUTPUT_PATH = REPO_ROOT / "_data" / "warming_stripes.json"
 SVG_DIR = REPO_ROOT / "assets" / "img" / "stripes"
 
+# Hand-supplied series take priority over the remote archive. Berkeley Earth
+# froze its public per-country text files at December 2020; current country
+# data comes from its Synthesis platform, which needs a (free) login and so
+# cannot be fetched unattended. Drop an export here as `<slug>.txt` or
+# `<slug>.csv` and it is used instead of the 2020 archive. See SETUP.md.
+LOCAL_DIR = REPO_ROOT / "_berkeley"
+
 TIMEOUT = 60
 
 # #ShowYourStripes starts at 1850. Berkeley's land record reaches back to 1750,
@@ -120,6 +127,75 @@ def parse_berkeley(text: str) -> dict[int, float]:
     return {year: statistics.fmean(values) for year, values in monthly.items() if len(values) == 12}
 
 
+def parse_csv(text: str) -> dict[int, float]:
+    """Annual means from a plain CSV export.
+
+    Two shapes are accepted, both with a header row naming the columns:
+    `year,month,anomaly` (monthly, and a year still needs all twelve months)
+    or `year,anomaly` (already annual, taken as given). Extra columns are
+    ignored, so a Synthesis export can be handed over with its uncertainty
+    column still attached.
+    """
+    rows = [r.strip() for r in text.splitlines() if r.strip()]
+    if not rows:
+        return {}
+    header = [h.strip().lower() for h in rows[0].split(",")]
+    if "year" not in header:
+        return {}
+    y_at = header.index("year")
+    m_at = header.index("month") if "month" in header else None
+    # The value column is whichever of these names appears first.
+    v_at = next((header.index(n) for n in
+                 ("anomaly", "temperature_c", "temperature", "tavg", "value")
+                 if n in header), None)
+    if v_at is None:
+        return {}
+
+    monthly: dict[int, list[float]] = {}
+    annual: dict[int, float] = {}
+    for row in rows[1:]:
+        parts = [c.strip() for c in row.split(",")]
+        if len(parts) <= max(y_at, v_at, m_at or 0):
+            continue
+        try:
+            year, value = int(parts[y_at]), float(parts[v_at])
+        except ValueError:
+            continue
+        if value != value:                              # NaN check
+            continue
+        if m_at is None:
+            annual[year] = value
+            continue
+        try:
+            month = int(parts[m_at])
+        except ValueError:
+            continue
+        if 1 <= month <= 12:
+            monthly.setdefault(year, []).append(value)
+
+    if m_at is None:
+        return annual
+    return {y: statistics.fmean(v) for y, v in monthly.items() if len(v) == 12}
+
+
+def parse_series(text: str) -> dict[int, float]:
+    """Pick a parser by what the file looks like, not by its extension."""
+    head = "\n".join(text.splitlines()[:40]).lower()
+    if "year" in head and "," in head:
+        parsed = parse_csv(text)
+        if parsed:
+            return parsed
+    return parse_berkeley(text)
+
+
+def read_local(slug: str) -> str | None:
+    for suffix in (".txt", ".csv"):
+        path = LOCAL_DIR / f"{slug}{suffix}"
+        if path.exists():
+            return path.read_text(encoding="utf-8", errors="replace")
+    return None
+
+
 def window_or_all(series: dict[int, float], start: int, end: int) -> list[float]:
     inside = [v for y, v in series.items() if start <= y <= end]
     return inside if len(inside) >= 10 else list(series.values())
@@ -167,6 +243,10 @@ def render_svg(name: str, built: dict) -> str:
 # --------------------------------------------------------------------------
 
 def fetch(session, entry: dict) -> str | None:
+    local = read_local(entry["slug"])
+    if local is not None:
+        log(f"  {entry['slug']}: using the local export in _berkeley/")
+        return local
     urls = [entry["url"]] if entry.get("url") else [
         template.format(slug=entry.get("berkeley", entry["slug"]))
         for template in URL_TEMPLATES
@@ -232,7 +312,7 @@ def main() -> int:
             log(f"{slug}: file reports region {reported!r}, expected {entry['name']!r} — omitted")
             continue
 
-        series = parse_berkeley(text)
+        series = parse_series(text)
         if len([y for y in series if y >= entry.get("start_year", DEFAULT_START_YEAR)]) < 30:
             failures.append(slug)
             log(f"{slug}: only {len(series)} complete years parsed — omitted")
@@ -245,6 +325,7 @@ def main() -> int:
             "name": entry["name"],
             "region": entry.get("region", ""),
             "reported_name": reported,
+            "local": read_local(slug) is not None,
             "feature": bool(entry.get("feature")),
             "first_year": built["first_year"],
             "last_year": built["last_year"],
