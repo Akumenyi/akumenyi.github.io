@@ -5,7 +5,7 @@ tags: [Overshoot, Carbon removal, Governance]
 stripes: vanuatu
 ---
 
-UNEP said the quiet part out loud this week in a new report, Limiting Overshoot, the first UN assessment to state plainly that the world will cross 1.5&#176;C of warming within the next few years. Not might. Will. The question the report takes up is no longer whether we breach the Paris Agreement's safer limit but how far above it we go, how long we stay there and what it takes to come back down.
+UNEP said the quiet part out loud this week in a new report, Limiting Overshoot, the first UN assessment to state plainly that the world will cross 1.5&#176;C of warming within the next few years, not that it might. The question the report takes up is no longer whether we breach the Paris Agreement's safer limit but how far above it we go, how long we stay there and what it takes to come back down.
 
 Those numbers deserve a moment of attention, starting with the fact that warming currently stands at about 1.4&#176;C above pre-industrial levels. The most optimistic pathway UNEP can construct peaks near 1.8&#176;C around mid century before long-term carbon removal brings temperatures back below 1.5&#176;C by 2100. Current policies point instead to roughly 2.6&#176;C by the end of the century. The report also puts a price on hesitation, since every five years of delay in cutting emissions adds about a tenth of a degree to the eventual peak.
 
@@ -42,7 +42,7 @@ None of this softens the first-order demand, which is that the fastest, cheapest
 
 ## Every tenth of a degree
 
-The report's most useful contribution may be its arithmetic of delay. A tenth of a degree sounds like nothing until you notice that for a climate-vulnerable economy it is measured in bleached reefs, salinized fields, storm losses and debt taken on to rebuild what the last storm took. Peak warming of 1.7&#176;C instead of 1.8&#176;C is not a rounding error. It is livelihoods.
+The report's most useful contribution may be its arithmetic of delay. A tenth of a degree sounds like nothing until you notice that for a climate-vulnerable economy it is measured in bleached reefs, salinized fields, storm losses and debt taken on to rebuild what the last storm took. Peak warming of 1.7&#176;C instead of 1.8&#176;C is not a rounding error but a difference measured in livelihoods.
 
 <figure>
 {% include fig-delay-cost.html %}
