@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-01T10:13:13+00:00",
+  "generated_at": "2026-09-03T06:47:10+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 43,
     "under_review": 0,
     "first_author": 15,
-    "citations": 538,
+    "citations": 540,
     "h_index": 9,
     "i10_index": 9,
     "since_year": 2013,
@@ -1549,7 +1549,7 @@
       "manual": true,
       "url": "https://doi.org/10.4236/ijg.2014.57060",
       "open_access_url": "https://content.scirp.org/pdf/ijg_2014061113545679.pdf",
-      "citations": 104,
+      "citations": 105,
       "openalex_id": "W1991937137",
       "first_author": false,
       "author_positions": [
