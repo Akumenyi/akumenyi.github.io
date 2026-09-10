@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T09:44:59+00:00",
+  "generated_at": "2026-09-10T09:50:36+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
@@ -727,7 +727,7 @@
       "manual": true,
       "url": "https://doi.org/10.1111/geoj.70039",
       "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/geoj.70039",
-      "citations": 1,
+      "citations": 2,
       "openalex_id": "W4412687475",
       "first_author": false,
       "author_positions": [
@@ -1313,7 +1313,7 @@
       "manual": true,
       "url": "https://doi.org/10.3390/cli8100111",
       "open_access_url": "https://www.mdpi.com/2225-1154/8/10/111/pdf?version=1601979457",
-      "citations": 64,
+      "citations": 65,
       "openalex_id": "W3092018319",
       "first_author": true,
       "author_positions": [
