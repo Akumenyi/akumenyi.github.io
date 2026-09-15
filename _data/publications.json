@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T10:46:36+00:00",
+  "generated_at": "2026-09-15T10:10:45+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
@@ -1004,7 +1004,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1007/s41748-024-00425-w",
-      "citations": 5,
+      "citations": 6,
       "openalex_id": "W4402355132",
       "first_author": false,
       "author_positions": [
