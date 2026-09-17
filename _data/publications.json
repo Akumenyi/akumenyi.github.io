@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-15T10:10:45+00:00",
+  "generated_at": "2026-09-17T10:06:17+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 43,
     "under_review": 0,
     "first_author": 15,
-    "citations": 544,
+    "citations": 545,
     "h_index": 9,
     "i10_index": 9,
     "since_year": 2013,
@@ -345,7 +345,7 @@
       "highlight": true,
       "source": "manual",
       "manual": true,
-      "citations": 1,
+      "citations": 2,
       "openalex_id": "W4414214341",
       "first_author": true,
       "author_positions": [
@@ -383,7 +383,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.3389/fclim.2025.1599405",
-      "citations": 2,
+      "citations": 3,
       "openalex_id": "W4415411721",
       "first_author": false,
       "author_positions": [
@@ -727,7 +727,7 @@
       "manual": true,
       "url": "https://doi.org/10.1111/geoj.70039",
       "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/geoj.70039",
-      "citations": 2,
+      "citations": 3,
       "openalex_id": "W4412687475",
       "first_author": false,
       "author_positions": [
@@ -919,7 +919,7 @@
       "manual": true,
       "url": "https://doi.org/10.1029/2024jd041070",
       "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024JD041070",
-      "citations": 7,
+      "citations": 8,
       "openalex_id": "W4402031885",
       "first_author": false,
       "author_positions": [
