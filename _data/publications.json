@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T10:05:19+00:00",
+  "generated_at": "2026-09-23T10:05:50+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
@@ -745,7 +745,7 @@
       "title": "Projected Impact of Stratospheric Aerosol Injection on Rainfall dynamics over West Africa using ARISE Dataset.",
       "authors": [
         "Egbebiyi, T. S.",
-        "Ogunjo, S.",
+        "Ogunjo, S. T.",
         "Ajayi, V. O.",
         "Quagraine, K. A.",
         "Arowolo, V. A.",
@@ -799,7 +799,7 @@
       "manual": true,
       "url": "https://doi.org/10.1175/bams-d-24-0118.1",
       "open_access_url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A4291444/view",
-      "citations": 1,
+      "citations": 2,
       "openalex_id": "W4414724503",
       "first_author": false,
       "author_positions": [
@@ -1202,7 +1202,7 @@
       "manual": true,
       "url": "https://doi.org/10.1007/s41748-021-00203-y",
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s41748-021-00203-y.pdf",
-      "citations": 113,
+      "citations": 114,
       "openalex_id": "W3128498258",
       "first_author": false,
       "author_positions": [
