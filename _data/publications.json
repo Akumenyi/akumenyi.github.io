@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T11:26:21+00:00",
+  "generated_at": "2026-09-30T11:13:20+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
@@ -1004,7 +1004,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1007/s41748-024-00425-w",
-      "citations": 7,
+      "citations": 8,
       "openalex_id": "W4402355132",
       "first_author": false,
       "author_positions": [
@@ -1044,7 +1044,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.5194/wcd-4-773-2023",
-      "citations": 10,
+      "citations": 11,
       "openalex_id": "W4310379596",
       "first_author": false,
       "author_positions": [
@@ -1202,7 +1202,7 @@
       "manual": true,
       "url": "https://doi.org/10.1007/s41748-021-00203-y",
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s41748-021-00203-y.pdf",
-      "citations": 115,
+      "citations": 117,
       "openalex_id": "W3128498258",
       "first_author": false,
       "author_positions": [
