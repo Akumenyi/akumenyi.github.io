@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T11:10:35+00:00",
+  "generated_at": "2026-10-05T12:22:48+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
@@ -1078,7 +1078,9 @@
       "citations": 1,
       "openalex_id": "W4322209292",
       "topics": [
-        "Climate change impacts on agriculture"
+        "Climate change impacts on agriculture",
+        "Climate variability and models",
+        "Soil and Land Suitability Analysis"
       ],
       "source": "openalex",
       "manual": false,
