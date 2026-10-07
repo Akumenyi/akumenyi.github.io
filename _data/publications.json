@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05T12:22:48+00:00",
+  "generated_at": "2026-10-07T11:51:20+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
@@ -143,8 +143,8 @@
       "openalex_id": "W7204247997",
       "topics": [
         "Climate Change and Geoengineering",
-        "Solar Energy Systems and Technologies",
-        "Atmospheric and Environmental Gas Dynamics"
+        "Atmospheric aerosols and clouds",
+        "Climate variability and models"
       ],
       "source": "openalex",
       "manual": false,
@@ -177,9 +177,9 @@
       "citations": 0,
       "openalex_id": "W7155438050",
       "topics": [
-        "Climate variability and models",
-        "Atmospheric Ozone and Climate",
-        "Climate Change and Geoengineering"
+        "Climate Change and Geoengineering",
+        "Atmospheric aerosols and clouds",
+        "Climate variability and models"
       ],
       "source": "openalex",
       "manual": false,
@@ -279,8 +279,8 @@
       "openalex_id": "W7167585043",
       "topics": [
         "Thermoregulation and physiological responses",
-        "Urban Heat Island Mitigation",
-        "Sport and Mega-Event Impacts"
+        "Climate Change and Health Impacts",
+        "Urban Heat Island Mitigation"
       ],
       "source": "openalex",
       "manual": false,
@@ -691,7 +691,9 @@
       "citations": 0,
       "openalex_id": "W4409977934",
       "topics": [
-        "Greenhouse Technology and Climate Control"
+        "Climate Change and Health Impacts",
+        "Climate variability and models",
+        "Thermoregulation and physiological responses"
       ],
       "source": "openalex",
       "manual": false,
@@ -759,9 +761,9 @@
       "citations": 0,
       "openalex_id": "W4408446465",
       "topics": [
-        "Solar Radiation and Photovoltaics",
         "Climate Change and Geoengineering",
-        "Wind Energy Research and Development"
+        "Climate variability and models",
+        "Atmospheric aerosols and clouds"
       ],
       "source": "openalex",
       "manual": false,
@@ -870,9 +872,9 @@
       "citations": 0,
       "openalex_id": "W4392617332",
       "topics": [
-        "Atmospheric chemistry and aerosols",
+        "Climate Change and Geoengineering",
         "Atmospheric aerosols and clouds",
-        "Coastal and Marine Management"
+        "Climate variability and models"
       ],
       "source": "openalex",
       "manual": false,
@@ -957,9 +959,9 @@
       "citations": 2,
       "openalex_id": "W4392589826",
       "topics": [
-        "Aeolian processes and effects",
-        "Seed and Plant Biochemistry",
-        "Plant responses to elevated CO2"
+        "Climate change impacts on agriculture",
+        "Climate Change and Geoengineering",
+        "Remote Sensing in Agriculture"
       ],
       "source": "openalex",
       "manual": false,
@@ -1237,7 +1239,9 @@
       "citations": 0,
       "openalex_id": "W3217300147",
       "topics": [
-        "Climate variability and models"
+        "Climate variability and models",
+        "Geology and Paleoclimatology Research",
+        "Meteorological Phenomena and Simulations"
       ],
       "source": "openalex",
       "manual": false,
@@ -1472,9 +1476,9 @@
       "citations": 0,
       "openalex_id": "W3210303521",
       "topics": [
-        "Ecosystem dynamics and resilience",
-        "Ocean Acidification Effects and Responses",
-        "Climate variability and models"
+        "Climate variability and models",
+        "Meteorological Phenomena and Simulations",
+        "Geology and Paleoclimatology Research"
       ],
       "source": "openalex",
       "manual": false,
@@ -1578,7 +1582,9 @@
       "citations": 0,
       "openalex_id": "W2770288169",
       "topics": [
-        "Climate change impacts on agriculture"
+        "Climate change impacts on agriculture",
+        "Climate variability and models",
+        "Hydrology and Drought Analysis"
       ],
       "source": "openalex",
       "manual": false,
