@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-16T09:56:05+00:00",
+  "generated_at": "2026-10-17T09:29:06+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 44,
     "under_review": 0,
     "first_author": 15,
-    "citations": 544,
-    "h_index": 9,
-    "i10_index": 9,
+    "citations": 566,
+    "h_index": 10,
+    "i10_index": 10,
     "since_year": 2013,
     "citation_source": "OpenAlex"
   },
