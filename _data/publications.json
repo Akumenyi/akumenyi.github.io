@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-19T10:55:22+00:00",
+  "generated_at": "2026-10-21T10:18:10+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
-    "publications": 44,
+    "publications": 45,
     "under_review": 0,
     "first_author": 15,
-    "citations": 569,
+    "citations": 570,
     "h_index": 10,
     "i10_index": 10,
     "since_year": 2013,
@@ -225,6 +225,57 @@
       "open_access": true
     },
     {
+      "id": "impacts-of-solar-climate-intervention-on-extreme-climate-eve",
+      "title": "Impacts of solar climate intervention on extreme climate events: recent advances, opportunities and challenges",
+      "authors": [
+        "Touma, D.",
+        "Persad, G. G.",
+        "Zhang, L.",
+        "Glade, I.",
+        "Mayer, K. J.",
+        "Ocasio, K. M. N.",
+        "Quagraine, K. A.",
+        "Quagraine, K. T.",
+        "Selz, V.",
+        "Talati, S.",
+        "Tye, M. R.",
+        "Visioni, D.",
+        "Xing, C."
+      ],
+      "year": 2026,
+      "venue": "Bulletin of the American Meteorological Society",
+      "doi": "10.1175/bams-d-26-0327.1",
+      "url": "https://doi.org/10.1175/bams-d-26-0327.1",
+      "type": "article",
+      "status": "published",
+      "citations": 0,
+      "openalex_id": "W7222919123",
+      "topics": [
+        "Climate Change and Geoengineering",
+        "Atmospheric aerosols and clouds",
+        "Climate variability and models"
+      ],
+      "source": "openalex",
+      "manual": false,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "self",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "open_access": true
+    },
+    {
       "id": "sotc-2025-land-precip-extremes",
       "title": "Land surface precipitation extremes [in \"State of the Climate in 2025\"]",
       "authors": [
@@ -349,7 +400,7 @@
       "highlight": true,
       "source": "manual",
       "manual": true,
-      "citations": 2,
+      "citations": 3,
       "openalex_id": "W4414214341",
       "first_author": true,
       "author_positions": [
