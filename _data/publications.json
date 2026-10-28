@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24T13:23:59+00:00",
+  "generated_at": "2026-10-28T11:25:33+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
@@ -516,6 +516,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1088/2752-5295/ade61a",
+      "open_access_url": "https://iopscience.iop.org/article/10.1088/2752-5295/ade61a/pdf",
       "citations": 1,
       "openalex_id": "W4411443302",
       "first_author": false,
@@ -1275,8 +1276,7 @@
         "Pinto, I.",
         "Mukwenha, P.",
         "Wiolski, P.",
-        "Quagraine, K. A.",
-        "Ogunniyi, J. E."
+        "Quagraine, K. A."
       ],
       "year": 2023,
       "doi": "10.5194/egusphere-egu23-14347",
@@ -1300,8 +1300,7 @@
         "other",
         "other",
         "other",
-        "self",
-        "other"
+        "self"
       ],
       "open_access": true
     },
