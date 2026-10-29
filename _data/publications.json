@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-28T11:25:33+00:00",
+  "generated_at": "2026-10-29T11:35:59+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 45,
     "under_review": 0,
     "first_author": 15,
-    "citations": 571,
+    "citations": 570,
     "h_index": 10,
     "i10_index": 10,
     "since_year": 2013,
@@ -908,7 +908,7 @@
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s00484-025-02971-y.pdf",
       "type": "article",
       "status": "published",
-      "citations": 16,
+      "citations": 17,
       "openalex_id": "W4411920672",
       "topics": [
         "Climate Change and Health Impacts",
@@ -1007,7 +1007,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1175/bams-d-24-0118.1",
-      "open_access_url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A4291444/view",
+      "open_access_url": "https://scholarlypublications.universiteitleiden.nl/download/1887/4291443/1?col=81522199720002711",
       "citations": 2,
       "openalex_id": "W4414724503",
       "first_author": false,
@@ -1271,12 +1271,12 @@
       "title": "Potential Impact of climate Change on Cropland Suitability in Africa using CMIP6 Models",
       "authors": [
         "Egbebiyi, T. S.",
-        "Egbebiyi, T. S.",
         "Lennard, C.",
         "Pinto, I.",
         "Mukwenha, P.",
         "Wiolski, P.",
-        "Quagraine, K. A."
+        "Quagraine, K. A.",
+        "Ogunniyi, J. E."
       ],
       "year": 2023,
       "doi": "10.5194/egusphere-egu23-14347",
@@ -1299,8 +1299,8 @@
         "other",
         "other",
         "other",
-        "other",
-        "self"
+        "self",
+        "other"
       ],
       "open_access": true
     },
