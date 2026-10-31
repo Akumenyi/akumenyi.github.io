@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T11:35:59+00:00",
+  "generated_at": "2026-10-31T10:58:47+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
@@ -908,7 +908,7 @@
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s00484-025-02971-y.pdf",
       "type": "article",
       "status": "published",
-      "citations": 17,
+      "citations": 18,
       "openalex_id": "W4411920672",
       "topics": [
         "Climate Change and Health Impacts",
@@ -1253,7 +1253,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.5194/wcd-4-773-2023",
-      "citations": 11,
+      "citations": 12,
       "openalex_id": "W4386492400",
       "first_author": false,
       "author_positions": [
