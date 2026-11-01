@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-31T10:58:47+00:00",
+  "generated_at": "2026-11-01T11:54:20+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 45,
     "under_review": 0,
     "first_author": 15,
-    "citations": 570,
+    "citations": 573,
     "h_index": 10,
     "i10_index": 10,
     "since_year": 2013,
@@ -1760,7 +1760,7 @@
       "manual": true,
       "url": "https://doi.org/10.4236/ijg.2014.57060",
       "open_access_url": "https://content.scirp.org/pdf/ijg_2014061113545679.pdf",
-      "citations": 99,
+      "citations": 100,
       "openalex_id": "W1991937137",
       "first_author": false,
       "author_positions": [
@@ -1823,6 +1823,7 @@
       ],
       "source": "manual",
       "manual": true,
+      "open_access_url": "https://lib.dr.iastate.edu/ge_at_pubs/84",
       "citations": 14,
       "openalex_id": "W2270661560",
       "first_author": false,
