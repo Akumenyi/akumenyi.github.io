@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-01T11:54:20+00:00",
+  "generated_at": "2026-11-02T13:38:56+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 45,
     "under_review": 0,
     "first_author": 15,
-    "citations": 573,
+    "citations": 572,
     "h_index": 10,
     "i10_index": 10,
     "since_year": 2013,
@@ -1253,7 +1253,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.5194/wcd-4-773-2023",
-      "citations": 12,
+      "citations": 11,
       "openalex_id": "W4386492400",
       "first_author": false,
       "author_positions": [
