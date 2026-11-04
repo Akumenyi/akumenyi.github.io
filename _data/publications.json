@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-02T13:38:56+00:00",
+  "generated_at": "2026-11-04T13:05:40+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
@@ -360,7 +360,7 @@
       "open_access_url": "https://iopscience.iop.org/article/10.1088/2515-7620/ae9139/pdf",
       "type": "article",
       "status": "published",
-      "citations": 0,
+      "citations": 1,
       "openalex_id": "W7167572279",
       "topics": [
         "Thermoregulation and physiological responses",
@@ -400,7 +400,7 @@
       "highlight": true,
       "source": "manual",
       "manual": true,
-      "citations": 3,
+      "citations": 4,
       "openalex_id": "W4414214341",
       "first_author": true,
       "author_positions": [
@@ -438,7 +438,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.3389/fclim.2025.1599405",
-      "citations": 3,
+      "citations": 4,
       "openalex_id": "W4415411721",
       "first_author": false,
       "author_positions": [
@@ -481,7 +481,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1029/2024jd043117",
-      "citations": 1,
+      "citations": 2,
       "openalex_id": "W4411924483",
       "first_author": false,
       "author_positions": [
@@ -517,7 +517,7 @@
       "manual": true,
       "url": "https://doi.org/10.1088/2752-5295/ade61a",
       "open_access_url": "https://iopscience.iop.org/article/10.1088/2752-5295/ade61a/pdf",
-      "citations": 1,
+      "citations": 2,
       "openalex_id": "W4411443302",
       "first_author": false,
       "author_positions": [
@@ -593,7 +593,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1088/2752-5295/adee3c",
-      "citations": 2,
+      "citations": 5,
       "openalex_id": "W4412183724",
       "first_author": true,
       "author_positions": [
@@ -671,7 +671,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1088/2752-5295/adaa0c",
-      "citations": 0,
+      "citations": 2,
       "openalex_id": "W4406364246",
       "first_author": false,
       "author_positions": [
@@ -908,7 +908,7 @@
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s00484-025-02971-y.pdf",
       "type": "article",
       "status": "published",
-      "citations": 18,
+      "citations": 21,
       "openalex_id": "W4411920672",
       "topics": [
         "Climate Change and Health Impacts",
@@ -1008,7 +1008,7 @@
       "manual": true,
       "url": "https://doi.org/10.1175/bams-d-24-0118.1",
       "open_access_url": "https://scholarlypublications.universiteitleiden.nl/download/1887/4291443/1?col=81522199720002711",
-      "citations": 2,
+      "citations": 3,
       "openalex_id": "W4414724503",
       "first_author": false,
       "author_positions": [
@@ -1044,7 +1044,7 @@
       "manual": true,
       "url": "https://doi.org/10.1002/asl.1266",
       "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/asl.1266",
-      "citations": 3,
+      "citations": 4,
       "openalex_id": "W4402007677",
       "first_author": true,
       "author_positions": [
@@ -1128,7 +1128,7 @@
       "manual": true,
       "url": "https://doi.org/10.1029/2024jd041070",
       "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024JD041070",
-      "citations": 8,
+      "citations": 9,
       "openalex_id": "W4402031885",
       "first_author": false,
       "author_positions": [
@@ -1213,7 +1213,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1007/s41748-024-00425-w",
-      "citations": 8,
+      "citations": 10,
       "openalex_id": "W4402355132",
       "first_author": false,
       "author_positions": [
@@ -1253,7 +1253,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.5194/wcd-4-773-2023",
-      "citations": 11,
+      "citations": 13,
       "openalex_id": "W4386492400",
       "first_author": false,
       "author_positions": [
@@ -1283,7 +1283,7 @@
       "url": "https://doi.org/10.5194/egusphere-egu23-14347",
       "type": "article",
       "status": "published",
-      "citations": 1,
+      "citations": 2,
       "openalex_id": "W4322209292",
       "topics": [
         "Climate change impacts on agriculture",
@@ -1411,7 +1411,7 @@
       "manual": true,
       "url": "https://doi.org/10.1007/s41748-021-00203-y",
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s41748-021-00203-y.pdf",
-      "citations": 111,
+      "citations": 117,
       "openalex_id": "W3128498258",
       "first_author": false,
       "author_positions": [
