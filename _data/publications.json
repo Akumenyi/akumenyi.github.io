@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-04T13:05:40+00:00",
+  "generated_at": "2026-11-05T13:18:38+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 45,
     "under_review": 0,
     "first_author": 15,
-    "citations": 572,
+    "citations": 605,
     "h_index": 10,
-    "i10_index": 10,
+    "i10_index": 11,
     "since_year": 2013,
     "citation_source": "OpenAlex"
   },
@@ -73,7 +73,7 @@
       "highlight": true,
       "source": "manual",
       "manual": true,
-      "citations": 7,
+      "citations": 8,
       "openalex_id": "W7125672976",
       "first_author": true,
       "author_positions": [
@@ -1487,7 +1487,7 @@
       "manual": true,
       "url": "https://doi.org/10.1175/jcli-d-19-0472.1",
       "open_access_url": "https://journals.ametsoc.org/downloadpdf/journals/clim/33/7/jcli-d-19-0472.1.pdf",
-      "citations": 3,
+      "citations": 4,
       "openalex_id": "W3003577330",
       "first_author": true,
       "author_positions": [
@@ -1524,7 +1524,7 @@
       "manual": true,
       "url": "https://doi.org/10.3390/cli8100111",
       "open_access_url": "https://www.mdpi.com/2225-1154/8/10/111/pdf?version=1601979457",
-      "citations": 65,
+      "citations": 67,
       "openalex_id": "W3092018319",
       "first_author": true,
       "author_positions": [
@@ -1559,7 +1559,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1175/jcli-d-18-0689.1",
-      "citations": 12,
+      "citations": 13,
       "openalex_id": "W2916541938",
       "first_author": true,
       "author_positions": [
@@ -1641,7 +1641,7 @@
       "manual": true,
       "url": "https://doi.org/10.1088/1748-9326/aab37b",
       "open_access_url": "https://iopscience.iop.org/article/10.1088/1748-9326/aab37b/pdf",
-      "citations": 117,
+      "citations": 118,
       "openalex_id": "W2791529021",
       "first_author": false,
       "author_positions": [
@@ -1760,7 +1760,7 @@
       "manual": true,
       "url": "https://doi.org/10.4236/ijg.2014.57060",
       "open_access_url": "https://content.scirp.org/pdf/ijg_2014061113545679.pdf",
-      "citations": 100,
+      "citations": 101,
       "openalex_id": "W1991937137",
       "first_author": false,
       "author_positions": [
