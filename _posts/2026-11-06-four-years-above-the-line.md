@@ -7,11 +7,18 @@ stripes: global
 
 The Copernicus Climate Change Service released its October bulletin this morning, and the number that matters most is not the monthly record, though there is one of those too. The monthly average sea surface temperature in the Niño 3.4 region reached 29.94&#176;C, an all-time high for any month in the record and 3.21&#176;C above average, beyond the peaks of the 1982-83, 1997-98 and 2015-16 events that defined what a very strong El Niño looks like. October itself was the warmest October ever measured, at 1.75&#176;C above the pre-industrial level, the third month in a row above 1.5&#176;C. The ocean surface outside the poles averaged 20.95&#176;C, a record for the month.
 
+<figure>
+{% include fig-nino34-events.html %}
+<figcaption><b>Figure 1.</b> Monthly mean sea surface temperature in the Ni&#241;o 3.4 region
+for the four strongest events on record, each aligned from June. Computed from ERA5 for this
+post. October 2026 is the last complete month, and these events normally peak later.</figcaption>
+</figure>
+
 The number that matters most sits behind those, because Copernicus now expects the average global temperature for 2023 through 2026 to finish above 1.5&#176;C. A single hot year can be argued away as El Niño noise, which is roughly what happened after 2024, the first calendar year above the threshold. A four-year average cannot. The Paris limit was always understood as a long-term level rather than a single-year spike, and the long-term measures are now arriving at the line one after another. 2026 is virtually certain to finish above 1.5&#176;C, with Copernicus putting the full year between 1.56&#176;C and 1.61&#176;C, an 80 percent chance of second place behind 2024 and a 20 percent chance of a new record. Because global temperature lags the Pacific peak by a few months, forecasters expect 2027 to run hotter still.
 
 <figure>
 {% include fig-four-year-average.html %}
-<figcaption><b>Figure 1.</b> Annual global surface air temperature above the 1850-1900
+<figcaption><b>Figure 2.</b> Annual global surface air temperature above the 1850-1900
 pre-industrial level, with 2026 shown as the range Copernicus projects. Two of the four
 years fall below 1.5&#176;C on their own. The four-year average does not.</figcaption>
 </figure>
