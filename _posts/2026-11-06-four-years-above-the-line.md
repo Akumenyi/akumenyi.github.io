@@ -20,7 +20,7 @@ The number that matters most sits behind those, because Copernicus now expects t
 {% include fig-four-year-average.html %}
 <figcaption><b>Figure 2.</b> Annual global surface air temperature above the 1850-1900
 pre-industrial level, with 2026 shown as the range Copernicus projects. Two of the four
-years fall below 1.5&#176;C on their own. The four-year average does not.</figcaption>
+years sit below the line whereas the average does not.</figcaption>
 </figure>
 
 ## A fiscal event, not an abstraction
