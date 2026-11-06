@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-05T13:18:38+00:00",
+  "generated_at": "2026-11-06T13:02:02+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 45,
     "under_review": 0,
     "first_author": 15,
-    "citations": 605,
+    "citations": 606,
     "h_index": 10,
     "i10_index": 11,
     "since_year": 2013,
@@ -714,7 +714,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1007/s10895-025-04192-3",
-      "citations": 0,
+      "citations": 1,
       "openalex_id": "W4408003357",
       "first_author": false,
       "author_positions": [
