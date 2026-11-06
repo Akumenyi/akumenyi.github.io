@@ -554,16 +554,14 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 
 /* ------------------------------------------------------ article figures --- */
 
-/* Figure colours are a two-slot categorical pair, one per mode, checked with
-   the palette validator against each mode's surface: light #1f6fe0/#c0392b
-   (CVD dE 27.7 protan, 33.0 normal), dark #4a90e2/#e8615a (20.8 / 29.4). Both
-   sit inside their mode's OKLCH lightness band and clear 3:1 on contrast.
-   Benefit and harm are labelled as well as coloured, so nothing rests on hue. */
-:root { --fig-good: #4a90e2; --fig-bad: #e8615a; }
-:root[data-theme="light"] { --fig-good: #1f6fe0; --fig-bad: #c0392b; }
-@media (prefers-color-scheme: light) {
-  :root:not([data-theme="dark"]) { --fig-good: #1f6fe0; --fig-bad: #c0392b; }
-}
+/* Figure colours are the Okabe-Ito colourblind-safe pair, blue #0072B2 and
+   vermillion #D55E00, checked with the palette validator against each mode's
+   own surface rather than flipped: both clear the lightness band, the chroma
+   floor and 3:1 contrast in light and dark, with CVD separation dE 21.9
+   (protan) and 30.9 (tritan) against a normal-vision floor of 31.2. One pair
+   serves both modes because it passes against both surfaces. Benefit and harm
+   are always labelled as well as coloured, so nothing rests on hue alone. */
+:root { --fig-good: #0072B2; --fig-bad: #D55E00; }
 
 .figblock {
   margin: 2.4rem 0 .6rem; padding: 1.5rem 1.4rem 1.2rem;
@@ -598,8 +596,8 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 .fg-mark.fg-good { fill: var(--fig-good); }
 .fg-mark.fg-bad  { fill: var(--fig-bad); }
 .fg-mark.fg-now  { fill: var(--text-dim); }
-.fg-ref { stroke: var(--fig-good); stroke-width: 1.5; stroke-dasharray: 4 4; }
-.fg-reflabel { fill: var(--fig-good); font-size: 10.5px; font-weight: 700; font-family: var(--font-body); }
+.fg-ref { stroke: var(--text-mute); stroke-width: 1.5; stroke-dasharray: 4 4; }
+.fg-reflabel { fill: var(--text-mute); font-size: 10.5px; font-weight: 700; font-family: var(--font-body); }
 .fg-rowlab { fill: var(--text); font-size: 13px; font-weight: 700; font-family: var(--font-body); }
 .fg-rowsub { fill: var(--text-mute); font-size: 11.5px; font-family: var(--font-body); }
 
@@ -610,8 +608,7 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 /* Bar and average-band marks for the four-year figure. Same validated pair as
    the other figures: the series takes --fig-good, the thing the post is about
    takes --fig-bad, and both are labelled so neither rests on hue. */
-.fg-bar { fill: var(--fig-good); }
-.fg-bar-proj { fill: var(--fig-good); opacity: .55; }
+.fg-bar-proj { fill: var(--fig-good); opacity: .72; }
 .fg-avgband { fill: var(--fig-bad); opacity: .16; }
 .fg-avglabel { fill: var(--fig-bad); font-size: 11.5px; font-weight: 700; font-family: var(--font-body); }
 .fg-year { font-size: 12.5px; font-weight: 600; fill: var(--text-dim); }
@@ -619,7 +616,7 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 /* Nino 3.4 event lines. Only the validated pair is used: the three past events
    share one hue and are told apart by dash pattern and the legend, so identity
    never rests on colour, and this event takes the other hue. */
-.nino-past { fill: none; stroke: var(--fig-good); stroke-width: 2; opacity: .75; stroke-linejoin: round; }
+.nino-past { fill: none; stroke: var(--fig-good); stroke-width: 2; stroke-linejoin: round; }
 .nino-a { stroke-dasharray: 2 4; }
 .nino-b { stroke-dasharray: 8 4; }
 .nino-c { stroke-dasharray: 14 5 2 5; }
