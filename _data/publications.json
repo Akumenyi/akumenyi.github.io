@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-08T11:59:53+00:00",
+  "generated_at": "2026-11-09T14:01:58+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 45,
     "under_review": 0,
     "first_author": 15,
-    "citations": 628,
+    "citations": 629,
     "h_index": 10,
     "i10_index": 12,
     "since_year": 2013,
@@ -1528,7 +1528,7 @@
       "manual": true,
       "url": "https://doi.org/10.3390/cli8100111",
       "open_access_url": "https://www.mdpi.com/2225-1154/8/10/111/pdf?version=1601979457",
-      "citations": 69,
+      "citations": 70,
       "openalex_id": "W3092018319",
       "first_author": true,
       "author_positions": [
