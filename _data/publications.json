@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-09T14:01:58+00:00",
+  "generated_at": "2026-11-11T12:48:50+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 45,
     "under_review": 0,
     "first_author": 15,
-    "citations": 629,
-    "h_index": 10,
+    "citations": 649,
+    "h_index": 11,
     "i10_index": 12,
     "since_year": 2013,
     "citation_source": "OpenAlex"
@@ -141,7 +141,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1175/bams-d-24-0155.1",
-      "citations": 2,
+      "citations": 3,
       "openalex_id": "W7123903725",
       "first_author": false,
       "author_positions": [
@@ -400,7 +400,7 @@
       "highlight": true,
       "source": "manual",
       "manual": true,
-      "citations": 4,
+      "citations": 5,
       "openalex_id": "W4414214341",
       "first_author": true,
       "author_positions": [
@@ -517,7 +517,7 @@
       "manual": true,
       "url": "https://doi.org/10.1088/2752-5295/ade61a",
       "open_access_url": "https://iopscience.iop.org/article/10.1088/2752-5295/ade61a/pdf",
-      "citations": 2,
+      "citations": 3,
       "openalex_id": "W4411443302",
       "first_author": false,
       "author_positions": [
@@ -593,7 +593,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1088/2752-5295/adee3c",
-      "citations": 6,
+      "citations": 8,
       "openalex_id": "W4412183724",
       "first_author": true,
       "author_positions": [
@@ -671,7 +671,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1088/2752-5295/adaa0c",
-      "citations": 2,
+      "citations": 3,
       "openalex_id": "W4406364246",
       "first_author": false,
       "author_positions": [
@@ -784,7 +784,7 @@
       "manual": true,
       "url": "https://doi.org/10.1111/geoj.70039",
       "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/geoj.70039",
-      "citations": 3,
+      "citations": 4,
       "openalex_id": "W4412687475",
       "first_author": false,
       "author_positions": [
@@ -909,7 +909,7 @@
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s00484-025-02971-y.pdf",
       "type": "article",
       "status": "published",
-      "citations": 22,
+      "citations": 25,
       "openalex_id": "W4411920672",
       "topics": [
         "Climate Change and Health Impacts",
@@ -1216,7 +1216,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1007/s41748-024-00425-w",
-      "citations": 10,
+      "citations": 11,
       "openalex_id": "W4402355132",
       "first_author": false,
       "author_positions": [
@@ -1256,7 +1256,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.5194/wcd-4-773-2023",
-      "citations": 14,
+      "citations": 15,
       "openalex_id": "W4386492400",
       "first_author": false,
       "author_positions": [
@@ -1415,7 +1415,7 @@
       "manual": true,
       "url": "https://doi.org/10.1007/s41748-021-00203-y",
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s41748-021-00203-y.pdf",
-      "citations": 121,
+      "citations": 124,
       "openalex_id": "W3128498258",
       "first_author": false,
       "author_positions": [
@@ -1645,7 +1645,7 @@
       "manual": true,
       "url": "https://doi.org/10.1088/1748-9326/aab37b",
       "open_access_url": "https://iopscience.iop.org/article/10.1088/1748-9326/aab37b/pdf",
-      "citations": 124,
+      "citations": 127,
       "openalex_id": "W2791529021",
       "first_author": false,
       "author_positions": [
