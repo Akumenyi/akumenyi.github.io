@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-11T12:48:50+00:00",
+  "generated_at": "2026-11-12T13:51:16+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 45,
     "under_review": 0,
     "first_author": 15,
-    "citations": 649,
+    "citations": 650,
     "h_index": 11,
     "i10_index": 12,
     "since_year": 2013,
@@ -909,7 +909,7 @@
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s00484-025-02971-y.pdf",
       "type": "article",
       "status": "published",
-      "citations": 25,
+      "citations": 27,
       "openalex_id": "W4411920672",
       "topics": [
         "Climate Change and Health Impacts",
