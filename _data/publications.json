@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-13T13:13:31+00:00",
+  "generated_at": "2026-11-14T12:18:18+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 45,
     "under_review": 0,
     "first_author": 15,
-    "citations": 652,
+    "citations": 653,
     "h_index": 11,
     "i10_index": 12,
     "since_year": 2013,
@@ -1415,7 +1415,7 @@
       "manual": true,
       "url": "https://doi.org/10.1007/s41748-021-00203-y",
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s41748-021-00203-y.pdf",
-      "citations": 124,
+      "citations": 125,
       "openalex_id": "W3128498258",
       "first_author": false,
       "author_positions": [
