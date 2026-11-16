@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-15T12:50:24+00:00",
+  "generated_at": "2026-11-16T13:47:37+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 45,
     "under_review": 0,
     "first_author": 15,
-    "citations": 655,
+    "citations": 657,
     "h_index": 11,
     "i10_index": 12,
     "since_year": 2013,
@@ -909,7 +909,7 @@
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s00484-025-02971-y.pdf",
       "type": "article",
       "status": "published",
-      "citations": 27,
+      "citations": 28,
       "openalex_id": "W4411920672",
       "topics": [
         "Climate Change and Health Impacts",
@@ -1008,7 +1008,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1175/bams-d-24-0118.1",
-      "open_access_url": "https://scholarlypublications.universiteitleiden.nl/download/1887/4291443/1?col=81522199720002711",
+      "open_access_url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A4291444/view",
       "citations": 3,
       "openalex_id": "W4414724503",
       "first_author": false,
@@ -1415,7 +1415,7 @@
       "manual": true,
       "url": "https://doi.org/10.1007/s41748-021-00203-y",
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s41748-021-00203-y.pdf",
-      "citations": 125,
+      "citations": 126,
       "openalex_id": "W3128498258",
       "first_author": false,
       "author_positions": [
