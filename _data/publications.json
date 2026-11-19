@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-18T14:17:17+00:00",
+  "generated_at": "2026-11-19T14:30:47+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 45,
     "under_review": 0,
     "first_author": 15,
-    "citations": 711,
-    "h_index": 11,
+    "citations": 715,
+    "h_index": 12,
     "i10_index": 15,
     "since_year": 2013,
     "citation_source": "OpenAlex"
@@ -1167,7 +1167,7 @@
       "url": "https://doi.org/10.5194/egusphere-egu24-918",
       "type": "article",
       "status": "published",
-      "citations": 3,
+      "citations": 4,
       "openalex_id": "W4392589826",
       "topics": [
         "Climate change impacts on agriculture",
@@ -1335,7 +1335,7 @@
       "manual": true,
       "url": "https://doi.org/10.3390/atmos13111836",
       "open_access_url": "https://www.mdpi.com/2073-4433/13/11/1836/pdf?version=1667570980",
-      "citations": 11,
+      "citations": 13,
       "openalex_id": "W4308454717",
       "first_author": false,
       "author_positions": [
