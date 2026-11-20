@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-19T14:30:47+00:00",
+  "generated_at": "2026-11-20T14:09:21+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
-    "publications": 45,
+    "publications": 44,
     "under_review": 0,
     "first_author": 15,
-    "citations": 715,
+    "citations": 721,
     "h_index": 12,
     "i10_index": 15,
     "since_year": 2013,
@@ -74,7 +74,7 @@
       "source": "manual",
       "manual": true,
       "open_access_url": "https://mdsoar.org/bitstreams/f8833e8b-fb91-4a1a-b75f-55d469586691/download",
-      "citations": 11,
+      "citations": 12,
       "openalex_id": "W7125672976",
       "first_author": true,
       "author_positions": [
@@ -482,7 +482,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1029/2024jd043117",
-      "citations": 2,
+      "citations": 3,
       "openalex_id": "W4411924483",
       "first_author": false,
       "author_positions": [
@@ -799,43 +799,6 @@
       "open_access": true
     },
     {
-      "id": "projected-impact-of-stratospheric-aerosol-injection-on-rainf",
-      "title": "Projected Impact of Stratospheric Aerosol Injection on Rainfall dynamics over West Africa using ARISE Dataset.",
-      "authors": [
-        "Egbebiyi, T. S.",
-        "Ogunjo, S. T.",
-        "Ajayi, V. O.",
-        "Quagraine, K. A.",
-        "Arowolo, A. V.",
-        "Lennard, C."
-      ],
-      "year": 2025,
-      "venue": "EGU General Assembly Conference Abstracts",
-      "doi": "10.5194/egusphere-egu25-1032",
-      "url": "https://doi.org/10.5194/egusphere-egu25-1032",
-      "type": "article",
-      "status": "published",
-      "citations": 0,
-      "openalex_id": "W4408446465",
-      "topics": [
-        "Climate Change and Geoengineering",
-        "Climate variability and models",
-        "Atmospheric aerosols and clouds"
-      ],
-      "source": "openalex",
-      "manual": false,
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "other",
-        "other",
-        "self",
-        "other",
-        "other"
-      ],
-      "open_access": true
-    },
-    {
       "id": "quantifying-intra-urban-socio-economic-and-environmental-vul",
       "title": "Quantifying intra-urban socio-economic and environmental vulnerability to extreme heat events in Johannesburg, South Africa",
       "authors": [
@@ -1131,7 +1094,7 @@
       "manual": true,
       "url": "https://doi.org/10.1029/2024jd041070",
       "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024JD041070",
-      "citations": 10,
+      "citations": 11,
       "openalex_id": "W4402031885",
       "first_author": false,
       "author_positions": [
@@ -1416,7 +1379,7 @@
       "manual": true,
       "url": "https://doi.org/10.1007/s41748-021-00203-y",
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s41748-021-00203-y.pdf",
-      "citations": 131,
+      "citations": 132,
       "openalex_id": "W3128498258",
       "first_author": false,
       "author_positions": [
@@ -1529,7 +1492,7 @@
       "manual": true,
       "url": "https://doi.org/10.3390/cli8100111",
       "open_access_url": "https://www.mdpi.com/2225-1154/8/10/111/pdf?version=1601979457",
-      "citations": 72,
+      "citations": 74,
       "openalex_id": "W3092018319",
       "first_author": true,
       "author_positions": [
