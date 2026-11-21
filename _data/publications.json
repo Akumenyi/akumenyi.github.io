@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T14:09:21+00:00",
+  "generated_at": "2026-11-21T13:34:24+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
@@ -411,6 +411,51 @@
       ]
     },
     {
+      "id": "africa-s-climate-response-to-marine-cloud-brightening",
+      "title": "Africa's Climate Response to Marine Cloud Brightening",
+      "authors": [
+        "Odoulami, R. C.",
+        "Hirasawa, H.",
+        "Kouadio, K.",
+        "Patel, T. D.",
+        "Quagraine, K. A.",
+        "Pinto, I.",
+        "Egbebiyi, T. S.",
+        "Abiodun, B. J.",
+        "Lennard, C.",
+        "New, M. G."
+      ],
+      "year": 2025,
+      "venue": "EGU General Assembly Conference Abstracts",
+      "doi": "10.5194/egusphere-egu24-6419",
+      "url": "https://doi.org/10.5194/egusphere-egu24-6419",
+      "type": "article",
+      "status": "published",
+      "citations": 0,
+      "openalex_id": "W4392617332",
+      "topics": [
+        "Climate Change and Geoengineering",
+        "Atmospheric aerosols and clouds",
+        "Climate variability and models"
+      ],
+      "source": "openalex",
+      "manual": false,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "other",
+        "other",
+        "self",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "open_access": true
+    },
+    {
       "id": "sai-deployment-locations-africa",
       "title": "Africa’s regional and local climate response to stratospheric aerosol injection characteristics",
       "authors": [
@@ -799,6 +844,47 @@
       "open_access": true
     },
     {
+      "id": "potential-impact-of-stratospheric-aerosol-injection-on-horti",
+      "title": "Potential Impact of Stratospheric Aerosol Injection on Horticulture Suitability in Africa?",
+      "authors": [
+        "Egbebiyi, T. S.",
+        "Lennard, C.",
+        "Quagraine, K. A.",
+        "Odoulami, R. C.",
+        "Pinto, I.",
+        "Abiodun, B. J.",
+        "Wolski, P.",
+        "Tilmes, S."
+      ],
+      "year": 2025,
+      "venue": "EGU General Assembly Conference Abstracts",
+      "doi": "10.5194/egusphere-egu24-918",
+      "url": "https://doi.org/10.5194/egusphere-egu24-918",
+      "type": "article",
+      "status": "published",
+      "citations": 4,
+      "openalex_id": "W4392589826",
+      "topics": [
+        "Climate change impacts on agriculture",
+        "Climate Change and Geoengineering",
+        "Remote Sensing in Agriculture"
+      ],
+      "source": "openalex",
+      "manual": false,
+      "first_author": false,
+      "author_positions": [
+        "other",
+        "other",
+        "self",
+        "other",
+        "other",
+        "other",
+        "other",
+        "other"
+      ],
+      "open_access": true
+    },
+    {
       "id": "quantifying-intra-urban-socio-economic-and-environmental-vul",
       "title": "Quantifying intra-urban socio-economic and environmental vulnerability to extreme heat events in Johannesburg, South Africa",
       "authors": [
@@ -873,7 +959,7 @@
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s00484-025-02971-y.pdf",
       "type": "article",
       "status": "published",
-      "citations": 34,
+      "citations": 35,
       "openalex_id": "W4411920672",
       "topics": [
         "Climate Change and Health Impacts",
@@ -972,7 +1058,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1175/bams-d-24-0118.1",
-      "open_access_url": "https://scholarlypublications.universiteitleiden.nl/access/item%3A4291444/view",
+      "open_access_url": "https://scholarlypublications.universiteitleiden.nl/download/1887/4291443/1?col=81522199720002711",
       "citations": 4,
       "openalex_id": "W4414724503",
       "first_author": false,
@@ -1022,51 +1108,6 @@
       "open_access": true
     },
     {
-      "id": "africa-s-climate-response-to-marine-cloud-brightening",
-      "title": "Africa's Climate Response to Marine Cloud Brightening",
-      "authors": [
-        "Odoulami, R. C.",
-        "Hirasawa, H.",
-        "Kouadio, K.",
-        "Patel, T. D.",
-        "Quagraine, K. A.",
-        "Pinto, I.",
-        "Egbebiyi, T. S.",
-        "Abiodun, B. J.",
-        "Lennard, C.",
-        "New, M. G."
-      ],
-      "year": 2024,
-      "venue": "EGU General Assembly Conference Abstracts",
-      "doi": "10.5194/egusphere-egu24-6419",
-      "url": "https://doi.org/10.5194/egusphere-egu24-6419",
-      "type": "article",
-      "status": "published",
-      "citations": 0,
-      "openalex_id": "W4392617332",
-      "topics": [
-        "Climate Change and Geoengineering",
-        "Atmospheric aerosols and clouds",
-        "Climate variability and models"
-      ],
-      "source": "openalex",
-      "manual": false,
-      "first_author": false,
-      "author_positions": [
-        "other",
-        "other",
-        "other",
-        "other",
-        "self",
-        "other",
-        "other",
-        "other",
-        "other",
-        "other"
-      ],
-      "open_access": true
-    },
-    {
       "id": "marine-cloud-brightening-africa",
       "title": "Africa's Climate Response to Marine Cloud Brightening Strategies is Highly Sensitive to Deployment Region",
       "authors": [
@@ -1100,47 +1141,6 @@
       "author_positions": [
         "other",
         "other",
-        "other",
-        "other",
-        "self",
-        "other",
-        "other",
-        "other",
-        "other",
-        "other"
-      ],
-      "open_access": true
-    },
-    {
-      "id": "potential-impact-of-stratospheric-aerosol-injection-on-horti",
-      "title": "Potential Impact of Stratospheric Aerosol Injection on Horticulture Suitability in Africa?",
-      "authors": [
-        "Egbebiyi, T. S.",
-        "Lennard, C.",
-        "Quagraine, K. A.",
-        "Odoulami, R. C.",
-        "Pinto, I.",
-        "Abiodun, B. J.",
-        "Wolski, P.",
-        "Tilmes, S."
-      ],
-      "year": 2024,
-      "venue": "EGU General Assembly Conference Abstracts",
-      "doi": "10.5194/egusphere-egu24-918",
-      "url": "https://doi.org/10.5194/egusphere-egu24-918",
-      "type": "article",
-      "status": "published",
-      "citations": 4,
-      "openalex_id": "W4392589826",
-      "topics": [
-        "Climate change impacts on agriculture",
-        "Climate Change and Geoengineering",
-        "Remote Sensing in Agriculture"
-      ],
-      "source": "openalex",
-      "manual": false,
-      "first_author": false,
-      "author_positions": [
         "other",
         "other",
         "self",
