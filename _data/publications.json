@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-22T13:26:52+00:00",
+  "generated_at": "2026-11-23T16:10:37+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 44,
     "under_review": 0,
     "first_author": 15,
-    "citations": 722,
+    "citations": 724,
     "h_index": 12,
     "i10_index": 15,
     "since_year": 2013,
@@ -959,7 +959,7 @@
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s00484-025-02971-y.pdf",
       "type": "article",
       "status": "published",
-      "citations": 35,
+      "citations": 36,
       "openalex_id": "W4411920672",
       "topics": [
         "Climate Change and Health Impacts",
@@ -1095,7 +1095,7 @@
       "manual": true,
       "url": "https://doi.org/10.1002/asl.1266",
       "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/asl.1266",
-      "citations": 5,
+      "citations": 6,
       "openalex_id": "W4402007677",
       "first_author": true,
       "author_positions": [
@@ -1728,7 +1728,7 @@
       "manual": true,
       "url": "https://doi.org/10.4236/ijg.2014.57060",
       "open_access_url": "https://content.scirp.org/pdf/ijg_2014061113545679.pdf",
-      "citations": 105,
+      "citations": 106,
       "openalex_id": "W1991937137",
       "first_author": false,
       "author_positions": [
@@ -1792,7 +1792,7 @@
       "source": "manual",
       "manual": true,
       "open_access_url": "https://lib.dr.iastate.edu/ge_at_pubs/84",
-      "citations": 25,
+      "citations": 26,
       "openalex_id": "W2270661560",
       "first_author": false,
       "author_positions": [
