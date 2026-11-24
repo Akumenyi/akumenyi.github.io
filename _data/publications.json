@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-23T16:10:37+00:00",
+  "generated_at": "2026-11-24T15:59:08+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 44,
     "under_review": 0,
     "first_author": 15,
-    "citations": 724,
+    "citations": 726,
     "h_index": 12,
     "i10_index": 15,
     "since_year": 2013,
@@ -1609,7 +1609,7 @@
       "manual": true,
       "url": "https://doi.org/10.1088/1748-9326/aab37b",
       "open_access_url": "https://iopscience.iop.org/article/10.1088/1748-9326/aab37b/pdf",
-      "citations": 133,
+      "citations": 134,
       "openalex_id": "W2791529021",
       "first_author": false,
       "author_positions": [
