@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-24T15:59:08+00:00",
+  "generated_at": "2026-11-25T15:46:39+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 44,
     "under_review": 0,
     "first_author": 15,
-    "citations": 726,
+    "citations": 722,
     "h_index": 12,
-    "i10_index": 15,
+    "i10_index": 14,
     "since_year": 2013,
     "citation_source": "OpenAlex"
   },
@@ -1135,7 +1135,7 @@
       "manual": true,
       "url": "https://doi.org/10.1029/2024jd041070",
       "open_access_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1029/2024JD041070",
-      "citations": 11,
+      "citations": 9,
       "openalex_id": "W4402031885",
       "first_author": false,
       "author_positions": [
@@ -1379,7 +1379,7 @@
       "manual": true,
       "url": "https://doi.org/10.1007/s41748-021-00203-y",
       "open_access_url": "https://link.springer.com/content/pdf/10.1007/s41748-021-00203-y.pdf",
-      "citations": 132,
+      "citations": 130,
       "openalex_id": "W3128498258",
       "first_author": false,
       "author_positions": [
@@ -1527,7 +1527,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1175/jcli-d-18-0689.1",
-      "citations": 15,
+      "citations": 14,
       "openalex_id": "W2916541938",
       "first_author": true,
       "author_positions": [
@@ -1609,7 +1609,7 @@
       "manual": true,
       "url": "https://doi.org/10.1088/1748-9326/aab37b",
       "open_access_url": "https://iopscience.iop.org/article/10.1088/1748-9326/aab37b/pdf",
-      "citations": 134,
+      "citations": 132,
       "openalex_id": "W2791529021",
       "first_author": false,
       "author_positions": [
@@ -1728,7 +1728,7 @@
       "manual": true,
       "url": "https://doi.org/10.4236/ijg.2014.57060",
       "open_access_url": "https://content.scirp.org/pdf/ijg_2014061113545679.pdf",
-      "citations": 106,
+      "citations": 108,
       "openalex_id": "W1991937137",
       "first_author": false,
       "author_positions": [
