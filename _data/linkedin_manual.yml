@@ -9,7 +9,7 @@
 # The only required field is `url` -- paste the "Copy link to post" URL from
 # LinkedIn and the script works out the activity URN so the real post embeds.
 #
-#   - url: "https://www.linkedin.com/posts/kwesi-a-quagraine-12855153_...-activity-7300000000000000000-abcd"
+#   - url: "https://www.linkedin.com/posts/kwesiquagraine_...-activity-7300000000000000000-abcd"
 #     pinned: true
 #     text: "Optional summary shown when the embed cannot load."
 #     published: 2026-05-01

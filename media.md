@@ -18,7 +18,7 @@ Kwesi A. Quagraine, PhD, is Chief Scientist of the Climate Vulnerable Forum and 
 
 His research covers climate extremes, stratospheric aerosol injection, and regional climate modelling. He completed a PhD in the Climate Systems Analysis Group at the University of Cape Town, advised by Prof. Bruce Hewitson, Dr Chris Jack and Dr Chris Lennard. He is an [ISIE Fellow](https://isieglobal.org/teams/dr-kwesi-akumenyi-quagraine/){:target="_blank"} and a member of [AGU](https://www.agu.org/){:target="_blank"}.
 
-[More updates on LinkedIn](https://www.linkedin.com/in/kwesi-a-quagraine-12855153/){:target="_blank"}.
+[More updates on LinkedIn](https://www.linkedin.com/in/kwesiquagraine/){:target="_blank"}.
 
 <!-- TODO: A separate high-resolution press headshot is not in the repo. The portrait above is the existing site headshot. Do not invent one. -->
 
@@ -28,6 +28,7 @@ His research covers climate extremes, stratospheric aerosol injection, and regio
 
 ## In the press / Interviews
 
+- [The Jolt "A new guiding light for the energy transition" (host Sam Morgan)](https://foresightmedia.com/story/sjnnlRjS-aBr411Ym-f88aa){:target="_blank"} — FORESIGHT Climate & Energy, February 16, 2026.
 - [Bad Idea #37 "1.5 degrees" with Kwesi Quagraine and Erle Ellis](https://www.youtube.com/watch?v=ogrYGPMQmJ8){:target="_blank"} — WePlanet, January 28, 2026.
 - [Dr. Kwesi Quagraine warns: ‘Africa must be at the table in climate engineering decisions’](https://www.graphic.com.gh/news/general-news/dr-kwesi-quagraine-warns-africa-must-be-at-the-table-in-climate-engineering-decisions.html){:target="_blank"} — Graphic Online, November 5, 2025.
 - [Ghanaian Climate Scientist Dr. Quagraine, Leading Africa’s voice In Climate Intervention Research](https://independent.ng/ghanaian-climate-scientist-dr-quagraine-leading-africas-voice-in-climate-intervention-research/){:target="_blank"} — Independent Newspaper Nigeria, October 23, 2025.

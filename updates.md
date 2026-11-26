@@ -24,7 +24,7 @@ last posted, not a snapshot someone remembered to update.
 
 LinkedIn does not offer a public read API for a member's own posts, so the sync runs through a feed
 URL rather than LinkedIn's own API. If a post is missing, it is almost certainly waiting on the next
-daily run. The [full profile](https://www.linkedin.com/in/kwesi-a-quagraine-12855153/){:target="_blank"}
+daily run. The [full profile](https://www.linkedin.com/in/kwesiquagraine/){:target="_blank"}
 is always the definitive version.
 
 ## Elsewhere
