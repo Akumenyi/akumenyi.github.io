@@ -4,13 +4,21 @@ title: "Projects, Grants & Consultancies"
 permalink: /projects/
 stripes: malawi
 eyebrow: "Funded work"
-lede: "Research programmes, grants and advisory work — from solar radiation modification governance across West Africa to city-scale climate projections in Ghana and Sierra Leone."
-description: "Funded projects, grants and consultancies of Kwesi A. Quagraine, including TWAS/DEGREES SRM governance research, DECIMALS, FRACTAL, CORDEX-Africa, UNEP, WMO and ICLEI."
+lede: "Research programmes, grants, advisory work and community programmes — from solar radiation modification governance across West Africa to city-scale climate projections in Ghana and Sierra Leone."
+description: "Funded projects, grants and consultancies of Kwesi A. Quagraine, including the HiLLA research grant, TWAS/DEGREES SRM governance research, DECIMALS, FRACTAL, CORDEX-Africa, UNEP, WMO, ICLEI, and Recycle Up! Ghana with Technik Ohne Grenzen."
 ---
 
 ## Projects & grants
 
 <ul class="entry-list">
+  <li class="entry">
+    <span class="entry-when">2025 – 2026</span>
+    <div>
+      <h3>Reflective High Latitude Low Altitude (HiLLA) Research Grant</h3>
+      <p>HiLLA impacts on the West African Monsoon.</p>
+      <span class="role">Co-Investigator</span>
+    </div>
+  </li>
   <li class="entry">
     <span class="entry-when">2024 – 2026</span>
     <div>
@@ -73,6 +81,18 @@ description: "Funded projects, grants and consultancies of Kwesi A. Quagraine, i
     <div>
       <h3>ICLEI — Local Governments for Sustainability</h3>
       <p>Development of climate change projections for Bo City, Sierra Leone and Cape Coast, Ghana.</p>
+    </div>
+  </li>
+</ul>
+
+## Capacity building
+
+<ul class="entry-list">
+  <li class="entry">
+    <span class="entry-when">2016 – present</span>
+    <div>
+      <h3>Recycle Up! Ghana with Technik Ohne Grenzen</h3>
+      <p>Recycling education reaching 3,000+ students, 6 summer camps and 10 school recycling groups.</p>
     </div>
   </li>
 </ul>
