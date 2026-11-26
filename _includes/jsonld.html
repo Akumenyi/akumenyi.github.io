@@ -9,7 +9,7 @@
   "givenName": "{{ p.given_name }}",
   "familyName": "{{ p.family_name }}",
   "additionalName": "A.",
-  "alternateName": ["Kwesi Amoah Quagraine", "K. A. Quagraine", "Quagraine, K. A."],
+  "alternateName": ["Kwesi Akumenyi Quagraine", "K. A. Quagraine", "Quagraine, K. A."],
   "honorificSuffix": "{{ p.honorific_suffix }}",
   "jobTitle": [{{ p.role | jsonify }}{% if p.secondary_role %}, {{ p.secondary_role | jsonify }}{% endif %}],
   "description": {{ site.description | strip_html | jsonify }},

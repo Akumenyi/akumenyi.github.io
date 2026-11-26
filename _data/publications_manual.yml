@@ -339,6 +339,19 @@
   doi: "10.4236/ijg.2014.57060"
   topics: ["Ghana", "Rainfall", "Model evaluation"]
 
+# MPhil thesis. The old DSpace XMLUI path (/xmlui/handle/123456789/2832) and the
+# tinyurl that pointed at its bitstream both 404. This handle is the current
+# University of Cape Coast repository record, and it wins over the stale
+# OpenAlex landing page on the next refresh.
+- id: west-african-monsoon-wam-jump-and-its-implication-for-rain-f
+  title: "West African monsoon (WAM) jump and its implication for rain-fed agriculture in the transition and coastal savannah agro-ecological zones of Ghana"
+  authors: ["Quagraine, K. A."]
+  year: 2014
+  type: article
+  status: published
+  url: "https://ir.ucc.edu.gh/handle/123456789/2832"
+  topics: ["West African monsoon", "Ghana", "Agriculture"]
+
 - id: farmers-observation-maize
   title: "Farmers' observation on climate change impacts on maize (Zea mays) production in a selected agroecological zone in Ghana"
   authors: ["Klutse, N. A. B.", "Owusu, K.", "Adukpo, D. C.", "Nkrumah, F.", "Quagraine, K. A.", "Owusu, A.", "Gutowski, W."]

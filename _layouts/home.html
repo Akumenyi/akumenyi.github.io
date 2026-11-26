@@ -38,7 +38,7 @@ layout: default
     </div>
 
     <figure class="hero-portrait">
-      <img src="{{ p.photo | relative_url }}" alt="Portrait of Kwesi A. Quagraine" width="720" height="720" fetchpriority="high">
+      <img src="{{ p.photo | relative_url }}" alt="Portrait of Kwesi A. Quagraine" width="966" height="800" fetchpriority="high" decoding="async">
       <figcaption>
         <span class="orcid-chip">{% include icon.html name="orcid" %} {{ p.orcid }}</span>
       </figcaption>
@@ -54,10 +54,11 @@ layout: default
   <div class="wrap about-inner">
     <div class="prose prose-about">{{ content }}</div>
     <aside class="about-side">
-      <h3>At a glance</h3>
+      <h2>At a glance</h2>
       <dl>
         <dt>Now</dt><dd>{{ p.role }}, {{ p.affiliation }}</dd>
-        {%- if p.secondary_role %}<dt>Concurrently</dt><dd>{{ p.secondary_role }}, {{ p.secondary_affiliation }}</dd>{% endif -%}
+        {%- if p.secondary_role %}<dt>Concurrently</dt><dd>{{ p.secondary_role }}, {{ p.secondary_affiliation }} (2026 – present)</dd>{% endif -%}
+        <dt>Previously</dt><dd>Postdoctoral Fellow, NCAR (2023 – 2026)</dd>
         <dt>Based in</dt><dd>{{ p.location }}</dd>
         <dt>PhD</dt><dd>Climate Systems Analysis Group, University of Cape Town</dd>
         <dt>PhD advisors</dt><dd>Prof. Bruce Hewitson · Dr Chris Jack · Dr Chris Lennard</dd>
@@ -71,6 +72,42 @@ layout: default
   </div>
 </section>
 {%- endif -%}
+
+<section class="section" id="office">
+  <div class="wrap">
+    <header class="section-head">
+      <p class="eyebrow">Office of the Chief Scientist</p>
+      <h2>From the office</h2>
+      <p class="section-lede">
+        I set the CVF-V20 research agenda, lead scientific assessments and policy briefs, and build
+        research partnerships so ministers and negotiators have answers they can defend.
+      </p>
+    </header>
+    {%- comment -%}
+      TODO: Link Science Bulletins here when a real bulletin URL is available. Do not invent one.
+    {%- endcomment -%}
+    {%- assign nature_comment = pubs | where: "id", "replace-temperature-limits" | first -%}
+    {%- assign ncc_comment = pubs | where: "id", "africa-must-lead-srm-governance" | first -%}
+    <div class="card-grid">
+      {%- if nature_comment -%}
+      <article class="card">
+        <h3><a href="{{ nature_comment.url }}">{{ nature_comment.title }}</a></h3>
+        <p>Comment in {{ nature_comment.venue }}, {{ nature_comment.year }}.</p>
+      </article>
+      {%- endif -%}
+      {%- if ncc_comment -%}
+      <article class="card">
+        <h3><a href="{{ ncc_comment.url }}">{{ ncc_comment.title }}</a></h3>
+        <p>Comment in {{ ncc_comment.venue }}, {{ ncc_comment.year }}.</p>
+      </article>
+      {%- endif -%}
+      <article class="card">
+        <h3><a href="{{ '/projects/' | relative_url }}">Projects, grants and consultancies</a></h3>
+        <p>Funded research, advisory work and the Recycle Up! Ghana programme.</p>
+      </article>
+    </div>
+  </div>
+</section>
 
 <section class="section section-alt" id="focus">
   <div class="wrap">
@@ -91,7 +128,7 @@ layout: default
         <p>Global-mean cooling says almost nothing about the tails. Using ARISE-SAI and CESM2, I ask how
            the distribution of heavy rainfall, dry spells and heat shifts under deployment — and how that
            differs from the baseline climate people are already adapting to.</p>
-        <a class="card-link" href="{{ '/research/' | relative_url }}#sai-extremes">Read more {% include icon.html name="arrow" %}</a>
+        <a class="card-link" href="{{ '/research/' | relative_url }}#sai-extremes">SAI and climate extremes {% include icon.html name="arrow" %}</a>
       </article>
 
       <article class="card">
@@ -100,7 +137,7 @@ layout: default
         <p>A 100&nbsp;km grid cell is the wrong instrument for a question about a district. I use CESM
            regional refinement to downscale SAI experiments, so the answers arrive at a scale a national
            planner can act on.</p>
-        <a class="card-link" href="{{ '/research/' | relative_url }}#regional-refinement">Read more {% include icon.html name="arrow" %}</a>
+        <a class="card-link" href="{{ '/research/' | relative_url }}#regional-refinement">Regional refinement {% include icon.html name="arrow" %}</a>
       </article>
 
       <article class="card">
@@ -109,7 +146,7 @@ layout: default
         <p>Subtropical highs, monsoon onset and moisture transport do not act one at a time. My thesis work
            built indices and a co-behaviour method that treat them as a system — and used it to interrogate
            how well GCMs reproduce it.</p>
-        <a class="card-link" href="{{ '/research/' | relative_url }}#co-behaviour">Read more {% include icon.html name="arrow" %}</a>
+        <a class="card-link" href="{{ '/research/' | relative_url }}#co-behaviour">Co-behaviour of climate processes {% include icon.html name="arrow" %}</a>
       </article>
 
       <article class="card">
@@ -144,18 +181,33 @@ layout: default
   <div class="wrap">
     <header class="section-head section-head-row">
       <div>
-        <p class="eyebrow">Latest publications</p>
-        <h2>Fresh off the press</h2>
+        <p class="eyebrow">Selected publications</p>
+        <h2>Highlighted work</h2>
       </div>
       <a class="btn btn-ghost" href="{{ '/publications/' | relative_url }}">All papers {% include icon.html name="arrow" %}</a>
     </header>
 
     <div class="pub-list pub-list-featured">
-      {%- assign shown = 0 -%}
+      {%- comment -%}
+        Featured list is the hand-flagged highlights, with the Nature and
+        Nature Climate Change Comments first. Everything else stays on
+        /publications/.
+      {%- endcomment -%}
       {%- for pub in pubs -%}
-        {%- if shown < 5 and pub.status != "under_review" -%}
+        {%- if pub.highlight and pub.status != "under_review" and pub.venue == "Nature" -%}
           {% include pub-item.html pub=pub %}
-          {%- assign shown = shown | plus: 1 -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- for pub in pubs -%}
+        {%- if pub.highlight and pub.status != "under_review" and pub.venue == "Nature Climate Change" -%}
+          {% include pub-item.html pub=pub %}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- for pub in pubs -%}
+        {%- if pub.highlight and pub.status != "under_review" -%}
+          {%- unless pub.venue == "Nature" or pub.venue == "Nature Climate Change" -%}
+            {% include pub-item.html pub=pub %}
+          {%- endunless -%}
         {%- endif -%}
       {%- endfor -%}
     </div>

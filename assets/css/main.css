@@ -52,10 +52,10 @@
 
   --text:      #131a26;
   --text-dim:  #414f66;
-  --text-mute: #6b7995;
+  --text-mute: #55637c;
 
   --teal:      #0f9e83;
-  --azure:     #1f6fe0;
+  --azure:     #1b5fc0;
   --violet:    #6d4bd6;
   --amber:     #b96a10;
 
@@ -76,9 +76,9 @@
     --line-soft: #e7e2d8;
     --text:      #131a26;
     --text-dim:  #414f66;
-    --text-mute: #6b7995;
+    --text-mute: #55637c;
     --teal:      #0f9e83;
-    --azure:     #1f6fe0;
+    --azure:     #1b5fc0;
     --violet:    #6d4bd6;
     --amber:     #b96a10;
     --accent:     var(--teal);
@@ -114,6 +114,22 @@ p  { margin: 0 0 1.1em; }
 
 a { color: var(--azure); text-decoration: none; text-underline-offset: 3px; }
 a:hover { text-decoration: underline; }
+/* In-body links need a second cue besides colour. Nav, buttons and chips stay plain. */
+.prose a,
+.lede a,
+.section-lede a,
+.about-side a,
+.hero-tagline a,
+.eyebrow a,
+.stripes-note a,
+.fig-source a,
+.sync-note a,
+.name-note a,
+.card h3 a {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.15em;
+}
 
 img { max-width: 100%; height: auto; display: block; }
 code { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace; font-size: .88em; background: var(--panel-2); border: 1px solid var(--line-soft); border-radius: 6px; padding: .1em .38em; }
@@ -460,6 +476,8 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
   border-left: 3px solid var(--teal); color: var(--text-dim); font-size: 1.03rem;
 }
 .prose img { border-radius: var(--radius); border: 1px solid var(--line-soft); margin: 1.6rem 0; }
+.media-portrait { margin: 0 0 1.4rem; max-width: 280px; }
+.media-portrait img { width: 100%; height: auto; }
 .prose table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .93rem; }
 .prose th, .prose td { text-align: left; padding: .6rem .7rem; border-bottom: 1px solid var(--line-soft); }
 .prose-intro { padding-bottom: 0; }
@@ -675,7 +693,7 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
   padding: 1.5rem; border-radius: var(--radius);
   background: var(--panel); border: 1px solid var(--line-soft);
 }
-.about-side h3 { font-size: .74rem; letter-spacing: .16em; text-transform: uppercase; color: var(--text-mute); margin-bottom: 1.1rem; }
+.about-side h2 { font-size: .74rem; letter-spacing: .16em; text-transform: uppercase; color: var(--text-mute); margin: 0 0 1.1rem; font-weight: 600; }
 /* A uniform grid gap spaced a label from its own value exactly as far as from
    the next pair, so nothing read as grouped. The gap is now zero and the
    rhythm comes from margins: tight under a label, generous before the next. */
