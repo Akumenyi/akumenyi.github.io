@@ -4,12 +4,15 @@ title: "Media"
 permalink: /media/
 stripes: ghana
 eyebrow: "Press"
-lede: "A short biography, the site portrait, public writing, and selected coverage."
+lede: "A short biography, a press headshot, public writing, and selected coverage."
 description: "Media information for Kwesi A. Quagraine, PhD, Chief Scientist of CVF-V20 and Visiting Scientist at NSF NCAR."
 ---
 
 <figure class="media-portrait">
-  <img src="{{ site.profile.photo | relative_url }}" alt="Portrait of Kwesi A. Quagraine" width="966" height="800" decoding="async">
+  <img src="{{ '/assets/img/kwesi-quagraine-press-headshot.jpg' | relative_url }}" alt="Kwesi A. Quagraine, PhD, Chief Scientist, CVF-V20" width="800" height="1000" decoding="async">
+  <figcaption>
+    <a href="{{ '/assets/img/kwesi-quagraine-press-headshot-hires.jpg' | relative_url }}" download>Download high-resolution headshot (JPG, 2496×3120)</a>
+  </figcaption>
 </figure>
 
 ## Biography
@@ -19,8 +22,6 @@ Kwesi A. Quagraine, PhD, is Chief Scientist of the Climate Vulnerable Forum and 
 His research covers climate extremes, stratospheric aerosol injection, and regional climate modelling. He completed a PhD in the Climate Systems Analysis Group at the University of Cape Town, advised by Prof. Bruce Hewitson, Dr Chris Jack and Dr Chris Lennard. He is an [ISIE Fellow](https://isieglobal.org/teams/dr-kwesi-akumenyi-quagraine/){:target="_blank"} and a member of [AGU](https://www.agu.org/){:target="_blank"}.
 
 [More updates on LinkedIn](https://www.linkedin.com/in/kwesiquagraine/){:target="_blank"}.
-
-<!-- TODO: A separate high-resolution press headshot is not in the repo. The portrait above is the existing site headshot. Do not invent one. -->
 
 ## Science Bulletins
 
