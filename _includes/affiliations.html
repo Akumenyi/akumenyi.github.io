@@ -20,7 +20,7 @@ needed to swap the text for the mark. No logo is ever invented here.
     <a class="affil" href="{{ p.affiliation_url }}" target="_blank" rel="noopener">
       <span class="affil-mark{% if primary_logo != "" %} has-logo{% endif %}">
         {%- if primary_logo != "" -%}
-          <img src="{{ primary_logo | relative_url }}" alt="{{ p.affiliation }}" loading="lazy" decoding="async">
+          <img src="{{ primary_logo | relative_url }}" alt="{{ p.affiliation }}" width="560" height="217" loading="lazy" decoding="async">
         {%- else -%}
           <span class="affil-wordmark">{{ p.affiliation_wordmark | default: p.affiliation_short }}</span>
         {%- endif -%}
@@ -35,7 +35,7 @@ needed to swap the text for the mark. No logo is ever invented here.
     <a class="affil" href="{{ p.secondary_affiliation_url }}" target="_blank" rel="noopener">
       <span class="affil-mark{% if secondary_logo != "" %} has-logo{% endif %}">
         {%- if secondary_logo != "" -%}
-          <img src="{{ secondary_logo | relative_url }}" alt="{{ p.secondary_affiliation }}" loading="lazy" decoding="async">
+          <img src="{{ secondary_logo | relative_url }}" alt="{{ p.secondary_affiliation }}" width="480" height="211" loading="lazy" decoding="async">
         {%- else -%}
           <span class="affil-wordmark">{{ p.secondary_affiliation_wordmark | default: p.secondary_affiliation_short }}</span>
         {%- endif -%}

@@ -8,7 +8,7 @@
       {%- include logo-lookup.html base=site.profile.affiliation_logo -%}
       {%- if logo_src != "" -%}
       <span class="brand-mark has-logo">
-        <img src="{{ logo_src | relative_url }}" alt="{{ site.profile.affiliation }}">
+        <img src="{{ logo_src | relative_url }}" alt="{{ site.profile.affiliation }}" width="560" height="217" decoding="async">
       </span>
       {%- else -%}
       <span class="brand-mark" aria-hidden="true">

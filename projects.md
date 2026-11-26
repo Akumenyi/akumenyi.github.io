@@ -5,7 +5,7 @@ permalink: /projects/
 stripes: malawi
 eyebrow: "Funded work"
 lede: "Research programmes, grants, advisory work and community programmes — from solar radiation modification governance across West Africa to city-scale climate projections in Ghana and Sierra Leone."
-description: "Funded projects, grants and consultancies of Kwesi A. Quagraine, including the HiLLA research grant, the Degrees Socio-Political Research Fund, the Degrees Modelling Fund, FRACTAL, CORDEX-Africa, UNEP, WMO, ICLEI, and Recycle Up! Ghana with Technik Ohne Grenzen."
+description: "Projects, grants and consultancies of Kwesi A. Quagraine: HiLLA, the Degrees funds, FRACTAL, CORDEX-Africa, UNEP, WMO, ICLEI, and Recycle Up! Ghana."
 ---
 
 ## Projects & grants

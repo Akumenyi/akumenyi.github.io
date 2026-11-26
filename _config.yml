@@ -2,11 +2,11 @@
 # Site identity
 # ---------------------------------------------------------------------------
 title: "Kwesi A. Quagraine"
-subtitle: "Climate Research Scientist"
+subtitle: "Chief Scientist, CVF-V20"
 # Rendered as the hero statement, one paragraph per item.
 tagline:
   - "I am Chief Scientist of the Climate Vulnerable Forum and V20 Finance Ministers, a coalition of 77 countries and about 1.9 billion people on the front line of climate change."
-description: "Kwesi A. Quagraine, PhD - Chief Scientist of the Climate Vulnerable Forum and V20 (CVF-V20), and Visiting Scientist at the NSF National Center for Atmospheric Research (NSF-NCAR), Boulder, Colorado. Climate modelling, climate extremes, stratospheric aerosol injection and tropical meteorology."
+description: "Kwesi A. Quagraine, PhD — Chief Scientist of CVF-V20 and Visiting Scientist at NSF NCAR. Climate extremes, stratospheric aerosol injection, and regional climate modelling."
 author: "Kwesi A. Quagraine"
 email: "kq@cvfv20.org"
 url: "https://akumenyi.github.io"
@@ -42,7 +42,7 @@ profile:
   orcid: "0000-0002-7887-6040"
   scholar_id: "hoI1ZjkAAAAJ"
   photo: "/assets/img/ISIE_fellow_profile_picture.jpeg"
-  cv: "/Quagraine_CV_090126.pdf"
+  cv: "/Quagraine_CV_261126.pdf"
 
 # ---------------------------------------------------------------------------
 # Navigation and links
@@ -53,11 +53,12 @@ navigation:
   - {url: "/publications/", title: "Publications"}
   - {url: "/blog/", title: "Blog"}
   - {url: "/projects/", title: "Projects & Grants"}
+  - {url: "/media/", title: "Media"}
   # Updates is collapsed while the LinkedIn feed is unconnected. To bring it
   # back: restore this line, set updates_enabled to true below, and remove
   # `published: false` from updates.md.
   # - {url: "/updates/", title: "Updates"}
-  - {url: "/Quagraine_CV_090126.pdf", title: "CV", external: true}
+  - {url: "/Quagraine_CV_261126.pdf", title: "CV", external: true}
 
 profiles:
   - {title: "Google Scholar", short: "Scholar", icon: "scholar", url: "https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en", handle: "hoI1ZjkAAAAJ"}

@@ -5,7 +5,7 @@ permalink: /research/
 stripes: bangladesh
 eyebrow: "What I work on"
 lede: "Climate geoengineering, climate extremes, regional modelling and impacts, tropical meteorology, monsoon dynamics, and the data-analytic machinery that holds it together."
-description: "Research interests of Kwesi A. Quagraine: stratospheric aerosol injection and climate extremes, regionally refined CESM downscaling, subtropical high-pressure indices, co-behaviour of climate processes, and West African monsoon dynamics."
+description: "Research by Kwesi A. Quagraine: stratospheric aerosol injection and climate extremes, regional CESM downscaling, subtropical highs, co-behaviour, and the West African monsoon."
 ---
 
 My work is committed to **bridging advanced climate science** and **practical solutions for sustainable
@@ -14,7 +14,7 @@ development in a changing climate**. In practice that means five threads, each o
 ## Stratospheric aerosol injection and climate extremes
 {: #sai-extremes}
 
-As a Visiting Scientist at the [NSF National Center for Atmospheric Research](https://ncar.ucar.edu/){:target="_blank"},
+As a Visiting Scientist at the [NSF National Center for Atmospheric Research](https://ncar.ucar.edu/){:target="_blank"} (2026 – present),
 I work on what solar geoengineering does to climate extremes — not to the global mean, which is the easy
 part, but to the tails that actually cause harm. It is also the question I am most often asked about in
 my role as Chief Scientist of the CVF-V20, by governments that would be living with the consequences of
@@ -76,7 +76,7 @@ them together.
 
 Working with [Prof. Bruce Hewitson](https://tinyurl.com/Bruce-Hewitson){:target="_blank"},
 [Dr Chris Jack](https://www.csag.uct.ac.za/author/cjack/){:target="_blank"} and [Dr Chris Lennard](https://www.csag.uct.ac.za/author/clennard/){:target="_blank"}, my
-[thesis](http://hdl.handle.net/11427/33916){:target="_blank"} developed a novel approach to describe the
+[thesis](https://hdl.handle.net/11427/33916){:target="_blank"} developed a novel approach to describe the
 co-behaviour of climate processes over Southern Africa. It produced two papers in the *Journal of
 Climate* — [a methodology to assess co-behaviour](https://doi.org/10.1175/JCLI-D-18-0689.1){:target="_blank"}
 and an [interrogation of how well CMIP5 GCMs reproduce it](https://doi.org/10.1175/JCLI-D-19-0472.1){:target="_blank"} —
@@ -87,12 +87,12 @@ and, in time, the pressure-system indices above.
 
 Before the PhD, [Prof. Nana Ama Browne Klutse](https://tinyurl.com/Ama-Browne){:target="_blank"}
 supervised my MPhil, which sought [to understand the West African Monsoon jump and its implications
-for rain-fed agriculture](https://tinyurl.com/quagraine-thesis){:target="_blank"}. The monsoon jump is a sharp
+for rain-fed agriculture](https://ir.ucc.edu.gh/handle/123456789/2832){:target="_blank"}. The monsoon jump is a sharp
 northward shift in the rainband, and its timing sets the planting season for a very large number of
 farmers. That work is the reason I still care about onset, cessation and the reanalysis products we
 use to characterise them — and why several of my papers land in journals that agronomists read.
 
-![Regional climate change, flattened](/assets/img/climate-banner.jpg)
+<img src="{{ '/assets/img/climate-banner.jpg' | relative_url }}" alt="A newspaper with the headline Climate lying in shallow water among grass" width="1600" height="511" loading="lazy" decoding="async">
 
 ## Methods and tools
 
