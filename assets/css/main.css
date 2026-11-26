@@ -476,8 +476,8 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
   border-left: 3px solid var(--teal); color: var(--text-dim); font-size: 1.03rem;
 }
 .prose img { border-radius: var(--radius); border: 1px solid var(--line-soft); margin: 1.6rem 0; }
-.media-portrait { margin: 0 0 1.4rem; max-width: 280px; }
-.media-portrait img { width: 100%; height: auto; }
+.media-portrait { margin: 0 0 1.4rem; max-width: 32rem; }
+.media-portrait img { width: 100%; max-width: 280px; height: auto; margin-bottom: 0; }
 .prose table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: .93rem; }
 .prose th, .prose td { text-align: left; padding: .6rem .7rem; border-bottom: 1px solid var(--line-soft); }
 .prose-intro { padding-bottom: 0; }
