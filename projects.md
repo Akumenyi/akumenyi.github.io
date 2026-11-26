@@ -5,7 +5,7 @@ permalink: /projects/
 stripes: malawi
 eyebrow: "Funded work"
 lede: "Research programmes, grants, advisory work and community programmes — from solar radiation modification governance across West Africa to city-scale climate projections in Ghana and Sierra Leone."
-description: "Funded projects, grants and consultancies of Kwesi A. Quagraine, including the HiLLA research grant, TWAS/DEGREES SRM governance research, DECIMALS, FRACTAL, CORDEX-Africa, UNEP, WMO, ICLEI, and Recycle Up! Ghana with Technik Ohne Grenzen."
+description: "Funded projects, grants and consultancies of Kwesi A. Quagraine, including the HiLLA research grant, the Degrees Socio-Political Research Fund, the Degrees Modelling Fund, FRACTAL, CORDEX-Africa, UNEP, WMO, ICLEI, and Recycle Up! Ghana with Technik Ohne Grenzen."
 ---
 
 ## Projects & grants
@@ -20,19 +20,19 @@ description: "Funded projects, grants and consultancies of Kwesi A. Quagraine, i
     </div>
   </li>
   <li class="entry">
-    <span class="entry-when">2024 – 2026</span>
+    <span class="entry-when">2024 – present</span>
     <div>
-      <h3>TWAS / DEGREES Initiative — Solar Radiation Management Governance</h3>
+      <h3>Degrees Socio-Political Research Fund</h3>
       <p>Assessment of knowledge and governance towards Solar Radiation Modification across Ghana:
          implications for more efficient ethical, policy and social practices.</p>
       <span class="role">Co-Investigator</span>
     </div>
   </li>
   <li class="entry">
-    <span class="entry-when">2023 – 2025</span>
+    <span class="entry-when">2023 – present</span>
     <div>
-      <h3>TWAS SRMGI — DECIMALS</h3>
-      <p>Solar radiation management with stratospheric aerosol interactions with the Harmattan, and the
+      <h3>Degrees Modelling Fund</h3>
+      <p>In partnership with TWAS. Solar radiation management with stratospheric aerosol interactions with the Harmattan, and the
          associated impacts on climate variables across Southern West Africa — Côte d'Ivoire, Ghana,
          Togo, Benin, Nigeria and Cameroon.</p>
       <span class="role">Co-Investigator</span>
