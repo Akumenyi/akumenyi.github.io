@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T15:46:39+00:00",
+  "generated_at": "2026-11-26T08:08:42+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
@@ -1749,18 +1749,18 @@
         "Quagraine, K. A."
       ],
       "year": 2014,
-      "url": "https://ir.ucc.edu.gh/handle/123456789/2832",
       "type": "article",
       "status": "published",
+      "url": "https://ir.ucc.edu.gh/handle/123456789/2832",
+      "topics": [
+        "West African monsoon",
+        "Ghana",
+        "Agriculture"
+      ],
+      "source": "manual",
+      "manual": true,
       "citations": 1,
       "openalex_id": "W2770288169",
-      "topics": [
-        "Climate change impacts on agriculture",
-        "Climate variability and models",
-        "Hydrology and Drought Analysis"
-      ],
-      "source": "openalex",
-      "manual": false,
       "first_author": true,
       "author_positions": [
         "self"
