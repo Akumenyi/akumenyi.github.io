@@ -26,13 +26,12 @@ layout: default
 
       <div class="hero-actions">
         <a class="btn btn-primary" href="{{ '/research/' | relative_url }}">The research {% include icon.html name="arrow" %}</a>
-        <a class="btn btn-ghost" href="{{ '/publications/' | relative_url }}">Publications</a>
         <a class="btn btn-ghost" href="{{ p.cv | relative_url }}" target="_blank" rel="noopener">{% include icon.html name="download" %} CV</a>
       </div>
 
       <ul class="hero-links">
         {%- for link in site.profiles -%}
-        <li><a href="{{ link.url }}" target="_blank" rel="noopener me" title="{{ link.title }}">{% include icon.html name=link.icon %}<span>{{ link.short }}</span></a></li>
+        <li><a href="{{ link.url }}" target="_blank" rel="noopener me" title="{{ link.title }}" aria-label="{{ link.title }}">{% include icon.html name=link.icon %}</a></li>
         {%- endfor -%}
       </ul>
     </div>
