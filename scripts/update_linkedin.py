@@ -38,7 +38,7 @@ from common import REPO_ROOT, load_json, log, now_iso, write_json_if_changed  # 
 
 MANUAL_PATH = REPO_ROOT / "_data" / "linkedin_manual.yml"
 OUTPUT_PATH = REPO_ROOT / "_data" / "linkedin.json"
-PROFILE_URL = "https://www.linkedin.com/in/kwesi-a-quagraine-12855153/"
+PROFILE_URL = "https://www.linkedin.com/in/kwesiquagraine/"
 MAX_POSTS = 12
 TIMEOUT = 40
 

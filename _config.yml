@@ -63,7 +63,7 @@ navigation:
 profiles:
   - {title: "Google Scholar", short: "Scholar", icon: "scholar", url: "https://scholar.google.com/citations?user=hoI1ZjkAAAAJ&hl=en", handle: "hoI1ZjkAAAAJ"}
   - {title: "ORCID", short: "ORCID", icon: "orcid", url: "https://orcid.org/0000-0002-7887-6040", handle: "0000-0002-7887-6040"}
-  - {title: "LinkedIn", short: "LinkedIn", icon: "linkedin", url: "https://www.linkedin.com/in/kwesi-a-quagraine-12855153/", handle: "kwesi-a-quagraine"}
+  - {title: "LinkedIn", short: "LinkedIn", icon: "linkedin", url: "https://www.linkedin.com/in/kwesiquagraine/", handle: "kwesiquagraine"}
   - {title: "ResearchGate", short: "ResearchGate", icon: "researchgate", url: "https://www.researchgate.net/profile/Kwesi-Quagraine-3", handle: "Kwesi-Quagraine-3"}
   - {title: "GitHub", short: "GitHub", icon: "github", url: "https://github.com/Akumenyi", handle: "Akumenyi"}
   - {title: "X", short: "X", icon: "x", url: "https://twitter.com/pkdilly", handle: "pkdilly"}
