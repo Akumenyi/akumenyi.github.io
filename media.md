@@ -16,7 +16,9 @@ description: "Media information for Kwesi A. Quagraine, PhD, Chief Scientist of 
 
 Kwesi A. Quagraine, PhD, is Chief Scientist of the Climate Vulnerable Forum and V20 Finance Ministers, a coalition of 77 countries and about 1.9 billion people on the front line of climate change. He is a Visiting Scientist at the NSF National Center for Atmospheric Research in Boulder, Colorado (2026 – present), and was a Postdoctoral Fellow at NCAR (2023 – 2026).
 
-His research covers climate extremes, stratospheric aerosol injection, and regional climate modelling. He completed a PhD in the Climate Systems Analysis Group at the University of Cape Town, advised by Prof. Bruce Hewitson, Dr Chris Jack and Dr Chris Lennard. He is an [ISIE Fellow](https://isieglobal.org/teams/dr-kwesi-akumenyi-quagraine/){:target="_blank"} and a member of AGU.
+His research covers climate extremes, stratospheric aerosol injection, and regional climate modelling. He completed a PhD in the Climate Systems Analysis Group at the University of Cape Town, advised by Prof. Bruce Hewitson, Dr Chris Jack and Dr Chris Lennard. He is an [ISIE Fellow](https://isieglobal.org/teams/dr-kwesi-akumenyi-quagraine/){:target="_blank"} and a member of [AGU](https://www.agu.org/){:target="_blank"}.
+
+[More updates on LinkedIn](https://www.linkedin.com/in/kwesi-a-quagraine-12855153/){:target="_blank"}.
 
 <!-- TODO: A separate high-resolution press headshot is not in the repo. The portrait above is the existing site headshot. Do not invent one. -->
 
