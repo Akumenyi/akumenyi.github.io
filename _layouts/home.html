@@ -83,9 +83,6 @@ layout: default
         research partnerships so ministers and negotiators have answers they can defend.
       </p>
     </header>
-    {%- comment -%}
-      TODO: Link Science Bulletins here when a real bulletin URL is available. Do not invent one.
-    {%- endcomment -%}
     {%- assign nature_comment = pubs | where: "id", "replace-temperature-limits" | first -%}
     {%- assign ncc_comment = pubs | where: "id", "africa-must-lead-srm-governance" | first -%}
     <div class="card-grid">
@@ -101,6 +98,10 @@ layout: default
         <p>Comment in {{ ncc_comment.venue }}, {{ ncc_comment.year }}.</p>
       </article>
       {%- endif -%}
+      <article class="card">
+        <h3><a href="https://cvfv20.org/sciencebulletins/" target="_blank" rel="noopener">Science Bulletins</a></h3>
+        <p>CVFV20.Org.</p>
+      </article>
       <article class="card">
         <h3><a href="{{ '/projects/' | relative_url }}">Projects, grants and consultancies</a></h3>
         <p>Funded research, advisory work and the Recycle Up! Ghana programme.</p>
