@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-26T08:08:42+00:00",
+  "generated_at": "2026-11-26T15:27:58+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 44,
     "under_review": 0,
     "first_author": 15,
-    "citations": 722,
+    "citations": 726,
     "h_index": 12,
     "i10_index": 14,
     "since_year": 2013,
@@ -401,7 +401,7 @@
       "highlight": true,
       "source": "manual",
       "manual": true,
-      "citations": 6,
+      "citations": 7,
       "openalex_id": "W4414214341",
       "first_author": true,
       "author_positions": [
@@ -527,7 +527,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1029/2024jd043117",
-      "citations": 3,
+      "citations": 4,
       "openalex_id": "W4411924483",
       "first_author": false,
       "author_positions": [
@@ -1609,7 +1609,7 @@
       "manual": true,
       "url": "https://doi.org/10.1088/1748-9326/aab37b",
       "open_access_url": "https://iopscience.iop.org/article/10.1088/1748-9326/aab37b/pdf",
-      "citations": 132,
+      "citations": 133,
       "openalex_id": "W2791529021",
       "first_author": false,
       "author_positions": [
@@ -1728,7 +1728,7 @@
       "manual": true,
       "url": "https://doi.org/10.4236/ijg.2014.57060",
       "open_access_url": "https://content.scirp.org/pdf/ijg_2014061113545679.pdf",
-      "citations": 108,
+      "citations": 109,
       "openalex_id": "W1991937137",
       "first_author": false,
       "author_positions": [
