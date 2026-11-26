@@ -31,5 +31,5 @@ Academy of Sciences, and ICLEI – Local Governments for Sustainability. It is w
 hold now, and it keeps the science honest: a projection nobody can act on is not yet a result.
 
 I am an [ISIE Fellow](https://isieglobal.org/teams/dr-kwesi-akumenyi-quagraine/){:target="_blank"}
-and a member of AGU. Since 2016 I have also worked with Recycle Up! Ghana and Technik Ohne Grenzen
+and a member of [AGU](https://www.agu.org/){:target="_blank"}. Since 2016 I have also worked with Recycle Up! Ghana and Technik Ohne Grenzen
 on recycling education.
