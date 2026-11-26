@@ -166,8 +166,8 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
 /* ------------------------------------------------------------- buttons --- */
 
 .btn {
-  display: inline-flex; align-items: center; gap: .5rem;
-  padding: .72rem 1.25rem; border-radius: 999px;
+  display: inline-flex; align-items: center; justify-content: center; gap: .5rem;
+  min-height: 2.75rem; padding: .72rem 1.25rem; border-radius: 999px;
   font-weight: 600; font-size: .95rem; line-height: 1;
   border: 1px solid transparent; cursor: pointer;
   transition: transform .16s ease, background .2s ease, border-color .2s ease, color .2s ease;
@@ -244,7 +244,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
 
 /* ---------------------------------------------------------------- hero --- */
 
-.hero { position: relative; padding: clamp(3rem, 8vw, 6rem) 0 3.5rem; overflow: hidden; }
+.hero { position: relative; padding: clamp(2.25rem, 5.5vw, 4.25rem) 0 clamp(1.6rem, 3vw, 2.4rem); overflow: hidden; }
 .hero-field { position: absolute; inset: 0; width: 100%; height: 100%; opacity: .5; pointer-events: none; }
 .hero-glow {
   position: absolute; inset: -30% -10% auto -10%; height: 70vh; pointer-events: none;
@@ -275,7 +275,7 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
   /* Calibri is softer and narrower than the display face it replaces, so it
      needs less negative tracking and a little more leading to sit right. */
   line-height: 1; letter-spacing: -.025em; font-weight: 700;
-  margin: 0 0 1.1rem;
+  margin: 0 0 .85rem;
 }
 .hero-name em {
   font-style: normal;
@@ -289,18 +289,22 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
   font-size: clamp(1.05rem, 1.6vw, 1.22rem); line-height: 1.58;
   color: var(--text-dim); max-width: 50ch; margin: 0 0 .8rem;
 }
-.hero-tagline:last-of-type { margin-bottom: 1.9rem; }
+.hero-tagline:last-of-type { margin-bottom: 1.35rem; }
 
-.hero-actions { display: flex; flex-wrap: wrap; gap: .7rem; margin-bottom: 2rem; }
+.hero-actions { display: flex; flex-wrap: wrap; align-items: center; gap: .7rem; margin-bottom: 1rem; }
 
-.hero-links { list-style: none; display: flex; flex-wrap: wrap; gap: .45rem; padding: 0; margin: 0; }
+/* Icon-only profile links. 2.75rem is 44px at the mobile root size, so each
+   control stays a comfortable tap target without the old labelled pills. */
+.hero-links { list-style: none; display: flex; flex-wrap: nowrap; align-items: center; gap: clamp(.2rem, 2vw, .65rem); padding: 0; margin: 0; }
 .hero-links a {
-  display: inline-flex; align-items: center; gap: .45rem;
-  padding: .42rem .8rem; border-radius: 999px;
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 2.75rem; height: 2.75rem; border-radius: 999px;
   border: 1px solid var(--line-soft); background: color-mix(in srgb, var(--panel) 55%, transparent);
-  color: var(--text-dim); font-size: .84rem; font-weight: 500;
+  color: var(--text-dim);
 }
+.hero-links a .icon { width: 1.15rem; height: 1.15rem; }
 .hero-links a:hover { color: var(--text); border-color: var(--accent); text-decoration: none; }
+.hero-links a:focus-visible { border-color: var(--accent); }
 
 /* A circle at the full column width dwarfs the name beside it, so the figure
    is capped and centred in its column rather than stretched across it. */
@@ -321,9 +325,9 @@ hr { border: 0; border-top: 1px solid var(--line); margin: 2.5rem 0; }
 
 /* ------------------------------------------------------------ sections --- */
 
-.section { padding: clamp(3.5rem, 8vw, 6rem) 0; }
+.section { padding: clamp(2.4rem, 4.6vw, 4.15rem) 0; }
 .section-alt { background: var(--bg-alt); border-block: 1px solid var(--line-soft); }
-.section-head { margin-bottom: 2.6rem; max-width: 70ch; }
+.section-head { margin-bottom: clamp(1.25rem, 2.2vw, 1.85rem); max-width: 70ch; }
 .section-head-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 1.5rem; max-width: none; flex-wrap: wrap; }
 .section-head h2 { margin-bottom: .5rem; }
 .section-lede { color: var(--text-dim); max-width: 62ch; margin: 0; }
@@ -680,7 +684,7 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 
 /* ----------------------------------------------------------- home about --- */
 
-.section-about { padding-top: clamp(3rem, 7vw, 5rem); }
+.section-about { padding-top: clamp(2rem, 4vw, 3.4rem); }
 .about-inner { display: grid; gap: clamp(2rem, 5vw, 3.5rem); grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); align-items: start; }
 .prose-about { padding: 0; }
 /* Every paragraph reads at one size and weight. The first used to be set
@@ -708,6 +712,22 @@ a.chip:hover { color: var(--text); border-color: var(--accent); text-decoration:
 }
 
 @media (max-width: 900px) { .about-inner { grid-template-columns: 1fr; } }
+
+/* Homepage rhythm is looser than a phone can afford. These follow the
+   shared section rules so they win on small screens. */
+@media (max-width: 720px) {
+  .hero { padding: 1.65rem 0 1.2rem; }
+  .hero-inner { gap: 1.25rem; }
+  .eyebrow { margin-bottom: .55rem; }
+  .hero-name { margin-bottom: .6rem; }
+  .hero-tagline { margin-bottom: .5rem; }
+  .hero-tagline:last-of-type { margin-bottom: 1rem; }
+  .hero-actions { flex-wrap: nowrap; gap: .55rem; margin-bottom: .7rem; }
+  .section { padding: 1.7rem 0; }
+  .section-about { padding-top: 1.45rem; }
+  .section-head { margin-bottom: 1.05rem; }
+  .about-inner { gap: 1.25rem; }
+}
 
 /* ------------------------------------------------------ updates + 404 --- */
 
