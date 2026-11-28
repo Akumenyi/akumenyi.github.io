@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-27T15:18:27+00:00",
+  "generated_at": "2026-11-28T14:20:24+00:00",
   "orcid": "0000-0002-7887-6040",
   "scholar_id": "hoI1ZjkAAAAJ",
   "metrics": {
     "publications": 44,
     "under_review": 0,
     "first_author": 15,
-    "citations": 728,
+    "citations": 729,
     "h_index": 12,
     "i10_index": 14,
     "since_year": 2013,
@@ -1527,7 +1527,7 @@
       "source": "manual",
       "manual": true,
       "url": "https://doi.org/10.1175/jcli-d-18-0689.1",
-      "citations": 14,
+      "citations": 15,
       "openalex_id": "W2916541938",
       "first_author": true,
       "author_positions": [
